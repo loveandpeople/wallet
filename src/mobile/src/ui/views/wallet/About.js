@@ -66,7 +66,7 @@ class About extends PureComponent {
                 <View style={styles.topContainer}>
                     <View style={{ alignItems: 'center' }}>
                         <Text style={[styles.titleText, textColor]}>
-                            Trinity Wallet. IOTA Foundation {this.getYear()}.
+                            LP Wallet. LP Foundation {this.getYear()}.
                         </Text>
                         <Text style={[styles.titleText, textColor, { paddingTop: height / 30 }]}>
                             v {getVersion()} ({getBuildNumber()})

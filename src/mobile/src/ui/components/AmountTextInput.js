@@ -105,9 +105,9 @@ class MultiTextInput extends Component {
         const convertedValue = round(amount / usdPrice / conversionRate, 10);
         let conversionText = '';
         if (convertedValue > 0 && convertedValue < 0.01) {
-            conversionText = '< 0.01 Mi';
+            conversionText = '< 0.01 Mlp';
         } else if (convertedValue >= 0.01) {
-            conversionText = `= ${convertedValue.toFixed(2)} Mi`;
+            conversionText = `= ${convertedValue.toFixed(2)} Mlp`;
         }
         return conversionText;
     }
