@@ -86,7 +86,7 @@ class LanguageSetup extends Component {
     onNextPress() {
         const { forceUpdate } = this.props;
         if (forceUpdate) {
-            return;
+            // return;
         }
         navigator.push('welcome');
     }

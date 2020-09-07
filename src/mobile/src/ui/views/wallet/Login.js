@@ -113,9 +113,10 @@ class Login extends Component {
             selectedAccountMeta,
             selectedAccountName,
         } = this.props;
-        if (!hasConnection || forceUpdate) {
+        if (!hasConnection) { // || forceUpdate
             return;
         }
+        forceUpdate
         this.animationOutType = ['fadeOut'];
         if (size(this.state.password) === 0) {
             this.props.generateAlert('error', t('emptyPassword'), t('emptyPasswordExplanation'));
