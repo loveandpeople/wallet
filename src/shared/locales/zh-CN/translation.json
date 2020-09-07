@@ -9,7 +9,7 @@
         "noTransactions": "没有最近的历史记录",
         "refresh": "刷新",
         "balanceError": "余额不足",
-        "balanceErrorMessage": "您的IOTA不足以完成本次交易。",
+        "balanceErrorMessage": "您的LP不足以完成本次交易。",
         "totalBalance": "总余额",
         "transferError": "交易错误",
         "transferErrorMessage": "发送交易时出现错误，请重试。",
@@ -22,13 +22,13 @@
         "invalidResponse": "节点错误",
         "invalidResponseExplanation": "节点错误，请尝试更换节点。",
         "invalidResponseFetchingAccount": "该节点在获取账户信息时出错，请尝试更换节点。",
-        "invalidResponseFetchingAccountDesktop": "在获取你的账户信息时，节点出现了一个错误。如果这个问题仍旧存在，请尝试更换节点或者在Trinity 设置中，取消系统代理。",
+        "invalidResponseFetchingAccountDesktop": "在获取你的账户信息时，节点出现了一个错误。如果这个问题仍旧存在，请尝试更换节点或者在LPWallet 设置中，取消系统代理。",
         "nodeOutOfSync": "节点不同步",
         "nodeOutOfSyncExplanation": "当前选定的节点不同步，请更换节点或重试。",
         "experimentalNode": "不支持的节点版本",
         "experimentalNodeExplanation": "您当前选定的节点正在运行不受支持的实验性版本。请更改节点或重试。",
         "thisNodeOutOfSync": "此节点不同步，请更换节点或重试。",
-        "seed": "IOTA 种子",
+        "seed": "LP 种子",
         "checksum": "校验和",
         "back": "返回",
         "goBack": "返回",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "您不能发送到在交易中用作输入的地址。",
         "pleaseWait": "请稍候",
         "pleaseWaitEllipses": "请稍候...",
-        "pleaseWaitExplanation": "Trinity正在执行另一项功能，请稍候再试。",
+        "pleaseWaitExplanation": "LPWallet正在执行另一项功能，请稍候再试。",
         "pleaseWaitTransferExplanation": "您的可用余额目前正被其它交易占用，请等待确认后再次尝试。",
         "pleaseWaitIncomingTransferExplanation": "您有正在接收中的交易，请等待它们确认后再次尝试。",
         "snapshotTransitionInProgress": "正在进行快照转换",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "当选定的节点离线时切换到新节点{{- nodeAddress}}",
         "touchSensor": "触摸指纹传感器",
         "fingerprintOnSend": "请触摸指纹阅读器以授权转账",
-        "masterKey": "IOTA种子是您的资金的主密钥。",
-        "seedThief": "如果别人拿到了你的种子，那么他们就可以偷走你的IOTA。",
+        "masterKey": "LP种子是您的资金的主密钥。",
+        "seedThief": "如果别人拿到了你的种子，那么他们就可以偷走你的LP。",
         "googlePlayServicesNotAvailable": "Google Play服务不可用。",
         "couldNotVerifyDeviceIntegrity": "由于Google Play服务不可用，无法验证设备的完整性。",
         "clear": "清除",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "请前往账户工具并执行快照转换。",
         "openAccountTools": "打开账户工具",
-        "usingTrinityWalletWithKeePass": "结合Keepass2Android使用Trinity钱包",
+        "usingTrinityWalletWithKeePass": "结合Keepass2Android使用LPWallet钱包",
         "signedTrytesBroadcastErrorExplanation": "广播您的交易时出现网络错误。",
         "broadcastError": "无法广播交易",
         "addressesAlreadySpentFrom": "地址中的一个或多个已被使用过。",
@@ -269,7 +269,7 @@
         "setNode": "设置节点",
         "whyBiometricDisabled": "为什么生物识别认证被停用？",
         "whyBiometricDisabledExplanationPart1": "为了您的安全, 在第一次加载应用程序时禁用生物识别身份验证。",
-        "whyBiometricDisabledExplanationPart2": "使用Trinity时, 您将因不活动而注销。您可以使用生物识别身份验证重新登录。"
+        "whyBiometricDisabledExplanationPart2": "使用LPWallet时, 您将因不活动而注销。您可以使用生物识别身份验证重新登录。"
     },
     "loading": {
         "loadingFirstTime": "首次读取种子",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "永远不要与任何人分享您的种子。",
-        "iotaLogo": "IOTA标志",
+        "iotaLogo": "LP标志",
         "print": "打印",
         "paperConvenience": "为您的种子打印一份纸质副本是一种方便的存储方式。",
         "publicInsecure": "但是在公共Wifi或者公共打印机上打印是不安全的。",
@@ -325,7 +325,7 @@
         "generateAnAddress": "生成地址",
         "generateAnAddressTitle": "生成地址",
         "generateAnAddressExplanation": "请在使用此功能之前生成一个地址。",
-        "generateAddressInformation": "每次您要接收IOTA时，都要生成新的存款地址"
+        "generateAddressInformation": "每次您要接收LP时，都要生成新的存款地址"
     },
     "saveYourSeed": {
         "saveYourSeed": "备份您的种子",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "请确认您的种子",
-        "trinityWillNeverAskToReenter": "Trinity不会要求您重新输入种子，除非您重置了钱包或者卸载了应用。",
+        "trinityWillNeverAskToReenter": "LPWallet不会要求您重新输入种子，除非您重置了钱包或者卸载了应用。",
         "enterYourSeed": "输入您的种子",
         "incorrectSeed": "错误的种子",
         "incorrectSeedExplanation": "你输入的种子不正确。请再试一次",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "请检查您输入的地址是否正确。",
         "invalidAddressExplanationGeneric": "有效地址应为 90 个字符并且仅包含 A-Z 或 9。",
         "notEnoughFunds": "资金不足",
-        "notEnoughFundsExplanation": "您的IOTA不足以完成本次交易。",
+        "notEnoughFundsExplanation": "您的LP不足以完成本次交易。",
         "recipientAddress": "接收地址",
         "amount": "数量",
         "max": "全部",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "您的消息中包含无效字符。",
         "send": "发送",
         "invalidAmount": "输入的金额不正确",
-        "invalidAmountExplanation": "请输入有效的交易金额。查看本页底部的IOTA单位说明可能会有所帮助。",
+        "invalidAmountExplanation": "请输入有效的交易金额。查看本页底部的LP单位说明可能会有所帮助。",
         "maximumSelected": "已选择最大金额",
-        "iotaUnits": "IOTA单位解释",
+        "iotaUnits": "LP单位解释",
         "sendMax": "全部发送",
         "totalTime": "总计用时",
         "addressPasteDetected": "检测到地址粘贴",
@@ -395,7 +395,7 @@
         "advanced": "高级",
         "standard": "标准",
         "advancedModeExplanation": "高级模式会显示更详细的技术信息。",
-        "modesExplanation": "仅建议有经验的IOTA用户开启高级模式，否则您可能会感到困惑。",
+        "modesExplanation": "仅建议有经验的LP用户开启高级模式，否则您可能会感到困惑。",
         "modeUpdated": "模式已更新",
         "modeUpdatedExplanation": "您已更改为 {{mode}} 模式"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "成功获取 {{currency}} 的最新兑换价格。",
         "undo": "撤销",
         "redo": "重做",
-        "aboutTrinity": "关于 Trinity",
+        "aboutTrinity": "关于 LPWallet",
         "lockScreenTimeout": "锁定屏幕超时(分钟)",
         "nodeChangeSuccess": "成功更改了节点",
         "nodeChangeSuccessNoRemotePow": "节点已经更改为{{node}}。此节点不支持远程工作量证明。",
@@ -462,12 +462,12 @@
         "noIHaveOne": "不，我有一个种子",
         "yesINeedASeed": "是，我需要一个新种子",
         "explanation": "<0><0>您可以用它从</0><3>任何设备</3>上的<1>任何钱包</1><2>访问您的资金。</2></0>",
-        "loseSeed": "但是如果你遗失了你的种子，你就会失去你的IOTA。",
+        "loseSeed": "但是如果你遗失了你的种子，你就会失去你的LP。",
         "keepSafe": "请妥善保管您的种子。"
     },
     "welcome": {
-        "thankYou": "感谢您下载 Trinity 钱包",
-        "demoThankYou": "感谢您下载 Trinity Demo"
+        "thankYou": "感谢您下载 LPWallet 钱包",
+        "demoThankYou": "感谢您下载 LPWallet Demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>写下您的种子和校验和并</0><1>多次检查</1><2>以确保他们是正确的。</2>",
@@ -489,11 +489,11 @@
         "retrying": "重试中",
         "yesterday": "昨天",
         "promotingAnotherBundle": "推广另一个交易组",
-        "pleaseWait": "请等待，Trinity 正在推广另一个交易组。",
+        "pleaseWait": "请等待，LPWallet 正在推广另一个交易组。",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "使用交易组的哈希值或者讯息内容来搜索",
-        "searchHelpValue": "使用准确的IOTA 价值来搜索交易",
-        "searchHelpUnits": "使用IOTA 价值和数量来搜索交易",
+        "searchHelpValue": "使用准确的LP 价值来搜索交易",
+        "searchHelpUnits": "使用LP 价值和数量来搜索交易",
         "searchHelpMore": "搜索价值高于X 的交易",
         "searchHelpLess": "搜索价值小于X 的交易",
         "transactions": "Transactions",
@@ -593,11 +593,11 @@
         "million": "百万",
         "thousand": "千",
         "one": "一",
-        "unitInfoExplanation": "通常，IOTA 会被以百万计(MIOTA) 来储存, 但是一个IOTA 也是可以被用来交易的。"
+        "unitInfoExplanation": "通常，LP 会被以百万计(MLP) 来储存, 但是一个LP 也是可以被用来交易的。"
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "为什么我不能支出全部余额？",
-        "spentAddressExplanation": "你有资金在一个或者多个已用的地址上。在IOTA中地址重用是危险的，因此钱包不允许你从同一个地址中发送一次以上交易。",
+        "spentAddressExplanation": "你有资金在一个或者多个已用的地址上。在LP中地址重用是危险的，因此钱包不允许你从同一个地址中发送一次以上交易。",
         "discordInformation": "请前往Discord的#help频道寻求帮助。"
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "您备份过种子了吗？",
         "iHaveBackedUp": "我已经安全地备份了我的种子",
         "reenterSeed": "下一步您需要重新输入您的种子。",
-        "reenterSeedWarning": "如果您没有备份种子，当设备损坏无法使用时，您就会失去您的IOTA。",
+        "reenterSeedWarning": "如果您没有备份种子，当设备损坏无法使用时，您就会失去您的LP。",
         "pleaseConfirm": "请确认您已安全地储存了您的种子。"
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "导出SeedVault",
         "seedVaultExplanation": "SeedVault是一个用于备份您的种子的加密文件。种子由一个SeedVault密钥加密，在没有该密钥时无法访问。",
-        "seedVaultWarning": "请确保您在多个位置备份了该文件（例如硬盘、云端、USB）。如果您遗失了该文件并且没有在其他地方储存您的种子，那么您将失去您的IOTA。",
+        "seedVaultWarning": "请确保您在多个位置备份了该文件（例如硬盘、云端、USB）。如果您遗失了该文件并且没有在其他地方储存您的种子，那么您将失去您的LP。",
         "exportFail": "SeedVault 导出失败",
         "exportFailExplanation": "导出 SeedVault 时出现问题。请确保您拥有适当的权限和足够的可用空间。",
         "exportSuccess": "SeedVault 已导出",
@@ -696,7 +696,7 @@
         "seedFileError": "打开SeedVault失败",
         "seedFileErrorExplanation": "打开 SeedVault 时遇到问题。如果您选择了正确的文件, 那么它可能已损坏。",
         "invalidSeedFileError": "无效的SeedVault 文件",
-        "invalidSeedFileErrorExplanation": "无法支持此文件类型。 只有在Trinity 生成的SeedVaule 文件(.kdbx)或者密码管理可以被支持。",
+        "invalidSeedFileErrorExplanation": "无法支持此文件类型。 只有在LPWallet 生成的SeedVaule 文件(.kdbx)或者密码管理可以被支持。",
         "seedVaultKeyExplanation": "首先，我们需要加密你的种子库。请选择加密文件的密钥。如果需要从SeedVault备份中恢复种子，您将使用此密钥。",
         "retypeKey": "重新输入密钥",
         "key": "密钥"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "您希望忽略此风险，继续使用钱包吗？"
     },
     "pow": {
-        "feeless": "必须完成少量的工作量证明以在IOTA中发送免手续费的交易。",
+        "feeless": "必须完成少量的工作量证明以在LP中发送免手续费的交易。",
         "localOrRemote": "工作量证明可以在本地设备上完成，或者切换至节点远程执行。",
         "local": "本地",
         "remote": "远程",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "自动填充成功",
         "autofillExplanation": "从链接中自动填充了交易数据。",
-        "deepLinkingOverview": "深度链接是可以被点击的链接(iota://...)。深度链接将会在Trinity 自动填充交易信息数据。",
-        "deepLinkingWarning": "请小心钓鱼照片。请确保您打开的链接指向官方的Trinity 应用程序。",
+        "deepLinkingOverview": "深度链接是可以被点击的链接(iota://...)。深度链接将会在LPWallet 自动填充交易信息数据。",
+        "deepLinkingWarning": "请小心钓鱼照片。请确保您打开的链接指向官方的LPWallet 应用程序。",
         "deepLinkingUpdated": "深度链接设置",
         "deepLinkingEnabled": "您以激活深度链接。",
         "deepLinkingDisabled": "您已取消深度链接。",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "提取更新数据时发生错误",
         "errorRetrievingUpdateDataExplanation": "无法连接软件更新。请检查您的网络连接并重试。",
         "noUpdatesAvailable": "没有可用的更新",
-        "noUpdatesAvailableExplanation": "您正在使用最新版本的 Trinity 钱包。",
+        "noUpdatesAvailableExplanation": "您正在使用最新版本的 LPWallet 钱包。",
         "newVersionAvailable": "新版本可用",
-        "newVersionAvailableExplanation": "有新版本的Trinity。是否立刻更新？",
+        "newVersionAvailableExplanation": "有新版本的LPWallet。是否立刻更新？",
         "installUpdate": "安装更新并重启",
-        "installUpdateExplanation": "下载完成，Trinity将重新启动以安装更新。",
+        "installUpdateExplanation": "下载完成，LPWallet将重新启动以安装更新。",
         "downloadingUpdate": "正在下载更新",
         "downloadProgress": "已下载{{transferred}}，总共{{total}}"
     },
@@ -826,17 +826,17 @@
         "sweepError": "解锁资金时出错",
         "sweepErrorExplanation": "在解锁您的资金时出现了一些错误。请重新尝试。",
         "warningTitle": "警告：检测到锁定的资金",
-        "explanation": "Trinity 桌面版 0.3.4 存在一个可能会将资金暂时锁住的问题。这个问题可能会影响一小部分在0.3.4版本交易的用户。",
-        "explanationAccounts": "发现您的账户：{{accounts}} 存在资金锁住的问题。Trinity 将会自动找到您的资金，并将它们移至新的地址。",
+        "explanation": "LPWallet 桌面版 0.3.4 存在一个可能会将资金暂时锁住的问题。这个问题可能会影响一小部分在0.3.4版本交易的用户。",
+        "explanationAccounts": "发现您的账户：{{accounts}} 存在资金锁住的问题。LPWallet 将会自动找到您的资金，并将它们移至新的地址。",
         "proceed": "进行恢复",
         "sweepConfirmation": "您即将要把 {{amount}} 转移至地址 {{address}}。账户：{{accountName}}，地址索引：{{index}}",
         "sweepConfirmationTitle": "滑动确认"
     },
     "migration": {
         "dataMigration": "数据迁移",
-        "dataMigrationExplanation": "由于性能和储存限制，Trinity 正在使用一个新的数据库存储设置和帐户数据。请稍候，Trinity 自动迁移您的现有数据。",
+        "dataMigrationExplanation": "由于性能和储存限制，LPWallet 正在使用一个新的数据库存储设置和帐户数据。请稍候，LPWallet 自动迁移您的现有数据。",
         "problemMigratingYourData": "迁移您的数据时出现问题。请重试",
-        "seedMigrationExplanation": "作为Trinity 继续努力提升安全性的一部分，您的IOTA 种子将被迁移并以一个更好的存储方式储存。请在Trinity 迁移您的IOTA 种子时耐心等待。"
+        "seedMigrationExplanation": "作为LPWallet 继续努力提升安全性的一部分，您的LP 种子将被迁移并以一个更好的存储方式储存。请在LPWallet 迁移您的LP 种子时耐心等待。"
     },
     "ledger": {
         "ready": "Ledger设备已连接并准备完毕",
@@ -860,8 +860,8 @@
         "connectionExplanation": "必须连接Ledger设备才能执行此功能。",
         "transactionTitle": "在您的Ledger上往下滚动并确认交易",
         "transactionExplanation": "使用您的Ledger设备来确认转账交易。",
-        "applicationTitle": "打开Ledger IOTA应用",
-        "applicationExplanation": "在Ledger设备上打开IOTA应用，然后继续使用Trinity。",
+        "applicationTitle": "打开Ledger LP应用",
+        "applicationExplanation": "在Ledger设备上打开LP应用，然后继续使用LPWallet。",
         "cannotSendZeroValueTitle": "转账金额不能为零",
         "cannotSendZeroValueExplanation": "使用Ledger设备时转账金额不能为零。",
         "ledgerDisconnectedTitle": "Ledger设备已断开",
@@ -873,17 +873,17 @@
         "checkAddress": "检查接收地址",
         "checkAddressExplanation": "检查地址是否与Ledger设备上显示的地址匹配。",
         "applicationNotInitialised": "未经确认的警告",
-        "applicationNotInitialisedExplanation": "重新打开Ledger设备上的IOTA应用，选择接受警告信息，然后重试。",
+        "applicationNotInitialisedExplanation": "重新打开Ledger设备上的LP应用，选择接受警告信息，然后重试。",
         "checkLedger": "检查您的 Ledger设备",
         "acceptWarningExplanation": "如果您的 Ledger设备显示了警告信息，请您持续翻页并在最后同时按下两个按钮以接受。",
         "udevError": "无法与Ledger 设备进行通信",
-        "udevErrorExplanation": "Trinity 无法与您的Ledger 设备通信。请访问以下网址来解决这个问题。",
+        "udevErrorExplanation": "LPWallet 无法与您的Ledger 设备通信。请访问以下网址来解决这个问题。",
         "writtenDownInfoTitle": "请记住您的索引号码",
-        "writtenDownInfoExplanation": "当需要恢复您的账户时，需要您提供所对应的索引号码。如果您丢失索引号码，您将丢失您的 IOTA。请记住它。"
+        "writtenDownInfoExplanation": "当需要恢复您的账户时，需要您提供所对应的索引号码。如果您丢失索引号码，您将丢失您的 LP。请记住它。"
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }
