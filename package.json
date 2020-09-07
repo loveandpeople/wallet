@@ -58,10 +58,5 @@
     "minimist": "^1.2.5 || >=0.2.1",
     "lodash": ">=4.17.19"
   },
-  "snyk": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && yarn lint && yarn test:all"
-    }
-  }
+  "snyk": true
 }

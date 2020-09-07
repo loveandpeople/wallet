@@ -58,4 +58,12 @@ Run the logger:
 
 ```
 yarn log:android
+
+```
+Build the application
+
+```
+cd src/mobile/android
+./
+
 ```

@@ -126,6 +126,16 @@ android {
     repositories {
         maven { url "https://www.jitpack.io" }
     }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
     buildTypes {
         release {
             debuggable false
@@ -133,16 +143,17 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             useProguard enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            resValue "string", "app_name", "Trinity"
+            resValue "string", "app_name", "LPWallet"
+            signingConfig signingConfigs.release
         }
         debug {
             applicationIdSuffix = ".debug"
-            resValue "string", "app_name", "Trinity Debug"
+            resValue "string", "app_name", "LPWallet Debug"
         }
         beta {
             initWith release
             applicationIdSuffix = ".beta"
-            resValue "string", "app_name", "Trinity Beta"
+            resValue "string", "app_name", "LPWallet Beta"
             matchingFallbacks = ['debug', 'release']
         }
     }

@@ -132,3 +132,5 @@ package-lock.json
 
 # tests
 __diff_output__
+
+package copy.json
