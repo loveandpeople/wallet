@@ -1,0 +1,67 @@
+{
+  "name": "trinity-wallet",
+  "version": "0.0.0",
+  "private": true,
+  "url": "https://trinity.iota.org",
+  "homepage": "https://trinity.iota.org",
+  "description": "Cross-platform wallet for IOTA",
+  "author": "IOTA Foundation <contact@iota.org>",
+  "license": "Apache-2.0 OR EPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotaledger/trinity-wallet.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:mobile": "./node_modules/.bin/eslint src/mobile/",
+    "lint:shared": "./node_modules/.bin/eslint src/shared/",
+    "lint:desktop": "./node_modules/.bin/eslint src/desktop/",
+    "format": "prettier --write \"**/*.{js,json,css}\"",
+    "test:all": "cd src/shared/ && yarn test && cd ../mobile/ && yarn test && cd ../desktop/ && yarn test && cd ../",
+    "deps:shared": "cd src/shared && yarn && cd ../..",
+    "deps:mobile": "cd src/mobile && yarn && cd ../..",
+    "deps:desktop": "cd src/desktop && npm install && cd ../..",
+    "start:desktop": "cd src/desktop && yarn start",
+    "start:mobile": "cd src/mobile && yarn start",
+    "start:styleguide": "cd src/desktop && yarn run styleguide",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-native": "^3.8.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "snyk": "^1.373.0"
+  },
+  "resolutions": {
+    "js-yaml": ">=3.13.1",
+    "request": ">=2.88.0",
+    "node.extend": ">=1.1.7",
+    "mkdirp": "^0.5.3",
+    "minimist": "^1.2.5 || >=0.2.1",
+    "lodash": ">=4.17.19"
+  },
+  "snyk": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn lint && yarn test:all"
+    }
+  }
+}

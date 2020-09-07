@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component Render the component 1`] = `
+<Modal
+  isOpen={false}
+  onClose={[Function]}
+  variant="global"
+>
+  <section
+    className="about"
+  >
+    <Icon
+      icon="iota"
+      size={48}
+    />
+    <h1>
+      Trinity Wallet
+    </h1>
+    <h2>
+      v
+      0.0.0
+    </h2>
+    <article>
+      <Scrollbar>
+        <ReactMarkdown
+          astPlugins={Array []}
+          escapeHtml={true}
+          parserOptions={Object {}}
+          plugins={Array []}
+          rawSourcePos={false}
+          renderers={Object {}}
+          skipHtml={false}
+          source="### Foo
+- Bar
+- Baz"
+          sourcePos={false}
+          transformLinkUri={[Function]}
+        />
+      </Scrollbar>
+    </article>
+    <footer>
+      <Button
+        onClick={[Function]}
+        variant="dark"
+      >
+        close
+      </Button>
+    </footer>
+  </section>
+</Modal>
+`;

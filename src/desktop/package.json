@@ -1,0 +1,219 @@
+{
+  "name": "trinity-desktop",
+  "productName": "Trinity",
+  "version": "1.6.0",
+  "url": "https://trinity.iota.org",
+  "homepage": "https://trinity.iota.org",
+  "description": "Desktop wallet for IOTA",
+  "main": "dist/main.js",
+  "author": "IOTA Foundation <contact@iota.org>",
+  "license": "Apache-2.0 OR EPL-2.0",
+  "moduleRoots": [
+    ".",
+    "src",
+    "../shared"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotaledger/trinity-wallet.git"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run devserver\" \"cross-env NODE_ENV=development electron -r @babel/register native/Index.js\"",
+    "postinstall": "patch-package && electron-builder install-app-deps",
+    "devserver": "node scripts/webpackServer.js",
+    "build": "rimraf dist && npm run build-main && npm run build-app",
+    "build-main": "./node_modules/.bin/cross-env NODE_ENV=production webpack --env=production --config webpack.config/config.main.js",
+    "build-app": "./node_modules/.bin/cross-env NODE_ENV=production webpack --env=production --config webpack.config/config.app.js",
+    "compile": "npm run build && npm run compile:linux && npm run compile:mac && npm run compile:win",
+    "compile:linux": "./node_modules/.bin/electron-builder --linux --x64",
+    "compile:mac": "./node_modules/.bin/cross-env electron-builder --mac --x64",
+    "compile:win": "./node_modules/.bin/electron-builder --win --x64",
+    "test": "npm run build-app && jest"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "@jest-runner/electron": "3.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "25.2.3",
+    "babel-loader": "8.0.6",
+    "bugsnag-build-reporter": "1.0.2",
+    "bugsnag-sourcemaps": "1.3.0",
+    "concurrently": "5.1.0",
+    "cross-env": "7.0.0",
+    "css-loader": "3.5.3",
+    "dart-sass": "1.25.0",
+    "electron": "7.3.1",
+    "electron-builder": "22.5.1",
+    "electron-devtools-installer": "3.0.0",
+    "electron-notarize": "0.2.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "enzyme-to-json": "3.4.4",
+    "express": "4.17.1",
+    "file-loader": "4.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "jest": "25.2.3",
+    "jest-image-snapshot": "2.12.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "patch-package": "6.2.2",
+    "puppeteer": "2.1.1",
+    "raw-loader": "3.0.0",
+    "react-dev-utils": "10.2.0",
+    "regenerator-runtime": "0.13.5",
+    "rimraf": "3.0.2",
+    "sass-loader": "8.0.2",
+    "style-loader": "0.23.1",
+    "url-loader": "2.0.1",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-middleware": "3.7.2",
+    "webpack-hot-middleware": "2.25.0"
+  },
+  "build": {
+    "productName": "Trinity",
+    "artifactName": "trinity-desktop-${version}.${ext}",
+    "copyright": "IOTA Foundation",
+    "directories": {
+      "buildResources": "./assets",
+      "output": "./out"
+    },
+    "afterSign": "./scripts/notarize.macos.js",
+    "files": [
+      "dist/",
+      "assets/",
+      "package.json",
+      "!node_modules/realm/android${/*}",
+      "!node_modules/realm/build${/*}",
+      "!node_modules/realm/react-native${/*}",
+      "!node_modules/realm/scripts${/*}",
+      "!node_modules/realm/src${/*}",
+      "!node_modules/realm/vendor${/*}"
+    ],
+    "appId": "org.iota.trinity",
+    "asar": true,
+    "protocols": [
+      {
+        "name": "IOTA URL Scheme",
+        "schemes": [
+          "iota"
+        ]
+      }
+    ],
+    "dmg": {
+      "iconSize": 120,
+      "title": "${productName}",
+      "sign": false,
+      "contents": [
+        {
+          "x": 520,
+          "y": 250,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 170,
+          "y": 250,
+          "type": "file"
+        }
+      ]
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true
+    },
+    "win": {
+      "publisherName": "IOTA Stiftung",
+      "target": "nsis",
+      "timeStampServer": "http://timestamp.digicert.com"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "desktop": {
+        "Name": "Trinity",
+        "Comment": "Desktop wallet for IOTA",
+        "Categories": "Office;Network;Finance"
+      }
+    },
+    "mac": {
+      "category": "public.app-category.finance",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "entitlements": "./entitlements.mac.plist",
+      "entitlementsInherit": "./entitlements.mac.plist",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "asarUnpack": [
+        "**/*.node"
+      ]
+    },
+    "publish": {
+      "provider": "generic",
+      "url": "https://iotaledger-files.s3.amazonaws.com/trinity/desktop/releases/",
+      "publishAutoUpdate": true,
+      "channel": "latest"
+    }
+  },
+  "dependencies": {
+    "@babel/register": "7.9.0",
+    "@bugsnag/js": "6.5.2",
+    "@bugsnag/plugin-react": "^6.5.0",
+    "@ledgerhq/hw-transport-node-hid": "^5.13.0",
+    "argon2": "0.27.0",
+    "babel-polyfill": "6.26.0",
+    "classnames": "2.2.6",
+    "electron-log": "4.2.0",
+    "electron-settings": "3.2.0",
+    "electron-updater": "4.0.14",
+    "entangled-node": "iotaledger/entangled-node#v0.5.1",
+    "hw-app-iota": "0.6.1",
+    "iota.lib.js": "0.5.2",
+    "kdbxweb": "1.5.7",
+    "keytar": "4.11.0",
+    "lottie-web": "5.6.4",
+    "node-machine-id": "1.1.12",
+    "perfect-scrollbar": "1.5.0",
+    "qr.js": "0.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-i18next": "10.11.4",
+    "react-markdown": "4.3.1",
+    "react-qr-reader": "2.2.1",
+    "react-redux": "5.1.1",
+    "react-router-dom": "5.1.2",
+    "react-transition-group": "4.3.0",
+    "react-virtualized-auto-sizer": "1.0.2",
+    "react-window": "1.8.5",
+    "realm": "5.0.5",
+    "recharts": "1.8.5",
+    "redux": "4.0.5"
+  },
+  "jest": {
+    "runner": "@jest-runner/electron",
+    "globalSetup": "<rootDir>scripts/jestSetup.js",
+    "globalTeardown": "<rootDir>scripts/jestTeardown.js",
+    "testEnvironment": "<rootDir>scripts/jestEnv.js",
+    "setupFilesAfterEnv": [
+      "<rootDir>scripts/jestLibs.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "modulePaths": [
+      "src",
+      "../shared"
+    ],
+    "moduleNameMapper": {
+      "\\.(scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(svg)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(md)$": "<rootDir>/__mocks__/markdownMock.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/react-qr-reader/"
+    ]
+  }
+}

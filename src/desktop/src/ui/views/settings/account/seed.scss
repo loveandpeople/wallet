@@ -1,0 +1,16 @@
+.seed {
+    display: block;
+    width: 100%;
+    font-family: SourceCodePro;
+    line-height: 32px;
+    word-wrap: break-word;
+
+    small {
+        display: block;
+    }
+
+    strong {
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}

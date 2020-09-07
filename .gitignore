@@ -1,0 +1,134 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a lage number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGONRE THE LOCK FILE
+Pods/
+
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle/
+local.properties
+*.iml
+index.android.bundle
+
+# Eclipse project files
+.classpath
+.project
+.metadata
+.settings
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# BUCK
+buck-out/
+\.buckd/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+src/mobile/*/fastlane/report.xml
+src/mobile/*/fastlane/Preview.html
+src/mobile/*/fastlane/screenshots
+screenshots
+
+node_modules_*
+dist
+
+# Created by https://www.gitignore.io/api/crashlytics
+
+### Crashlytics ###
+#Crashlytics
+crashlytics-build.properties
+com_crashlytics_export_strings.xml
+crashlytics.properties
+fabric.properties
+
+# End of https://www.gitignore.io/api/crashlytics
+
+# Created by https://www.gitignore.io/api/windows
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/windows
+
+# nodejs-mobile-react-native
+src/mobile/nodejs-assets/nodejs-project/sample-package.json
+src/mobile/nodejs-assets/nodejs-project/sample-main.js
+src/mobile/nodejs-assets/build-native-modules*
+src/mobile/android/build/nodejs-native-assets-temp-build*
+src/mobile/android/build/nodejs-assets*
+
+# realm
+*.realm
+*.realm.lock
+*.management/
+realm-object-server/
+
+# NPM lockfiles
+package-lock.json
+
+# tests
+__diff_output__

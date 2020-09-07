@@ -1,0 +1,3753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2504A17226DF5FFD3C2A54AD060E8A /* libBugsnagReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D059D1D71ADA6B83851AE04A4B1989 /* libBugsnagReactNative.a */; };
+		0C51C393ABBB0B4BD4B93D710474ACE6 /* iotaWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DBF0EEB7DBFA315A0D6839E79A5924 /* iotaWalletUITests.swift */; };
+		150B45CC76085653FBC10B5A7B4E16F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCA4EA113044613D95E46BDAC0C1E3 /* AppDelegate.m */; };
+		1D90A630DF083C6894C70C1D9936A0A9 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F586ACB1B483D19A73242AC34185FAD /* libRCTText-tvOS.a */; };
+		227F5ECF692F599792F69DC4D573B2E6 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E329CD2AEA74CC4A8A6F37DBBEF1EA5E /* libRCTActionSheet.a */; };
+		23DBCEF31158ED28593321DF /* libPods-iotaWallet-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94248EA7BCF6FA1B4742792 /* libPods-iotaWallet-tvOSTests.a */; };
+		29169BFF0B0644DA1F501101B010A604 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49A551A49165ED5CFBE87EE1B7C5CCA8 /* InfoPlist.strings */; };
+		29E9C75A4A87FFC827469A3CFB2D3C89 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB779EC5853FB7A3F49999F69549ACA /* Launch Screen.storyboard */; };
+		2AD31ECE2D7512D06C6BA29BD082EAE7 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4319E47FD77B4B10F18A0CCAA9E7CDB1 /* libRCTText.a */; };
+		2F852D5F92D3F66B78914D33F296087F /* libLottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 263220B07467A090937F126D1EAD4142 /* libLottie.a */; };
+		307E93B97FDF6F53908903B07505AC30 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E920A6AB840A93E25B7B234FEF27E6 /* SnapshotHelper.swift */; };
+		38DDAF07C8480BD137CF60C851B9DB02 /* libRCTSettings-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEDECF54B08D02E4DA237B29BFA7335 /* libRCTSettings-tvOS.a */; };
+		3D089B147B065DF500AFDE15871144F7 /* libRNExitApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDF2800ED208F6574931A64651435D /* libRNExitApp.a */; };
+		3E58EC90CE11629FBA816AAD96D16464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0FDEA3EDE9090E04563794CE9A92B7 /* main.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		412B533C94F35A1287B87CBF50D0679C /* libRNSecureRandom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D68D9CD64CE2AD239A1BABD810A4043 /* libRNSecureRandom.a */; };
+		4A4F5E775D301A641C32594E736C0E3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F799E10140F3477803D1C73A2F97B01B /* libz.tbd */; };
+		54D44899635E65A34FCEAC3EA412BE26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA2B84C183CC39F995C8E04CC713DDB /* Images.xcassets */; };
+		601673EA221D169E0011CC20 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D474EDCA8A4E27A77D5144 /* libc++.tbd */; };
+		601673EB221D16A70011CC20 /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60159089217BA51F00B746A8 /* libRealmReact.a */; };
+		601BFCEE20C367660097D329 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 601BFCED20C367310097D329 /* libRNShare.a */; };
+		601BFCF020C3677F0097D329 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601BFCEF20C3677E0097D329 /* Social.framework */; };
+		601BFCF220C3679D0097D329 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601BFCF120C3679D0097D329 /* MessageUI.framework */; };
+		601BFD6220C39A610097D329 /* libRNViewShot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 601BFD6120C39A580097D329 /* libRNViewShot.a */; };
+		6020D31E21A5077600159E5A /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC55639207BA79E00BA0A7F /* libRCTAnimation.a */; };
+		6020D31F21A507BC00159E5A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC5565A207BA79E00BA0A7F /* libReact.a */; };
+		6020D32021A5080100159E5A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC5565A207BA79E00BA0A7F /* libReact.a */; };
+		604C783B2228834200D2751F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C77E62228834200D2751F /* JavaScriptCore.framework */; };
+		6056CF5520827D3C0006A2F3 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6056CF5420827D2F0006A2F3 /* libRNCamera.a */; };
+		6079ACDE2110BE6B005B21CB /* Argon2Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079ACDD2110BE6B005B21CB /* Argon2Core.swift */; };
+		6079ACE02110DD2C005B21CB /* Argon2IOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079ACDF2110DD2C005B21CB /* Argon2IOS.swift */; };
+		6079AD4E2110E752005B21CB /* Argon2IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6079AD4D2110E752005B21CB /* Argon2IOS.m */; };
+		6079C42420D95F18006B252E /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079C42320D95F17006B252E /* Empty.swift */; };
+		608BEC3423C295D700D0C409 /* libRNCWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 608BEC1C23C295AC00D0C409 /* libRNCWebView.a */; };
+		608E448A221B228A005CCFB1 /* EntangledIOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 608E4489221B228A005CCFB1 /* EntangledIOSUtils.m */; };
+		60A1C244242EA02E0037E678 /* NativeUtilsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1C243242EA02E0037E678 /* NativeUtilsIOS.swift */; };
+		60A1C29F242EBD500037E678 /* NativeUtilsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A1C29E242EBD500037E678 /* NativeUtilsIOS.m */; };
+		60B4137C2411C5E000B56423 /* EntangledKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4137B2411C5E000B56423 /* EntangledKit.framework */; };
+		60F7E4242125EBE7005355C7 /* libRNDocumentPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F7E3B32125EAE7005355C7 /* libRNDocumentPicker.a */; };
+		653C5DB7CF56434CA39B6922 /* libRNNodeJsMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8482B7D9E05463F9505DCB4 /* libRNNodeJsMobile.a */; };
+		6ED5CBEF7B1A39258C560F6CDCD36254 /* libKCKeepAwake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F418B6A7C158123D272588757B8B5E /* libKCKeepAwake.a */; };
+		7201963BD0BAE41A9958AC15A84AAA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0FDEA3EDE9090E04563794CE9A92B7 /* main.m */; };
+		735D5C80D9DA0474412A6BED /* libPods-iotaWallet-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D3ACED5A5A03890087B45B /* libPods-iotaWallet-tvOS.a */; };
+		7EC4E13223F8F69B1629B42AA455DA9F /* libReactNativeFingerprintScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAF54583946132D35A957921197D3E8 /* libReactNativeFingerprintScanner.a */; };
+		85277BB9448BC0DF88CC1F206C0E4BF7 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CB0B55DE702DF718E5FD31D6EF66FE /* libRCTSettings.a */; };
+		85A815D84AC90B46C352C4B867C1BF36 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3D8AEB21F074871C1975441A32E214 /* libRCTLinking-tvOS.a */; };
+		962469C90FA6C9D7DB8B0F1D49DD98E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCA4EA113044613D95E46BDAC0C1E3 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		963E1215D830F1A7FF25B2365C494F64 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06912F32A64660367B379A5FA9B59C /* libRCTAnimation.a */; };
+		9C3391094835A6A9B3A79A2E /* Pods_iotaWalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0F74EC093A52113A8EC89B /* Pods_iotaWalletTests.framework */; };
+		9D768D7930E8E00194C0FCC710EDD212 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE6816AFF1D8279218D82AD1FFCE5B /* libRCTNetwork.a */; };
+		A813279F828AD23228F254CEB4047F77 /* libRNRandomBytes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B844D632C9BC3C7BED60CFEE0A6A52B7 /* libRNRandomBytes.a */; };
+		AC1DC503F1AF3CEE085E1EAA4DB30EF4 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF165D1193E4B4962DABF4E7264F91B /* libRCTWebSocket.a */; };
+		BA960278C14E736AFA2379DE03059CB8 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E2AC8AE8B6798A4135FCB59B0D2EB /* libRCTImage-tvOS.a */; };
+		BC0B4879EC021013E3B1766E92C2A64B /* libRNPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD01F1FBF0A65DE7C0418215A512138 /* libRNPrint.a */; };
+		BDAE8ABE8DEB4C2EB82EE79A3A5230C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA2B84C183CC39F995C8E04CC713DDB /* Images.xcassets */; };
+		C2F42249DD5989B1962B809D5CCC00F3 /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A85B009F6629191C78D363005BC5C04B /* libART.a */; };
+		C4646F689AA9CF8E8FFC65C04944FF13 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD2F7585D01863B8EC256EC6A922693 /* libRCTImage.a */; };
+		C587195E6E354DE7A8A206B1 /* libRNReactNativeQrcodeNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F1AAFBAC3F4CD7A8A4BD4A /* libRNReactNativeQrcodeNative.a */; };
+		C63F4449914D3D19E3C83C38F602BFB5 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F4F16E746AE853607E2E4D649F9E40 /* libRNDeviceInfo.a */; };
+		CA8AF202D45B7B9C48CB844FE4029B34 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38822DC4E60A1BDF9DF917E7C1541B3D /* libRCTLinking.a */; };
+		CB305F0421185EF800657575 /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB305F0321185EEC00657575 /* libRNFetchBlob.a */; };
+		CB563C0C21C1470F00AE4437 /* libQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB563C0B21C1435B00AE4437 /* libQRCode.a */; };
+		CB61A46620B89E3B004088AA /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB61A46520B89E3A004088AA /* SourceSansPro-SemiBold.ttf */; };
+		CB63E7A5218B544E0084CBFD /* Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB63E7A4218B544E0084CBFD /* Icons.ttf */; };
+		CB6626F52085057F00651519 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6626F42085056C00651519 /* libSplashScreen.a */; };
+		CB866281209F36CA00C026E3 /* EntangledIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CB86627D209F36CA00C026E3 /* EntangledIOS.m */; };
+		CB98FB9420A0A5BB0047877B /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB98FB9120A0A5BB0047877B /* SourceSansPro-Bold.ttf */; };
+		CB98FB9520A0A5BB0047877B /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB98FB9220A0A5BB0047877B /* SourceSansPro-Regular.ttf */; };
+		CB98FB9620A0A5BB0047877B /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB98FB9320A0A5BB0047877B /* SourceSansPro-Light.ttf */; };
+		CBA5F52620CAAB2A00774D4B /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA5F52520CAAB2A00774D4B /* SourceCodePro-Medium.ttf */; };
+		CBC214EA20CE82EC005D8ACB /* libRNReactNativeHapticFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC214E920CE82DC005D8ACB /* libRNReactNativeHapticFeedback.a */; };
+		CBDE11BB21AEFFFE00CA1909 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC5562C207BA79E00BA0A7F /* Lottie.framework */; };
+		CBDE11BC21AEFFFE00CA1909 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBC5562C207BA79E00BA0A7F /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CBDE11BF21AF008D00CA1909 /* libLottieReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5577D5219F221E00B698BF /* libLottieReactNative.a */; };
+		CBEA4C9421494823007DA583 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEA4C912149481F007DA583 /* libReactNativeNavigation.a */; };
+		CDC76600A03C06457F99259512D7F713 /* libRNIsDeviceRooted.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431CEEC099BC4CE1F43E0550C4CC291 /* libRNIsDeviceRooted.a */; };
+		CF626DD9FBB494210B780417 /* Pods_iotaWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890341AF0F2DE4E9DCB80928 /* Pods_iotaWallet.framework */; };
+		D07D1D9D21444F2D88F12F73 /* builtin_modules in Resources */ = {isa = PBXBuildFile; fileRef = 42679A0E830D4AD2A0F60146 /* builtin_modules */; };
+		D1DC0968101C454F996F0262 /* NodeMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A0253632148CC9F004F24 /* NodeMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D51793D4E78BCB702D9FFAA1A3356153 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E60D4ABEBFCB6EC7FCE9538A5FF83F /* libRNSVG.a */; };
+		D67B7F52CD8EA6422597645960A1C079 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ABB0EEDDF4C638791186862B6FCA44 /* libRCTWebSocket-tvOS.a */; };
+		D9A1C4460153C2A24C3B5ACB9EF492CF /* libRNKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D373EB5A6D14212CD152A952A67FEB62 /* libRNKeychain.a */; };
+		DDA136528BBDF91C4395B590FD2C59F1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9A65DE849C3D3C9799E3B05D172685 /* libRCTVibration.a */; };
+		E3AE8565650D2534125883D55649D450 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D536AB3A4FAFD8602D41987D9E324F /* libRCTGeolocation.a */; };
+		E4F9AC494F8CC3C172EA66A4EF42D078 /* iotaWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A81CE60367578E89DC687A3A32D03E /* iotaWalletTests.m */; };
+		ED98F17365B425CCC63B364164E2ABB6 /* libRCTNetwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E2A76312FA9646D8831AC163B1347E /* libRCTNetwork-tvOS.a */; };
+		F19CAE1462E2409387028CD1 /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A0253632148CC9F004F24 /* NodeMobile.framework */; };
+		F43A0D26643270FD3A4BFD2691C35E43 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B655981D53B5AE618EDBD102EA41BF51 /* libReact.a */; };
+		F47E436883524D18AB563054 /* nodejs-project in Resources */ = {isa = PBXBuildFile; fileRef = C6679B3BCAC742D9A6A13DC5 /* nodejs-project */; };
+		F834CDED8A9A63C142A683ADB8483369 /* iotaWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A81CE60367578E89DC687A3A32D03E /* iotaWalletTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E9A97EB148F57A77EB8C51C72DF720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF504A40B8E958E0176D5D93B130DE69;
+			remoteInfo = "React-tvOS";
+		};
+		02EA84673DE704F9C1AF959030D4D4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E2CA57E62FCA5FD7C3C38C40F7603 /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E438715ACF8142FF978746F6C90F75F4;
+			remoteInfo = "RCTSettings-tvOS";
+		};
+		07DD23F296417D4BA008AE2ABBCB6EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD581453BAAEDFD13B05710E1CA0B128 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 020D738479264C158D3BA3DA55E729B3;
+			remoteInfo = "RCTImage-tvOS";
+		};
+		09FE410FB8091F5F045ED9DDE13DC25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3F9601D8757C3A48CF2AD9CF58F3EA /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F681F53DC5643A49BF60DF2F3918E12B;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+		13042E5B4074EDAF295116B369C5720D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6707891F5797B0CC78F1267EB8F1A2 /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8FC6ED6D1C4D731F31185E885E51AAC2;
+			remoteInfo = RNSVG;
+		};
+		1A0E14698EE7A4322A9A9B5052F4D0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D09A20E9314FCC90115E1E28BD5DB357;
+			remoteInfo = "yoga-tvOS";
+		};
+		28BD818916EC80191B9C06F5C44796AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC6F77FBF455B92FBB736B0E5DE8E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B6F56C5B39768183E212C21E8E213DA;
+			remoteInfo = "iotaWallet-tvOS";
+		};
+		2FC4A20B76D0682725A7FD3A48E950D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB682616086B06AFA962D8B5F1DCAB78 /* RNRandomBytes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19675A53F87A783EDF4A1B7B63715F9E;
+			remoteInfo = RNRandomBytes;
+		};
+		332664C4BF1AE19847F504D8C9C4CD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3F9601D8757C3A48CF2AD9CF58F3EA /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF351C3D91067AA4B325E17903DAAA1;
+			remoteInfo = RCTWebSocket;
+		};
+		3574B82CD6B55B4ECA9A60938811F5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 679A4B0BB6333961124F2288316630DD /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4D72EC1D4B5C9CB371E18BBAE099733;
+			remoteInfo = RCTText;
+		};
+		38AFE775C706DBBC97CB50A593645D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B49115E102EED64D1B7D7AC047F1ABF /* RNExitApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B5A609A9190035B1791BB99C6421FB0;
+			remoteInfo = RNExitApp;
+		};
+		38EDCA31D16E3CD01DBD8999EBEA81FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1380447C6001F40A66D38FBD8AFC3309 /* RNPrint.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A89D8908DE1BC6C91B1F468B5AFC2D9A;
+			remoteInfo = RNPrint;
+		};
+		4D28DBFF1C1827558620F9610F7E930B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB7466768C43C0F61CFB10138358A32 /* ART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 031C808306A9F4CC443164FF24A9C8B8;
+			remoteInfo = ART;
+		};
+		52FD8EB486138CC4128FC9CA61B5CE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205C47BA61DC4D6733E748712B4E50C6 /* RNKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AB4BC0B731B8886CE38E4B4D9B6143;
+			remoteInfo = RNKeychain;
+		};
+		53DB1F47FFBD018460D6B3F399D77096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39F11B2595A5CFD8F2D51D3B914CD41 /* RNDeviceInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB2FA10E2C30D4A08CF36C1FF58AC616;
+			remoteInfo = RNDeviceInfo;
+		};
+		569242DFF3FE79F261B75B97749FC745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC6F77FBF455B92FBB736B0E5DE8E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4848851A00274CA2FFBE307BAEB5F278;
+			remoteInfo = iotaWallet;
+		};
+		5883AA054AC88EAA5EFB34040EA713B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0F8DC3779B2D7DBEDD94C8C596B3BBFC;
+			remoteInfo = "Pods-iotaWalletTests";
+		};
+		5A109CA5CC18A16B6414EEC4BBD87090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39F11B2595A5CFD8F2D51D3B914CD41 /* RNDeviceInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F157C5185B41B6A5D118E992853CF64C;
+			remoteInfo = "RNDeviceInfo-tvOS";
+		};
+		5A69F80327CBC8DCFAC6DDBEC2E353E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB7466768C43C0F61CFB10138358A32 /* ART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8926D8C49D7F71B16EF71429B52E1590;
+			remoteInfo = "ART-tvOS";
+		};
+		5DF1012D7DA4F139622252CC164F122C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECE344CBB22E9B14926747E3FB76B0F3;
+			remoteInfo = "third-party-tvOS";
+		};
+		60159088217BA51F00B746A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA32972BAD24F7ABBA45866 /* RealmReact.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F60690131CA2766F0003FB26;
+			remoteInfo = RealmReact;
+		};
+		601BFCEC20C367310097D329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601BFCE820C367300097D329 /* RNShare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNShare;
+		};
+		601BFD6020C39A580097D329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601BFD5C20C39A560097D329 /* RNViewShot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNViewShot;
+		};
+		6020D31C21A5065300159E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CA59B71E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
+		604C78182228834200D2751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		604C781A2228834200D2751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		604C781C2228834200D2751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		604C781E2228834200D2751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+		6056CF5320827D2F0006A2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6056CF4F20827D2F0006A2F3 /* RNCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RNCamera;
+		};
+		605C6A8D226AE8290036E480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205C47BA61DC4D6733E748712B4E50C6 /* RNKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6478985F1F38BF9100DA1C12;
+			remoteInfo = "RNKeychain-tvOS";
+		};
+		608BEC1B23C295AC00D0C409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608BEBE423C295AB00D0C409 /* RNCWebView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCWebView;
+		};
+		60F7E3B22125EAE7005355C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F7E3AE2125EAE7005355C7 /* RNDocumentPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E01DD9DB1D2311A600C39062;
+			remoteInfo = RNDocumentPicker;
+		};
+		67F735F37D9C96FFCC1469292012988C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A46F4458348360C0DFE21018DAAF14 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RCTGeolocation;
+		};
+		6856A093BA67FAE8F7467903505626C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E2CA57E62FCA5FD7C3C38C40F7603 /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RCTSettings;
+		};
+		711E35C224595B0412CF470CDBEF29B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C63162E257EDE6A7ADC9635F0D4F070;
+			remoteInfo = "Pods-iotaWallet-tvOS";
+		};
+		759478F697B6B0746DB845F6D5691AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 485BB6C7C02932ADD9E0FF3F5AC701E4;
+			remoteInfo = RNFS;
+		};
+		775CC7B8AD67A515B51E9A77C07B744D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 679A4B0BB6333961124F2288316630DD /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96EBCBEC82455D1D012A9F03402BEFC3;
+			remoteInfo = "RCTText-tvOS";
+		};
+		77988E9E486F13DB1441A107E9B8BE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76D226F8C33DAB67AA9C4D76FCA89C2 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21E588B71BF1F84B8D762E330C0AC4F3;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
+		7D4677BF89393B2A390B1DA255172739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0CFE5E7DFF31220E78B818DA00C4B /* BugsnagReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAD350002AC55DF6BF64E75164ECD260;
+			remoteInfo = BugsnagReactNative;
+		};
+		7D78B19441B818F349C13AAD1E712ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1380447C6001F40A66D38FBD8AFC3309 /* RNPrint.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05DCE99E5CDB80B53B40FFB5818D5E46;
+			remoteInfo = RNPrintTests;
+		};
+		896DF047E1C2AB724B776DE78051C2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D84DC61092C2CB09498AB83CAA9B91F /* RNSecureRandom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RNSecureRandom;
+		};
+		91EE908523E2FCEF5CE1B08441483CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C04ED8978D16D35E6A93DD49E333C044;
+			remoteInfo = "double-conversion";
+		};
+		9C68E6DA3B9F7593ED48E775238CCCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE76A96BDAFEB3F2332A2982168E1CE /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 418E698C3984C5601C2DFC0B2D42B685;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		9CA17388BD86A06261973A87CA89A2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE76A96BDAFEB3F2332A2982168E1CE /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE5372B7E44DB7690403082B29D16439;
+			remoteInfo = RCTNetwork;
+		};
+		A9F53FC6236324E5330CA31A17570E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6707891F5797B0CC78F1267EB8F1A2 /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 012B409CA37B1D18B7B59EDF994C004D;
+			remoteInfo = "RNSVG-tvOS";
+		};
+		AE1E283F1BF8C962C215E54FF5A59C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2804A8AFECB29F611FC6B2AC4B0C378F /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RCTLinking;
+		};
+		AECD31E3539474478B838BE6DD5AB37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D84DC61092C2CB09498AB83CAA9B91F /* RNSecureRandom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B22E2DB7A20050C2C61CCDA26147DF3;
+			remoteInfo = RNSecureRandom;
+		};
+		BB0F29560ABE8B2A22B932FA4F9EB13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FA8FCAB678228017DD1EBC70517E3F /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81E020ED3495D87DA9048AA8C8046816;
+			remoteInfo = RCTVibration;
+		};
+		BFF2DE68DC51E02575350E595BE05544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2804A8AFECB29F611FC6B2AC4B0C378F /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDD5A0882AECED76E1F8F47D1F00C91F;
+			remoteInfo = "RCTLinking-tvOS";
+		};
+		C5DB17B47077C54B8CBA62D8E21D3C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2612BB86487FD701D8396FD7C01B59E3;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		C64A41DFA3DFB47F30EDDEB6A2481B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78457F3624D0D3C241289BCB545E290E /* ReactNativeFingerprintScanner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = ReactNativeFingerprintScanner;
+		};
+		C9772B939B4E8110FBC5F859B3227154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE78092CD0C5D3A0316145EFC00548CB /* RNIsDeviceRooted.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RNIsDeviceRooted;
+		};
+		CB305F0221185EEC00657575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB305EFE21185EEC00657575 /* RNFetchBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A15C300E1CD25C330074CB35;
+			remoteInfo = RNFetchBlob;
+		};
+		CB305F7521185F3400657575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D1880393EB486F98F90D04 /* RNNodeJsMobile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNNodeJsMobile;
+		};
+		CB54CCFC21261E42001F1630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08053213D1F0595394F6BC28F519D907;
+			remoteInfo = CatCrypto;
+		};
+		CB5577D4219F221E00B698BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5577D0219F221E00B698BF /* LottieReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
+			remoteInfo = LottieReactNative;
+		};
+		CB563C0A21C1435B00AE4437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7786DA8E9F4FBCA1CD37AF /* QrCode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07FD4BE520874AB3002FBD31;
+			remoteInfo = QRCode;
+		};
+		CB6626F32085056C00651519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6626ED2085056C00651519 /* SplashScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7682761D8E76B80014119E;
+			remoteInfo = SplashScreen;
+		};
+		CB800A6F221F946F004B92BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C67701E97DD418C82AE0819 /* RNReactNativeQrcodeNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNReactNativeQrcodeNative;
+		};
+		CB8F2AF32095E41E0071A30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB682616086B06AFA962D8B5F1DCAB78 /* RNRandomBytes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 163CDE4E2087CAD3001065FB;
+			remoteInfo = "RNRandomBytes-tvOS";
+		};
+		CB967ED7214153CC00F561EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		CB967ED9214153CC00F561EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		CBC214E820CE82DC005D8ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC214E420CE82DC005D8ACB /* RNReactNativeHapticFeedback.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNReactNativeHapticFeedback;
+		};
+		CBC5562B207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 62CA59B81E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
+		CBC5562D207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C5379761FB471D100C1BC65;
+			remoteInfo = Lottie_tvOS;
+		};
+		CBC55638207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76D226F8C33DAB67AA9C4D76FCA89C2 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		CBC55659207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		CBC5565B207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		CBC5565D207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		CBC55661207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		CBC55663207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		CBC5566D207BA79E00BA0A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6456441F1EB8DA9100672408;
+			remoteInfo = "RNFS-tvOS";
+		};
+		CBDE11BD21AEFFFE00CA1909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CA59B71E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
+		CBEA4C902149481F007DA583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEA4C8B2149481F007DA583 /* ReactNativeNavigation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8AFADBD1BEE6F3F00A4592D;
+			remoteInfo = ReactNativeNavigation;
+		};
+		CBEA4C922149481F007DA583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEA4C8B2149481F007DA583 /* ReactNativeNavigation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B49FEBB1E95090800DEB3EA;
+			remoteInfo = ReactNativeNavigationTests;
+		};
+		CBFFDF4B230ACCF800CBC76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		CD481D22B9AD23CF851BD7CA4F49E762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20C664BA0BD1D6082996589914C2E964;
+			remoteInfo = Lottie_macOS;
+		};
+		CD9F8E5E7CF2056A65FA532392457FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 808559CA0DEA550FBA85BC7EE0A28017;
+			remoteInfo = "Pods-iotaWallet";
+		};
+		D76A2AA2859385389AC38602086305F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E17389EF3AB0C14C6843EF1892D81D4 /* KCKeepAwake.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = KCKeepAwake;
+		};
+		E1B37F619C11EA96BF3D3EF5382A8D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3237B02C4F3AB8BA7DBDEAF7904FB34B;
+			remoteInfo = RNFS;
+		};
+		EAF9F7116A758338A37BB92469F8D297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB817F2045392F14F60CFFD8C1E03980;
+			remoteInfo = LottieLibraryIOS;
+		};
+		EDE032656EFB8B4603FCB01A05A9F031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06C37C0B9522995FB8FC4AACEE1A4A1 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78510E1974839EACED295CFC857494F6;
+			remoteInfo = RCTActionSheet;
+		};
+		EFC046C4FF8A48212FB2D5FCA41020D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD581453BAAEDFD13B05710E1CA0B128 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DF5328292D2C3CE0E4E3F14DEEC0FB4;
+			remoteInfo = RCTImage;
+		};
+		FA24DAB4979B0799DCE61A5F32D99523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C547FEE055FA19142BD07CE4A5F81798;
+			remoteInfo = "Pods-iotaWallet-tvOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92EB94016145B67667F30CE79B21D4D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1DC0968101C454F996F0262 /* NodeMobile.framework in Embed Frameworks */,
+				CBDE11BC21AEFFFE00CA1909 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000050334277DFF6E9BC09832C011408 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A81CE60367578E89DC687A3A32D03E /* iotaWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iotaWalletTests.m; sourceTree = "<group>"; };
+		06E920A6AB840A93E25B7B234FEF27E6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		0CB89A9AF630BA398ED6B667116B3086 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CF5B6434CE94452810783E0 /* libSigning.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSigning.a; sourceTree = "<group>"; };
+		12700CD34950855970059E347E3ECCEF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1380447C6001F40A66D38FBD8AFC3309 /* RNPrint.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPrint.xcodeproj; path = "../node_modules/react-native-print/ios/RNPrint.xcodeproj"; sourceTree = "<group>"; };
+		14D027E0235A94DEC3CFA3995F921E99 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A114AFE31653EBA7706861B9B5706C0 /* ios_bindings-fl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "ios_bindings-fl.a"; path = "../../../../../../var/tmp/_bazel_rajiv/f375e5a0d7be270644e1885aff9a8d6e/execroot/org_iota_entangled/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-fastbuild/bin/mobile/interface/ios_bindings-fl.a"; sourceTree = "<group>"; };
+		1E03CB0A809B5BED4BE0DCAF8776D770 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		205C47BA61DC4D6733E748712B4E50C6 /* RNKeychain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNKeychain.xcodeproj; path = "../node_modules/react-native-keychain/RNKeychain.xcodeproj"; sourceTree = "<group>"; };
+		212C440FB237BBD7248FBF1D2199EFD2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2804A8AFECB29F611FC6B2AC4B0C378F /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		2C5A946EA9126EDE841BD16907761375 /* iotaWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotaWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA53E63FD004D9AAEAE93E3 /* libRealmReact.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRealmReact.a; sourceTree = "<group>"; };
+		2CF64F79A3674FBC3EAFD7BD016CA0C3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2D84DC61092C2CB09498AB83CAA9B91F /* RNSecureRandom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSecureRandom.xcodeproj; path = "../node_modules/react-native-securerandom/ios/RNSecureRandom.xcodeproj"; sourceTree = "<group>"; };
+		3208603ADA6CAA4081FC0980 /* Pods-iotaWalletTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWalletTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWalletTests/Pods-iotaWalletTests.beta.xcconfig"; sourceTree = "<group>"; };
+		33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		36D4352CBA24C83AC9A32D4C0C8118E8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		395BD568B613770643095434D5F46E0A /* iotaWallet-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iotaWallet-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFCA4EA113044613D95E46BDAC0C1E3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iotaWallet/AppDelegate.m; sourceTree = "<group>"; };
+		3ED8B034A474AECCC552AF72B1AE4884 /* iotaWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = iotaWallet.entitlements; path = iotaWallet/iotaWallet.entitlements; sourceTree = "<group>"; };
+		40E70A189B0FFF62EE8AE0E04401F815 /* iotaWalletTests-release-config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iotaWalletTests-release-config.xcconfig"; sourceTree = "<group>"; };
+		4108C226FFB3C8CA7E6839ED /* Pods-iotaWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWalletTests/Pods-iotaWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		42679A0E830D4AD2A0F60146 /* builtin_modules */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = builtin_modules; path = "../node_modules/nodejs-mobile-react-native/install/resources/nodejs-modules/builtin_modules"; sourceTree = "<group>"; };
+		42B1F9997C45E2DF708A76D353723F28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iotaWallet/AppDelegate.h; sourceTree = "<group>"; };
+		456BB4607FD94AC0BA37A7C9 /* libRNFastCrypto.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFastCrypto.a; sourceTree = "<group>"; };
+		48E60D4ABEBFCB6EC7FCE9538A5FF83F /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
+		4A1AD780612191B27C08BE60 /* Pods-iotaWallet.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet.beta.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet/Pods-iotaWallet.beta.xcconfig"; sourceTree = "<group>"; };
+		55B2218ED7B66ED5B4EEF139189CDFB2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC0CFE5E7DFF31220E78B818DA00C4B /* BugsnagReactNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BugsnagReactNative.xcodeproj; path = "../node_modules/bugsnag-react-native/cocoa/BugsnagReactNative.xcodeproj"; sourceTree = "<group>"; };
+		5C64D2219E425907A910B0F3A28CD9F1 /* iotaWalletTests-debug-config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iotaWalletTests-debug-config.xcconfig"; sourceTree = "<group>"; };
+		5D730345CF75A62E99A5B317731440D2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		601BFCE820C367300097D329 /* RNShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNShare.xcodeproj; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; };
+		601BFCEF20C3677E0097D329 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		601BFCF120C3679D0097D329 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		601BFD5C20C39A560097D329 /* RNViewShot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNViewShot.xcodeproj; path = "../node_modules/react-native-view-shot/ios/RNViewShot.xcodeproj"; sourceTree = "<group>"; };
+		604C77E62228834200D2751F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6056CF4F20827D2F0006A2F3 /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
+		6079ACDD2110BE6B005B21CB /* Argon2Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon2Core.swift; sourceTree = "<group>"; };
+		6079ACDF2110DD2C005B21CB /* Argon2IOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon2IOS.swift; sourceTree = "<group>"; };
+		6079AD4D2110E752005B21CB /* Argon2IOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Argon2IOS.m; sourceTree = "<group>"; };
+		6079C42320D95F17006B252E /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = iotaWallet/Empty.swift; sourceTree = "<group>"; };
+		6079C42520D95F85006B252E /* iotaWallet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iotaWallet-Bridging-Header.h"; path = "iotaWallet/iotaWallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		608BEBE423C295AB00D0C409 /* RNCWebView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCWebView.xcodeproj; path = "../node_modules/react-native-webview/ios/RNCWebView.xcodeproj"; sourceTree = "<group>"; };
+		608E4489221B228A005CCFB1 /* EntangledIOSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntangledIOSUtils.m; sourceTree = "<group>"; };
+		608E44D6221B229A005CCFB1 /* EntangledIOSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntangledIOSUtils.h; sourceTree = "<group>"; };
+		60A1C243242EA02E0037E678 /* NativeUtilsIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeUtilsIOS.swift; sourceTree = "<group>"; };
+		60A1C29E242EBD500037E678 /* NativeUtilsIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeUtilsIOS.m; sourceTree = "<group>"; };
+		60B4137B2411C5E000B56423 /* EntangledKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EntangledKit.framework; sourceTree = "<group>"; };
+		60F7E3AE2125EAE7005355C7 /* RNDocumentPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDocumentPicker.xcodeproj; path = "../node_modules/react-native-document-picker/ios/RNDocumentPicker.xcodeproj"; sourceTree = "<group>"; };
+		64A04B0E69E2398FF12B202BA93DEFED /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		66A2C53DEF25AEDEB72FDC924EBABB8D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		679A4B0BB6333961124F2288316630DD /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		67EDAC9474CCB127E47DDAA9D0A40C1A /* buildnumber.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = buildnumber.xcconfig; sourceTree = "<group>"; };
+		687E262F066E4DDBCEFF44A4BC7F44A7 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68D1880393EB486F98F90D04 /* RNNodeJsMobile.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNNodeJsMobile.xcodeproj; path = "../node_modules/nodejs-mobile-react-native/ios/RNNodeJsMobile.xcodeproj"; sourceTree = "<group>"; };
+		6BA32972BAD24F7ABBA45866 /* RealmReact.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RealmReact.xcodeproj; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; };
+		6EB779EC5853FB7A3F49999F69549ACA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
+		703CD715859580C6F93AD2C3B9BF240C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		72D17A4D37252C0BC0DB1F93F39557A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78457F3624D0D3C241289BCB545E290E /* ReactNativeFingerprintScanner.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeFingerprintScanner.xcodeproj; path = "../node_modules/react-native-fingerprint-scanner/ios/ReactNativeFingerprintScanner.xcodeproj"; sourceTree = "<group>"; };
+		78890E2D6D34AE7E540EA17AF52C9982 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C6D5537D50D3BB1309E66D /* Pods-iotaWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet/Pods-iotaWallet.release.xcconfig"; sourceTree = "<group>"; };
+		79A46F4458348360C0DFE21018DAAF14 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		7C67701E97DD418C82AE0819 /* RNReactNativeQrcodeNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNReactNativeQrcodeNative.xcodeproj; path = "../node_modules/react-native-qr-generator/ios/RNReactNativeQrcodeNative.xcodeproj"; sourceTree = "<group>"; };
+		7E0F74EC093A52113A8EC89B /* Pods_iotaWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iotaWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FD04ABA0D7E5DDAC025C79AC565404 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83245F96160937A7C8F0A1D783E30B0C /* iotaWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotaWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890341AF0F2DE4E9DCB80928 /* Pods_iotaWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iotaWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B49115E102EED64D1B7D7AC047F1ABF /* RNExitApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNExitApp.xcodeproj; path = "../node_modules/react-native-exit-app/ios/RNExitApp.xcodeproj"; sourceTree = "<group>"; };
+		902C9F38A0409620B18AE0E5 /* Pods-iotaWallet-tvOSTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOSTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOSTests/Pods-iotaWallet-tvOSTests.beta.xcconfig"; sourceTree = "<group>"; };
+		92D474EDCA8A4E27A77D5144 /* libc++.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		93AF27DC4948C2C2EF41D1FA /* Pods-iotaWallet-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOS/Pods-iotaWallet-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		94C69E567EC4B020F5822FC7 /* Pods-iotaWallet-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOS/Pods-iotaWallet-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7786DA8E9F4FBCA1CD37AF /* QrCode.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = QrCode.xcodeproj; path = "../node_modules/react-native-qr-scanner/ios/QrCode.xcodeproj"; sourceTree = "<group>"; };
+		9E17389EF3AB0C14C6843EF1892D81D4 /* KCKeepAwake.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KCKeepAwake.xcodeproj; path = "../node_modules/react-native-keep-awake/ios/KCKeepAwake.xcodeproj"; sourceTree = "<group>"; };
+		9EE76A96BDAFEB3F2332A2982168E1CE /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		A1FAED857304034D3DCD87D13F961C48 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A402C8584E5EA99F404511B6FE64D661 /* iotaWallet-release-config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iotaWallet-release-config.xcconfig"; sourceTree = "<group>"; };
+		A691184951D73974D740D5C9 /* Pods-iotaWallet-tvOS.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOS.beta.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOS/Pods-iotaWallet-tvOS.beta.xcconfig"; sourceTree = "<group>"; };
+		A9DBF0EEB7DBFA315A0D6839E79A5924 /* iotaWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotaWalletUITests.swift; sourceTree = "<group>"; };
+		AA7E2CA57E62FCA5FD7C3C38C40F7603 /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		AB682616086B06AFA962D8B5F1DCAB78 /* RNRandomBytes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNRandomBytes.xcodeproj; path = "../node_modules/react-native-randombytes/RNRandomBytes.xcodeproj"; sourceTree = "<group>"; };
+		AC72D5B1A4088A6371731AAF2D0B9E73 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B090D59389CE4890A17E787A /* libQRCode.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libQRCode.a; sourceTree = "<group>"; };
+		B6B654F5912BD628CCC2DF7F /* Pods-iotaWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWalletTests/Pods-iotaWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7F1AAFBAC3F4CD7A8A4BD4A /* libRNReactNativeQrcodeNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReactNativeQrcodeNative.a; sourceTree = "<group>"; };
+		B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "../node_modules/lottie-ios/Lottie.xcodeproj"; sourceTree = "<group>"; };
+		B9ADFB0323609A2A5F0E73076170CC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9A0E2287F5A0014ABE9284EBD2C4D8 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3F9601D8757C3A48CF2AD9CF58F3EA /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		BD40B3B9B6FE961CF3495A75D646774F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDAF54583946132D35A957921197D3E8 /* libReactNativeFingerprintScanner.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeFingerprintScanner.a; sourceTree = "<group>"; };
+		C1445DF81443C91724B6A1603FE7B121 /* iotaWallet-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iotaWallet-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39F11B2595A5CFD8F2D51D3B914CD41 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
+		C6679B3BCAC742D9A6A13DC5 /* nodejs-project */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nodejs-project"; path = "../nodejs-assets/nodejs-project"; sourceTree = "<group>"; };
+		C76D226F8C33DAB67AA9C4D76FCA89C2 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		C883F8A0B4031CE53D5E48217339975E /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C989B5B2E21BB76597A51E0EFEA9B547 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB2FA6D7221D0CAE00EADBC9 /* EntangledSigning.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EntangledSigning.xcodeproj; path = "../../shared/node_modules/@iota/signing/ios/EntangledSigning.xcodeproj"; sourceTree = "<group>"; };
+		CB305EFE21185EEC00657575 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/rn-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
+		CB5577D0219F221E00B698BF /* LottieReactNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LottieReactNative.xcodeproj; path = "../node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj"; sourceTree = "<group>"; };
+		CB61A46520B89E3A004088AA /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-SemiBold.ttf"; path = "../../shared/custom-fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		CB63E7A4218B544E0084CBFD /* Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Icons.ttf; path = ../../shared/icons/Icons.ttf; sourceTree = "<group>"; };
+		CB6626ED2085056C00651519 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
+		CB7A0253632148CC9F004F24 /* NodeMobile.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = NodeMobile.framework; path = "../node_modules/nodejs-mobile-react-native/ios/NodeMobile.framework"; sourceTree = "<group>"; };
+		CB86627D209F36CA00C026E3 /* EntangledIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntangledIOS.m; sourceTree = "<group>"; };
+		CB86627F209F36CA00C026E3 /* EntangledIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntangledIOS.h; sourceTree = "<group>"; };
+		CB98FB9120A0A5BB0047877B /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Bold.ttf"; path = "../../shared/custom-fonts/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		CB98FB9220A0A5BB0047877B /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "../../shared/custom-fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		CB98FB9320A0A5BB0047877B /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Light.ttf"; path = "../../shared/custom-fonts/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		CBA5F52520CAAB2A00774D4B /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceCodePro-Medium.ttf"; path = "../../shared/custom-fonts/SourceCodePro-Medium.ttf"; sourceTree = "<group>"; };
+		CBC214E420CE82DC005D8ACB /* RNReactNativeHapticFeedback.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNReactNativeHapticFeedback.xcodeproj; path = "../node_modules/react-native-haptic-feedback/ios/RNReactNativeHapticFeedback.xcodeproj"; sourceTree = "<group>"; };
+		CBEA4C8B2149481F007DA583 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "../node_modules/react-native-navigation/lib/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
+		CFA2B84C183CC39F995C8E04CC713DDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iotaWallet/Images.xcassets; sourceTree = "<group>"; };
+		D2C796029F4A68C167C1F1F5176A5819 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5BA67ADCF3A3E3973DDF764 /* Pods-iotaWallet-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOSTests/Pods-iotaWallet-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6579997ECA951BF786CFC9441D56F53 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		DD581453BAAEDFD13B05710E1CA0B128 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		DDB64CC419556333154E3FC1635752BD /* iotaWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotaWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE78092CD0C5D3A0316145EFC00548CB /* RNIsDeviceRooted.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNIsDeviceRooted.xcodeproj; path = "../node_modules/react-native-is-device-rooted/ios/RNIsDeviceRooted.xcodeproj"; sourceTree = "<group>"; };
+		DF7DDCE91109086B70E5F0239B13774C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF7F2DF242CD80F15A83C96A62910D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A5CC95D9B27ABCF4FAD971B8E3AC51 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6F6FA288673AF4B77D46F40 /* Pods-iotaWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet/Pods-iotaWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0FDEA3EDE9090E04563794CE9A92B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iotaWallet/main.m; sourceTree = "<group>"; };
+		EEAE9D5C606B7556253D3AD01EB78CE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iotaWallet/Info.plist; sourceTree = "<group>"; };
+		EEF5BF9089B89A57B0EABB4E6415A676 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F05FB5124D5FDAF46BC578870641ED07 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F06C37C0B9522995FB8FC4AACEE1A4A1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		F0BCFBFA4C88ED7E91943BDB49D788DE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F2FA8FCAB678228017DD1EBC70517E3F /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		F5456B99539E3DFAFBC86D23 /* Pods-iotaWallet-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iotaWallet-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iotaWallet-tvOSTests/Pods-iotaWallet-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D3ACED5A5A03890087B45B /* libPods-iotaWallet-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iotaWallet-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F799E10140F3477803D1C73A2F97B01B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8482B7D9E05463F9505DCB4 /* libRNNodeJsMobile.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNNodeJsMobile.a; sourceTree = "<group>"; };
+		F937ECCF0BA4BC3A155C89B3B7ECE27D /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F94248EA7BCF6FA1B4742792 /* libPods-iotaWallet-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iotaWallet-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA966CD6F6AC4A56AAE33F729009A387 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0C813F80FE9398560C13E6CC59C201 /* iotaWallet-debug-config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iotaWallet-debug-config.xcconfig"; sourceTree = "<group>"; };
+		FF6707891F5797B0CC78F1267EB8F1A2 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; };
+		FFB7466768C43C0F61CFB10138358A32 /* ART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ART.xcodeproj; path = "../node_modules/react-native/Libraries/ART/ART.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D2CE97116646D93A4B9C6E31EB5612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608BEC3423C295D700D0C409 /* libRNCWebView.a in Frameworks */,
+				604C783B2228834200D2751F /* JavaScriptCore.framework in Frameworks */,
+				601673EB221D16A70011CC20 /* libRealmReact.a in Frameworks */,
+				601673EA221D169E0011CC20 /* libc++.tbd in Frameworks */,
+				CB563C0C21C1470F00AE4437 /* libQRCode.a in Frameworks */,
+				2F852D5F92D3F66B78914D33F296087F /* libLottie.a in Frameworks */,
+				CBDE11BF21AF008D00CA1909 /* libLottieReactNative.a in Frameworks */,
+				CBDE11BB21AEFFFE00CA1909 /* Lottie.framework in Frameworks */,
+				6020D31F21A507BC00159E5A /* libReact.a in Frameworks */,
+				6020D31E21A5077600159E5A /* libRCTAnimation.a in Frameworks */,
+				CBEA4C9421494823007DA583 /* libReactNativeNavigation.a in Frameworks */,
+				60F7E4242125EBE7005355C7 /* libRNDocumentPicker.a in Frameworks */,
+				CB305F0421185EF800657575 /* libRNFetchBlob.a in Frameworks */,
+				601BFD6220C39A610097D329 /* libRNViewShot.a in Frameworks */,
+				601BFCF220C3679D0097D329 /* MessageUI.framework in Frameworks */,
+				601BFCF020C3677F0097D329 /* Social.framework in Frameworks */,
+				601BFCEE20C367660097D329 /* libRNShare.a in Frameworks */,
+				CBC214EA20CE82EC005D8ACB /* libRNReactNativeHapticFeedback.a in Frameworks */,
+				60B4137C2411C5E000B56423 /* EntangledKit.framework in Frameworks */,
+				CB6626F52085057F00651519 /* libSplashScreen.a in Frameworks */,
+				6056CF5520827D3C0006A2F3 /* libRNCamera.a in Frameworks */,
+				C2F42249DD5989B1962B809D5CCC00F3 /* libART.a in Frameworks */,
+				0C2504A17226DF5FFD3C2A54AD060E8A /* libBugsnagReactNative.a in Frameworks */,
+				6ED5CBEF7B1A39258C560F6CDCD36254 /* libKCKeepAwake.a in Frameworks */,
+				227F5ECF692F599792F69DC4D573B2E6 /* libRCTActionSheet.a in Frameworks */,
+				E3AE8565650D2534125883D55649D450 /* libRCTGeolocation.a in Frameworks */,
+				C4646F689AA9CF8E8FFC65C04944FF13 /* libRCTImage.a in Frameworks */,
+				CA8AF202D45B7B9C48CB844FE4029B34 /* libRCTLinking.a in Frameworks */,
+				9D768D7930E8E00194C0FCC710EDD212 /* libRCTNetwork.a in Frameworks */,
+				85277BB9448BC0DF88CC1F206C0E4BF7 /* libRCTSettings.a in Frameworks */,
+				2AD31ECE2D7512D06C6BA29BD082EAE7 /* libRCTText.a in Frameworks */,
+				DDA136528BBDF91C4395B590FD2C59F1 /* libRCTVibration.a in Frameworks */,
+				AC1DC503F1AF3CEE085E1EAA4DB30EF4 /* libRCTWebSocket.a in Frameworks */,
+				C63F4449914D3D19E3C83C38F602BFB5 /* libRNDeviceInfo.a in Frameworks */,
+				3D089B147B065DF500AFDE15871144F7 /* libRNExitApp.a in Frameworks */,
+				CDC76600A03C06457F99259512D7F713 /* libRNIsDeviceRooted.a in Frameworks */,
+				D9A1C4460153C2A24C3B5ACB9EF492CF /* libRNKeychain.a in Frameworks */,
+				BC0B4879EC021013E3B1766E92C2A64B /* libRNPrint.a in Frameworks */,
+				A813279F828AD23228F254CEB4047F77 /* libRNRandomBytes.a in Frameworks */,
+				D51793D4E78BCB702D9FFAA1A3356153 /* libRNSVG.a in Frameworks */,
+				412B533C94F35A1287B87CBF50D0679C /* libRNSecureRandom.a in Frameworks */,
+				7EC4E13223F8F69B1629B42AA455DA9F /* libReactNativeFingerprintScanner.a in Frameworks */,
+				4A4F5E775D301A641C32594E736C0E3A /* libz.tbd in Frameworks */,
+				CF626DD9FBB494210B780417 /* Pods_iotaWallet.framework in Frameworks */,
+				653C5DB7CF56434CA39B6922 /* libRNNodeJsMobile.a in Frameworks */,
+				F19CAE1462E2409387028CD1 /* NodeMobile.framework in Frameworks */,
+				C587195E6E354DE7A8A206B1 /* libRNReactNativeQrcodeNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A6B85936E519099FAD248D873A5E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DBCEF31158ED28593321DF /* libPods-iotaWallet-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CB5E02E5676464BF53656B3C90944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E1215D830F1A7FF25B2365C494F64 /* libRCTAnimation.a in Frameworks */,
+				BA960278C14E736AFA2379DE03059CB8 /* libRCTImage-tvOS.a in Frameworks */,
+				85A815D84AC90B46C352C4B867C1BF36 /* libRCTLinking-tvOS.a in Frameworks */,
+				ED98F17365B425CCC63B364164E2ABB6 /* libRCTNetwork-tvOS.a in Frameworks */,
+				38DDAF07C8480BD137CF60C851B9DB02 /* libRCTSettings-tvOS.a in Frameworks */,
+				1D90A630DF083C6894C70C1D9936A0A9 /* libRCTText-tvOS.a in Frameworks */,
+				D67B7F52CD8EA6422597645960A1C079 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				F43A0D26643270FD3A4BFD2691C35E43 /* libReact.a in Frameworks */,
+				735D5C80D9DA0474412A6BED /* libPods-iotaWallet-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D91232D91529099E9186998E61E7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6020D32021A5080100159E5A /* libReact.a in Frameworks */,
+				9C3391094835A6A9B3A79A2E /* Pods_iotaWalletTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6317EA2D08B2557A58B1FB5D9085D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0442208DB98A7FEC39027C12FBDE05E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E329CD2AEA74CC4A8A6F37DBBEF1EA5E /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0615A4F7D0026D822A624F7C6A4761CD /* iotaWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF7F2DF242CD80F15A83C96A62910D0 /* Info.plist */,
+				06E920A6AB840A93E25B7B234FEF27E6 /* SnapshotHelper.swift */,
+				A9DBF0EEB7DBFA315A0D6839E79A5924 /* iotaWalletUITests.swift */,
+			);
+			path = iotaWalletUITests;
+			sourceTree = "<group>";
+		};
+		0FE432859717DE312B0951A32FFC9F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				604C77E62228834200D2751F /* JavaScriptCore.framework */,
+				CB2FA6D7221D0CAE00EADBC9 /* EntangledSigning.xcodeproj */,
+				601BFCF120C3679D0097D329 /* MessageUI.framework */,
+				601BFCEF20C3677E0097D329 /* Social.framework */,
+				1A114AFE31653EBA7706861B9B5706C0 /* ios_bindings-fl.a */,
+				F799E10140F3477803D1C73A2F97B01B /* libz.tbd */,
+				890341AF0F2DE4E9DCB80928 /* Pods_iotaWallet.framework */,
+				F6D3ACED5A5A03890087B45B /* libPods-iotaWallet-tvOS.a */,
+				F94248EA7BCF6FA1B4742792 /* libPods-iotaWallet-tvOSTests.a */,
+				7E0F74EC093A52113A8EC89B /* Pods_iotaWalletTests.framework */,
+				CB7A0253632148CC9F004F24 /* NodeMobile.framework */,
+				92D474EDCA8A4E27A77D5144 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE9795D77E1EEB677D548CDD97FF948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4F16E746AE853607E2E4D649F9E40 /* libRNDeviceInfo.a */,
+				4E9F4916217D4EC545458FBE5790E41D /* libRNDeviceInfo-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B537B39817BE965218CAE954AED9DE5 /* iotaWallet */ = {
+			isa = PBXGroup;
+			children = (
+				42B1F9997C45E2DF708A76D353723F28 /* AppDelegate.h */,
+				3AFCA4EA113044613D95E46BDAC0C1E3 /* AppDelegate.m */,
+				CFA2B84C183CC39F995C8E04CC713DDB /* Images.xcassets */,
+				EEAE9D5C606B7556253D3AD01EB78CE0 /* Info.plist */,
+				49A551A49165ED5CFBE87EE1B7C5CCA8 /* InfoPlist.strings */,
+				6EB779EC5853FB7A3F49999F69549ACA /* Launch Screen.storyboard */,
+				3ED8B034A474AECCC552AF72B1AE4884 /* iotaWallet.entitlements */,
+				1E03CB0A809B5BED4BE0DCAF8776D770 /* main.jsbundle */,
+				ED0FDEA3EDE9090E04563794CE9A92B7 /* main.m */,
+				6079C42320D95F17006B252E /* Empty.swift */,
+				6079C42520D95F85006B252E /* iotaWallet-Bridging-Header.h */,
+			);
+			name = iotaWallet;
+			sourceTree = "<group>";
+		};
+		3FA554CD0D5061D20FBDC112457CF26E = {
+			isa = PBXGroup;
+			children = (
+				60A097C62110BDE7008180C9 /* Argon2 */,
+				CB63E7A4218B544E0084CBFD /* Icons.ttf */,
+				CBA5F52520CAAB2A00774D4B /* SourceCodePro-Medium.ttf */,
+				CB61A46520B89E3A004088AA /* SourceSansPro-SemiBold.ttf */,
+				CB98FB9120A0A5BB0047877B /* SourceSansPro-Bold.ttf */,
+				CB98FB9320A0A5BB0047877B /* SourceSansPro-Light.ttf */,
+				CB98FB9220A0A5BB0047877B /* SourceSansPro-Regular.ttf */,
+				CB86627A209F36CA00C026E3 /* EntangledIOS */,
+				60A1C1F7242E9FF50037E678 /* NativeUtils */,
+				5DA47AA1F43DF8347817216AFD81E3B8 /* Config */,
+				0FE432859717DE312B0951A32FFC9F0C /* Frameworks */,
+				6C07637C2BD02779C4E072737C53A2E3 /* Libraries */,
+				A6A8596B2605B2CC07FAC1A5D3842894 /* Products */,
+				C50DC7D36BBD0DBAB3399175FC4DAE94 /* Recovered References */,
+				3B537B39817BE965218CAE954AED9DE5 /* iotaWallet */,
+				E5A4C15555A5061D24DCE7B856718C84 /* iotaWalletTests */,
+				0615A4F7D0026D822A624F7C6A4761CD /* iotaWalletUITests */,
+				D5D185367FBB3AAE41D341C7 /* Pods */,
+				C6679B3BCAC742D9A6A13DC5 /* nodejs-project */,
+				42679A0E830D4AD2A0F60146 /* builtin_modules */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		404F05F3C6DB71501EBCD748C98682BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B844D632C9BC3C7BED60CFEE0A6A52B7 /* libRNRandomBytes.a */,
+				CB8F2AF42095E41E0071A30B /* libRNRandomBytes-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456A0E130E7E606051259696F2828C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F418B6A7C158123D272588757B8B5E /* libKCKeepAwake.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4833D34F12242CF9C19E56F28DD2ECD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADFB0323609A2A5F0E73076170CC73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51ACD9C11FA83997FC06ADD580604E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF9D268952C91DACBF8032E0718926 /* libReactNativeFingerprintScanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F1A29AC9936E37D7CCA793B573FE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D059D1D71ADA6B83851AE04A4B1989 /* libBugsnagReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA47AA1F43DF8347817216AFD81E3B8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				67EDAC9474CCB127E47DDAA9D0A40C1A /* buildnumber.xcconfig */,
+				FC0C813F80FE9398560C13E6CC59C201 /* iotaWallet-debug-config.xcconfig */,
+				A402C8584E5EA99F404511B6FE64D661 /* iotaWallet-release-config.xcconfig */,
+				5C64D2219E425907A910B0F3A28CD9F1 /* iotaWalletTests-debug-config.xcconfig */,
+				40E70A189B0FFF62EE8AE0E04401F815 /* iotaWalletTests-release-config.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		60159085217BA51F00B746A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60159089217BA51F00B746A8 /* libRealmReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601BFCE920C367300097D329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601BFCED20C367310097D329 /* libRNShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601BFD5D20C39A560097D329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601BFD6120C39A580097D329 /* libRNViewShot.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6056CF5020827D2F0006A2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6056CF5420827D2F0006A2F3 /* libRNCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608BEBE523C295AB00D0C409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608BEC1C23C295AC00D0C409 /* libRNCWebView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60A097C62110BDE7008180C9 /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+				6079ACDD2110BE6B005B21CB /* Argon2Core.swift */,
+				6079ACDF2110DD2C005B21CB /* Argon2IOS.swift */,
+				6079AD4D2110E752005B21CB /* Argon2IOS.m */,
+			);
+			path = Argon2;
+			sourceTree = "<group>";
+		};
+		60A1C1F7242E9FF50037E678 /* NativeUtils */ = {
+			isa = PBXGroup;
+			children = (
+				60A1C243242EA02E0037E678 /* NativeUtilsIOS.swift */,
+				60A1C29E242EBD500037E678 /* NativeUtilsIOS.m */,
+			);
+			path = NativeUtils;
+			sourceTree = "<group>";
+		};
+		60F7E3AF2125EAE7005355C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F7E3B32125EAE7005355C7 /* libRNDocumentPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C07637C2BD02779C4E072737C53A2E3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */,
+				CB5577D0219F221E00B698BF /* LottieReactNative.xcodeproj */,
+				CBEA4C8B2149481F007DA583 /* ReactNativeNavigation.xcodeproj */,
+				60F7E3AE2125EAE7005355C7 /* RNDocumentPicker.xcodeproj */,
+				CB305EFE21185EEC00657575 /* RNFetchBlob.xcodeproj */,
+				601BFD5C20C39A560097D329 /* RNViewShot.xcodeproj */,
+				601BFCE820C367300097D329 /* RNShare.xcodeproj */,
+				CBC214E420CE82DC005D8ACB /* RNReactNativeHapticFeedback.xcodeproj */,
+				CB6626ED2085056C00651519 /* SplashScreen.xcodeproj */,
+				6056CF4F20827D2F0006A2F3 /* RNCamera.xcodeproj */,
+				FFB7466768C43C0F61CFB10138358A32 /* ART.xcodeproj */,
+				5BC0CFE5E7DFF31220E78B818DA00C4B /* BugsnagReactNative.xcodeproj */,
+				9E17389EF3AB0C14C6843EF1892D81D4 /* KCKeepAwake.xcodeproj */,
+				B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */,
+				DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */,
+				F06C37C0B9522995FB8FC4AACEE1A4A1 /* RCTActionSheet.xcodeproj */,
+				C76D226F8C33DAB67AA9C4D76FCA89C2 /* RCTAnimation.xcodeproj */,
+				79A46F4458348360C0DFE21018DAAF14 /* RCTGeolocation.xcodeproj */,
+				DD581453BAAEDFD13B05710E1CA0B128 /* RCTImage.xcodeproj */,
+				2804A8AFECB29F611FC6B2AC4B0C378F /* RCTLinking.xcodeproj */,
+				9EE76A96BDAFEB3F2332A2982168E1CE /* RCTNetwork.xcodeproj */,
+				AA7E2CA57E62FCA5FD7C3C38C40F7603 /* RCTSettings.xcodeproj */,
+				679A4B0BB6333961124F2288316630DD /* RCTText.xcodeproj */,
+				F2FA8FCAB678228017DD1EBC70517E3F /* RCTVibration.xcodeproj */,
+				BC3F9601D8757C3A48CF2AD9CF58F3EA /* RCTWebSocket.xcodeproj */,
+				C39F11B2595A5CFD8F2D51D3B914CD41 /* RNDeviceInfo.xcodeproj */,
+				8B49115E102EED64D1B7D7AC047F1ABF /* RNExitApp.xcodeproj */,
+				6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */,
+				DE78092CD0C5D3A0316145EFC00548CB /* RNIsDeviceRooted.xcodeproj */,
+				205C47BA61DC4D6733E748712B4E50C6 /* RNKeychain.xcodeproj */,
+				1380447C6001F40A66D38FBD8AFC3309 /* RNPrint.xcodeproj */,
+				AB682616086B06AFA962D8B5F1DCAB78 /* RNRandomBytes.xcodeproj */,
+				FF6707891F5797B0CC78F1267EB8F1A2 /* RNSVG.xcodeproj */,
+				2D84DC61092C2CB09498AB83CAA9B91F /* RNSecureRandom.xcodeproj */,
+				78457F3624D0D3C241289BCB545E290E /* ReactNativeFingerprintScanner.xcodeproj */,
+				68D1880393EB486F98F90D04 /* RNNodeJsMobile.xcodeproj */,
+				6BA32972BAD24F7ABBA45866 /* RealmReact.xcodeproj */,
+				9B7786DA8E9F4FBCA1CD37AF /* QrCode.xcodeproj */,
+				7C67701E97DD418C82AE0819 /* RNReactNativeQrcodeNative.xcodeproj */,
+				608BEBE423C295AB00D0C409 /* RNCWebView.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6D29DDBF122FCF314A24C85D1B55D2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5562C207BA79E00BA0A7F /* Lottie.framework */,
+				667F57494F99C69927244B789F08BA39 /* Lottie.framework */,
+				CBC5562E207BA79E00BA0A7F /* Lottie.framework */,
+				263220B07467A090937F126D1EAD4142 /* libLottie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717A70D826DDEDFAF811A89C73FA814A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CB0B55DE702DF718E5FD31D6EF66FE /* libRCTSettings.a */,
+				9FEDECF54B08D02E4DA237B29BFA7335 /* libRCTSettings-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADF7BC563A33720DC2F2399EFC83064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D373EB5A6D14212CD152A952A67FEB62 /* libRNKeychain.a */,
+				605C6A8E226AE8290036E480 /* libRNKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9587AF1D58A6A266E24B67481F9ED9F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB54CCFD21261E42001F1630 /* CatCrypto.framework */,
+				A7757FB00CE594F07671643433203090 /* Pods_iotaWallet.framework */,
+				73DE2893421CB79475DA9ABBFC68EF31 /* libPods-iotaWallet-tvOS.a */,
+				75741D422FC234226BD97F79574086A2 /* libPods-iotaWallet-tvOSTests.a */,
+				8194F08C899A4B07E4F0D7C10D8A04CE /* Pods_iotaWalletTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF623E71CC4C2FBC8B9F3F30ACE9FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85B009F6629191C78D363005BC5C04B /* libART.a */,
+				CF4DEBD89AF3703CA874122582CB0018 /* libART-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64BD53CDE84E513E2B4B7FC97BC39C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73D536AB3A4FAFD8602D41987D9E324F /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A8596B2605B2CC07FAC1A5D3842894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				395BD568B613770643095434D5F46E0A /* iotaWallet-tvOS.app */,
+				C1445DF81443C91724B6A1603FE7B121 /* iotaWallet-tvOSTests.xctest */,
+				2C5A946EA9126EDE841BD16907761375 /* iotaWallet.app */,
+				DDB64CC419556333154E3FC1635752BD /* iotaWalletTests.xctest */,
+				83245F96160937A7C8F0A1D783E30B0C /* iotaWalletUITests.xctest */,
+				CBEF619F59D7EBCE4196DF4E7471DFA3 /* libRNFS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B500B74394DFA466050CC553274A3B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFDF2800ED208F6574931A64651435D /* libRNExitApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8281C75D3DFC104F5853D66C7BE9F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4319E47FD77B4B10F18A0CCAA9E7CDB1 /* libRCTText.a */,
+				0F586ACB1B483D19A73242AC34185FAD /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8EB94406D3066C2A0007CDAA4C6E24C /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5565A207BA79E00BA0A7F /* libReact.a */,
+				B655981D53B5AE618EDBD102EA41BF51 /* libReact.a */,
+				CBC5565C207BA79E00BA0A7F /* libyoga.a */,
+				1C39C72B0107763251937F909D4CE6A1 /* libyoga.a */,
+				CBC5565E207BA79E00BA0A7F /* libcxxreact.a */,
+				9D772B812DB6C05ECF25775FCAB7E002 /* libcxxreact.a */,
+				CB967ED8214153CC00F561EB /* libjsinspector.a */,
+				CB967EDA214153CC00F561EB /* libjsinspector-tvOS.a */,
+				CBC55662207BA79E00BA0A7F /* libthird-party.a */,
+				A449CDAA92C2C98ABDF0AE5690864303 /* libthird-party.a */,
+				9DBC3C8E34A01D88134F4A69AA32625F /* libdouble-conversion.a */,
+				CBC55664207BA79E00BA0A7F /* libdouble-conversion.a */,
+				604C78192228834200D2751F /* libjsi.a */,
+				604C781B2228834200D2751F /* libjsiexecutor.a */,
+				604C781D2228834200D2751F /* libjsi-tvOS.a */,
+				604C781F2228834200D2751F /* libjsiexecutor-tvOS.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		BBAF582D2B2BD1070BC430D9655E1316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A65DE849C3D3C9799E3B05D172685 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50DC7D36BBD0DBAB3399175FC4DAE94 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				48E60D4ABEBFCB6EC7FCE9538A5FF83F /* libRNSVG.a */,
+				6D68D9CD64CE2AD239A1BABD810A4043 /* libRNSecureRandom.a */,
+				BDAF54583946132D35A957921197D3E8 /* libReactNativeFingerprintScanner.a */,
+				456BB4607FD94AC0BA37A7C9 /* libRNFastCrypto.a */,
+				F8482B7D9E05463F9505DCB4 /* libRNNodeJsMobile.a */,
+				2CA53E63FD004D9AAEAE93E3 /* libRealmReact.a */,
+				B090D59389CE4890A17E787A /* libQRCode.a */,
+				0CF5B6434CE94452810783E0 /* libSigning.a */,
+				B7F1AAFBAC3F4CD7A8A4BD4A /* libRNReactNativeQrcodeNative.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CB2FA707221D8CC200EADBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB305EFF21185EEC00657575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB305F0321185EEC00657575 /* libRNFetchBlob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB305F7221185F3400657575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB305F7621185F3400657575 /* libRNNodeJsMobile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5577D1219F221E00B698BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5577D5219F221E00B698BF /* libLottieReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB563C0721C1435B00AE4437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB563C0B21C1435B00AE4437 /* libQRCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6626EE2085056C00651519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6626F42085056C00651519 /* libSplashScreen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB800A6C221F946F004B92BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB800A70221F946F004B92BD /* libRNReactNativeQrcodeNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB86627A209F36CA00C026E3 /* EntangledIOS */ = {
+			isa = PBXGroup;
+			children = (
+				60B4137B2411C5E000B56423 /* EntangledKit.framework */,
+				CB86627D209F36CA00C026E3 /* EntangledIOS.m */,
+				CB86627F209F36CA00C026E3 /* EntangledIOS.h */,
+				608E4489221B228A005CCFB1 /* EntangledIOSUtils.m */,
+				608E44D6221B229A005CCFB1 /* EntangledIOSUtils.h */,
+			);
+			path = EntangledIOS;
+			sourceTree = "<group>";
+		};
+		CBC214E520CE82DC005D8ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC214E920CE82DC005D8ACB /* libRNReactNativeHapticFeedback.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEA4C8C2149481F007DA583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEA4C912149481F007DA583 /* libReactNativeNavigation.a */,
+				CBEA4C932149481F007DA583 /* ReactNativeNavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4DA02F315C59DE24560F554539A682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C983FC068C0763B06409D31B23F70974 /* libRNSecureRandom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE40EE8EBF39CF10BC047D98C324410F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35204E4DC183F014F73FABC7F779792B /* libRNFS.a */,
+				CBC5566E207BA79E00BA0A7F /* libRNFS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D066F507CD080500B4ADC155EBDCAEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE6816AFF1D8279218D82AD1FFCE5B /* libRCTNetwork.a */,
+				20E2A76312FA9646D8831AC163B1347E /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3289A9220C5B1A33A6094B59D944550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2F7585D01863B8EC256EC6A922693 /* libRCTImage.a */,
+				E75E2AC8AE8B6798A4135FCB59B0D2EB /* libRCTImage-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D185367FBB3AAE41D341C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C69E567EC4B020F5822FC7 /* Pods-iotaWallet-tvOS.debug.xcconfig */,
+				93AF27DC4948C2C2EF41D1FA /* Pods-iotaWallet-tvOS.release.xcconfig */,
+				F5456B99539E3DFAFBC86D23 /* Pods-iotaWallet-tvOSTests.debug.xcconfig */,
+				D5BA67ADCF3A3E3973DDF764 /* Pods-iotaWallet-tvOSTests.release.xcconfig */,
+				E6F6FA288673AF4B77D46F40 /* Pods-iotaWallet.debug.xcconfig */,
+				78C6D5537D50D3BB1309E66D /* Pods-iotaWallet.release.xcconfig */,
+				4A1AD780612191B27C08BE60 /* Pods-iotaWallet.beta.xcconfig */,
+				A691184951D73974D740D5C9 /* Pods-iotaWallet-tvOS.beta.xcconfig */,
+				902C9F38A0409620B18AE0E5 /* Pods-iotaWallet-tvOSTests.beta.xcconfig */,
+				B6B654F5912BD628CCC2DF7F /* Pods-iotaWalletTests.debug.xcconfig */,
+				4108C226FFB3C8CA7E6839ED /* Pods-iotaWalletTests.release.xcconfig */,
+				3208603ADA6CAA4081FC0980 /* Pods-iotaWalletTests.beta.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8E8A3F5A608143069F7B59C205D415C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD01F1FBF0A65DE7C0418215A512138 /* libRNPrint.a */,
+				9A667C3791869710368CDC79243CD4FF /* RNPrintTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD933FDF72C371158E64AB9B49B85780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52AD4114CBE743BE1FE4BBF929B98CA /* libRNSVG.a */,
+				7452BF78E5A78F49B42D6A6844855B18 /* libRNSVG-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2852D239E26EBC3B0FDF14796F09044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38822DC4E60A1BDF9DF917E7C1541B3D /* libRCTLinking.a */,
+				DF3D8AEB21F074871C1975441A32E214 /* libRCTLinking-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A4C15555A5061D24DCE7B856718C84 /* iotaWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				4833D34F12242CF9C19E56F28DD2ECD0 /* Supporting Files */,
+				00A81CE60367578E89DC687A3A32D03E /* iotaWalletTests.m */,
+			);
+			path = iotaWalletTests;
+			sourceTree = "<group>";
+		};
+		EAA54CFDD3A644A7FEB765E4C340E9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0431CEEC099BC4CE1F43E0550C4CC291 /* libRNIsDeviceRooted.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3DAB9361CC0BDE3D6B8A4C69547387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF165D1193E4B4962DABF4E7264F91B /* libRCTWebSocket.a */,
+				41ABB0EEDDF4C638791186862B6FCA44 /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4105E831DFAE4418A38F8E9A26B8B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC55639207BA79E00BA0A7F /* libRCTAnimation.a */,
+				BE06912F32A64660367B379A5FA9B59C /* libRCTAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B6F56C5B39768183E212C21E8E213DA /* iotaWallet-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229CB618801D69BFDE51B861A2C58FE2 /* Build configuration list for PBXNativeTarget "iotaWallet-tvOS" */;
+			buildPhases = (
+				58346D29D233956FD8AD6589 /* [CP] Check Pods Manifest.lock */,
+				9289FDA5BF643E6CF6FB97742A554BFA /* Sources */,
+				553CB5E02E5676464BF53656B3C90944 /* Frameworks */,
+				BF58EB11F40804AD5DBB7F844142B92C /* Resources */,
+				1BD7EDA2A9AC2CE93A0870587E20D397 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iotaWallet-tvOS";
+			productName = "iotaWallet-tvOS";
+			productReference = 395BD568B613770643095434D5F46E0A /* iotaWallet-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A16F44D53CE8CFD5085B3A66B82141 /* iotaWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA0D5F0EB15D5F5757C545788EF2CDB /* Build configuration list for PBXNativeTarget "iotaWalletTests" */;
+			buildPhases = (
+				5C36E36590116568CF5849E3 /* [CP] Check Pods Manifest.lock */,
+				C361C063B6547DE82583FABCA4550939 /* Sources */,
+				89D91232D91529099E9186998E61E7D7 /* Frameworks */,
+				8F6FA1D0FA4750EA28804258C2CB6AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iotaWalletTests;
+			productName = iotaWalletTests;
+			productReference = DDB64CC419556333154E3FC1635752BD /* iotaWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4848851A00274CA2FFBE307BAEB5F278 /* iotaWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF130F8FF7E392E4456F812995AD03FD /* Build configuration list for PBXNativeTarget "iotaWallet" */;
+			buildPhases = (
+				C670705588253B9974F1143C /* [CP] Check Pods Manifest.lock */,
+				3A19CAEF0494A213AEB368179B268023 /* Sources */,
+				05D2CE97116646D93A4B9C6E31EB5612 /* Frameworks */,
+				FA2076790B54965291BEF26A75A5EDB5 /* Resources */,
+				76C74A58CB208D79D2DBCF9020787849 /* Bundle React Native code and images */,
+				B59F787FE434CB99F8DA67C59029AF6B /* ShellScript */,
+				92EB94016145B67667F30CE79B21D4D5 /* Embed Frameworks */,
+				C995FCEDE5D946BC9E976B18 /* Build NodeJS Mobile Native Modules */,
+				6F7D336850DB4AC6B0EEF1A0 /* Sign NodeJS Mobile Native Modules */,
+				4762E0BF5D164F65BA028503 /* Remove NodeJS Mobile Framework Simulator Strips */,
+				F48D073DB4FD998CCE6DB8DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFFDF4C230ACCF800CBC76A /* PBXTargetDependency */,
+				6020D31D21A5065300159E5A /* PBXTargetDependency */,
+				CBDE11BE21AEFFFE00CA1909 /* PBXTargetDependency */,
+			);
+			name = iotaWallet;
+			productName = "Hello World";
+			productReference = 2C5A946EA9126EDE841BD16907761375 /* iotaWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8607A222C6B67AC6A2A6E24A446EB268 /* iotaWallet-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287E632BA696962784937BF4BE84857D /* Build configuration list for PBXNativeTarget "iotaWallet-tvOSTests" */;
+			buildPhases = (
+				1C8C88AE59968844F0D8C59F /* [CP] Check Pods Manifest.lock */,
+				20A48ED510B8A5A031F25EB34DD39B95 /* Sources */,
+				17A6B85936E519099FAD248D873A5E85 /* Frameworks */,
+				7B8DF15560086469F41BFCA408944F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482BD5E847E669FCCD5819D2879B3184 /* PBXTargetDependency */,
+			);
+			name = "iotaWallet-tvOSTests";
+			productName = "iotaWallet-tvOSTests";
+			productReference = C1445DF81443C91724B6A1603FE7B121 /* iotaWallet-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B337D5A007B26D2B5F9D16F7E2662744 /* iotaWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FFB4085BE14D3B9E258601F66FE01E /* Build configuration list for PBXNativeTarget "iotaWalletUITests" */;
+			buildPhases = (
+				11075FA1DE5371B6E0DBE7D34FF2F541 /* Sources */,
+				8E6317EA2D08B2557A58B1FB5D9085D4 /* Frameworks */,
+				80B69C4642AB51BA4880C4831D3FF552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE73D60DB7DADA792CE0511FEEF11D44 /* PBXTargetDependency */,
+			);
+			name = iotaWalletUITests;
+			productName = iotaWalletUITests;
+			productReference = 83245F96160937A7C8F0A1D783E30B0C /* iotaWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC6F77FBF455B92FBB736B0E5DE8E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 920;
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = "IOTA Foundation";
+				TargetAttributes = {
+					1B6F56C5B39768183E212C21E8E213DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					30A16F44D53CE8CFD5085B3A66B82141 = {
+						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Manual;
+						TestTargetID = 4848851A00274CA2FFBE307BAEB5F278;
+					};
+					4848851A00274CA2FFBE307BAEB5F278 = {
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					8607A222C6B67AC6A2A6E24A446EB268 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 1B6F56C5B39768183E212C21E8E213DA;
+					};
+					B337D5A007B26D2B5F9D16F7E2662744 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+						TestTargetID = 4848851A00274CA2FFBE307BAEB5F278;
+					};
+				};
+			};
+			buildConfigurationList = A3BD3B37F8B3D2A63C098B217B362204 /* Build configuration list for PBXProject "iotaWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				fr,
+				de,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				es,
+				"es-419",
+				it,
+				ko,
+				nl,
+				"pt-BR",
+				"pt-PT",
+				da,
+				fi,
+				nb,
+				el,
+				hi,
+				he,
+				id,
+				ar,
+				tr,
+				sv,
+				ru,
+				pl,
+				ro,
+				sl,
+				ur,
+				lv,
+				Base,
+				en,
+				cs,
+				sk,
+			);
+			mainGroup = 3FA554CD0D5061D20FBDC112457CF26E;
+			productRefGroup = A6A8596B2605B2CC07FAC1A5D3842894 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9AF623E71CC4C2FBC8B9F3F30ACE9FE9 /* Products */;
+					ProjectRef = FFB7466768C43C0F61CFB10138358A32 /* ART.xcodeproj */;
+				},
+				{
+					ProductGroup = 59F1A29AC9936E37D7CCA793B573FE14 /* Products */;
+					ProjectRef = 5BC0CFE5E7DFF31220E78B818DA00C4B /* BugsnagReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = CB2FA707221D8CC200EADBC9 /* Products */;
+					ProjectRef = CB2FA6D7221D0CAE00EADBC9 /* EntangledSigning.xcodeproj */;
+				},
+				{
+					ProductGroup = 456A0E130E7E606051259696F2828C37 /* Products */;
+					ProjectRef = 9E17389EF3AB0C14C6843EF1892D81D4 /* KCKeepAwake.xcodeproj */;
+				},
+				{
+					ProductGroup = 6D29DDBF122FCF314A24C85D1B55D2C2 /* Products */;
+					ProjectRef = B8B9BB680BF96F04B35C8CF2291F3DF7 /* Lottie.xcodeproj */;
+				},
+				{
+					ProductGroup = CB5577D1219F221E00B698BF /* Products */;
+					ProjectRef = CB5577D0219F221E00B698BF /* LottieReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 9587AF1D58A6A266E24B67481F9ED9F2 /* Products */;
+					ProjectRef = DA959792AD9A5C3642835114D50DE868 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = CB563C0721C1435B00AE4437 /* Products */;
+					ProjectRef = 9B7786DA8E9F4FBCA1CD37AF /* QrCode.xcodeproj */;
+				},
+				{
+					ProductGroup = 0442208DB98A7FEC39027C12FBDE05E9 /* Products */;
+					ProjectRef = F06C37C0B9522995FB8FC4AACEE1A4A1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = F4105E831DFAE4418A38F8E9A26B8B15 /* Products */;
+					ProjectRef = C76D226F8C33DAB67AA9C4D76FCA89C2 /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = A64BD53CDE84E513E2B4B7FC97BC39C9 /* Products */;
+					ProjectRef = 79A46F4458348360C0DFE21018DAAF14 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = D3289A9220C5B1A33A6094B59D944550 /* Products */;
+					ProjectRef = DD581453BAAEDFD13B05710E1CA0B128 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = E2852D239E26EBC3B0FDF14796F09044 /* Products */;
+					ProjectRef = 2804A8AFECB29F611FC6B2AC4B0C378F /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = D066F507CD080500B4ADC155EBDCAEE0 /* Products */;
+					ProjectRef = 9EE76A96BDAFEB3F2332A2982168E1CE /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 717A70D826DDEDFAF811A89C73FA814A /* Products */;
+					ProjectRef = AA7E2CA57E62FCA5FD7C3C38C40F7603 /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = B8281C75D3DFC104F5853D66C7BE9F84 /* Products */;
+					ProjectRef = 679A4B0BB6333961124F2288316630DD /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = BBAF582D2B2BD1070BC430D9655E1316 /* Products */;
+					ProjectRef = F2FA8FCAB678228017DD1EBC70517E3F /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = ED3DAB9361CC0BDE3D6B8A4C69547387 /* Products */;
+					ProjectRef = BC3F9601D8757C3A48CF2AD9CF58F3EA /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = B8EB94406D3066C2A0007CDAA4C6E24C /* Recovered References */;
+					ProjectRef = 33AC314FF1C9CE4F19E8E899E79675B4 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 51ACD9C11FA83997FC06ADD580604E62 /* Products */;
+					ProjectRef = 78457F3624D0D3C241289BCB545E290E /* ReactNativeFingerprintScanner.xcodeproj */;
+				},
+				{
+					ProductGroup = CBEA4C8C2149481F007DA583 /* Products */;
+					ProjectRef = CBEA4C8B2149481F007DA583 /* ReactNativeNavigation.xcodeproj */;
+				},
+				{
+					ProductGroup = 60159085217BA51F00B746A8 /* Products */;
+					ProjectRef = 6BA32972BAD24F7ABBA45866 /* RealmReact.xcodeproj */;
+				},
+				{
+					ProductGroup = 6056CF5020827D2F0006A2F3 /* Products */;
+					ProjectRef = 6056CF4F20827D2F0006A2F3 /* RNCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 608BEBE523C295AB00D0C409 /* Products */;
+					ProjectRef = 608BEBE423C295AB00D0C409 /* RNCWebView.xcodeproj */;
+				},
+				{
+					ProductGroup = 2FE9795D77E1EEB677D548CDD97FF948 /* Products */;
+					ProjectRef = C39F11B2595A5CFD8F2D51D3B914CD41 /* RNDeviceInfo.xcodeproj */;
+				},
+				{
+					ProductGroup = 60F7E3AF2125EAE7005355C7 /* Products */;
+					ProjectRef = 60F7E3AE2125EAE7005355C7 /* RNDocumentPicker.xcodeproj */;
+				},
+				{
+					ProductGroup = B500B74394DFA466050CC553274A3B29 /* Products */;
+					ProjectRef = 8B49115E102EED64D1B7D7AC047F1ABF /* RNExitApp.xcodeproj */;
+				},
+				{
+					ProductGroup = CB305EFF21185EEC00657575 /* Products */;
+					ProjectRef = CB305EFE21185EEC00657575 /* RNFetchBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = CE40EE8EBF39CF10BC047D98C324410F /* Products */;
+					ProjectRef = 6F63CB3492A71A3A73B8764893BE0F6F /* RNFS.xcodeproj */;
+				},
+				{
+					ProductGroup = EAA54CFDD3A644A7FEB765E4C340E9D9 /* Products */;
+					ProjectRef = DE78092CD0C5D3A0316145EFC00548CB /* RNIsDeviceRooted.xcodeproj */;
+				},
+				{
+					ProductGroup = 8ADF7BC563A33720DC2F2399EFC83064 /* Products */;
+					ProjectRef = 205C47BA61DC4D6733E748712B4E50C6 /* RNKeychain.xcodeproj */;
+				},
+				{
+					ProductGroup = CB305F7221185F3400657575 /* Products */;
+					ProjectRef = 68D1880393EB486F98F90D04 /* RNNodeJsMobile.xcodeproj */;
+				},
+				{
+					ProductGroup = D8E8A3F5A608143069F7B59C205D415C /* Products */;
+					ProjectRef = 1380447C6001F40A66D38FBD8AFC3309 /* RNPrint.xcodeproj */;
+				},
+				{
+					ProductGroup = 404F05F3C6DB71501EBCD748C98682BF /* Products */;
+					ProjectRef = AB682616086B06AFA962D8B5F1DCAB78 /* RNRandomBytes.xcodeproj */;
+				},
+				{
+					ProductGroup = CBC214E520CE82DC005D8ACB /* Products */;
+					ProjectRef = CBC214E420CE82DC005D8ACB /* RNReactNativeHapticFeedback.xcodeproj */;
+				},
+				{
+					ProductGroup = CB800A6C221F946F004B92BD /* Products */;
+					ProjectRef = 7C67701E97DD418C82AE0819 /* RNReactNativeQrcodeNative.xcodeproj */;
+				},
+				{
+					ProductGroup = CC4DA02F315C59DE24560F554539A682 /* Products */;
+					ProjectRef = 2D84DC61092C2CB09498AB83CAA9B91F /* RNSecureRandom.xcodeproj */;
+				},
+				{
+					ProductGroup = 601BFCE920C367300097D329 /* Products */;
+					ProjectRef = 601BFCE820C367300097D329 /* RNShare.xcodeproj */;
+				},
+				{
+					ProductGroup = DD933FDF72C371158E64AB9B49B85780 /* Products */;
+					ProjectRef = FF6707891F5797B0CC78F1267EB8F1A2 /* RNSVG.xcodeproj */;
+				},
+				{
+					ProductGroup = 601BFD5D20C39A560097D329 /* Products */;
+					ProjectRef = 601BFD5C20C39A560097D329 /* RNViewShot.xcodeproj */;
+				},
+				{
+					ProductGroup = CB6626EE2085056C00651519 /* Products */;
+					ProjectRef = CB6626ED2085056C00651519 /* SplashScreen.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4848851A00274CA2FFBE307BAEB5F278 /* iotaWallet */,
+				30A16F44D53CE8CFD5085B3A66B82141 /* iotaWalletTests */,
+				1B6F56C5B39768183E212C21E8E213DA /* iotaWallet-tvOS */,
+				8607A222C6B67AC6A2A6E24A446EB268 /* iotaWallet-tvOSTests */,
+				B337D5A007B26D2B5F9D16F7E2662744 /* iotaWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0431CEEC099BC4CE1F43E0550C4CC291 /* libRNIsDeviceRooted.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNIsDeviceRooted.a;
+			remoteRef = C9772B939B4E8110FBC5F859B3227154 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0DF165D1193E4B4962DABF4E7264F91B /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 332664C4BF1AE19847F504D8C9C4CD04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F586ACB1B483D19A73242AC34185FAD /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = 775CC7B8AD67A515B51E9A77C07B744D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19CB0B55DE702DF718E5FD31D6EF66FE /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = 6856A093BA67FAE8F7467903505626C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C39C72B0107763251937F909D4CE6A1 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 1A0E14698EE7A4322A9A9B5052F4D0E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1FFDF2800ED208F6574931A64651435D /* libRNExitApp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNExitApp.a;
+			remoteRef = 38AFE775C706DBBC97CB50A593645D49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20E2A76312FA9646D8831AC163B1347E /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = 9C68E6DA3B9F7593ED48E775238CCCE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		263220B07467A090937F126D1EAD4142 /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = EAF9F7116A758338A37BB92469F8D297 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A9A65DE849C3D3C9799E3B05D172685 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = BB0F29560ABE8B2A22B932FA4F9EB13B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35204E4DC183F014F73FABC7F779792B /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = 759478F697B6B0746DB845F6D5691AD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38822DC4E60A1BDF9DF917E7C1541B3D /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = AE1E283F1BF8C962C215E54FF5A59C24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41ABB0EEDDF4C638791186862B6FCA44 /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = 09FE410FB8091F5F045ED9DDE13DC25E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4319E47FD77B4B10F18A0CCAA9E7CDB1 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 3574B82CD6B55B4ECA9A60938811F5E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E9F4916217D4EC545458FBE5790E41D /* libRNDeviceInfo-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNDeviceInfo-tvOS.a";
+			remoteRef = 5A109CA5CC18A16B6414EEC4BBD87090 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60159089217BA51F00B746A8 /* libRealmReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRealmReact.a;
+			remoteRef = 60159088217BA51F00B746A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		601BFCED20C367310097D329 /* libRNShare.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNShare.a;
+			remoteRef = 601BFCEC20C367310097D329 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		601BFD6120C39A580097D329 /* libRNViewShot.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNViewShot.a;
+			remoteRef = 601BFD6020C39A580097D329 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		604C78192228834200D2751F /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = 604C78182228834200D2751F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		604C781B2228834200D2751F /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = 604C781A2228834200D2751F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		604C781D2228834200D2751F /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = 604C781C2228834200D2751F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		604C781F2228834200D2751F /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = 604C781E2228834200D2751F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6056CF5420827D2F0006A2F3 /* libRNCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCamera.a;
+			remoteRef = 6056CF5320827D2F0006A2F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		605C6A8E226AE8290036E480 /* libRNKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNKeychain.a;
+			remoteRef = 605C6A8D226AE8290036E480 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		608BEC1C23C295AC00D0C409 /* libRNCWebView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCWebView.a;
+			remoteRef = 608BEC1B23C295AC00D0C409 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60F7E3B32125EAE7005355C7 /* libRNDocumentPicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNDocumentPicker.a;
+			remoteRef = 60F7E3B22125EAE7005355C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		667F57494F99C69927244B789F08BA39 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = CD481D22B9AD23CF851BD7CA4F49E762 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D68D9CD64CE2AD239A1BABD810A4043 /* libRNSecureRandom.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSecureRandom.a;
+			remoteRef = 896DF047E1C2AB724B776DE78051C2CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73D536AB3A4FAFD8602D41987D9E324F /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = 67F735F37D9C96FFCC1469292012988C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73DE2893421CB79475DA9ABBFC68EF31 /* libPods-iotaWallet-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-iotaWallet-tvOS.a";
+			remoteRef = 711E35C224595B0412CF470CDBEF29B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7452BF78E5A78F49B42D6A6844855B18 /* libRNSVG-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNSVG-tvOS.a";
+			remoteRef = A9F53FC6236324E5330CA31A17570E7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75741D422FC234226BD97F79574086A2 /* libPods-iotaWallet-tvOSTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-iotaWallet-tvOSTests.a";
+			remoteRef = FA24DAB4979B0799DCE61A5F32D99523 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CD2F7585D01863B8EC256EC6A922693 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = EFC046C4FF8A48212FB2D5FCA41020D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8194F08C899A4B07E4F0D7C10D8A04CE /* Pods_iotaWalletTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_iotaWalletTests.framework;
+			remoteRef = 5883AA054AC88EAA5EFB34040EA713B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A667C3791869710368CDC79243CD4FF /* RNPrintTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNPrintTests.xctest;
+			remoteRef = 7D78B19441B818F349C13AAD1E712ACC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D772B812DB6C05ECF25775FCAB7E002 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = C5DB17B47077C54B8CBA62D8E21D3C43 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9DBC3C8E34A01D88134F4A69AA32625F /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 91EE908523E2FCEF5CE1B08441483CDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9FEDECF54B08D02E4DA237B29BFA7335 /* libRCTSettings-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTSettings-tvOS.a";
+			remoteRef = 02EA84673DE704F9C1AF959030D4D4BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A449CDAA92C2C98ABDF0AE5690864303 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 5DF1012D7DA4F139622252CC164F122C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7757FB00CE594F07671643433203090 /* Pods_iotaWallet.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_iotaWallet.framework;
+			remoteRef = CD9F8E5E7CF2056A65FA532392457FA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A85B009F6629191C78D363005BC5C04B /* libART.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libART.a;
+			remoteRef = 4D28DBFF1C1827558620F9610F7E930B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B655981D53B5AE618EDBD102EA41BF51 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 01E9A97EB148F57A77EB8C51C72DF720 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B844D632C9BC3C7BED60CFEE0A6A52B7 /* libRNRandomBytes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNRandomBytes.a;
+			remoteRef = 2FC4A20B76D0682725A7FD3A48E950D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAF9D268952C91DACBF8032E0718926 /* libReactNativeFingerprintScanner.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeFingerprintScanner.a;
+			remoteRef = C64A41DFA3DFB47F30EDDEB6A2481B24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE06912F32A64660367B379A5FA9B59C /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 77988E9E486F13DB1441A107E9B8BE7D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C983FC068C0763B06409D31B23F70974 /* libRNSecureRandom.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSecureRandom.a;
+			remoteRef = AECD31E3539474478B838BE6DD5AB37C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9F4F16E746AE853607E2E4D649F9E40 /* libRNDeviceInfo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNDeviceInfo.a;
+			remoteRef = 53DB1F47FFBD018460D6B3F399D77096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB305F0321185EEC00657575 /* libRNFetchBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFetchBlob.a;
+			remoteRef = CB305F0221185EEC00657575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB305F7621185F3400657575 /* libRNNodeJsMobile.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNNodeJsMobile.a;
+			remoteRef = CB305F7521185F3400657575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB54CCFD21261E42001F1630 /* CatCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CatCrypto.framework;
+			remoteRef = CB54CCFC21261E42001F1630 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5577D5219F221E00B698BF /* libLottieReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottieReactNative.a;
+			remoteRef = CB5577D4219F221E00B698BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB563C0B21C1435B00AE4437 /* libQRCode.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQRCode.a;
+			remoteRef = CB563C0A21C1435B00AE4437 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB6626F42085056C00651519 /* libSplashScreen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSplashScreen.a;
+			remoteRef = CB6626F32085056C00651519 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB800A70221F946F004B92BD /* libRNReactNativeQrcodeNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNReactNativeQrcodeNative.a;
+			remoteRef = CB800A6F221F946F004B92BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB8F2AF42095E41E0071A30B /* libRNRandomBytes-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNRandomBytes-tvOS.a";
+			remoteRef = CB8F2AF32095E41E0071A30B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB967ED8214153CC00F561EB /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = CB967ED7214153CC00F561EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB967EDA214153CC00F561EB /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = CB967ED9214153CC00F561EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC214E920CE82DC005D8ACB /* libRNReactNativeHapticFeedback.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNReactNativeHapticFeedback.a;
+			remoteRef = CBC214E820CE82DC005D8ACB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5562C207BA79E00BA0A7F /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = CBC5562B207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5562E207BA79E00BA0A7F /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = CBC5562D207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC55639207BA79E00BA0A7F /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = CBC55638207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5565A207BA79E00BA0A7F /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = CBC55659207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5565C207BA79E00BA0A7F /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = CBC5565B207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5565E207BA79E00BA0A7F /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = CBC5565D207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC55662207BA79E00BA0A7F /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = CBC55661207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC55664207BA79E00BA0A7F /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = CBC55663207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBC5566E207BA79E00BA0A7F /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = CBC5566D207BA79E00BA0A7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBEA4C912149481F007DA583 /* libReactNativeNavigation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeNavigation.a;
+			remoteRef = CBEA4C902149481F007DA583 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBEA4C932149481F007DA583 /* ReactNativeNavigationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactNativeNavigationTests.xctest;
+			remoteRef = CBEA4C922149481F007DA583 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBEF619F59D7EBCE4196DF4E7471DFA3 /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = E1B37F619C11EA96BF3D3EF5382A8D08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF4DEBD89AF3703CA874122582CB0018 /* libART-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libART-tvOS.a";
+			remoteRef = 5A69F80327CBC8DCFAC6DDBEC2E353E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D373EB5A6D14212CD152A952A67FEB62 /* libRNKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNKeychain.a;
+			remoteRef = 52FD8EB486138CC4128FC9CA61B5CE40 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D52AD4114CBE743BE1FE4BBF929B98CA /* libRNSVG.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSVG.a;
+			remoteRef = 13042E5B4074EDAF295116B369C5720D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9D059D1D71ADA6B83851AE04A4B1989 /* libBugsnagReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBugsnagReactNative.a;
+			remoteRef = 7D4677BF89393B2A390B1DA255172739 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAD01F1FBF0A65DE7C0418215A512138 /* libRNPrint.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNPrint.a;
+			remoteRef = 38EDCA31D16E3CD01DBD8999EBEA81FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF3D8AEB21F074871C1975441A32E214 /* libRCTLinking-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTLinking-tvOS.a";
+			remoteRef = BFF2DE68DC51E02575350E595BE05544 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DE6816AFF1D8279218D82AD1FFCE5B /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 9CA17388BD86A06261973A87CA89A2B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E329CD2AEA74CC4A8A6F37DBBEF1EA5E /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = EDE032656EFB8B4603FCB01A05A9F031 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4F418B6A7C158123D272588757B8B5E /* libKCKeepAwake.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKCKeepAwake.a;
+			remoteRef = D76A2AA2859385389AC38602086305F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E75E2AC8AE8B6798A4135FCB59B0D2EB /* libRCTImage-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTImage-tvOS.a";
+			remoteRef = 07DD23F296417D4BA008AE2ABBCB6EBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8DF15560086469F41BFCA408944F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B69C4642AB51BA4880C4831D3FF552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6FA1D0FA4750EA28804258C2CB6AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF58EB11F40804AD5DBB7F844142B92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAE8ABE8DEB4C2EB82EE79A3A5230C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2076790B54965291BEF26A75A5EDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D44899635E65A34FCEAC3EA412BE26 /* Images.xcassets in Resources */,
+				CBA5F52620CAAB2A00774D4B /* SourceCodePro-Medium.ttf in Resources */,
+				CB98FB9620A0A5BB0047877B /* SourceSansPro-Light.ttf in Resources */,
+				CB63E7A5218B544E0084CBFD /* Icons.ttf in Resources */,
+				CB61A46620B89E3B004088AA /* SourceSansPro-SemiBold.ttf in Resources */,
+				29169BFF0B0644DA1F501101B010A604 /* InfoPlist.strings in Resources */,
+				29E9C75A4A87FFC827469A3CFB2D3C89 /* Launch Screen.storyboard in Resources */,
+				CB98FB9420A0A5BB0047877B /* SourceSansPro-Bold.ttf in Resources */,
+				CB98FB9520A0A5BB0047877B /* SourceSansPro-Regular.ttf in Resources */,
+				F47E436883524D18AB563054 /* nodejs-project in Resources */,
+				D07D1D9D21444F2D88F12F73 /* builtin_modules in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BD7EDA2A9AC2CE93A0870587E20D397 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DEVELOPMENT_BUILD_CONFIGURATIONS=\"+(Debug)\"\nexport NODE_BINARY=node\n../node_modules/react-native-schemes-manager/lib/react-native-xcode.sh";
+		};
+		1C8C88AE59968844F0D8C59F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iotaWallet-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4762E0BF5D164F65BA028503 /* Remove NodeJS Mobile Framework Simulator Strips */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove NodeJS Mobile Framework Simulator Strips";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nset -e\nFRAMEWORK_BINARY_PATH=\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/NodeMobile.framework/NodeMobile\"\nFRAMEWORK_STRIPPED_PATH=\"$FRAMEWORK_BINARY_PATH-strip\"\nif [ \"$PLATFORM_NAME\" != \"iphonesimulator\" ]; then\n  if $(lipo \"$FRAMEWORK_BINARY_PATH\" -verify_arch \"x86_64\") ; then\n    lipo -output \"$FRAMEWORK_STRIPPED_PATH\" -remove \"x86_64\" \"$FRAMEWORK_BINARY_PATH\"\n    rm \"$FRAMEWORK_BINARY_PATH\"\n    mv \"$FRAMEWORK_STRIPPED_PATH\" \"$FRAMEWORK_BINARY_PATH\"\n    echo \"Removed simulator strip from NodeMobile.framework\"\n  fi\nfi\n";
+		};
+		58346D29D233956FD8AD6589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iotaWallet-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C36E36590116568CF5849E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iotaWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7D336850DB4AC6B0EEF1A0 /* Sign NodeJS Mobile Native Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign NodeJS Mobile Native Modules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nset -e\nif [ -z \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then\n# If build native modules preference is not set, look for it in the project's\n#nodejs-assets/BUILD_NATIVE_MODULES.txt file.\nNODEJS_ASSETS_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../nodejs-assets/ && pwd )\"\nPREFERENCE_FILE_PATH=\"$NODEJS_ASSETS_DIR/BUILD_NATIVE_MODULES.txt\"\n  if [ -f \"$PREFERENCE_FILE_PATH\" ]; then\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=\"$(cat $PREFERENCE_FILE_PATH | xargs)\"\n  fi\nfi\nif [ -z \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then\n# If build native modules preference is not set, try to find .gyp files\n#to turn it on.\n  gypfiles=($(find \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -type f -name \"*.gyp\"))\n  if [ ${#gypfiles[@]} -gt 0 ]; then\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=1\n  else\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=0\n  fi\nfi\nif [ \"1\" != \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then exit 0; fi\n# Delete object files\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.o\" -type f -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.a\" -type f -delete\n# Create Info.plist for each framework built and loader override.\nPATCH_SCRIPT_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../node_modules/nodejs-mobile-react-native/scripts/ && pwd )\"\nNODEJS_PROJECT_DIR=\"$( cd \"$CODESIGNING_FOLDER_PATH\" && cd nodejs-project/ && pwd )\"\nnode \"$PATCH_SCRIPT_DIR\"/ios-create-plists-and-dlopen-override.js $NODEJS_PROJECT_DIR\n# Embed every resulting .framework in the application and delete them afterwards.\nembed_framework()\n{\n    FRAMEWORK_NAME=\"$(basename \"$1\")\"\n    cp -r \"$1\" \"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n    \n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY --preserve-metadata=identifier,entitlements,flags --timestamp=none \"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/$FRAMEWORK_NAME\"\n}\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.framework\" -type d | while read frmwrk_path; do embed_framework \"$frmwrk_path\"; done\n\n#Delete gyp temporary .deps dependency folders from the project structure.\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -path \"*/.deps/*\" -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \".deps\" -type d -delete\n\n#Delete frameworks from their build paths\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -path \"*/*.framework/*\" -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.framework\" -type d -delete\n";
+		};
+		76C74A58CB208D79D2DBCF9020787849 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		B59F787FE434CB99F8DA67C59029AF6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$CONFIGURATION\" == \"Release\" ]\nthen /usr/bin/perl -pe 's/(BUILD_NUMBER = )(\\d+)/$1.($2+1)/eg' -i buildnumber.xcconfig\nfi\n";
+		};
+		C670705588253B9974F1143C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iotaWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C995FCEDE5D946BC9E976B18 /* Build NodeJS Mobile Native Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build NodeJS Mobile Native Modules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nset -e\nif [ -z \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then\n# If build native modules preference is not set, look for it in the project's\n#nodejs-assets/BUILD_NATIVE_MODULES.txt file.\nNODEJS_ASSETS_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../nodejs-assets/ && pwd )\"\nPREFERENCE_FILE_PATH=\"$NODEJS_ASSETS_DIR/BUILD_NATIVE_MODULES.txt\"\n  if [ -f \"$PREFERENCE_FILE_PATH\" ]; then\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=\"$(cat $PREFERENCE_FILE_PATH | xargs)\"\n  fi\nfi\nif [ -z \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then\n# If build native modules preference is not set, try to find .gyp files\n#to turn it on.\n  gypfiles=($(find \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -type f -name \"*.gyp\"))\n  if [ ${#gypfiles[@]} -gt 0 ]; then\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=1\n  else\n    NODEJS_MOBILE_BUILD_NATIVE_MODULES=0\n  fi\nfi\nif [ \"1\" != \"$NODEJS_MOBILE_BUILD_NATIVE_MODULES\" ]; then exit 0; fi\n# Delete object files that may already come from within the npm package.\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.o\" -type f -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.a\" -type f -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.node\" -type f -delete\n# Delete bundle contents that may be there from previous builds.\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -path \"*/*.node/*\" -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.node\" -type d -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -path \"*/*.framework/*\" -delete\nfind \"$CODESIGNING_FOLDER_PATH/nodejs-project/\" -name \"*.framework\" -type d -delete\n# Apply patches to the modules package.json\nif [ -d \"$CODESIGNING_FOLDER_PATH\"/nodejs-project/node_modules/ ]; then\n  PATCH_SCRIPT_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../node_modules/nodejs-mobile-react-native/scripts/ && pwd )\"\n  NODEJS_PROJECT_MODULES_DIR=\"$( cd \"$CODESIGNING_FOLDER_PATH\" && cd nodejs-project/node_modules/ && pwd )\"\n  node \"$PATCH_SCRIPT_DIR\"/patch-package.js $NODEJS_PROJECT_MODULES_DIR\nfi\n# Get the nodejs-mobile-gyp location\nif [ -d \"$PROJECT_DIR/../node_modules/nodejs-mobile-gyp/\" ]; then\n  NODEJS_MOBILE_GYP_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../node_modules/nodejs-mobile-gyp/ && pwd )\"\nelse\n  NODEJS_MOBILE_GYP_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../node_modules/nodejs-mobile-react-native/node_modules/nodejs-mobile-gyp/ && pwd )\"\nfi\nNODEJS_MOBILE_GYP_BIN_FILE=\"$NODEJS_MOBILE_GYP_DIR\"/bin/node-gyp.js\n# Rebuild modules with right environment\nNODEJS_HEADERS_DIR=\"$( cd \"$PROJECT_DIR\" && cd ../node_modules/nodejs-mobile-react-native/ios/libnode/ && pwd )\"\npushd $CODESIGNING_FOLDER_PATH/nodejs-project/\nif [ \"$PLATFORM_NAME\" == \"iphoneos\" ]\nthen\n  GYP_DEFINES=\"OS=ios\" npm_config_nodedir=\"$NODEJS_HEADERS_DIR\" npm_config_node_gyp=\"$NODEJS_MOBILE_GYP_BIN_FILE\" npm_config_platform=\"ios\" npm_config_format=\"make-ios\" npm_config_node_engine=\"chakracore\" npm_config_arch=\"arm64\" npm --verbose rebuild --build-from-source\nelse\n  GYP_DEFINES=\"OS=ios\" npm_config_nodedir=\"$NODEJS_HEADERS_DIR\" npm_config_node_gyp=\"$NODEJS_MOBILE_GYP_BIN_FILE\" npm_config_platform=\"ios\" npm_config_format=\"make-ios\" npm_config_node_engine=\"chakracore\" npm_config_arch=\"x64\" npm --verbose rebuild --build-from-source\nfi\npopd\n";
+		};
+		F48D073DB4FD998CCE6DB8DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iotaWallet/Pods-iotaWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11075FA1DE5371B6E0DBE7D34FF2F541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307E93B97FDF6F53908903B07505AC30 /* SnapshotHelper.swift in Sources */,
+				0C51C393ABBB0B4BD4B93D710474ACE6 /* iotaWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A48ED510B8A5A031F25EB34DD39B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F834CDED8A9A63C142A683ADB8483369 /* iotaWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A19CAEF0494A213AEB368179B268023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6079ACE02110DD2C005B21CB /* Argon2IOS.swift in Sources */,
+				962469C90FA6C9D7DB8B0F1D49DD98E7 /* AppDelegate.m in Sources */,
+				6079C42420D95F18006B252E /* Empty.swift in Sources */,
+				CB866281209F36CA00C026E3 /* EntangledIOS.m in Sources */,
+				608E448A221B228A005CCFB1 /* EntangledIOSUtils.m in Sources */,
+				60A1C244242EA02E0037E678 /* NativeUtilsIOS.swift in Sources */,
+				3E58EC90CE11629FBA816AAD96D16464 /* main.m in Sources */,
+				6079AD4E2110E752005B21CB /* Argon2IOS.m in Sources */,
+				60A1C29F242EBD500037E678 /* NativeUtilsIOS.m in Sources */,
+				6079ACDE2110BE6B005B21CB /* Argon2Core.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9289FDA5BF643E6CF6FB97742A554BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B45CC76085653FBC10B5A7B4E16F0 /* AppDelegate.m in Sources */,
+				7201963BD0BAE41A9958AC15A84AAA5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C361C063B6547DE82583FABCA4550939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F9AC494F8CC3C172EA66A4EF42D078 /* iotaWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		482BD5E847E669FCCD5819D2879B3184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B6F56C5B39768183E212C21E8E213DA /* iotaWallet-tvOS */;
+			targetProxy = 28BD818916EC80191B9C06F5C44796AA /* PBXContainerItemProxy */;
+		};
+		6020D31D21A5065300159E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lottie_iOS;
+			targetProxy = 6020D31C21A5065300159E5A /* PBXContainerItemProxy */;
+		};
+		BE73D60DB7DADA792CE0511FEEF11D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4848851A00274CA2FFBE307BAEB5F278 /* iotaWallet */;
+			targetProxy = 569242DFF3FE79F261B75B97749FC745 /* PBXContainerItemProxy */;
+		};
+		CBDE11BE21AEFFFE00CA1909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lottie_iOS;
+			targetProxy = CBDE11BD21AEFFFE00CA1909 /* PBXContainerItemProxy */;
+		};
+		CBFFDF4C230ACCF800CBC76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = CBFFDF4B230ACCF800CBC76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A551A49165ED5CFBE87EE1B7C5CCA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D027E0235A94DEC3CFA3995F921E99 /* ar */,
+				212C440FB237BBD7248FBF1D2199EFD2 /* cs */,
+				C883F8A0B4031CE53D5E48217339975E /* da */,
+				55B2218ED7B66ED5B4EEF139189CDFB2 /* de */,
+				A1FAED857304034D3DCD87D13F961C48 /* el */,
+				72D17A4D37252C0BC0DB1F93F39557A8 /* en */,
+				36D4352CBA24C83AC9A32D4C0C8118E8 /* es */,
+				F937ECCF0BA4BC3A155C89B3B7ECE27D /* es-419 */,
+				D6579997ECA951BF786CFC9441D56F53 /* fi */,
+				E3A5CC95D9B27ABCF4FAD971B8E3AC51 /* fr */,
+				D2C796029F4A68C167C1F1F5176A5819 /* he */,
+				78890E2D6D34AE7E540EA17AF52C9982 /* hi */,
+				F05FB5124D5FDAF46BC578870641ED07 /* id */,
+				EEF5BF9089B89A57B0EABB4E6415A676 /* it */,
+				BD40B3B9B6FE961CF3495A75D646774F /* ja */,
+				FA966CD6F6AC4A56AAE33F729009A387 /* ko */,
+				AC72D5B1A4088A6371731AAF2D0B9E73 /* lv */,
+				687E262F066E4DDBCEFF44A4BC7F44A7 /* nb */,
+				66A2C53DEF25AEDEB72FDC924EBABB8D /* nl */,
+				DF7DDCE91109086B70E5F0239B13774C /* pl */,
+				2CF64F79A3674FBC3EAFD7BD016CA0C3 /* pt-BR */,
+				64A04B0E69E2398FF12B202BA93DEFED /* pt-PT */,
+				C989B5B2E21BB76597A51E0EFEA9B547 /* ro */,
+				12700CD34950855970059E347E3ECCEF /* ru */,
+				81FD04ABA0D7E5DDAC025C79AC565404 /* sk */,
+				BA9A0E2287F5A0014ABE9284EBD2C4D8 /* sl */,
+				5D730345CF75A62E99A5B317731440D2 /* sv */,
+				0CB89A9AF630BA398ED6B667116B3086 /* tr */,
+				000050334277DFF6E9BC09832C011408 /* ur */,
+				703CD715859580C6F93AD2C3B9BF240C /* zh-Hans */,
+				F0BCFBFA4C88ED7E91943BDB49D788DE /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5397219FE6BFB92B66674C2DE598F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-navigation/ios/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+			};
+			name = Release;
+		};
+		54708D3C2D8F9B58C86D79D3E967D808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iotaWalletUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.iotaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iotaWallet;
+			};
+			name = Release;
+		};
+		611B7A6B86760C0E9A40C3C579A9579A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5456B99539E3DFAFBC86D23 /* Pods-iotaWallet-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "iotaWallet-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet-tvOS.app/iotaWallet-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		628BCCD8ADDD0FC8E734E5D97EDE0C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0C813F80FE9398560C13E6CC59C201 /* iotaWallet-debug-config.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Trinity Beta";
+				APP_ICON_NAME = AppIconBeta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_WARNINGS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iotaWallet/iotaWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 106;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				IBC_WARNINGS = YES;
+				INFOPLIST_FILE = iotaWallet/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IotaKit/IotaKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"-isystem",
+					"-fstack-protector-all",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.trinity.beta;
+				PRODUCT_NAME = iotaWallet;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iotaWallet/iotaWallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6E75FBCECD50020CBFEFED84B41BD355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iotaWalletUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.iotaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iotaWallet;
+			};
+			name = Debug;
+		};
+		7DDD0F08DA9139FA743C2E673AD7F8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C69E567EC4B020F5822FC7 /* Pods-iotaWallet-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = "iotaWallet-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		8E3378A29B8417F4F67AC30BA5829215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BA67ADCF3A3E3973DDF764 /* Pods-iotaWallet-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "iotaWallet-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet-tvOS.app/iotaWallet-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		BA56D1E88F8ACD6A9D56C678D0919924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C64D2219E425907A910B0F3A28CD9F1 /* iotaWalletTests-debug-config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = iotaWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet.app/iotaWallet";
+			};
+			name = Debug;
+		};
+		BCFB382C052C8044AFD1446DB04A6C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-navigation/ios/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+			};
+			name = Debug;
+		};
+		C59D55A5A1CBBEE239AD9F272DAFE0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AF27DC4948C2C2EF41D1FA /* Pods-iotaWallet-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = "iotaWallet-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		CB4A630A22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-navigation/ios/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+			};
+			name = Beta;
+		};
+		CB4A630B22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A402C8584E5EA99F404511B6FE64D661 /* iotaWallet-release-config.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Trinity Beta";
+				APP_ICON_NAME = AppIconBeta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = iotaWallet/iotaWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 106;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				IBC_WARNINGS = YES;
+				INFOPLIST_FILE = iotaWallet/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IotaKit/IotaKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"-isystem",
+					"-fstack-protector-all",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.trinity.beta;
+				PRODUCT_NAME = iotaWallet;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iotaWallet/iotaWallet-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Beta;
+		};
+		CB4A630C22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E70A189B0FFF62EE8AE0E04401F815 /* iotaWalletTests-release-config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tcp/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = iotaWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet.app/iotaWallet";
+			};
+			name = Beta;
+		};
+		CB4A630D22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A691184951D73974D740D5C9 /* Pods-iotaWallet-tvOS.beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = "iotaWallet-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Beta;
+		};
+		CB4A630E22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902C9F38A0409620B18AE0E5 /* Pods-iotaWallet-tvOSTests.beta.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "iotaWallet-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iotaWallet-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet-tvOS.app/iotaWallet-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Beta;
+		};
+		CB4A630F22F87D3E00764550 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iotaWalletUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.iotaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iotaWallet;
+			};
+			name = Beta;
+		};
+		E125CF87FF71CE32828FCAD0DF73E43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E70A189B0FFF62EE8AE0E04401F815 /* iotaWalletTests-release-config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tcp/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-clipboard/RNClipboard",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-fast-crypto/ios/**",
+					"$(SRCROOT)/../node_modules/nodejs-mobile-react-native/ios/**",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				INFOPLIST_FILE = iotaWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotaWallet.app/iotaWallet";
+			};
+			name = Release;
+		};
+		FE346EC30248653FF956E422EC404B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A402C8584E5EA99F404511B6FE64D661 /* iotaWallet-release-config.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = Trinity;
+				APP_ICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = iotaWallet/iotaWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 106;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+					"\"../node_modules/nodejs-mobile-react-native/ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
+					"$(SRCROOT)/../node_modules/shared-modules/node_modules/@iota/signing/**",
+					"$(SRCROOT)/../node_modules/react-native-qr-generator/ios/**",
+				);
+				IBC_WARNINGS = YES;
+				INFOPLIST_FILE = iotaWallet/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EntangledIOS",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IotaKit/IotaKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"-isystem",
+					"-fstack-protector-all",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iota.trinity;
+				PRODUCT_NAME = iotaWallet;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iotaWallet/iotaWallet-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FFB4085BE14D3B9E258601F66FE01E /* Build configuration list for PBXNativeTarget "iotaWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E75FBCECD50020CBFEFED84B41BD355 /* Debug */,
+				54708D3C2D8F9B58C86D79D3E967D808 /* Release */,
+				CB4A630F22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229CB618801D69BFDE51B861A2C58FE2 /* Build configuration list for PBXNativeTarget "iotaWallet-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDD0F08DA9139FA743C2E673AD7F8C2 /* Debug */,
+				C59D55A5A1CBBEE239AD9F272DAFE0EE /* Release */,
+				CB4A630D22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287E632BA696962784937BF4BE84857D /* Build configuration list for PBXNativeTarget "iotaWallet-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611B7A6B86760C0E9A40C3C579A9579A /* Debug */,
+				8E3378A29B8417F4F67AC30BA5829215 /* Release */,
+				CB4A630E22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA0D5F0EB15D5F5757C545788EF2CDB /* Build configuration list for PBXNativeTarget "iotaWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA56D1E88F8ACD6A9D56C678D0919924 /* Debug */,
+				E125CF87FF71CE32828FCAD0DF73E43B /* Release */,
+				CB4A630C22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BD3B37F8B3D2A63C098B217B362204 /* Build configuration list for PBXProject "iotaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFB382C052C8044AFD1446DB04A6C04 /* Debug */,
+				2E5397219FE6BFB92B66674C2DE598F9 /* Release */,
+				CB4A630A22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF130F8FF7E392E4456F812995AD03FD /* Build configuration list for PBXNativeTarget "iotaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628BCCD8ADDD0FC8E734E5D97EDE0C08 /* Debug */,
+				FE346EC30248653FF956E422EC404B15 /* Release */,
+				CB4A630B22F87D3E00764550 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC6F77FBF455B92FBB736B0E5DE8E13 /* Project object */;
+}

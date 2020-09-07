@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Icons';
+    src: url('~icons/Icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.seedVault {
+    .bg {
+        fill: var(--body-bg);
+    }
+    .mg {
+        fill: var(--body-alt);
+    }
+    .fg {
+        fill: var(--box-body);
+    }
+}

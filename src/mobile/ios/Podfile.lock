@@ -1,0 +1,22 @@
+PODS:
+  - CatCrypto (0.3.0)
+
+DEPENDENCIES:
+  - CatCrypto (from `https://github.com/rajivshah3/CatCrypto.git`, branch `trinity`)
+
+EXTERNAL SOURCES:
+  CatCrypto:
+    :branch: trinity
+    :git: https://github.com/rajivshah3/CatCrypto.git
+
+CHECKOUT OPTIONS:
+  CatCrypto:
+    :commit: d0eb6e13f19f99144fec8be1455d5a0c0f20a0ad
+    :git: https://github.com/rajivshah3/CatCrypto.git
+
+SPEC CHECKSUMS:
+  CatCrypto: 7e3a6e0a03b699845b38cdc09d34a8127466c5e0
+
+PODFILE CHECKSUM: 9e2398d883f05de98fa19bdcb8253c52dc792396
+
+COCOAPODS: 1.9.3

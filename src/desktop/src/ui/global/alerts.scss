@@ -1,0 +1,127 @@
+.wrapper {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    pointer-events: none;
+
+    > div {
+        @media print {
+            display: none;
+        }
+
+        display: block;
+        position: relative;
+        margin: 50px 20px 0;
+        padding: 18px 32px 24px 24px;
+        min-width: 340px;
+        width: 320px;
+        background: var(--body-bg);
+        max-width: calc(100% - 32px);
+        min-height: 120px;
+        transform: scale(0.8);
+        opacity: 0;
+        pointer-events: none;
+        border-radius: 6px;
+
+        * {
+            cursor: pointer;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 21px;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 0px;
+            word-break: break-word;
+        }
+
+        span {
+            cursor: pointer;
+            position: absolute;
+            top: 6px;
+            right: 6px;
+        }
+
+        &.visible {
+            opacity: 1;
+            pointer-events: all;
+            cursor: pointer;
+            transform: scale(1);
+            transition: opacity 0.12s ease-in, transform 0.24s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        &.info {
+            background: var(--secondary);
+            color: var(--secondary-body);
+            border-color: var(--secondary-hover);
+            span:hover {
+                color: var(--secondary-hover);
+            }
+        }
+
+        &.error {
+            background: var(--negative);
+            color: var(--negative-body);
+            border-color: var(--negative-hover);
+            span:hover {
+                color: var(--negative-hover);
+            }
+        }
+
+        &.success {
+            background: var(--positive);
+            color: var(--positive-body);
+            border-color: var(--positive-hover);
+            span:hover {
+                color: var(--positive-hover);
+            }
+        }
+    }
+
+    > section {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100vw;
+        min-height: 46px;
+        padding: 12px;
+        background: var(--negative);
+        color: var(--negative-body);
+        line-height: 21px;
+        text-align: center;
+        pointer-events: all;
+        -webkit-app-region: drag;
+
+        strong {
+            text-decoration: underline;
+            cursor: pointer;
+            margin-right: 10px;
+            -webkit-app-region: no-drag;
+
+            @media screen and (max-width: 860px) {
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+
+        &.win {
+            top: 40px;
+            -webkit-app-region: no-drag;
+        }
+
+        > a {
+            position: absolute;
+            top: 14px;
+            right: 20px;
+            cursor: pointer;
+            -webkit-app-region: no-drag;
+        }
+    }
+}

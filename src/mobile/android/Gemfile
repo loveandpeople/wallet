@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "fastlane"
+gem "nokogiri"
+
+eval_gemfile('./fastlane/Pluginfile') if File.exist?('./fastlane/Pluginfile')

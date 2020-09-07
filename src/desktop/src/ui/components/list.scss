@@ -1,0 +1,552 @@
+.nav {
+    display: flex;
+    padding: 20px 0;
+    margin: 0px 20px;
+    height: 80px;
+    border-bottom: 1px solid var(--body-bg);
+
+    @media (max-width: 320px) {
+        display: none;
+    }
+
+    > a {
+        color: var(--body);
+        margin: 0 22px 0 0;
+        font-weight: 400;
+
+        &.empty {
+            color: var(--body-alt);
+        }
+        &.disabled {
+            color: var(--body-alt);
+            pointer-events: none;
+        }
+        small {
+            font-size: 13px;
+            margin: 0 2px;
+        }
+    }
+    > ul {
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        z-index: 2;
+
+        > li {
+            list-style: none;
+            position: absolute;
+            width: auto;
+            white-space: nowrap;
+            top: 48px;
+        }
+
+        > a,
+        > li > a,
+        > li > div {
+            display: none;
+            flex: 0;
+            line-height: 40px;
+            font-size: 14px;
+            padding: 0 10px;
+            vertical-align: middle;
+            background: var(--body-bg);
+            width: 100%;
+
+            &.active {
+                color: var(--primary);
+            }
+
+            &.disabled {
+                color: var(--body-alt);
+                pointer-events: none;
+            }
+
+            span {
+                margin-left: 4px;
+            }
+        }
+
+        > a {
+            display: block;
+            float: left;
+            width: auto;
+            background: var(--body-bg);
+            border-radius: 4px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+
+        > li div {
+            color: var(--body);
+            .checkbox {
+                display: block;
+                position: relative;
+                padding-right: 40px;
+                &:after {
+                    content: '';
+                    width: 28px;
+                    height: 15px;
+                    position: absolute;
+                    top: 14px;
+                    right: 1px;
+                    border-radius: 15px;
+                    border: 1px solid var(--body);
+                }
+                &:before {
+                    content: '';
+                    width: 9px;
+                    height: 9px;
+                    position: absolute;
+                    top: 17px;
+                    right: 16px;
+                    border-radius: 9px;
+                    border: 1px solid var(--body);
+                    transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+                }
+                &.on {
+                    &:before {
+                        border-color: var(--primary);
+                        background: var(--primary);
+                        right: 4px;
+                    }
+                }
+            }
+        }
+        &:hover {
+            > a,
+            > li > div,
+            > li > a {
+                display: block;
+                clear: both;
+
+                position: relative;
+                &:after {
+                    display: block;
+                    content: '';
+                    width: calc(100% + 4px);
+                    left: 0px;
+                    bottom: 0px;
+                    border-bottom: 1px solid var(--body-alt);
+                }
+                &:first-child {
+                    border-radius: 0 4px 0 0;
+                }
+                &:last-child {
+                    border-radius: 0 0 4px 4px;
+                    &:after {
+                        display: none;
+                    }
+                }
+                &:hover {
+                    color: var(--primary);
+                }
+            }
+
+            > a {
+                border-radius: 4px 4px 0 0;
+                &:after {
+                    display: none;
+                }
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 20px;
+                    background: var(--body-bg);
+                    position: absolute;
+                    top: 38px;
+                    left: 0px;
+                }
+            }
+        }
+    }
+}
+
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
+    &::-webkit-scrollbar {
+      width: 1px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+  }
+
+  .no-scrollbars::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.list {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 0 0 20px 20px;
+
+    @media (max-width: 320px) {
+        padding: 20px 0;
+        top: 160px;
+        height: calc(100vh - 210px);
+        width: calc(100% + 20px);
+        background: var(--box-bg);
+    }
+
+    a {
+        list-style: none;
+        font-size: 14px;
+
+        > div {
+            list-style: none;
+            display: flex;
+            line-height: 32px;
+            cursor: pointer;
+            width: 100%;
+            padding: 0 10px;
+            > span {
+                width: 50%;
+                padding: 0 2%;
+            }
+            > span:nth-child(1) {
+                width: 30px;
+                margin-top: 10px;
+                padding-left: 0px;
+                @media (max-width: 320px) {
+                    padding-left: 10px;
+                }
+            }
+            > span:nth-child(2) {
+                text-align: left;
+                width: 50%;
+            }
+            > strong:nth-child(3) {
+                width: 20%;
+                text-align: left;
+            }
+            > span:nth-child(4) {
+                width: 25%;
+                text-align: right;
+            }
+        }
+        &:hover > div {
+            background: var(--body-bg);
+        }
+        &.received {
+            span:nth-child(1),
+            span:nth-child(4) {
+                color: var(--primary);
+            }
+        }
+        &.sent {
+            span:nth-child(1),
+            span:nth-child(4) {
+                color: var(--secondary);
+            }
+        }
+        &.pending {
+            div {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .empty {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        text-align: center;
+        width: 100%;
+        opacity: 0.5;
+        padding: 0;
+        margin: -20px 0 0;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.refresh {
+    display: block;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+
+    &:hover {
+        color: var(--primary);
+    }
+
+    &.busy {
+        pointer-events: none;
+        color: var(--body-alt);
+    }
+
+    &.loading {
+        pointer-events: none;
+        animation: spin 0.8s ease infinite;
+    }
+}
+
+.search {
+    margin: 0 50px 0 20px;
+    flex: 1;
+    position: relative;
+    input {
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+        background: var(--body-bg);
+        border: none;
+        color: var(--input-color);
+        padding: 0 30px 0 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: width 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &:focus,
+        &.filled {
+            width: 100%;
+            padding: 0 40px 0 10px;
+        }
+        &::placeholder {
+            font-size: 14px;
+            color: var(--body-alt);
+        }
+    }
+    span {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: calc(100% - 30px);
+        background: none;
+        color: var(--body);
+        pointer-events: none;
+        transition: right 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    input:focus + div,
+    input.filled + div {
+        > span {
+            right: 10px;
+        }
+    }
+    input.filled + div > span {
+        pointer-events: all;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    input.filled + div {
+        .tooltip {
+            opacity: 1;
+        }
+    }
+
+    .tooltip {
+        position: absolute;
+        pointer-events: none;
+        z-index: 2;
+        font-size: 14px;
+        background: var(--bar-bg);
+        color: var(--bar);
+        width: 342px;
+        border-radius: 4px;
+        line-height: 32px;
+        padding: 12px 14px 12px 16px;
+        top: 48px;
+        left: 0px;
+        opacity: 0;
+
+        li {
+            list-style: none;
+        }
+
+        strong {
+            display: inline-block;
+            color: var(--primary);
+            width: 50px;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: 16px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 6px 6px 6px;
+            border-color: transparent transparent var(--bar-bg) transparent;
+        }
+    }
+}
+
+.popup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: var(--box-bg);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease-out;
+    cursor: pointer;
+    z-index: 3;
+    > div {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        width: calc(100% - 40px);
+        min-height: 100px;
+        transform: translate(0, -50%) scale(0.9);
+        background: var(--body-bg);
+        padding: 20px;
+        border-radius: 4px;
+        transition: transform 0.2s cubic-bezier(0, 0, 0.2, 1);
+        p {
+            &:first-child {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            strong {
+                padding-top: 21px;
+            }
+
+            small {
+                font-size: 12px;
+                text-align: right;
+            }
+
+            em {
+                display: block;
+                font-style: normal;
+                color: var(--body);
+            }
+
+            &.hash {
+                display: block;
+                font-family: 'SourceCodePro';
+                word-break: break-word;
+                > span {
+                    display: block;
+                }
+                > a {
+                    color: var(--body);
+                    text-decoration: underline;
+                    font-family: 'SourceCodePro';
+                }
+            }
+        }
+
+        .message {
+            display: block;
+            margin: 26px 0 20px;
+            word-break: break-word;
+            height: 70px;
+            position: relative;
+            strong {
+                display: block;
+                margin-bottom: 4px;
+                font-size: 12px;
+                padding-top: 0px;
+            }
+        }
+
+        h6 {
+            font-size: 12px;
+            margin-bottom: 0px;
+        }
+
+        .received {
+            p:first-child strong {
+                color: var(--primary);
+            }
+        }
+        .sent {
+            p:first-child strong {
+                color: var(--secondary);
+            }
+        }
+        .pending {
+            p:first-child small {
+                color: var(--negative);
+            }
+        }
+        .confirmed {
+            p:first-child small {
+                color: var(--positive);
+            }
+        }
+    }
+    &.on {
+        opacity: 1;
+        pointer-events: all;
+        > div {
+            transform: translate(0, -50%) scale(1);
+        }
+    }
+
+    .addresses {
+        strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        p {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            line-height: 14px;
+            font-family: 'SourceCodePro';
+            word-break: break-word;
+
+            em {
+                flex: 0 0 20%;
+                text-align: right;
+                font-family: 'SourceSansPro';
+                font-weight: 400;
+            }
+            mark {
+                color: var(--primary);
+            }
+        }
+        > div {
+            max-height: calc(100vh - 640px);
+            width: calc(100% + 20px);
+            position: relative;
+            overflow: hidden;
+
+            @media (max-width: 940px) {
+                max-height: calc(100vh - 680px);
+            }
+        }
+    }
+
+    nav {
+        text-align: center;
+        button:first-of-type {
+            margin-bottom: 10px;
+            min-width: 120px;
+        }
+
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+}

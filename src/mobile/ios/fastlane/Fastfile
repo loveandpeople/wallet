@@ -1,0 +1,109 @@
+default_platform :ios
+
+def enable_manual_provisioning(project_file, provisioning_profile_uuid)
+  UI.message 'Switching to manual code signing'
+  fastlane_require 'xcodeproj'
+  project = Xcodeproj::Project.open(project_file)
+  target = project.native_targets.detect { |target| target.name == 'iotaWallet' }
+  target_attributes = project.root_object.attributes['TargetAttributes']
+  target_attributes.each { |_id, attrs| attrs['ProvisioningStyle'] = 'Manual' }
+  target.build_configurations.each do |item|
+    item.build_settings['PROVISIONING_PROFILE[sdk=iphoneos*]'] = provisioning_profile_uuid
+    item.build_settings['DEVELOPMENT_TEAM'] = 'UG77RJKZHH'
+    item.build_settings['CODE_SIGN_IDENTITY[sdk=iphoneos*]'] = 'Apple Distribution'
+  end
+  project.save
+end
+
+def add_bugsnag_api_key(plist_path, bugsnag_key)
+  UI.message 'Adding Bugsnag API key'
+  set_info_plist_value(
+    path: plist_path,
+    key: 'BugsnagAPIKey',
+    value: bugsnag_key
+  )
+end
+
+lane :configure_release do |options|
+  if is_ci?
+    provisioning_profile = nil
+    if options[:destination] == 'beta'
+      UI.message 'Configuring signing for beta release'
+      # Use distribution profile for beta deployment
+      provisioning_profile = ENV['BETA_PROVISIONING_PROFILE_UUID']
+    elsif options[:destination] == 'adhoc'
+      UI.message 'Configuring signing for ad hoc release'
+      # Use ad hoc profile
+      provisioning_profile = ENV['AD_HOC_PROVISIONING_PROFILE_UUID']
+    else
+      UI.message 'Configuring signing for App Store release'
+      # Use distribution profile for App Store deployment
+      provisioning_profile = ENV['APPSTORE_PROVISIONING_PROFILE_UUID']
+    end
+    enable_manual_provisioning('../iotaWallet.xcodeproj', provisioning_profile)
+    # Add Bugsnag API key
+    add_bugsnag_api_key('./iotaWallet/Info.plist', ENV['BUGSNAG_API_KEY'])
+  else
+    UI.error('This lane should only be run on CI!')
+  end
+end
+
+lane :screenshots do
+  capture_screenshots
+  frame_screenshots
+end
+
+lane :upload_dsyms do |options|
+  if options[:path]
+    upload_symbols_to_bugsnag(dsym_path: options[:path], api_key: options[:api_key])
+  else
+    clean_build_artifacts
+    build_number = get_build_number(xcodeproj: 'iotaWallet.xcodeproj')
+    download_dsyms(build_number: build_number)
+    upload_symbols_to_bugsnag(api_key: options[:api_key])
+    clean_build_artifacts
+  end
+end
+
+lane :release do
+  package_json = load_json(json_path: '../package.json')
+  version = package_json['version']
+  increment_build_number(xcodeproj: 'iotaWallet.xcodeproj')
+  increment_version_number(version_number: version, xcodeproj: 'iotaWallet.xcodeproj')
+end
+
+lane :deploy do
+  if is_ci?
+    pilot(
+      username: 'lewis@iota.org',
+      app_identifier: 'com.iota.trinity',
+      skip_submission: true,
+      team_name: 'IOTA Stiftung'
+    )
+  else
+    UI.error('This lane should only be run on CI!')
+  end
+end
+
+lane :localization do
+  import_localizations(source_path: './localizations/*.xliff', project: 'iotaWallet.xcodeproj')
+end
+
+lane :clean_testers_dry_run do
+  UI.important 'This may take about 20 minutes for 10,000 testers'
+  UI.important 'Do not run this too often! You may be rate limited'
+  clean_testflight_testers(
+    app_identifier: 'com.iota.trinity',
+    days_of_inactivity: 120,
+    dry_run: true
+  )
+end
+
+lane :clean_testers do
+  UI.important 'This may take about 20 minutes for 10,000 testers'
+  UI.important 'Do not run this too often! You may be rate limited'
+  clean_testflight_testers(
+    app_identifier: 'com.iota.trinity',
+    days_of_inactivity: 120
+  )
+end

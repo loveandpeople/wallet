@@ -1,0 +1,70 @@
+rootProject.name = 'iotaWallet'
+include ':react-native-qr-generator'
+project(':react-native-qr-generator').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qr-generator/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-qr-scanner'
+project(':react-native-qr-scanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qr-scanner/android')
+include ':react-native-modal-translucent'
+project(':react-native-modal-translucent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-modal-translucent/android')
+include ':react-native-document-picker'
+project(':react-native-document-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-document-picker/android')
+include ':nodejs-mobile-react-native'
+project(':nodejs-mobile-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/nodejs-mobile-react-native/android')
+include ':react-native-detect-navbar-android'
+project(':react-native-detect-navbar-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-detect-navbar-android/android')
+include ':react-native-fingerprint-scanner'
+project(':react-native-fingerprint-scanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fingerprint-scanner/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-os'
+project(':react-native-os').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-os/android')
+include ':react-native-print'
+project(':react-native-print').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-print/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-navigation'
+project(':react-native-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation/lib/android/app/')
+include ':app'
+include ':react-native-sensitive-info'
+project(':react-native-sensitive-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensitive-info/android')
+include ':react-native-keep-awake'
+project(':react-native-keep-awake').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-keep-awake/android')
+include ':react-native-extra-dimensions-android', ':app'
+project(':react-native-extra-dimensions-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-extra-dimensions-android/android')
+include ':react-native-keychain'
+project(':react-native-keychain').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-keychain/android')
+include ':lottie-react-native'
+project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/src/android')
+include ':react-native-exit-app', ':app'
+project(':react-native-exit-app').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-exit-app/android')
+include ':react-native-securerandom'
+project(':react-native-securerandom').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-securerandom/android')
+include ':react-native-is-device-rooted'
+project(':react-native-is-device-rooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-is-device-rooted/android/app')
+include ':randombytes', ':app'
+project(':randombytes').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-randombytes/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':bugsnag-react-native'
+project(':bugsnag-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/bugsnag-react-native/android')
+include ':react-native-google-safetynet'
+project(':react-native-google-safetynet').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-google-safetynet/android')
+include ':react-native-fingerprint-scanner'
+project(':react-native-fingerprint-scanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fingerprint-scanner/android')
+include ':react-native-pdf'
+project(':react-native-pdf').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pdf/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-share/android')
+include ':react-native-view-shot'
+project(':react-native-view-shot').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-view-shot/android')
+include ':react-native-flag-secure-android'
+project(':react-native-flag-secure-android').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-flag-secure-android/android')
+include ':react-native-haptic-feedback'
+project(':react-native-haptic-feedback').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-haptic-feedback/android')
+include ':realm'
+project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules/realm/android')
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
