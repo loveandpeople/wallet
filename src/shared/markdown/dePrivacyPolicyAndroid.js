@@ -1,13 +1,13 @@
 export default `
-## **Trinity Wallet App - Datenschutzrichtlinie**
+## **LP Wallet App - Datenschutzrichtlinie**
 
 ### **Allgemeine Informationen**
 
-Diese Datenschutzrichtlinie ( **„Datenschutzrichtlinie zur App&quot;** ) beschreibt, wie die IOTA Stiftung ( **„IOTA“**, **„wir’’**, **„uns’’**, **„unser(e)’’**) Ihre personenbezogenen Daten in Verbindung mit der Nutzung der **„Trinity Wallet App”** erhebt und verarbeitet.
+Diese Datenschutzrichtlinie ( **„Datenschutzrichtlinie zur App&quot;** ) beschreibt, wie die LP Stiftung ( **„LP“**, **„wir’’**, **„uns’’**, **„unser(e)’’**) Ihre personenbezogenen Daten in Verbindung mit der Nutzung der **„LP Wallet App”** erhebt und verarbeitet.
 
-Diese Datenschutzrichtlinie zur App richtet sich an die Nutzer der Trinity Wallet App. Wenn Sie mehr darüber erfahren wollen, wie IOTA personenbezogene Daten (wie nachstehend definiert) in Zusammenhang mit anderen Dienstleistungen und Aktivitäten der IOTA erhebt und verarbeitet, können Sie die allgemeine [Datenschutzrichtlinie](https://www.iota.org/research/privacy-policy)  der IOTA einsehen.
+Diese Datenschutzrichtlinie zur App richtet sich an die Nutzer der LP Wallet App. Wenn Sie mehr darüber erfahren wollen, wie LP personenbezogene Daten (wie nachstehend definiert) in Zusammenhang mit anderen Dienstleistungen und Aktivitäten der LP erhebt und verarbeitet, können Sie die allgemeine [Datenschutzrichtlinie](https://www.iota.org/research/privacy-policy)  der LP einsehen.
 
-Bitte lesen Sie unsere Datenschutzrichtlinie zur App sorgfältig durch, um eine klare Vorstellung davon zu bekommen, wie wir mit den über die Trinity Wallet App über Sie erhobenen personenbezogenen Daten umgehen.
+Bitte lesen Sie unsere Datenschutzrichtlinie zur App sorgfältig durch, um eine klare Vorstellung davon zu bekommen, wie wir mit den über die LP Wallet App über Sie erhobenen personenbezogenen Daten umgehen.
 
 ### **Was sind personenbezogene Daten?**
 
@@ -15,22 +15,22 @@ Der Begriff **„personenbezogene Daten”** bezeichnet alle Informationen, die 
 
 ### **Wie wir personenbezogene Daten erheben**
 
-Wenn Sie die Trinity Wallet App auf Ihrem Telefon installieren und nutzen, erhebt und verarbeitet die IOTA die personenbezogenen Daten, die für den Betrieb der App und die Verwaltung und Erbringung der App-Dienste erforderlich sind.
+Wenn Sie die LP Wallet App auf Ihrem Telefon installieren und nutzen, erhebt und verarbeitet die LP die personenbezogenen Daten, die für den Betrieb der App und die Verwaltung und Erbringung der App-Dienste erforderlich sind.
 
-Darüber hinaus erhebt und verarbeitet die IOTA personenbezogene Daten, wie Ihre E-Mail-Adresse oder Telefonnummer, wenn:
+Darüber hinaus erhebt und verarbeitet die LP personenbezogene Daten, wie Ihre E-Mail-Adresse oder Telefonnummer, wenn:
 
-- Sie der IOTA aus irgendeinem Grund kontaktieren oder darum bitten, der IOTA kontaktiert zu werden oder
-- Sie der IOTA aus irgendeinem Grund Ihre personenbezogenen Daten zur Verfügung stellen.
+- Sie der LP aus irgendeinem Grund kontaktieren oder darum bitten, der LP kontaktiert zu werden oder
+- Sie der LP aus irgendeinem Grund Ihre personenbezogenen Daten zur Verfügung stellen.
 
 ### **Welche personenbezogenen Daten wir erheben**
 
-Es ist wichtig, darauf hinzuweisen, dass private Schlüssel von Nutzern niemals an die IOTA übermittelt werden. Folglich ist es für die IOTA keinesfalls möglich, auf die Krypto-Aktiva eines Nutzers zuzugreifen.
+Es ist wichtig, darauf hinzuweisen, dass private Schlüssel von Nutzern niemals an die LP übermittelt werden. Folglich ist es für die LP keinesfalls möglich, auf die Krypto-Aktiva eines Nutzers zuzugreifen.
 
-Wir erheben gegebenenfalls Informationen über die allgemeine Nutzung der Trinity Wallet App, beispielsweise Informationen über Fehler, Protokollinformationen über bei der Trinity Wallet App aufgetretene Fehler oder andere damit in Zusammenhang stehende Informationen, die für die Erbringung der Dienste der IOTA, für den Zweck der Verwaltung oder für die Fehleranalyse erforderlich sind oder die der IOTA helfen, ihre Dienstleistungen zu verbessern.
+Wir erheben gegebenenfalls Informationen über die allgemeine Nutzung der LP Wallet App, beispielsweise Informationen über Fehler, Protokollinformationen über bei der LP Wallet App aufgetretene Fehler oder andere damit in Zusammenhang stehende Informationen, die für die Erbringung der Dienste der LP, für den Zweck der Verwaltung oder für die Fehleranalyse erforderlich sind oder die der LP helfen, ihre Dienstleistungen zu verbessern.
 
 ### **Zweck der Verarbeitung personenbezogener Daten**
 
-Wir verarbeiten personenbezogene Daten, um den Betrieb und die Nutzung der Trinity Wallet App sowie die Verwaltung und Organisation der Trinity Wallet App und der über die App angebotenen Dienste zu ermöglichen.
+Wir verarbeiten personenbezogene Daten, um den Betrieb und die Nutzung der LP Wallet App sowie die Verwaltung und Organisation der LP Wallet App und der über die App angebotenen Dienste zu ermöglichen.
 
 ### **Rechtliche Grundlage für die Verarbeitung personenbezogener Daten**
 
@@ -44,7 +44,7 @@ Bei der Verarbeitung Ihrer personenbezogenen Daten in Verbindung mit den in der 
 
 ### **Verwendung von Cookies**
 
-Wir verwenden keine Cookies in der Trinity Wallet App.
+Wir verwenden keine Cookies in der LP Wallet App.
 
 ### **Wie wir Ihre personenbezogenen Daten schützen und speichern**
 
@@ -59,7 +59,7 @@ Bei der Beurteilung der Angemessenheit des Sicherheitsniveaus sind vor allem die
 
 ## **Wie wir Ihre personenbezogenen Daten weiterleiten und offenlegen**
 
-Um die Trinity Wallet App ordnungsgemäß betreiben und für Sie die über die Trinity Wallet App angebotenen Dienste erbringen zu können, verwenden wir die folgende Analytik-Software:
+Um die LP Wallet App ordnungsgemäß betreiben und für Sie die über die LP Wallet App angebotenen Dienste erbringen zu können, verwenden wir die folgende Analytik-Software:
 
 #### **Bugsnag**
 
@@ -77,9 +77,9 @@ Wir nutzen GitHub der GitHub Inc 88 Colin P. Kelly Street, San Francisco, CA 941
 
 Wir verwenden Google SafetyNet Attestation API der Google LLC, 1600 Amphitheatre Parkway, Mountain View, Kalifornien 94043, USA („Google SafetyNet”). Google SafetyNet bietet eine Gerätebescheinigung zum Schutz der App. Die Schnittstelle wird verwendet, um zu überprüfen, ob ein Android-Gerät mit dem Router verbunden und ob es verändert oder in sonstiger Weise kompromittiert ist. Hardware- und Softwareinformationen, wie beispielsweise die Geräte- und App-Daten sowie die Ergebnisse der Integritätsprüfung werden an Google gesendet und dort mit einer Datenbank über Geräte abgeglichen, die die Kompatibilitäts-Testsuite bestanden haben. Die entsprechenden Daten werden direkt an Google übermittelt. Weitere Informationen finden Sie unter https://policies.google.com/privacy.
 
-#### **Trinity**
+#### **LPWallet**
 
-Wir nutzen mehrere Webseiten um Ihre Internetverbindung während der Nutzung von Trinity zu überprüfen. Trinity Desktop kontaktiert unter Umständen GitHub um nach App-Updates zu suchen, um die Auto-Update-Funktionalität zur Verfügung zu stellen. Beim Zugriff auf diese Websites werden Ihre Daten in Übereinstimmung mit den jeweiligen Datenschutzrichtlinien behandelt. Wenn Trinity nicht auf eine Website zugreifen kann, wird es versuchen, auf die jeweils folgende Webseite auf der Liste zuzugreifen. Die Prüfung erfolgt in der folgenden Reihenfolge:
+Wir nutzen mehrere Webseiten um Ihre Internetverbindung während der Nutzung von LPWallet zu überprüfen. LPWallet Desktop kontaktiert unter Umständen GitHub um nach App-Updates zu suchen, um die Auto-Update-Funktionalität zur Verfügung zu stellen. Beim Zugriff auf diese Websites werden Ihre Daten in Übereinstimmung mit den jeweiligen Datenschutzrichtlinien behandelt. Wenn LPWallet nicht auf eine Website zugreifen kann, wird es versuchen, auf die jeweils folgende Webseite auf der Liste zuzugreifen. Die Prüfung erfolgt in der folgenden Reihenfolge:
 
 - IOTA, [iota.org](https://protect-eu.mimecast.com/s/MO_jC9Q6KFMZOvEfE_FMu?domain=iota.org) ([https://www.iota.org/research/privacy-policy](https://protect-eu.mimecast.com/s/imFzC0VqxFMEyKwf2zX68?domain=iota.org)),
 
@@ -93,9 +93,9 @@ Die Übertragung von Daten von Ihrem Gerät hängt vom verwendeten Betriebssyste
 
 #### **Auftragsverarbeiter**
 
-Wir setzen während des Betriebs der Trinity Wallet App unter Umständen weitere Auftragsverarbeiter ein. Soweit wir Auftragsverarbeiter in die Erbringung unserer Dienste und die Erfüllung unserer vertraglichen Verpflichtungen miteinbeziehen und eine solche Einbeziehung die Übermittlung personenbezogener Daten erfordert, haben wir mit diesen Auftragsverarbeitern Vereinbarungen zur Auftragsverarbeitung gemäß Art. 28 der Europäischen Datenschutz-Grundverordnung 2016/679 (**„DSGVO”**) abgeschlossen und, soweit erforderlich, weitere geeignete Garantien gemäß Art. 46-49 DSGVO vorgesehen. Sie können eine Liste der Auftragsverarbeiter, denen gegenüber wir Ihre personenbezogenen Daten offenlegen, anfordern, indem Sie uns eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) senden.
+Wir setzen während des Betriebs der LP Wallet App unter Umständen weitere Auftragsverarbeiter ein. Soweit wir Auftragsverarbeiter in die Erbringung unserer Dienste und die Erfüllung unserer vertraglichen Verpflichtungen miteinbeziehen und eine solche Einbeziehung die Übermittlung personenbezogener Daten erfordert, haben wir mit diesen Auftragsverarbeitern Vereinbarungen zur Auftragsverarbeitung gemäß Art. 28 der Europäischen Datenschutz-Grundverordnung 2016/679 (**„DSGVO”**) abgeschlossen und, soweit erforderlich, weitere geeignete Garantien gemäß Art. 46-49 DSGVO vorgesehen. Sie können eine Liste der Auftragsverarbeiter, denen gegenüber wir Ihre personenbezogenen Daten offenlegen, anfordern, indem Sie uns eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) senden.
 
-**Bitte beachten Sie, dass IOTA Ihre personenbezogenen Daten gegebenenfalls direkt aus dem Land bezieht, in dem Sie ansässig sind und diese Daten dann auf Servern in Europa und in den Vereinigten Staaten von Amerika speichert. Für die USA gibt es keinen Anerkennungsbeschluss der Europäischen Kommission, durch den ein angemessenes Datenschutzniveau garantiert wird. Aus diesem Grund hat IOTA für geeignete Garantien gesorgt, um Ihre personenbezogenen Daten in den USA zu schützen. Sie können eine Kopie dieser Garantien anfordern, indem Sie eine E-Mail an** [**privacy@iota.org**](mailto:privacy@iota.org) **senden.**
+**Bitte beachten Sie, dass LP Ihre personenbezogenen Daten gegebenenfalls direkt aus dem Land bezieht, in dem Sie ansässig sind und diese Daten dann auf Servern in Europa und in den Vereinigten Staaten von Amerika speichert. Für die USA gibt es keinen Anerkennungsbeschluss der Europäischen Kommission, durch den ein angemessenes Datenschutzniveau garantiert wird. Aus diesem Grund hat LP für geeignete Garantien gesorgt, um Ihre personenbezogenen Daten in den USA zu schützen. Sie können eine Kopie dieser Garantien anfordern, indem Sie eine E-Mail an** [**privacy@iota.org**](mailto:privacy@iota.org) **senden.**
 
 ### **Verarbeitung Ihrer sensiblen personenbezogenen Daten**
 
@@ -107,23 +107,23 @@ Wir beabsichtigen nicht, sensible personenbezogene Daten von Ihnen zu erheben od
 
 ### **Folgen, wenn wir Ihre personenbezogenen Daten nicht erheben dürfen**
 
-Wir benötigen Ihre personenbezogenen Daten, um Ihnen die Nutzung der Trinity Wallet App zu ermöglichen und für Sie die über die Trinity Wallet App angebotenen Dienste zu erbringen und so unsere vertraglichen Verpflichtungen Ihnen gegenüber zu erfüllen. Wenn Sie uns Ihre personenbezogenen Daten nicht zur Verfügung stellen, sind wir vielleicht nicht in der Lage, die Dienstleistungen zu erbringen, die Sie von uns erwarten.
+Wir benötigen Ihre personenbezogenen Daten, um Ihnen die Nutzung der LP Wallet App zu ermöglichen und für Sie die über die LP Wallet App angebotenen Dienste zu erbringen und so unsere vertraglichen Verpflichtungen Ihnen gegenüber zu erfüllen. Wenn Sie uns Ihre personenbezogenen Daten nicht zur Verfügung stellen, sind wir vielleicht nicht in der Lage, die Dienstleistungen zu erbringen, die Sie von uns erwarten.
 
 ### **Einwilligung und Widerruf der Einwilligung**
 
-Jede Einwilligung wird freiwillig erteilt. Wenn Sie uns Ihre Einwilligung erteilen, haben Sie das Recht, diese jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung. Nach dem Widerruf Ihrer Einwilligung werden wir die Verarbeitung Ihrer personenbezogenen Daten einstellen und die personenbezogenen Daten auch nicht länger speichern, sofern die weitere Verarbeitung nicht auf anderer Rechtsgrundlage notwendig und rechtlich zulässig ist. Dieser Abschnitt gilt nur für eine vollkommen freiwillige Verarbeitung – er gilt nicht für eine Verarbeitung, die in irgendeiner Weise erforderlich oder obligatorisch ist, wie dies beispielsweise in Bezug auf diejenigen personenbezogenen Daten der Fall ist, die für die Installation und den Betrieb der Trinity Wallet App benötigt werden.
+Jede Einwilligung wird freiwillig erteilt. Wenn Sie uns Ihre Einwilligung erteilen, haben Sie das Recht, diese jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung. Nach dem Widerruf Ihrer Einwilligung werden wir die Verarbeitung Ihrer personenbezogenen Daten einstellen und die personenbezogenen Daten auch nicht länger speichern, sofern die weitere Verarbeitung nicht auf anderer Rechtsgrundlage notwendig und rechtlich zulässig ist. Dieser Abschnitt gilt nur für eine vollkommen freiwillige Verarbeitung – er gilt nicht für eine Verarbeitung, die in irgendeiner Weise erforderlich oder obligatorisch ist, wie dies beispielsweise in Bezug auf diejenigen personenbezogenen Daten der Fall ist, die für die Installation und den Betrieb der LP Wallet App benötigt werden.
 
-Um Ihre Einwilligung zu widerrufen, senden Sie uns bitte eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) oder schreiben Sie an die IOTA Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+Um Ihre Einwilligung zu widerrufen, senden Sie uns bitte eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) oder schreiben Sie an die LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **Berechtigtes Interesse und Widerspruchsrecht**
 
-Sie können der Verarbeitung Ihrer personenbezogenen Daten aufgrund berechtigter Interessen der IOTA Stiftung oder Dritter widersprechen. Sofern sich Ihr Widerspruch nicht ausschließlich gegen Direktmarketing durch IOTA richtet, müssen Sie darlegen, aus welchen Gründen, die sich aus Ihrer besonderen Situation ergeben, die Datenverarbeitung für Sie nicht hinnehmbar ist.
+Sie können der Verarbeitung Ihrer personenbezogenen Daten aufgrund berechtigter Interessen der LP Stiftung oder Dritter widersprechen. Sofern sich Ihr Widerspruch nicht ausschließlich gegen Direktmarketing durch LP richtet, müssen Sie darlegen, aus welchen Gründen, die sich aus Ihrer besonderen Situation ergeben, die Datenverarbeitung für Sie nicht hinnehmbar ist.
 
-Für den Widerspruch schreiben Sie uns bitte eine Mail an [privacy@iota.org](mailto:privacy@iota.org) oder kontaktieren Sie uns postalisch unter IOTA Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+Für den Widerspruch schreiben Sie uns bitte eine Mail an [privacy@iota.org](mailto:privacy@iota.org) oder kontaktieren Sie uns postalisch unter LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **Wann wir Ihre personenbezogenen Daten löschen**
 
-Wir löschen Ihre personenbezogenen Daten automatisch, wenn wir sie nicht länger für die oben aufgeführten Zwecke benötigen. Wir löschen Ihre personenbezogenen Daten auch, wenn Sie uns dazu auffordern und wenn eine weitere Speicherung aufgrund der einschlägigen Gesetze weder erforderlich noch zulässig ist. Eine weitere Speicherung erfolgt nur so lange und soweit sie nach europäischem Recht oder dem Recht der Mitgliedsstaaten oder sonstigen Vorschriften, denen IOTA unterliegt, vorgesehen ist (z.B. können Transaktionsdaten für einen Zeitraum von 10 Jahren gespeichert werden).
+Wir löschen Ihre personenbezogenen Daten automatisch, wenn wir sie nicht länger für die oben aufgeführten Zwecke benötigen. Wir löschen Ihre personenbezogenen Daten auch, wenn Sie uns dazu auffordern und wenn eine weitere Speicherung aufgrund der einschlägigen Gesetze weder erforderlich noch zulässig ist. Eine weitere Speicherung erfolgt nur so lange und soweit sie nach europäischem Recht oder dem Recht der Mitgliedsstaaten oder sonstigen Vorschriften, denen LP unterliegt, vorgesehen ist (z.B. können Transaktionsdaten für einen Zeitraum von 10 Jahren gespeichert werden).
 
 ### **Ihre Datenschutzrechte**
 
@@ -137,7 +137,7 @@ Sie können ferner eine Kopie der personenbezogenen Daten anfordern, die derzeit
 
 Sofern Sie mit uns in einer direkten Geschäftsbeziehung stehen, sind wir der Datenverantwortliche im Sinne von Art. 4 Abs. 7 DSGVO. Falls Sie Fragen oder Anliegen haben, können Sie uns wie folgt, erreichen:
 
-IOTA Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin,
+LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin,
 
 [privacy@iota.org](mailto:privacy@iota.org)
 
@@ -147,7 +147,7 @@ Unseren Datenschutzbeauftragten erreichen Sie unter:
 
 ### **Änderungen dieser Datenschutzrichtlinie zur App**
 
-Diese Datenschutzrichtlinie zur Trinity Wallet App kann von Zeit zu Zeit geändert oder aktualisiert werden, um Änderungen unserer bei der Verarbeitung personenbezogener Daten verwendeten Praktiken oder Änderungen der einschlägigen Gesetze Rechnung zu tragen. Wir bitten Sie, diese Datenschutzrichtlinie sorgfältig durchzulesen und diese Seite regelmäßig zu überprüfen, um Änderungen, die wir gegebenenfalls nach Maßgabe der Bestimmungen dieser Datenschutzrichtlinie vorgenommen haben, einzusehen. Ihre fortgesetzte Nutzung unserer Dienste oder der Website stellt Ihrerseits die Zustimmung dar, sich an diese Datenschutzrichtlinie in der jeweils geänderten oder aktualisierten Form zu halten.
+Diese Datenschutzrichtlinie zur LP Wallet App kann von Zeit zu Zeit geändert oder aktualisiert werden, um Änderungen unserer bei der Verarbeitung personenbezogener Daten verwendeten Praktiken oder Änderungen der einschlägigen Gesetze Rechnung zu tragen. Wir bitten Sie, diese Datenschutzrichtlinie sorgfältig durchzulesen und diese Seite regelmäßig zu überprüfen, um Änderungen, die wir gegebenenfalls nach Maßgabe der Bestimmungen dieser Datenschutzrichtlinie vorgenommen haben, einzusehen. Ihre fortgesetzte Nutzung unserer Dienste oder der Website stellt Ihrerseits die Zustimmung dar, sich an diese Datenschutzrichtlinie in der jeweils geänderten oder aktualisierten Form zu halten.
 
 ### **Fragen**
 
