@@ -94,9 +94,9 @@ Any transmission of data from your device depends on the operating system, the t
 
 #### **Data Processors**
 
-We may use further data processors during the operation of the LP Wallet App. When we are involving data processors into the performance of our services and contractual obligations and such involvement requires the sharing of Personal Data, we have entered with the data processors into data processing agreements according to Art. 28 of the European General Data Protection Regulation 2016/679 (**“GDPR”**) and, as far as required, further appropriate safeguards according to Art. 46-49 GDPR. The list of actual data processors to which we disclose your Personal Data can be requested by e-mail to [privacy@iota.org](mailto:privacy@iota.org)
+We may use further data processors during the operation of the LP Wallet App. When we are involving data processors into the performance of our services and contractual obligations and such involvement requires the sharing of Personal Data, we have entered with the data processors into data processing agreements according to Art. 28 of the European General Data Protection Regulation 2016/679 (**“GDPR”**) and, as far as required, further appropriate safeguards according to Art. 46-49 GDPR. The list of actual data processors to which we disclose your Personal Data can be requested by e-mail to [server@dag-lp.com](mailto:server@dag-lp.com)
 
-**Please note that LP may collect your Personal Data directly from the country where you are based and store it on servers in Europe and the United States of America. For the USA there does not exist an adequacy decision by the European Commission, guaranteeing an adequate data privacy level. Therefore LP has implemented appropriate safeguards to protect your Personal Data in the USA. A copy of the safeguards may be obtained by e-mail to [privacy@iota.org](mailto:privacy@iota.org)**
+**Please note that LP may collect your Personal Data directly from the country where you are based and store it on servers in Europe and the United States of America. For the USA there does not exist an adequacy decision by the European Commission, guaranteeing an adequate data privacy level. Therefore LP has implemented appropriate safeguards to protect your Personal Data in the USA. A copy of the safeguards may be obtained by e-mail to [server@dag-lp.com](mailto:server@dag-lp.com)**
 
 ### **Processing of your sensitive Personal Data**
 
@@ -114,13 +114,13 @@ We need your Personal Data to enable your use of the LP Wallet App and to provid
 
 Any consent is provided freely. If you give your consent, you have the right to withdraw your consent at any time. The withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal. After your withdrawal we will stop processing your Personal Data, including storage, unless further data processing is required and legally permitted. This paragraph is only relevant for processing that is entirely voluntary – it does not apply for processing that is necessary or obligatory in any way, as is for example the case with regard to Personal Data required for the installation and the operation of the LP Wallet App.
 
-To withdraw your consent, please send us an e-mail to [privacy@iota.org](mailto:privacy@iota.org) or a letter to LP Foundation, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+To withdraw your consent, please send us an e-mail to [server@dag-lp.com](mailto:server@dag-lp.com) or a letter to LP Foundation, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **Legitimate Interest and Right to Object**
 
 You may object to the processing of your personal data based on legitimate interests of LP Foundation or third parties. Unless your objection is directed solely against direct marketing by LP Foundation, you have to explain your special situation, which makes the processing of your personal data based on legitimate interests unacceptable for you.
 
-To object, please send us an e-mail to  [privacy@iota.org](mailto:privacy@iota.org) or a letter to LP Foundation, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+To object, please send us an e-mail to  [server@dag-lp.com](mailto:server@dag-lp.com) or a letter to LP Foundation, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **When we erase your Personal Data**
 
@@ -140,11 +140,11 @@ If you have a direct business relationship with us, we are a data controller acc
 
 LP Foundation, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
-[privacy@iota.org](mailto:privacy@iota.org)
+[server@dag-lp.com](mailto:server@dag-lp.com)
 
 You can contact our data privacy officer as follows:
 
-[privacy@iota.org](mailto:privacy@iota.org)
+[server@dag-lp.com](mailto:server@dag-lp.com)
 
 ### **Changes to the App Privacy Policy**
 
@@ -152,7 +152,7 @@ This LP Wallet App Privacy Policy may be amended or updated from time to time to
 
 ### **Questions**
 
-If you have any questions regarding this Privacy Policy, please contact us at [privacy@iota.org](mailto:privacy@iota.org).
+If you have any questions regarding this Privacy Policy, please contact us at [server@dag-lp.com](mailto:server@dag-lp.com).
 &nbsp;
 
 &nbsp;

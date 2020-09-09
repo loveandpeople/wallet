@@ -89,9 +89,9 @@ Die Übertragung von Daten von Ihrem Gerät hängt vom verwendeten Betriebssyste
 
 #### **Auftragsverarbeiter**
 
-Wir setzen während des Betriebs der LP Wallet App unter Umständen weitere Auftragsverarbeiter ein. Soweit wir Auftragsverarbeiter in die Erbringung unserer Dienste und die Erfüllung unserer vertraglichen Verpflichtungen miteinbeziehen und eine solche Einbeziehung die Übermittlung personenbezogener Daten erfordert, haben wir mit diesen Auftragsverarbeitern Vereinbarungen zur Auftragsverarbeitung gemäß Art. 28 der Europäischen Datenschutz-Grundverordnung 2016/679 (**„DSGVO”**) abgeschlossen und, soweit erforderlich, weitere geeignete Garantien gemäß Art. 46-49 DSGVO vorgesehen. Sie können eine Liste der Auftragsverarbeiter, denen gegenüber wir Ihre personenbezogenen Daten offenlegen, anfordern, indem Sie uns eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) senden.
+Wir setzen während des Betriebs der LP Wallet App unter Umständen weitere Auftragsverarbeiter ein. Soweit wir Auftragsverarbeiter in die Erbringung unserer Dienste und die Erfüllung unserer vertraglichen Verpflichtungen miteinbeziehen und eine solche Einbeziehung die Übermittlung personenbezogener Daten erfordert, haben wir mit diesen Auftragsverarbeitern Vereinbarungen zur Auftragsverarbeitung gemäß Art. 28 der Europäischen Datenschutz-Grundverordnung 2016/679 (**„DSGVO”**) abgeschlossen und, soweit erforderlich, weitere geeignete Garantien gemäß Art. 46-49 DSGVO vorgesehen. Sie können eine Liste der Auftragsverarbeiter, denen gegenüber wir Ihre personenbezogenen Daten offenlegen, anfordern, indem Sie uns eine E-Mail an [server@dag-lp.com](mailto:server@dag-lp.com) senden.
 
-**Bitte beachten Sie, dass LP Ihre personenbezogenen Daten gegebenenfalls direkt aus dem Land bezieht, in dem Sie ansässig sind und diese Daten dann auf Servern in Europa und in den Vereinigten Staaten von Amerika speichert. Für die USA gibt es keinen Anerkennungsbeschluss der Europäischen Kommission, durch den ein angemessenes Datenschutzniveau garantiert wird. Aus diesem Grund hat LP für geeignete Garantien gesorgt, um Ihre personenbezogenen Daten in den USA zu schützen. Sie können eine Kopie dieser Garantien anfordern, indem Sie eine E-Mail an** [**privacy@iota.org**](mailto:privacy@iota.org) **senden.**
+**Bitte beachten Sie, dass LP Ihre personenbezogenen Daten gegebenenfalls direkt aus dem Land bezieht, in dem Sie ansässig sind und diese Daten dann auf Servern in Europa und in den Vereinigten Staaten von Amerika speichert. Für die USA gibt es keinen Anerkennungsbeschluss der Europäischen Kommission, durch den ein angemessenes Datenschutzniveau garantiert wird. Aus diesem Grund hat LP für geeignete Garantien gesorgt, um Ihre personenbezogenen Daten in den USA zu schützen. Sie können eine Kopie dieser Garantien anfordern, indem Sie eine E-Mail an** [**server@dag-lp.com**](mailto:server@dag-lp.com) **senden.**
 
 ### **Verarbeitung Ihrer sensiblen personenbezogenen Daten**
 
@@ -109,13 +109,13 @@ Wir benötigen Ihre personenbezogenen Daten, um Ihnen die Nutzung der LP Wallet 
 
 Jede Einwilligung wird freiwillig erteilt. Wenn Sie uns Ihre Einwilligung erteilen, haben Sie das Recht, diese jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung. Nach dem Widerruf Ihrer Einwilligung werden wir die Verarbeitung Ihrer personenbezogenen Daten einstellen und die personenbezogenen Daten auch nicht länger speichern, sofern die weitere Verarbeitung nicht auf anderer Rechtsgrundlage notwendig und rechtlich zulässig ist. Dieser Abschnitt gilt nur für eine vollkommen freiwillige Verarbeitung – er gilt nicht für eine Verarbeitung, die in irgendeiner Weise erforderlich oder obligatorisch ist, wie dies beispielsweise in Bezug auf diejenigen personenbezogenen Daten der Fall ist, die für die Installation und den Betrieb der LP Wallet App benötigt werden.
 
-Um Ihre Einwilligung zu widerrufen, senden Sie uns bitte eine E-Mail an [privacy@iota.org](mailto:privacy@iota.org) oder schreiben Sie an die LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+Um Ihre Einwilligung zu widerrufen, senden Sie uns bitte eine E-Mail an [server@dag-lp.com](mailto:server@dag-lp.com) oder schreiben Sie an die LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **Berechtigtes Interesse und Widerspruchsrecht**
 
 Sie können der Verarbeitung Ihrer personenbezogenen Daten aufgrund berechtigter Interessen der LP Stiftung oder Dritter widersprechen. Sofern sich Ihr Widerspruch nicht ausschließlich gegen Direktmarketing durch LP richtet, müssen Sie darlegen, aus welchen Gründen, die sich aus Ihrer besonderen Situation ergeben, die Datenverarbeitung für Sie nicht hinnehmbar ist.
 
-Für den Widerspruch schreiben Sie uns bitte eine Mail an [privacy@iota.org](mailto:privacy@iota.org) oder kontaktieren Sie uns postalisch unter LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
+Für den Widerspruch schreiben Sie uns bitte eine Mail an [server@dag-lp.com](mailto:server@dag-lp.com) oder kontaktieren Sie uns postalisch unter LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin.
 
 ### **Wann wir Ihre personenbezogenen Daten löschen**
 
@@ -135,11 +135,11 @@ Sofern Sie mit uns in einer direkten Geschäftsbeziehung stehen, sind wir der Da
 
 LP Stiftung, c/o Nextland, Strassburgerstr. 55, 10405 Berlin,
 
-[privacy@iota.org](mailto:privacy@iota.org)
+[server@dag-lp.com](mailto:server@dag-lp.com)
 
 Unseren Datenschutzbeauftragten erreichen Sie unter:
 
-[privacy@iota.org](mailto:privacy@iota.org)
+[server@dag-lp.com](mailto:server@dag-lp.com)
 
 ### **Änderungen dieser Datenschutzrichtlinie zur App**
 
@@ -147,7 +147,7 @@ Diese Datenschutzrichtlinie zur LP Wallet App kann von Zeit zu Zeit geändert od
 
 ### **Fragen**
 
-Sollten Sie irgendwelche Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter [privacy@iota.org](mailto:privacy@iota.org).
+Sollten Sie irgendwelche Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter [server@dag-lp.com](mailto:server@dag-lp.com).
 &nbsp;
 
 &nbsp;
