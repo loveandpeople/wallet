@@ -199,7 +199,7 @@ class Chart extends PureComponent {
                     <View style={styles.priceContainer}>
                         <Text style={[styles.iotaPrice, textColor]}>
                             {getChartCurrencySymbol(priceData.currency)}{' '}
-                            {getPriceFormat(getPriceForCurrency(priceData.currency))} / Mlp
+                            {getPriceFormat(getPriceForCurrency(priceData.currency))} / lp
                         </Text>
                     </View>
                     <TouchableOpacity

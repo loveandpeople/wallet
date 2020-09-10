@@ -72,7 +72,7 @@ const initialState = {
     /**
      * Active denomination on send screen
      */
-    sendDenomination: 'lp',
+    sendDenomination: 'p',
     /**
      * Keeps track if wallet is allowed to be minimised
      */
@@ -127,7 +127,7 @@ const initialState = {
     /**
      * Active QR denomination on receive screen
      */
-    qrDenomination: 'lp',
+    qrDenomination: 'p',
     /**
      * Selected QR tab name on receive screen
      */
@@ -256,13 +256,13 @@ export default (state = initialState, action) => {
                 sendAddressFieldText: '',
                 sendAmountFieldText: '',
                 sendMessageFieldText: '',
-                sendDenomination: 'lp',
+                sendDenomination: 'p',
                 doNotMinimise: false,
                 isModalActive: false,
                 qrMessage: '',
                 qrAmount: '',
                 qrTag: '',
-                qrDenomination: 'lp',
+                qrDenomination: 'p',
                 selectedQrTab: 'message',
                 CDAContent: {},
             };

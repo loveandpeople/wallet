@@ -74,7 +74,7 @@ export const getCurrencySymbol = (currency) => {
 };
 
 export const getNextDenomination = (currency, denomination) => {
-    const availableDenominations = ['lp', 'Klp', 'Mlp', 'Glp', 'Tlp', getCurrencySymbol(currency)];
+    const availableDenominations = ['p', 'kp', 'lp', 'Klp', 'Mlp', getCurrencySymbol(currency)];
     const indexOfDenomination = availableDenominations.indexOf(denomination);
     const nextDenomination =
         indexOfDenomination === -1 || indexOfDenomination === 5
@@ -86,18 +86,18 @@ export const getNextDenomination = (currency, denomination) => {
 export const getIOTAUnitMultiplier = (denomination) => {
     let multiplier = 1;
     switch (denomination) {
-        case 'lp':
+        case 'p':
             break;
-        case 'Klp':
+        case 'kp':
             multiplier = 1000;
             break;
-        case 'Mlp':
+        case 'lp':
             multiplier = 1000000;
             break;
-        case 'Glp':
+        case 'Klp':
             multiplier = 1000000000;
             break;
-        case 'Tlp':
+        case 'Mlp':
             multiplier = 1000000000000;
             break;
     }

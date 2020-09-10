@@ -91,7 +91,7 @@ class UnitInfoModal extends PureComponent {
                 <Text style={[styles.infoText, textColor]}>{t('unitInfoExplanation')}</Text>
                 <View style={styles.unitsContainer}>
                     <View style={styles.unitRow}>
-                        <Text style={[styles.denominationText, { color: primary.color }]}>Tlp</Text>
+                        <Text style={[styles.denominationText, { color: primary.color }]}>Mlp</Text>
                         <View style={{ flex: 1 }}>
                             <Text style={[styles.numberText, textColor]}>{t('trillion')}</Text>
                         </View>
@@ -101,7 +101,7 @@ class UnitInfoModal extends PureComponent {
                     </View>
                     <View style={[styles.line, lineColor]} />
                     <View style={styles.unitRow}>
-                        <Text style={[styles.denominationText, { color: primary.color }]}>Glp</Text>
+                        <Text style={[styles.denominationText, { color: primary.color }]}>Klp</Text>
                         <View style={{ flex: 1 }}>
                             <Text style={[styles.numberText, textColor]}>{t('billion')}</Text>
                         </View>
@@ -111,7 +111,7 @@ class UnitInfoModal extends PureComponent {
                     </View>
                     <View style={[styles.line, lineColor]} />
                     <View style={{ alignItems: 'center', flexDirection: 'row' }}>
-                        <Text style={[styles.denominationText, { color: primary.color }]}>Mlp</Text>
+                        <Text style={[styles.denominationText, { color: primary.color }]}>lp</Text>
                         <View style={{ flex: 1 }}>
                             <Text style={[styles.numberText, textColor]}>{t('million')}</Text>
                         </View>
@@ -121,7 +121,7 @@ class UnitInfoModal extends PureComponent {
                     </View>
                     <View style={[styles.line, lineColor]} />
                     <View style={styles.unitRow}>
-                        <Text style={[styles.denominationText, { color: primary.color }]}>Klp</Text>
+                        <Text style={[styles.denominationText, { color: primary.color }]}>kp</Text>
                         <View style={{ flex: 1 }}>
                             <Text style={[styles.numberText, textColor]}>{t('thousand')}</Text>
                         </View>
@@ -131,7 +131,7 @@ class UnitInfoModal extends PureComponent {
                     </View>
                     <View style={[styles.line, lineColor]} />
                     <View style={styles.unitRow}>
-                        <Text style={[styles.denominationText, { color: primary.color }]}>lp</Text>
+                        <Text style={[styles.denominationText, { color: primary.color }]}>p</Text>
                         <View style={{ flex: 1 }}>
                             <Text style={[styles.numberText, textColor]}>{t('one')}</Text>
                         </View>

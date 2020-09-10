@@ -162,15 +162,15 @@ export const formatUnit = (value) => {
 
     switch (true) {
         case value < 1000:
-            return 'lp';
+            return 'p';
         case value < 1000000:
-            return 'Klp';
+            return 'kp';
         case value < 1000000000:
-            return 'Mlp';
+            return 'lp';
         case value < 1000000000000:
-            return 'Glp';
+            return 'Klp';
         default:
-            return 'Tlp';
+            return 'Mlp';
     }
 };
 
