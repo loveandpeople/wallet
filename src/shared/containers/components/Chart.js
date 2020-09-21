@@ -128,7 +128,7 @@ export default function withChartData(ChartComponent) {
             return <ChartComponent {...chartProps} />;
         }
     }
-
+    // 调试的时候显示的名称
     ChartData.displayName = `withChartData(${ChartComponent.displayName || ChartComponent.name})`;
 
     const mapStateToProps = (state) => ({

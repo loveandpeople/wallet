@@ -188,7 +188,7 @@ export const setNode = (payload) => {
  */
 export const setNodeList = (payload) => {
     Node.addNodes(payload);
-
+    // debugger
     return (dispatch, getState) => {
         dispatch({
             type: SettingsActionTypes.SET_NODELIST,

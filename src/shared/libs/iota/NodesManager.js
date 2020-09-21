@@ -45,7 +45,7 @@ export default class NodesManager {
             : unionBy([powNode], randomNodes, 'url');
         // Abort retries on these errors
         const cancellationErrors = [Errors.LEDGER_CANCELLED, Errors.CANNOT_TRANSITION_ADDRESSES_WITH_ZERO_BALANCE];
-
+        // debugger
         return (promiseFunc) => {
             const execute = (...args) => {
                 if (isUndefined(retryNodes[attempt])) {

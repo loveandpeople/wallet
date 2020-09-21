@@ -322,6 +322,8 @@ const getQuorum = (quorumSize) => (method, syncedNodes, payload, ...args) => {
  *   @returns {object}
  **/
 export default function Quorum(config) {
+    // console.log('ssssssssssssssssssssssssssssssss',config);
+    // console.log('ssssssssssssssssssssssssssssssss',QUORUM_SIZE);
     const quorumNodes = get(config, 'nodes') || [];
 
     let quorumSize = get(config, 'quorumSize') || QUORUM_SIZE;

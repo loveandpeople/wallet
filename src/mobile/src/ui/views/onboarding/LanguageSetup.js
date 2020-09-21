@@ -191,6 +191,8 @@ const mapDispatchToProps = {
     setLocale,
 };
 
+LanguageSetup.displayName = `LanguageSetup`;
+
 export default withTranslation(['languageSetup', 'global'])(
     connect(mapStateToProps, mapDispatchToProps)(LanguageSetup),
 );

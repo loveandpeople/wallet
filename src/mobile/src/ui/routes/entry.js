@@ -121,7 +121,7 @@ const renderInitialScreen = (initialScreen) => {
     };
 
     Navigation.setDefaultOptions(options);
-
+    // 单个页面栈
     Navigation.setRoot({
         root: {
             stack: {
@@ -226,6 +226,7 @@ onAppStart()
             version: getVersion(),
             buildNumber: Number(getBuildNumber()),
         };
+        // AsyncStorage 的数据全部迁移到realm中的数据
         // Get persisted data in AsyncStorage
         return reduxPersistStorageAdapter.get().then((storedData) => {
             const buildNumber = get(storedData, 'settings.versions.buildNumber');

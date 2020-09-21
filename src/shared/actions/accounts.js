@@ -439,7 +439,7 @@ export const getAccountInfo = (seedStore, accountName, notificationFn, quorum = 
 
         const existingAccountState = selectedAccountStateFactory(accountName)(getState());
         const settings = getState().settings;
-
+        // debugger
         return new NodesManager(nodesConfigurationFactory({ quorum })(getState()))
             .withRetries(() => dispatch(generateAccountSyncRetryAlert()))(syncAccount)(
                 existingAccountState,

@@ -19,7 +19,7 @@ describe('Reducer: ui', () => {
                 sendAddressFieldText: '',
                 sendAmountFieldText: '',
                 sendMessageFieldText: '',
-                sendDenomination: 'i',
+                sendDenomination: 'p',
                 doNotMinimise: false,
                 isModalActive: false,
                 isCheckingCustomNode: false,
@@ -28,7 +28,7 @@ describe('Reducer: ui', () => {
                 loginRoute: 'login',
                 isRetryingFailedTransaction: false,
                 qrAmount: '',
-                qrDenomination: 'i',
+                qrDenomination: 'p',
                 qrMessage: '',
                 qrTag: '',
                 selectedQrTab: 'message',
@@ -217,7 +217,7 @@ describe('Reducer: ui', () => {
     describe('IOTA/UI/SET_SEND_DENOMINATION', () => {
         it('should set "sendDenomination" state prop to "payload" in action', () => {
             const initialState = {
-                sendDenomination: 'i',
+                sendDenomination: 'p',
             };
 
             const action = {
@@ -474,7 +474,7 @@ describe('Reducer: ui', () => {
 
             const newState = reducer(initialState, action);
             const expectedState = {
-                sendDenomination: 'i',
+                sendDenomination: 'p',
             };
 
             expect(newState.sendDenomination).to.eql(expectedState.sendDenomination);

@@ -228,6 +228,7 @@ export const formatIotas = (iotas, showShort, showUnit) => {
  * @returns {boolean}
  */
 export const isValidServerAddress = (server) => {
+    // debugger
     if (!server.startsWith('http://') && !server.startsWith('https://')) {
         return false;
     }

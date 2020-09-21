@@ -28,7 +28,7 @@ class AnimatedComponent extends Component {
         style: PropTypes.oneOfType([PropTypes.object, PropTypes.array, PropTypes.number]),
         /** Trigger animation out on change */
         animateOutTrigger: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
-        /** Trigger animation in on change */
+        /** Trigger animation in on change 当传入的值发生变化的时候出发动画，不变就不触发动画 */
         animateInTrigger: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
         /** Determines whether to animate with changes to the navigation stack */
         animateOnNavigation: PropTypes.bool,
@@ -73,18 +73,20 @@ class AnimatedComponent extends Component {
     }
 
     componentWillReceiveProps(newProps) {
+        // 主动触发进入动画
         if (this.props.animateInTrigger !== newProps.animateInTrigger) {
             return this.iniatialiseAnimations(newProps.animationInType);
         }
-
+        // 主动触发退出动画
         if (this.props.animateOutTrigger !== newProps.animateOutTrigger) {
             return this.iniatialiseAnimations(newProps.animationOutType);
         }
-
+        // 是否开启路由变化的动画,相当于一个配置参数
         if (!this.props.animateOnNavigation) {
             return;
         }
 
+        // 新增路由的动画，之前的路由与当前的路由相同
         // Animate out if pushing from current screen
         if (this.props.navStack.length < newProps.navStack.length && this.screen === last(this.props.navStack)) {
             this.reverseSlideOut = false;
@@ -92,6 +94,7 @@ class AnimatedComponent extends Component {
             this.animateOut();
         }
 
+        // 弹出路由的动画，同一个路由
         // Animate out if popping from current screen
         if (
             this.props.navStack.length > newProps.navStack.length &&
@@ -103,6 +106,7 @@ class AnimatedComponent extends Component {
             this.animateOut();
         }
 
+        // 重置路由栈动画
         // Animate out if resetting navigator stack
         if (
             this.screen === last(this.props.navStack) &&
@@ -115,6 +119,7 @@ class AnimatedComponent extends Component {
             this.animateOut();
         }
 
+        // 弹出当前路由，要弹出的路由跟现在的路由一样
         // Animate in if popping to current screen
         if (this.props.navStack.length > newProps.navStack.length && this.screen === last(newProps.navStack)) {
             this.reverseSlideIn = true;

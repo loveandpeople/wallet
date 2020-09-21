@@ -247,9 +247,10 @@ export const fetchNodeList = () => {
         dispatch(fetchNodeListRequest());
 
         let nodes = DEFAULT_NODES;
-
+        // debugger
         fetchRemoteNodes()
             .then((remoteNodes) => {
+                // debugger
                 // If there is a successful response, keep a union of (new nodes returned from the endpoint, default hardcoded nodes)
                 if (isArray(remoteNodes) && remoteNodes.length) {
                     nodes = unionBy(nodes, remoteNodes, 'url');
@@ -257,7 +258,20 @@ export const fetchNodeList = () => {
                     // Otherwise, fallback to existing nodes
                     nodes = getNodesFromState(getState());
                 }
-
+                // nodes = [
+                //     {
+                //         url: 'https://nodes.dag-lp.com',
+                //         pow: false,
+                //         username: '',
+                //         password: '',
+                //     },
+                //     {
+                //         url: 'https://nodes.dag-lp.com:443',
+                //         pow: true,
+                //         username: '',
+                //         password: '',
+                //     }
+                // ]
                 // Update nodes on global quorum instance
                 quorum.setNodes(
                     unionBy(getCustomNodesFromState(getState()), getState().settings.autoNodeList && nodes, 'url'),

@@ -11,13 +11,13 @@ export const DEFAULT_NODE = __TEST__
           password: '',
       }
     : {
-          url: 'https://nodes.iota.org',
+          url: 'https://nodes.dag-lp.com',
           pow: false,
           username: '',
           password: '',
       };
 
-export const NODES_WITH_POW_DISABLED = ['https://nodes.iota.org'].map((url) => ({
+export const NODES_WITH_POW_DISABLED = ['https://nodes.dag-lp.com'].map((url) => ({
     url,
     pow: false,
     username: '',
@@ -25,9 +25,7 @@ export const NODES_WITH_POW_DISABLED = ['https://nodes.iota.org'].map((url) => (
 }));
 
 export const NODES_WITH_POW_ENABLED = [
-    'https://nodes.thetangle.org:443',
-    'https://iotanode.us:14267',
-    'https://nodes.iota.cafe:443',
+    'https://nodes.dag-lp.com:443',
 ].map((url) => ({
     url,
     pow: true,
@@ -38,9 +36,9 @@ export const NODES_WITH_POW_ENABLED = [
 export const DEFAULT_NODES = [...NODES_WITH_POW_DISABLED, ...NODES_WITH_POW_ENABLED];
 
 export const NODELIST_ENDPOINTS = [
-    'https://nodes.iota.works/api/ssl/live',
-    'https://iota-node-api.now.sh/api/ssl/live',
-    'https://iota.dance/api/ssl/live',
+    // 'https://nodes.iota.works/api/ssl/live',
+    // 'https://iota-node-api.now.sh/api/ssl/live',
+    // 'https://iota.dance/api/ssl/live',
 ];
 
 export const MARKETDATA_ENDPOINTS = [
@@ -77,7 +75,7 @@ export const DEFAULT_RETRIES = 4;
 export const IRI_API_VERSION = '1';
 
 export const QUORUM_THRESHOLD = 66;
-export const QUORUM_SIZE = 3;
+export const QUORUM_SIZE = 2;
 export const QUORUM_SYNC_CHECK_INTERVAL = 120;
 export const MINIMUM_QUORUM_SIZE = 2;
 export const MAXIMUM_QUORUM_SIZE = 7;
