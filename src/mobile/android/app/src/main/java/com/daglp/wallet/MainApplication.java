@@ -1,4 +1,4 @@
-package com.iota.trinity;
+package com.daglp.wallet;
 
 import android.content.Context;
 import com.bitgo.randombytes.RandomBytesPackage;

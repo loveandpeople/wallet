@@ -93,7 +93,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.iota.trinity"
+        applicationId "com.daglp.wallet"
         versionCode 106
         versionName "1.6.0"
         minSdkVersion 21

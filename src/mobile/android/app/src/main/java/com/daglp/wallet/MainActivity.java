@@ -1,4 +1,4 @@
-package com.iota.trinity;
+package com.daglp.wallet;
 
 import android.os.Bundle;
 import android.widget.LinearLayout;
