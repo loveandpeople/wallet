@@ -6,7 +6,7 @@
         "noTransactions": "NO RECENT HISTORY",
         "refresh": "Refresh",
         "balanceError": "Not enough balance",
-        "balanceErrorMessage": "You do not have enough IOTA to complete this transfer.",
+        "balanceErrorMessage": "You do not have enough LP to complete this transfer.",
         "transferError": "Transfer error",
         "transferErrorMessage": "Something went wrong while sending your transfer. Please try again.",
         "transferSent": "Transfer sent",
@@ -115,7 +115,7 @@
         "cannotSendToOwnExplanation": "You cannot make a value transfer to one of your own addresses.",
         "pleaseWait": "Please wait",
         "pleaseWaitEllipses": "Please wait...",
-        "pleaseWaitExplanation": "Trinity is performing another function. Please wait and try again.",
+        "pleaseWaitExplanation": "LPWallet is performing another function. Please wait and try again.",
         "pleaseWaitTransferExplanation": "Your available balance is currently being used in other transfers. Please wait for one to confirm before trying again.",
         "pleaseWaitIncomingTransferExplanation": "You have incoming transfers. Please wait for them to confirm before trying again.",
         "snapshotTransitionInProgress": "Snapshot transition in progress",
@@ -135,8 +135,8 @@
         "nodeAutoChanged": "Auto-switched node",
         "nodeAutoChangedExplanation": "Switched to new node {{- nodeAddress}} as selected node is offline.",
         "fingerprintOnSend": "Touch fingerprint reader to authorise the transfer",
-        "masterKey": "Your IOTA seed is the master key to your funds.",
-        "seedThief": "If someone else has your seed they can steal your IOTA.",
+        "masterKey": "Your LP seed is the master key to your funds.",
+        "seedThief": "If someone else has your seed they can steal your LP.",
         "googlePlayServicesNotAvailable": "Google Play Services not available",
         "couldNotVerifyDeviceIntegrity": "Could not verify device integrity because Google Play Services are not available.",
         "clear": "CLEAR",
@@ -152,7 +152,7 @@
         "isYourBalanceCorrect": "Is your balance correct?",
         "ifYourBalanceIsNotCorrect": "If your balance is not correct, it is likely that you are using a pre-snapshot seed.",
         "headToAdvancedSettingsForTransition": "Head to Advanced Settings and perform a Snapshot Transition.",
-        "usingTrinityWalletWithKeePass": "Using Trinity Wallet with Keepass2Android"
+        "usingTrinityWalletWithKeePass": "Using LPWallet Wallet with Keepass2Android"
     },
     "addAdditionalSeed": {
         "seedInvalidChars": "Seed contains invalid characters",
@@ -247,7 +247,7 @@
         "login": "Log In",
         "selectDifferentNode": "Do you want to select a different node?",
         "setNode": "Set Node",
-        "cannotConnect": "Cannot connect to IOTA node."
+        "cannotConnect": "Cannot connect to LP node."
     },
     "loading": {
         "loadingFirstTime": "Loading seed for the first time.",
@@ -275,7 +275,7 @@
         "clickToPrint": "Click the button below to print a paper copy of your seed.",
         "storeSafely": "Store it safely.",
         "neverShare": "Never share your seed with anyone.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "printWallet": "Print Paper Wallet",
         "print": "PRINT",
         "paperConvenience": "Printing a paper copy of your seed is a convenient way to store it.",
@@ -315,7 +315,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Please confirm your seed",
-        "trinityWillNeverAskToReenter": "Trinity will never ask you to re-enter this seed unless you reset your wallet or the app.",
+        "trinityWillNeverAskToReenter": "LPWallet will never ask you to re-enter this seed unless you reset your wallet or the app.",
         "enterYourSeed": "Enter your seed",
         "incorrectSeed": "Incorrect seed",
         "incorrectSeedExplanation": "The seed you entered is incorrect. Please try again.",
@@ -330,7 +330,7 @@
         "invalidAddressExplanation3": "Address contains an invalid checksum.",
         "invalidAddressExplanationGeneric": "Valid addresses should be 90 characters and contain only A-Z or 9.",
         "notEnoughFunds": "Insufficient funds",
-        "notEnoughFundsExplanation": "You do not have enough IOTA to complete this transfer.",
+        "notEnoughFundsExplanation": "You do not have enough LP to complete this transfer.",
         "keyReuse": "Key reuse",
         "keyReuseExplanation": "The address you are trying to send to has already been used. Please try another address.",
         "recipientAddress": "Recipient address",
@@ -343,9 +343,9 @@
         "invalidMessageTooLongExplanation": "The message exceeds the max. amount of characters (1093).",
         "send": "Send",
         "invalidAmount": "Incorrect amount entered",
-        "invalidAmountExplanation": "Please enter a valid transaction amount. It may be helpful to view the IOTA unit explanation at the bottom of this page.",
+        "invalidAmountExplanation": "Please enter a valid transaction amount. It may be helpful to view the LP unit explanation at the bottom of this page.",
         "maximumSelected": "MAXIMUM amount selected",
-        "iotaUnits": "IOTA units explained",
+        "iotaUnits": "LP units explained",
         "sendMax": "SEND MAX",
         "totalTime": "Total time",
         "addressPasteDetected": "Address paste detected",
@@ -419,7 +419,7 @@
         "fetchedConversionRatesExplanation": "Successfully fetched latest conversion rate for {{currency}}.",
         "undo": "Undo",
         "redo": "Redo",
-        "aboutTrinity": "About Trinity",
+        "aboutTrinity": "About LPWallet",
         "lockScreenTimeout": "Lock Screen Timeout (Minutes)",
         "autoNodeSwitching": "Automatically switch node when selected is unreachable",
         "nodeChangeSuccess": "Successfully changed node",
@@ -438,15 +438,15 @@
         "okay": "Okay. Let's set up your wallet!",
         "doYouAlreadyHaveASeed": "Do you already have a seed that you would like to use?",
         "doYouNeedASeed": "Do you need to create a new seed?",
-        "seedExplanation": "Your IOTA seed is the master key to your funds. It is 81 characters long.",
+        "seedExplanation": "Your LP seed is the master key to your funds. It is 81 characters long.",
         "noIHaveOne": "No, I have one",
         "yesINeedASeed": "Yes, I need a seed",
-        "explanation": "<0><0>You can use it to access your funds from</0><1> any wallet</1><2>, on</2><3> any device</3><4>. But if you lose your seed, you also lose your IOTA.</4></0>",
+        "explanation": "<0><0>You can use it to access your funds from</0><1> any wallet</1><2>, on</2><3> any device</3><4>. But if you lose your seed, you also lose your LP.</4></0>",
         "keepSafe": "Please keep your seed safe.",
-        "hint": "<0><0>Hint:</0> Click NO if this is your first time using IOTA.</0>"
+        "hint": "<0><0>Hint:</0> Click NO if this is your first time using LP.</0>"
     },
     "welcome": {
-        "thankYou": "Thank you for downloading Trinity.",
+        "thankYou": "Thank you for downloading LPWallet.",
         "weWillSpend": "We will spend the next few minutes setting up your wallet.",
         "reminder": "You may be tempted to skip some steps, but we urge you to follow the complete process."
     },
@@ -479,7 +479,7 @@
         "customNodeAddedSuccessfully": "The custom node has been added successfully.",
         "customNode": "Custom node",
         "invalidNodeResponse": "The node returned an invalid response",
-        "httpNodeError": "Trinity Mobile only supports https nodes.",
+        "httpNodeError": "LPWallet Mobile only supports https nodes.",
         "add": "Add",
         "nodeFieldEmpty": "Text field is empty",
         "nodeFieldEmptyExplanation": "Please enter a custom node."
@@ -524,7 +524,7 @@
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Why can't I spend my full balance?",
-        "spentAddressExplanation": "You have funds on one or more spent addresses. Address reuse is dangerous in IOTA, so this wallet does not allow you to send from the same address more than once.",
+        "spentAddressExplanation": "You have funds on one or more spent addresses. Address reuse is dangerous in LP, so this wallet does not allow you to send from the same address more than once.",
         "discordInformation": "Please head to the #help channel on Discord to find out what you can do."
     },
     "deleteAccount": {
@@ -555,7 +555,7 @@
         "didSaveSeed": "Did you back up your seed?",
         "alreadyHave": "I have backed up my seed",
         "reenterSeed": "At the next step you will be asked to re-enter your seed.",
-        "reenterSeedWarning": "If you have not backed up your seed and your device fails, you will lose all of your IOTA.",
+        "reenterSeedWarning": "If you have not backed up your seed and your device fails, you will lose all of your LP.",
         "pleaseConfirm": "Please confirm you have securely stored your seed."
     },
     "walletResetConfirmation": {
@@ -615,7 +615,7 @@
         "continueDepsiteRisk": "Do you wish to continue despite this risk?"
     },
     "pow": {
-        "feeless": "It is necessary to complete a little proof of work to send feeless transactions in IOTA.",
+        "feeless": "It is necessary to complete a little proof of work to send feeless transactions in LP.",
         "localOrRemote": "Proof of work can either be completed locally on your device, or offloaded to a node.",
         "local": "Local",
         "remote": "Remote",
@@ -660,9 +660,9 @@
         "errorRetrievingUpdateData": "Error retrieving update data",
         "errorRetrievingUpdateDataExplanation": "There was an error retrieving update data. Please try again.",
         "noUpdatesAvailable": "No updates available",
-        "noUpdatesAvailableExplanation": "You've got the latest version of IOTA Trinity desktop wallet!",
+        "noUpdatesAvailableExplanation": "You've got the latest version of LP LPWallet desktop wallet!",
         "newVersionAvailable": "New version available",
-        "newVersionAvailableExplanation": "A new <strong>Trinity</strong> <strong>{{version}}</strong> version is available. Please read the release details carefully and verify the download source before updating:",
+        "newVersionAvailableExplanation": "A new <strong>LPWallet</strong> <strong>{{version}}</strong> version is available. Please read the release details carefully and verify the download source before updating:",
         "downloadRelease": "Download release",
         "skipUpdate": "Skip update"
     },

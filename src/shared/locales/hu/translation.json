@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Nem indíthat olyan címre tranzakciót, amelyről egyúttal egyenleget kíván felhasználni.",
         "pleaseWait": "Kérjük, várjon",
         "pleaseWaitEllipses": "Kérjük, várjon...",
-        "pleaseWaitExplanation": "A Trinity jelenleg egy másik feladatot hajt végre. Kérjük, várjon és próbálja újra később.",
+        "pleaseWaitExplanation": "A LPWallet jelenleg egy másik feladatot hajt végre. Kérjük, várjon és próbálja újra később.",
         "pleaseWaitTransferExplanation": "A rendelkezésre álló egyenlegét jelenleg egy folyamatban levő tranzakció már használja. Kérjük, várja meg amíg teljesül, mielőtt újat próbálna küldeni.",
         "pleaseWaitIncomingTransferExplanation": "Folyamatban levő beérkező tranzakciói vannak. Kérjük, várja meg amíg teljesülnek, mielőtt újat próbálna küldeni.",
         "snapshotTransitionInProgress": "Pillanatkép utáni egyenlegátvezetés folyamatban",
@@ -129,15 +129,15 @@
         "nodeAutoChangedExplanation": "A választott csomópont nem elérhető, ezért a {{- nodeAddress}} csomópont lett kiválasztva.",
         "touchSensor": "Érintse meg az ujjlenyomat leolvasót",
         "fingerprintOnSend": "Érintse meg az ujjlenyomat leolvasót a tranzakció engedélyezéséhez",
-        "masterKey": "Az IOTA mester jelszó a számlájához korlátlan hozzáférést biztosít.",
-        "seedThief": "Bárki ellophatja a teljes egyenlegét, aki hozzáfér az IOTA mester jelszavához.",
+        "masterKey": "Az LP mester jelszó a számlájához korlátlan hozzáférést biztosít.",
+        "seedThief": "Bárki ellophatja a teljes egyenlegét, aki hozzáfér az LP mester jelszavához.",
         "googlePlayServicesNotAvailable": "A Google Play szolgáltatások nem elérhetőek",
         "couldNotVerifyDeviceIntegrity": "Nem sikerült ellenőrizni a készülék sértetlenségét, mert a Google Play szolgáltatások nem elérhetőek.",
         "clear": "Törlés",
         "noNetworkConnection": "Nincs hálózati kapcsolat",
         "noNetworkConnectionExplanation": "Úgy tűnik, nincs internetkapcsolat.",
         "spentAddressExplanation": "FIGYELEM: egyenleg található a már felhasznált címek egyikén",
-        "discordInformation": "Egy címről többször tranzakciót indítani nagyon veszélyes. Kérjük mihamarabb látogasson el a #help csatornára az IOTA Discord-on, hogy segítséget kaphasson, mit tehet ilyen esetben.",
+        "discordInformation": "Egy címről többször tranzakciót indítani nagyon veszélyes. Kérjük mihamarabb látogasson el a #help csatornára az LP Discord-on, hogy segítséget kaphasson, mit tehet ilyen esetben.",
         "androidInsecureClipboardWarning": "Androidon a vágólap használata nem biztonságos.",
         "androidCopyPasteWarning": "Soha ne használjon másolás/beillesztés műveletet a mester jelszó megadásához Android készüléken.",
         "willNotCopyPasteSeed": "Nem fogom kivágni/beilleszteni a mester jelszavam",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Lépjen a fiók beállításai menübe és indítsa el a pillanatkép utáni egyenlegátvezetést.",
         "openAccountTools": "Fiók beállításainak megnyitása",
-        "usingTrinityWalletWithKeePass": "Trinity használata Keepass2Android-dal",
+        "usingTrinityWalletWithKeePass": "LPWallet használata Keepass2Android-dal",
         "signedTrytesBroadcastErrorExplanation": "Hálózati hiba történt a tranzakció küldése során.",
         "broadcastError": "A tranzakció küldése sikertelen",
         "addressesAlreadySpentFrom": "Legalább egy címről indított már korábban tranzakciót.",
@@ -167,7 +167,7 @@
         "shouldUpdateExplanation": "Egy új szoftverfrissítés jelent meg. Ajánlott az alkalmazást a legújabb verzióra frissíteni.",
         "forceUpdate": "Frissítse az alkalmazást a folytatáshoz",
         "forceUpdateExplanation": "Egy kritikus hibát javító frissítés jelent meg. Kérjük, frissítse most az alkalmazást.",
-        "testVersionWarning": "Ezt a verziót csak tesztelési célokra használja, nagyon kis mennyiségű IOTA tokennel.",
+        "testVersionWarning": "Ezt a verziót csak tesztelési célokra használja, nagyon kis mennyiségű LP tokennel.",
         "missingPermission": "Fájl hozzáférési engedély szükséges",
         "missingPermissionExplanation": "A művelet végrehajtásához a fájlrendszerhez való hozzáférési jogosultág szükséges.",
         "swipeToConfirm": "A megerősítéshez húzza el a csúszkát",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Soha, senkivel ne ossza meg a mester jelszavát.",
-        "iotaLogo": "IOTA logó",
+        "iotaLogo": "LP logó",
         "print": "Nyomtat",
         "paperConvenience": "A mester jelszó papírra nyomtatása egy kényelmes módja annak tárolására.",
         "publicInsecure": "De vegye figyelembe, hogy nyilvános nyomtató használata, különösen ha ingyenesen elérhető nyilvános WiFi-n keresztül nyomtatna, nem biztonságos.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Új cím generálása",
         "generateAnAddressTitle": "Új cím generálása",
         "generateAnAddressExplanation": "Kérjük ennek a funkciónak a használata előtt generáljon egy új címet.",
-        "generateAddressInformation": "Mindig hozzon létre új címet, ha IOTA-t szeretne fogadni"
+        "generateAddressInformation": "Mindig hozzon létre új címet, ha LP-t szeretne fogadni"
     },
     "saveYourSeed": {
         "saveYourSeed": "Készítsen biztonsági másolatot a mester jelszóról",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Kérjük erősítse meg a mester jelszavát",
-        "trinityWillNeverAskToReenter": "A Trinity soha nem fogja újra kérni a mester jelszavát, kizárólag a tárca gyári állapotba való visszaállítása vagy újratelepítése után.",
+        "trinityWillNeverAskToReenter": "A LPWallet soha nem fogja újra kérni a mester jelszavát, kizárólag a tárca gyári állapotba való visszaállítása vagy újratelepítése után.",
         "enterYourSeed": "Adja meg a mester jelszót",
         "incorrectSeed": "Helytelen mester jelszó",
         "incorrectSeedExplanation": "A megadott mester jelszó helytelen. Kérjük, próbálja újra.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Kérjük ellenőrizze, hogy a címet helyesen adta-e meg.",
         "invalidAddressExplanationGeneric": "A címnek pontosan 90 karakter hosszúnak kell lennie, valamint csak nagy A-Z betűkből és a 9-es számjegyből állhat.",
         "notEnoughFunds": "Fedezethiány",
-        "notEnoughFundsExplanation": "Nincs elegendő IOTA a számlán a tranzakció végrehajtásához.",
+        "notEnoughFundsExplanation": "Nincs elegendő LP a számlán a tranzakció végrehajtásához.",
         "recipientAddress": "Címzett címe",
         "amount": "Összeg",
         "max": "MAX",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Az üzenet érvénytelen karaktereket tartalmaz.",
         "send": "Küldés",
         "invalidAmount": "Érvénytelen összeg",
-        "invalidAmountExplanation": "Kérjük, adjon meg egy érvényes összeget. Az IOTA mértékegységek megértéséhez nézze át az alábbi összefoglalót.",
+        "invalidAmountExplanation": "Kérjük, adjon meg egy érvényes összeget. Az LP mértékegységek megértéséhez nézze át az alábbi összefoglalót.",
         "maximumSelected": "Maximális összeg kiválasztva",
-        "iotaUnits": "IOTA mértékegységek összefoglalása",
+        "iotaUnits": "LP mértékegységek összefoglalása",
         "sendMax": "Maximális összeg küldése",
         "totalTime": "Küldés időtartama",
         "addressPasteDetected": "Cím másolás érzékelve",
@@ -395,7 +395,7 @@
         "advanced": "Haladó",
         "standard": "Normál",
         "advancedModeExplanation": "Haladó módban részletesebb technikai információk is megjelennek.",
-        "modesExplanation": "Csak akkor állítsa be a Haladó módot, ha már van kellő tapasztalata az IOTA használatával.",
+        "modesExplanation": "Csak akkor állítsa be a Haladó módot, ha már van kellő tapasztalata az LP használatával.",
         "modeUpdated": "Üzemmód megváltoztatva",
         "modeUpdatedExplanation": "Sikeresen {{mode}} üzemmódra váltott"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Az aktuális {{currency}} árfolyam sikeresen frissült.",
         "undo": "Visszavon",
         "redo": "Mégis",
-        "aboutTrinity": "A Trinity-ről",
+        "aboutTrinity": "A LPWallet-ről",
         "lockScreenTimeout": "Automatikus kijelentkezés időkorlátja (perc)",
         "nodeChangeSuccess": "Sikeres csomópont módosítás",
         "nodeChangeSuccessNoRemotePow": "A csomópont a következőre változott: {{node}}. Ez a csomópont a kiszabott munka távoli elvégzését nem támogatja.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Rendben. Állítsuk be a tárcáját!",
         "doYouNeedASeed": "Szüksége van új mester jelszó létrehozására?",
-        "seedExplanation": "Az IOTA mester jelszó a számlájához tartozó összes címen levő összeg eléréséhez szolgál. 81 karakter hosszú, és csak nagy A-Z betűkből, valamint a 9-es számjegyből állhat.",
+        "seedExplanation": "Az LP mester jelszó a számlájához tartozó összes címen levő összeg eléréséhez szolgál. 81 karakter hosszú, és csak nagy A-Z betűkből, valamint a 9-es számjegyből állhat.",
         "noIHaveOne": "Nem, már van",
         "yesINeedASeed": "Igen, szükségem van egy mester jelszóra",
         "explanation": "<0><0>A mester jelszavát az összes hozzá tartozó címen levő összeg eléréséhez használhatja</0><1> bármely tárcából</1><2> és</2><3> bármely eszközről.</3></0>",
-        "loseSeed": "De ha elveszíti a mester jelszavát, akkor elveszíti az összes IOTA-ját.",
+        "loseSeed": "De ha elveszíti a mester jelszavát, akkor elveszíti az összes LP-ját.",
         "keepSafe": "Kérjük, hogy a mester jelszavát mindig tartsa titokban."
     },
     "welcome": {
-        "thankYou": "Köszönjük, hogy letöltötte a Trinity alkalmazást",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Köszönjük, hogy letöltötte a LPWallet alkalmazást",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Jegyezze fel a mester jelszavát és az ellenőrző összeget, majd</0><1>többszörösen ellenőrizze</1><2>hogy mindkettő helyes.</2>",
@@ -593,12 +593,12 @@
         "million": "Millió",
         "thousand": "Ezer",
         "one": "Egy",
-        "unitInfoExplanation": "Egy millió IOTA (mIOTA) az általánosan elterjedt mértékegység, de akár egyetlen IOTA is utalható."
+        "unitInfoExplanation": "Egy millió LP (mLP) az általánosan elterjedt mértékegység, de akár egyetlen LP is utalható."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Miért nem tudom a teljes egyenlegem elkölteni?",
         "spentAddressExplanation": "Az egyenlege egy vagy több címen oszlik szét. Mivel egy már használt címről, azaz olyanról, amiről korábban már költött, költeni komoly biztonsági kockázattal jár, ezért ez a tárca nem engedélyezi, hogy az ilyen címről újból költsön. Emiatt előfordulhat, hogy a tényleges egyenlegének csak egy részét tudja a tárcájából elkölteni.",
-        "discordInformation": "Kérjük keresse fel a #help csatornát az IOTA Discord-on, hogy további információt kapjon arról, mit tehet az emiatt nem hozzáférhető egyenlegének visszaszerzése érdekében."
+        "discordInformation": "Kérjük keresse fel a #help csatornát az LP Discord-on, hogy további információt kapjon arról, mit tehet az emiatt nem hozzáférhető egyenlegének visszaszerzése érdekében."
     },
     "deleteAccount": {
         "areYouSure": "Biztosan törölni szeretné a számláját?",
@@ -632,7 +632,7 @@
         "didSaveSeed": "Készített biztonsági másolatot a mester jelszaváról?",
         "iHaveBackedUp": "Készítettem biztonsági másolatot a mester jelszavamról",
         "reenterSeed": "A következő lépésben a tárca kérni fogja, hogy adja meg újra a mester jelszavát.",
-        "reenterSeedWarning": "Ha nem rendelkezik biztonsági másolattal a mester jelszaváról, és a készüléke meghibásodik, az összes IOTA-ját elveszíti.",
+        "reenterSeedWarning": "Ha nem rendelkezik biztonsági másolattal a mester jelszaváról, és a készüléke meghibásodik, az összes LP-ját elveszíti.",
         "pleaseConfirm": "Kérjük, erősítse meg, hogy biztonságosan eltárolta a mester jelszavát."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "SeedVault exportálása",
         "seedVaultExplanation": "A SeedVault egy titkosított fájl a mester jelszavának biztonságos tárolásához. A mester jelszavát egy SeedVault fájlhoz megadott jelszóval titkosítjuk és e jelszó nélkül a titkosított mester jelszó semmilyen módon nem hozzáférhető.",
-        "seedVaultWarning": "Kérjük, készítsen biztonsági másolatot a SeedVault fájlról több helyre is (pl. merevlemez, felhő tárhely, pendrive). Ha elveszíti ezt a fájlt, és nem tárolta el máshol a mester jelszavát, elveszíti az összes IOTA-ját.",
+        "seedVaultWarning": "Kérjük, készítsen biztonsági másolatot a SeedVault fájlról több helyre is (pl. merevlemez, felhő tárhely, pendrive). Ha elveszíti ezt a fájlt, és nem tárolta el máshol a mester jelszavát, elveszíti az összes LP-ját.",
         "exportFail": "SeedVault exportálása sikertelen",
         "exportFailExplanation": "Nem sikerült a SeedVault fájl exportálása. Kérjük, győződjön meg arról, hogy van joga a megadott helyre írni és van elegendő tárhelye.",
         "exportSuccess": "SeedVault exportálva",
@@ -696,7 +696,7 @@
         "seedFileError": "SeedVault fájl megnyitás sikertelen",
         "seedFileErrorExplanation": "Nem sikerült megnyitni a SeedVault fájlt. Ha biztosan jó fájlt adott meg, lehetséges, hogy a fájl megsérült.",
         "invalidSeedFileError": "Hibás SeedVault fájl",
-        "invalidSeedFileErrorExplanation": "Ez a fájlformátum nem támogatott. Csak .kdbx kiterjesztésű, a Trinity vagy egy jelszókezelő szoftver által létrehozott SeedVault fájl importálása támogatott.",
+        "invalidSeedFileErrorExplanation": "Ez a fájlformátum nem támogatott. Csak .kdbx kiterjesztésű, a LPWallet vagy egy jelszókezelő szoftver által létrehozott SeedVault fájl importálása támogatott.",
         "seedVaultKeyExplanation": "A SeedVault fájl biztonságos tárolásához kérjük válasszon egy titkosító kulcsot. A titkosító kulcsra akkor lehet szüksége, ha a mester jelszavát a titkosított SeedVault biztonsági mentésből szeretné később egy másik, vagy egy újratelepített tárcába betölteni.",
         "retypeKey": "Titkosító kulcs még egyszer",
         "key": "Kulcs"
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automatikus kitöltés sikeres",
         "autofillExplanation": "Tranzakciós adatok automatikus kitöltése link alapján.",
-        "deepLinkingOverview": "Az iota:// kezdetű ún. deep linkekre kattintva a Trinity automatikusan kitölti a tranzakció adatait.",
-        "deepLinkingWarning": "Figyelem! Adathalászok próbálkozhatnak az adatainak megszerzésével. Mindig győzödjön meg arról, hogy a linkre kattintva a hivatalos Trinity applikáció nyílt meg.",
+        "deepLinkingOverview": "Az iota:// kezdetű ún. deep linkekre kattintva a LPWallet automatikusan kitölti a tranzakció adatait.",
+        "deepLinkingWarning": "Figyelem! Adathalászok próbálkozhatnak az adatainak megszerzésével. Mindig győzödjön meg arról, hogy a linkre kattintva a hivatalos LPWallet applikáció nyílt meg.",
         "deepLinkingUpdated": "Automatikus adatkitöltés beállításai",
         "deepLinkingEnabled": "Automatikus adatkitöltés engedélyezve.",
         "deepLinkingDisabled": "Automatikus adatkitöltés letiltva.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Frissítés adatletöltési hiba",
         "errorRetrievingUpdateDataExplanation": "A szoftverfrissítés sikertelen. Kérjük, ellenőrizze az internet kapcsolatot majd próbálja újra.",
         "noUpdatesAvailable": "Nincs elérhető frissítés",
-        "noUpdatesAvailableExplanation": "Nem érhető el újabb Trinity verzió!",
+        "noUpdatesAvailableExplanation": "Nem érhető el újabb LPWallet verzió!",
         "newVersionAvailable": "Új verzió elérhető",
-        "newVersionAvailableExplanation": "Elérhető a Trinity egy újabb verziója. Szeretné most frissíteni?",
+        "newVersionAvailableExplanation": "Elérhető a LPWallet egy újabb verziója. Szeretné most frissíteni?",
         "installUpdate": "Frissítés telepítése és újraindítás",
-        "installUpdateExplanation": "A letöltés sikeresen befejeződött. A Trinity most újraindul és telepíti a frissítéseket.",
+        "installUpdateExplanation": "A letöltés sikeresen befejeződött. A LPWallet most újraindul és telepíti a frissítéseket.",
         "downloadingUpdate": "Frissítések letöltése",
         "downloadProgress": "{{transferred}} letöltve a {{total}}-ból"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Sikertelen zárolt összeg feloldás",
         "sweepErrorExplanation": "Hiba történt a zárolt összeg feloldása közben. Kérjük, próbálja újra.",
         "warningTitle": "Figyelem: zárolt összeget találtunk a számláján",
-        "explanation": "A Trinity 0.3.4 asztali verziójában egy hiba folytán ideiglenesen zárolásra kerülhetett az egyenlegének egy része. Ez a hiba viszonylag kevés felhasználót érint: azokat, akik a 0.3.4 verzióval indítottak tranzakciókat.",
-        "explanationAccounts": "Zárolt összegeket találtunk a következő számláin: {{accounts}}. A Trinity most megpróbálja automatikusan feloldani a zárolást az összegek egy Ön számlájához tartozó másik címre való átutalásával.",
+        "explanation": "A LPWallet 0.3.4 asztali verziójában egy hiba folytán ideiglenesen zárolásra kerülhetett az egyenlegének egy része. Ez a hiba viszonylag kevés felhasználót érint: azokat, akik a 0.3.4 verzióval indítottak tranzakciókat.",
+        "explanationAccounts": "Zárolt összegeket találtunk a következő számláin: {{accounts}}. A LPWallet most megpróbálja automatikusan feloldani a zárolást az összegek egy Ön számlájához tartozó másik címre való átutalásával.",
         "proceed": "Tovább a zárolás feloldásához",
         "sweepConfirmation": "{{amount}} összeget készül az Ön számlájához tartozó {{address}} címre átutalni. Számlanév: {{accountName}}, címének indexe: {{index}}",
         "sweepConfirmationTitle": "Zárolás feloldás jóváhagyása"
     },
     "migration": {
         "dataMigration": "Adatok átmozgatása",
-        "dataMigrationExplanation": "A sebesség növelése és a kevesebb tárhely igény érdekében a Trinity új fajta adatbázist használ a beállítások és a fiók adatainak tárolására. Kérjük várjon, amíg a Trinity az adatait átmozgatja az új adatbázisba.",
+        "dataMigrationExplanation": "A sebesség növelése és a kevesebb tárhely igény érdekében a LPWallet új fajta adatbázist használ a beállítások és a fiók adatainak tárolására. Kérjük várjon, amíg a LPWallet az adatait átmozgatja az új adatbázisba.",
         "problemMigratingYourData": "Nem sikerült az adatok átmozgatása. Kérjük próbálja újra.",
-        "seedMigrationExplanation": "A még nagyobb adatbiztonság érdekében a Trinity a mester jelszavát egy új fajta eljárással titkosítva tárolja. Kérjük várjon, amíg a Trinity a mester jelszavát újra titkosítja."
+        "seedMigrationExplanation": "A még nagyobb adatbiztonság érdekében a LPWallet a mester jelszavát egy új fajta eljárással titkosítva tárolja. Kérjük várjon, amíg a LPWallet a mester jelszavát újra titkosítja."
     },
     "ledger": {
         "ready": "Hardveres tárca csatlakoztatva és készen áll",
@@ -860,8 +860,8 @@
         "connectionExplanation": "A művelet végrehajtása előtt kérjük csatlakoztasson egy hardveres tárcát.",
         "transactionTitle": "Fussa át és hagyja jóvá a tranzakciót a hardveres tárcáján",
         "transactionExplanation": "Használja a hardveres tárcáját a kimenő tranzakciók jóváhagyásához.",
-        "applicationTitle": "Open Ledger IOTA applikáció",
-        "applicationExplanation": "A Trinity használatához a hardveres tárcáján nyissa meg az IOTA applikációt.",
+        "applicationTitle": "Open Ledger LP applikáció",
+        "applicationExplanation": "A LPWallet használatához a hardveres tárcáján nyissa meg az LP applikációt.",
         "cannotSendZeroValueTitle": "Hiányzó összeg",
         "cannotSendZeroValueExplanation": "Hardveres tárcával nem indítható 0 összegű tranzakció.",
         "ledgerDisconnectedTitle": "Hardveres tárca kapcsolat megszakadt",
@@ -873,17 +873,17 @@
         "checkAddress": "Ellenőrizze a fogadási címet",
         "checkAddressExplanation": "Kérjük ellenőrizze, hogy a cím megegyezik-e a hardveres tárcán megjelenő címmel.",
         "applicationNotInitialised": "Jóváhagyásra váró figyelmeztetés",
-        "applicationNotInitialisedExplanation": "Nyissa meg újra az IOTA alkalmazást a hardveres tárcáján, hagyja jóvá a megjelenő figyelmeztetést, majd próbálja úra.",
+        "applicationNotInitialisedExplanation": "Nyissa meg újra az LP alkalmazást a hardveres tárcáján, hagyja jóvá a megjelenő figyelmeztetést, majd próbálja úra.",
         "checkLedger": "Ellenőrizze a hardveres tárcát",
         "acceptWarningExplanation": "Ha figyelmeztető szöveg jelent meg a hardveres tárcán, végig kell lapoznia és mindkét gomb egyidejű lenyomásával el kell fogadnia azt.",
         "udevError": "Hardveres tárca nem elérhető",
-        "udevErrorExplanation": "A Trinity nem tudott a hardveres tárcával kapcsolatba lépni. A probléma megoldásával kapcsolatos további információkért kérjük látogassa meg az alábbi linken található oldalt.",
+        "udevErrorExplanation": "A LPWallet nem tudott a hardveres tárcával kapcsolatba lépni. A probléma megoldásával kapcsolatos további információkért kérjük látogassa meg az alábbi linken található oldalt.",
         "writtenDownInfoTitle": "Jegyezze fel az index számot",
-        "writtenDownInfoExplanation": "Az index számra szüksége lehet a jövőben a fiókja helyreállításához. Ha elveszíti az index számot, a hardveres tárcán levő valamennyi IOTA-ját elveszíti. Kérjük, gondosan jegyezze fel!"
+        "writtenDownInfoExplanation": "Az index számra szüksége lehet a jövőben a fiókja helyreállításához. Ha elveszíti az index számot, a hardveres tárcán levő valamennyi LP-ját elveszíti. Kérjük, gondosan jegyezze fel!"
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

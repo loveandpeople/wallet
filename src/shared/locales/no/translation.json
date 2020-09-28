@@ -9,7 +9,7 @@
         "noTransactions": "INGEN NYLIG HISTORIKK",
         "refresh": "Oppdater",
         "balanceError": "Saldoen er for lav",
-        "balanceErrorMessage": "Du har ikke nok IOTA til å fullføre denne transaksjonen.",
+        "balanceErrorMessage": "Du har ikke nok LP til å fullføre denne transaksjonen.",
         "totalBalance": "Total saldo",
         "transferError": "Transaksjonsfeil",
         "transferErrorMessage": "Noe gikk galt under transaksjonen. Vennligst prøv igjen.",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Du kan ikke sende til en adresse som brukes som inndata i transaksjonen.",
         "pleaseWait": "Vennligst vent",
         "pleaseWaitEllipses": "Vennligst vent...",
-        "pleaseWaitExplanation": "Trinity utfører en annen oppgave. Vennligst vent og prøv på nytt.",
+        "pleaseWaitExplanation": "LPWallet utfører en annen oppgave. Vennligst vent og prøv på nytt.",
         "pleaseWaitTransferExplanation": "Din tilgjengelige saldo blir benyttet i andre transaksjoner. Vent til en blir bekreftet før du forsøker igjen.",
         "pleaseWaitIncomingTransferExplanation": "Du har innkommende transaksjoner. Vennligst vent til de er bekreftet før du forsøker igjen.",
         "snapshotTransitionInProgress": "Snapshot synkronisering i gang",
@@ -130,7 +130,7 @@
         "touchSensor": "Hold fingeren mot fingeravtrykksleseren",
         "fingerprintOnSend": "Berør fingeravtrykkleseren for å autorisere transaksjonen",
         "masterKey": "Hovednøkkelen er det som gir deg tilgang til dine midler.",
-        "seedThief": "Hvis noen får tilgang til hovednøkkelen kan de stjele dine IOTA.",
+        "seedThief": "Hvis noen får tilgang til hovednøkkelen kan de stjele dine LP.",
         "googlePlayServicesNotAvailable": "Google Play tjenester er ikke tilgjengelige",
         "couldNotVerifyDeviceIntegrity": "Kunne ikke verifisere enhetens integritet siden Google Play tjenesten ikke er tilgjengelig.",
         "clear": "Fjern",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Gå til Kontoverktøy og utfør en snapshot synkronisering.",
         "openAccountTools": "Åpne Kontoverktøy",
-        "usingTrinityWalletWithKeePass": "Bruker Trinity med Keepass2Android",
+        "usingTrinityWalletWithKeePass": "Bruker LPWallet med Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Det oppstod en nettverksfeil under kringkastingen av transaksjonen.",
         "broadcastError": "Kunne ikke kringkaste transaksjonen",
         "addressesAlreadySpentFrom": "En eller flere av adressene har allerede blitt brukt.",
@@ -269,7 +269,7 @@
         "setNode": "Angi Node",
         "whyBiometricDisabled": "Hvorfor er biometrisk autentisering deaktivert?",
         "whyBiometricDisabledExplanationPart1": "Biometriske godkjenning er deaktivert på første innlastning for din sikkerhet.",
-        "whyBiometricDisabledExplanationPart2": "Når du bruker Trinity vil du logges ut ved inaktivitet. Du kan logge inn igjen med biometrisk godkjenning."
+        "whyBiometricDisabledExplanationPart2": "Når du bruker LPWallet vil du logges ut ved inaktivitet. Du kan logge inn igjen med biometrisk godkjenning."
     },
     "loading": {
         "loadingFirstTime": "Laster hovednøkkel for første gang.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Del aldri hovednøkkelen med noen.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "print": "Skriv ut",
         "paperConvenience": "En praktisk måte å oppbevare hovednøkkelen er å skrive den ut på papir.",
         "publicInsecure": "Men å skrive den ut på et offentlig nettverk eller printer er usikkert.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Generer adresse",
         "generateAnAddressTitle": "Generere en adresse",
         "generateAnAddressExplanation": "Vennligst generer en adresse før du bruker denne funksjonen.",
-        "generateAddressInformation": "Generer en ny mottakeradresse hver gang du ønsker å motta IOTA"
+        "generateAddressInformation": "Generer en ny mottakeradresse hver gang du ønsker å motta LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Ta vare på hovednøkkelen",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Vennligst bekreft din hovednøkkel",
-        "trinityWillNeverAskToReenter": "Trinity vil aldri be deg å skrive inn denne hovednøkkelen med mindre du tilbakestilling lommeboken eller sletter appen.",
+        "trinityWillNeverAskToReenter": "LPWallet vil aldri be deg å skrive inn denne hovednøkkelen med mindre du tilbakestilling lommeboken eller sletter appen.",
         "enterYourSeed": "Angi din hovednøkkel",
         "incorrectSeed": "Feil hovednøkkel",
         "incorrectSeedExplanation": "Hovednøkkelen du skrev inn er feil. Prøv på nytt.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Vennligst sjekk om du har skrevet adressen riktig.",
         "invalidAddressExplanationGeneric": "Gyldige adresser må være 90 tegn og kun inneholde bokstavene A til Z og tallet 9.",
         "notEnoughFunds": "Saldoen er for lav",
-        "notEnoughFundsExplanation": "Du har ikke nok IOTA til å fullføre denne transaksjonen.",
+        "notEnoughFundsExplanation": "Du har ikke nok LP til å fullføre denne transaksjonen.",
         "recipientAddress": "Mottakerens adresse",
         "amount": "Beløp",
         "max": "MAKS",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Meldingen din inneholder ugyldige tegn.",
         "send": "Send",
         "invalidAmount": "Ugyldig beløp angitt",
-        "invalidAmountExplanation": "Vennligst angi et gyldig transaksjonsbeløp. Det kan være nyttig å lese IOTA enhets-forklaring nederst på denne siden.",
+        "invalidAmountExplanation": "Vennligst angi et gyldig transaksjonsbeløp. Det kan være nyttig å lese LP enhets-forklaring nederst på denne siden.",
         "maximumSelected": "MAKSIMUM beløp valgt",
-        "iotaUnits": "IOTA enheter forklart",
+        "iotaUnits": "LP enheter forklart",
         "sendMax": "SENDE MAX",
         "totalTime": "Total tid",
         "addressPasteDetected": "Adresse \"lim inn\" gjenkjent",
@@ -395,7 +395,7 @@
         "advanced": "Avansert",
         "standard": "Standard",
         "advancedModeExplanation": "Ekspertmodus viser mer detaljert teknisk informasjon.",
-        "modesExplanation": "Aktiver kun ekspertmodus dersom du er en erfaren IOTA bruker. Hvis ikke kan dette være forvirrende.",
+        "modesExplanation": "Aktiver kun ekspertmodus dersom du er en erfaren LP bruker. Hvis ikke kan dette være forvirrende.",
         "modeUpdated": "Modus oppdatert",
         "modeUpdatedExplanation": "Du har endret til {{mode}} -modus"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Siste omregningskurs er hentet for {{currency}}.",
         "undo": "Angre",
         "redo": "Gjør om",
-        "aboutTrinity": "Om Trinity",
+        "aboutTrinity": "Om LPWallet",
         "lockScreenTimeout": "Skjermen er låst grunnet inaktivitet",
         "nodeChangeSuccess": "Endring av node var vellykket",
         "nodeChangeSuccessNoRemotePow": "Noden ble endret til {{node}}. Denne noden støtter ikke ekstern PoW (Proof of Work).",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Ok. La oss sette opp lommeboken din!",
         "doYouNeedASeed": "Trenger du å lage en ny hovednøkkel?",
-        "seedExplanation": "Hovednøkkelen gir tilgang til dine IOTA og består av 81 tegn bestående av bokstavene A til Z eller tallet 9.",
+        "seedExplanation": "Hovednøkkelen gir tilgang til dine LP og består av 81 tegn bestående av bokstavene A til Z eller tallet 9.",
         "noIHaveOne": "Nei, jeg har en",
         "yesINeedASeed": "Ja, jeg trenger en hovednøkkel",
         "explanation": "<0><0>Du kan bruke den til å få tilgang til dine midler med</0><1>hvilken som helst lommebok</1><2>, på</2><3> enhver enhet.</3></0>",
-        "loseSeed": "Dersom du mister hovednøkkelen mister du også tilgangen til dine IOTA.",
+        "loseSeed": "Dersom du mister hovednøkkelen mister du også tilgangen til dine LP.",
         "keepSafe": "Vennligst oppbevar hovednøkkelen sikkert."
     },
     "welcome": {
-        "thankYou": "Takk for at du lastet ned Trinity",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Takk for at du lastet ned LPWallet",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Skriv ned hovednøkkel og kontrolltegn. </0><1>Trippelsjekk</1><2>at de er riktige.</2>",
@@ -489,7 +489,7 @@
         "retrying": "Prøver på nytt",
         "yesterday": "I går",
         "promotingAnotherBundle": "Fremme en pakke til",
-        "pleaseWait": "Vennligst vent, Trinity promoterer en transaksjon.",
+        "pleaseWait": "Vennligst vent, LPWallet promoterer en transaksjon.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Søk med adresse hash eller med meldingsinnhold",
         "searchHelpValue": "Finn transaksjoner ved identisk iota verdi",
@@ -593,7 +593,7 @@
         "million": "Millioner",
         "thousand": "Tusen",
         "one": "En",
-        "unitInfoExplanation": "IOTAs er vanligvis håndtert i multipler av en million, men kan overføres som en enkelt IOTA."
+        "unitInfoExplanation": "LPs er vanligvis håndtert i multipler av en million, men kan overføres som en enkelt LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Hvorfor kan jeg ikke bruke hele saldoen?",
@@ -632,7 +632,7 @@
         "didSaveSeed": "Har du lagret hovednøkkelen?",
         "iHaveBackedUp": "Jeg har sikkerhetskopiert min hovednøkkel",
         "reenterSeed": "I neste trinn må du skrive inn din hovednøkkel på nytt.",
-        "reenterSeedWarning": "Hvis du ikke har lagret hovednøkkelen og enheten din blir ødelagt vil du miste tilgangen til dine IOTA.",
+        "reenterSeedWarning": "Hvis du ikke har lagret hovednøkkelen og enheten din blir ødelagt vil du miste tilgangen til dine LP.",
         "pleaseConfirm": "Vennligst bekreft at du har lagret hovednøkkelen."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Eksporter SeedVault",
         "seedVaultExplanation": "SeedVault er en kryptert fil for å lagre din hovednøkkel sikkert. Hovednøkkelen er kryptert bak en SeedVault Nøkkel og kan ikke brukes uten nøkkelen.",
-        "seedVaultWarning": "Pass på å sikkerhetskopiere filen flere steder (f.eks harddisk, nettsky, USB). Hvis du mister denne filen og du ikke har hovednøkkelen din lagret et annet sted, mister du tilgangen til dine IOTA.",
+        "seedVaultWarning": "Pass på å sikkerhetskopiere filen flere steder (f.eks harddisk, nettsky, USB). Hvis du mister denne filen og du ikke har hovednøkkelen din lagret et annet sted, mister du tilgangen til dine LP.",
         "exportFail": "SeedVault eksport mislyktes",
         "exportFailExplanation": "Det oppstod et problem med å eksportere SeedVault. Kontroller at du har riktige tillatelser og nok plass.",
         "exportSuccess": "SeedVault eksportert",
@@ -696,13 +696,13 @@
         "seedFileError": "Kunne ikke åpne SeedVault",
         "seedFileErrorExplanation": "Det var et problem med åpning av SeedVault. Hvis du valgte den riktige filen kan den være skadet.",
         "invalidSeedFileError": "Ugyldig SeedVault-fil",
-        "invalidSeedFileErrorExplanation": "Filformatet støttes ikke. Kun SeedVault-filer (.kdbx) generert av Trinity eller et passordverktøy støttes.",
+        "invalidSeedFileErrorExplanation": "Filformatet støttes ikke. Kun SeedVault-filer (.kdbx) generert av LPWallet eller et passordverktøy støttes.",
         "seedVaultKeyExplanation": "Først må vi å sikre din SeedVault. Velg en nøkkel for å kryptere filen. Du vil bruke denne nøkkelen hvis du må gjenopprette din hovednøkkel fra SeedVault sikkerhetskopi.",
         "retypeKey": "Skriv nøkkel på nytt",
         "key": "Nøkkel"
     },
     "stateExport": {
-        "stateExportExplanation": "Tilstands-eksportering vil lagre en tekstfil (. txt) på enheten din med kontoinformasjon (transaksjoner, adresser), Trinity-versjon og navn på lagringsfiler.",
+        "stateExportExplanation": "Tilstands-eksportering vil lagre en tekstfil (. txt) på enheten din med kontoinformasjon (transaksjoner, adresser), LPWallet-versjon og navn på lagringsfiler.",
         "exportSuccess": "Tilstand eksportert",
         "exportSuccessExplanation": "Eksporten av tilstandsfilen din var vellykket."
     },
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Ønsker du å fortsette til tross for risikoen?"
     },
     "pow": {
-        "feeless": "For å sende gebyrfrie transaksjoner i IOTA er det nødvendig å utføre litt PoW (Proof of Work).",
+        "feeless": "For å sende gebyrfrie transaksjoner i LP er det nødvendig å utføre litt PoW (Proof of Work).",
         "localOrRemote": "PoW (Proof of Work) kan enten utføres lokalt på din enhet, eller settes bort til noden som du er tilkoblet.",
         "local": "Lokal",
         "remote": "Ekstern",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automatisk utfylling vellykket",
         "autofillExplanation": "Transaksjonsdata er autoutfylt fra lenken.",
-        "deepLinkingOverview": "Dyplenker er klikkbare lenker (iota://...) som automatisk fyller inn transaksjonsdata i Trinity.",
-        "deepLinkingWarning": "Vær oppmerksom på phishing-svindel. Kontroller at lenken du åpner navigerer til den offisielle Trinity-appen.",
+        "deepLinkingOverview": "Dyplenker er klikkbare lenker (iota://...) som automatisk fyller inn transaksjonsdata i LPWallet.",
+        "deepLinkingWarning": "Vær oppmerksom på phishing-svindel. Kontroller at lenken du åpner navigerer til den offisielle LPWallet-appen.",
         "deepLinkingUpdated": "Innstillinger for dyplenking",
         "deepLinkingEnabled": "Du har aktivert dyplenking.",
         "deepLinkingDisabled": "Du har deaktivert dyplenking.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Feil under henting av oppdaterte data",
         "errorRetrievingUpdateDataExplanation": "Kan ikke koble til server, vennligst kontroller internettforbindelsen og prøv igjen.",
         "noUpdatesAvailable": "Ingen tilgjengelige oppdateringer",
-        "noUpdatesAvailableExplanation": "Du har den nyeste versjonen av Trinity!",
+        "noUpdatesAvailableExplanation": "Du har den nyeste versjonen av LPWallet!",
         "newVersionAvailable": "Ny versjon tilgjengelig",
-        "newVersionAvailableExplanation": "En ny versjon av Trinity er tilgjengelig. Vil du oppdatere nå?",
+        "newVersionAvailableExplanation": "En ny versjon av LPWallet er tilgjengelig. Vil du oppdatere nå?",
         "installUpdate": "Installere oppdateringen og starte på nytt",
-        "installUpdateExplanation": "Nedlastingen er fullført, Trinity startes nå på nytt for å installere oppdateringen.",
+        "installUpdateExplanation": "Nedlastingen er fullført, LPWallet startes nå på nytt for å installere oppdateringen.",
         "downloadingUpdate": "Laster ned oppdatering",
         "downloadProgress": "{{transferred}} av {{total}} er lastet ned"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Feil ved henting av middler",
         "sweepErrorExplanation": "Noe gikk galt med tilgangen til dine midler. Prøver på nytt.",
         "warningTitle": "Advarsel: Låst midler oppdaget",
-        "explanation": "Trinity Desktop versjon 0.3.4 inneholdt en feil som kan midlertidig låse midler. Dette påvirker et lite antall brukere som utførte transaksjoner med 0.3.4.",
-        "explanationAccounts": "Låste midler er registrert på dine kontoer: {{accounts}}. Trinity vil nå automatisk gjenopprette tilgangen til midlene ved å flytte dem til en ny adresse.",
+        "explanation": "LPWallet Desktop versjon 0.3.4 inneholdt en feil som kan midlertidig låse midler. Dette påvirker et lite antall brukere som utførte transaksjoner med 0.3.4.",
+        "explanationAccounts": "Låste midler er registrert på dine kontoer: {{accounts}}. LPWallet vil nå automatisk gjenopprette tilgangen til midlene ved å flytte dem til en ny adresse.",
         "proceed": "Videre til gjenoppretting",
         "sweepConfirmation": "Du er ferd med å samle {{amount}} til adresse {{address}}. Konto: {{accountName}}, adresse indeks: {{index}}",
         "sweepConfirmationTitle": "Samlebekreftelse"
     },
     "migration": {
         "dataMigration": "Datamigrering",
-        "dataMigrationExplanation": "På grunn av ytelses- og lagringsbegrensninger bruker Trinity en ny database for lagring av innstillinger og kontoinformasjon. Vennligst vent mens Trinity automatisk migrerer dine eksisterende data.",
+        "dataMigrationExplanation": "På grunn av ytelses- og lagringsbegrensninger bruker LPWallet en ny database for lagring av innstillinger og kontoinformasjon. Vennligst vent mens LPWallet automatisk migrerer dine eksisterende data.",
         "problemMigratingYourData": "Det oppsto et problem under migrering av dine data. Vennligst prøv igjen",
-        "seedMigrationExplanation": "Som en del av Trinity's pågående innsats for å forbedre sikkerheten, vil hovednøkkelen din migreres til en forbedret lagringsmetode. Vennligst vent mens Trinity automatisk migrerer hovednøkkelen til en sikrere lagringsplass."
+        "seedMigrationExplanation": "Som en del av LPWallet's pågående innsats for å forbedre sikkerheten, vil hovednøkkelen din migreres til en forbedret lagringsmetode. Vennligst vent mens LPWallet automatisk migrerer hovednøkkelen til en sikrere lagringsplass."
     },
     "ledger": {
         "ready": "Ledger tilkoblet og klar",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Ledger må være tilkoblet for å utføre denne funksjonen.",
         "transactionTitle": "Bla gjennom og godkjenn transaksjonen på din Ledger",
         "transactionExplanation": "Godkjenn den utgående transaksjonen på din Ledger.",
-        "applicationTitle": "Åpne IOTA Ledger app",
-        "applicationExplanation": "Gå til din Ledger og åpne IOTA app for og fortsette å bruke Trinity.",
+        "applicationTitle": "Åpne LP Ledger app",
+        "applicationExplanation": "Gå til din Ledger og åpne LP app for og fortsette å bruke LPWallet.",
         "cannotSendZeroValueTitle": "Kan ikke sende null verdi-transaksjon",
         "cannotSendZeroValueExplanation": "Kan ikke sende null verdi-transaksjoner med en Ledger enhet.",
         "ledgerDisconnectedTitle": "Ledger enheten er frakoblet",
@@ -873,17 +873,17 @@
         "checkAddress": "Kontroller mottaksadressen",
         "checkAddressExplanation": "Kontroller at adressen er lik den vises på din Ledger.",
         "applicationNotInitialised": "Informasjonsadvarsel ikke godkjent",
-        "applicationNotInitialisedExplanation": "Åpne IOTA programmet på din Ledger, godta informasjonen og prøv igjen.",
+        "applicationNotInitialisedExplanation": "Åpne LP programmet på din Ledger, godta informasjonen og prøv igjen.",
         "checkLedger": "Sjekk Ledger-enheten din",
         "acceptWarningExplanation": "Hvis det er et informasjonsvarsel på Ledger-enheten din, må du bla gjennom og godta den ved å trykke på begge knappene.",
         "udevError": "Kunne ikke kommunisere med Ledger-enheten",
-        "udevErrorExplanation": "Trinity kunne ikke kommunisere med din Ledger-enhet. Vennligst besøk nettadressen nedenfor for å løse dette problemet.",
+        "udevErrorExplanation": "LPWallet kunne ikke kommunisere med din Ledger-enhet. Vennligst besøk nettadressen nedenfor for å løse dette problemet.",
         "writtenDownInfoTitle": "Husk indeksnummeret ditt",
-        "writtenDownInfoExplanation": "Du trenger indeksnummeret ditt for å gjenopprette kontoen din i fremtiden. Hvis du mister indeksnummeret ditt, mister du dine IOTA. Vennligst husk det."
+        "writtenDownInfoExplanation": "Du trenger indeksnummeret ditt for å gjenopprette kontoen din i fremtiden. Hvis du mister indeksnummeret ditt, mister du dine LP. Vennligst husk det."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

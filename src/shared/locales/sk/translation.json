@@ -9,7 +9,7 @@
         "noTransactions": "ŽIADNA NEDÁVNA HISTÓRIA",
         "refresh": "Obnoviť",
         "balanceError": "Nedostatok prostriedkov",
-        "balanceErrorMessage": "Nemáte dostatočné množstvo IOTA pre dokončenie tejto transakcie.",
+        "balanceErrorMessage": "Nemáte dostatočné množstvo LP pre dokončenie tejto transakcie.",
         "totalBalance": "Celkový zostatok",
         "transferError": "Chyba transakcie",
         "transferErrorMessage": "Nastala chyba počas odosielania vašej transakcie. Prosím, skúste to znova.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Chyba Nodu",
         "invalidResponseExplanation": "Node vrátil chybu. Vyskúšajte zmeniť Node.",
         "invalidResponseFetchingAccount": "Node vrátil chybu pri získavani informácií o účte. Vyskúšajte zmeniť Node.",
-        "invalidResponseFetchingAccountDesktop": "Pri načítavaní informácii o Vašom účte došlo ku chybe. Ak problém pretrváva, skúste zmeniť Node, alebo zakázať proxy server v nastaveniach Trinity.",
+        "invalidResponseFetchingAccountDesktop": "Pri načítavaní informácii o Vašom účte došlo ku chybe. Ak problém pretrváva, skúste zmeniť Node, alebo zakázať proxy server v nastaveniach LPWallet.",
         "nodeOutOfSync": "Váš Node nie je synchronizovaný",
         "nodeOutOfSyncExplanation": "Vami zvolený Node nie je synchronizovaný. Prosím, zmeňte Node alebo to skúste znova.",
         "experimentalNode": "Nepodporovaná verzia Nodu",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Nie je možné odoslať na adresu, ktorá je použitá ako vstup v transakcií.",
         "pleaseWait": "Prosím čakajte",
         "pleaseWaitEllipses": "Prosím čakajte...",
-        "pleaseWaitExplanation": "Trinity práve vykonáva inú funkciu. Počkajte chvíľu a skúste to znova.",
+        "pleaseWaitExplanation": "LPWallet práve vykonáva inú funkciu. Počkajte chvíľu a skúste to znova.",
         "pleaseWaitTransferExplanation": "Váš disponibilný zostatok sa momentálne používa v iných prevodoch. Počkajte prosím na jedno potvrdenie, kým to skúsite znova.",
         "pleaseWaitIncomingTransferExplanation": "Máte prichádzajúce transakcie. Prosím počkajte na ich potvrdenie, potom skúste znova.",
         "snapshotTransitionInProgress": "Prebieha aktualizácia údajov po Snapshote",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Prepnuté na nový Node {{- nodeAddress}} keďže predtým vybraný je offline.",
         "touchSensor": "Dotknite sa snímača otisku prstov",
         "fingerprintOnSend": "Pre overenie prenosu priložte prst na čítačku",
-        "masterKey": "Váš IOTA Seed je hlavným prístupovým kľúčom k vašim prostriedkom.",
-        "seedThief": "Ak získa niekto iný váš Seed, môže ukradnúť vaše IOTA.",
+        "masterKey": "Váš LP Seed je hlavným prístupovým kľúčom k vašim prostriedkom.",
+        "seedThief": "Ak získa niekto iný váš Seed, môže ukradnúť vaše LP.",
         "googlePlayServicesNotAvailable": "Služby Google Play nie sú dostupné",
         "couldNotVerifyDeviceIntegrity": "Integrita zariadenia nemôže byť overená, pretože služby Google Play nie sú dostupné.",
         "clear": "Vymazať",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Prejdite na Nástroje účtu a vykonajte Aktualizáciu údajov po Snapshote.",
         "openAccountTools": "Otvorte Nástroje účtu",
-        "usingTrinityWalletWithKeePass": "Použitie Trinity peňaženky s Keepass2Android",
+        "usingTrinityWalletWithKeePass": "Použitie LPWallet peňaženky s Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Počas odosielania Vašej transakcie sa vyskytla chyba siete.",
         "broadcastError": "Nepodarilo sa odoslať transakciu",
         "addressesAlreadySpentFrom": "Jedna alebo viac adries už boli použité.",
@@ -269,7 +269,7 @@
         "setNode": "Nastaviť Node",
         "whyBiometricDisabled": "Prečo je biometrické overovanie vypnuté?",
         "whyBiometricDisabledExplanationPart1": "Biometrické overenie je z bezpečnostných dôvodov zakázané pri prvom spustení.",
-        "whyBiometricDisabledExplanationPart2": "Trinity Vás automaticky odhlási, pokiaľ nebudete aktívny. Potom se môžete znova prihlásiť pomocou biometrického overenia."
+        "whyBiometricDisabledExplanationPart2": "LPWallet Vás automaticky odhlási, pokiaľ nebudete aktívny. Potom se môžete znova prihlásiť pomocou biometrického overenia."
     },
     "loading": {
         "loadingFirstTime": "Prvotné načítanie Seedu.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Svoj Seed nikdy nikomu neprezrádzajte.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "print": "Tlačiť",
         "paperConvenience": "Vytlačenie papierovej kópie vášho Seedu je vhodný spôsob, ako ho uchovať.",
         "publicInsecure": "Ale tlačenie cez verejnú wifi alebo na verejnej tlačiarni nie je bezpečné.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Generovať adresu",
         "generateAnAddressTitle": "Generovať adresu",
         "generateAnAddressExplanation": "Prosím vygenerujte adresu pred použitím tejto funkcie.",
-        "generateAddressInformation": "Vygenerujte zakaždým novú adresu, keď chcete prijať IOTA"
+        "generateAddressInformation": "Vygenerujte zakaždým novú adresu, keď chcete prijať LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Zálohujte váš Seed",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Prosím, potvrďte váš Seed",
-        "trinityWillNeverAskToReenter": "Trinity Vás nikdy nebude vyzývať ku znovuvloženiu tohto Seedu. Výnimkou je reset Vašej peňaženky, prípadne nová inštalácia aplikácie.",
+        "trinityWillNeverAskToReenter": "LPWallet Vás nikdy nebude vyzývať ku znovuvloženiu tohto Seedu. Výnimkou je reset Vašej peňaženky, prípadne nová inštalácia aplikácie.",
         "enterYourSeed": "Vložte váš Seed",
         "incorrectSeed": "Neplatný Seed",
         "incorrectSeedExplanation": "Seed, ktorý ste zadali, je neplatný. Prosím, skúste to znova.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Skontrolujte, či ste adresu zadali správne.",
         "invalidAddressExplanationGeneric": "Platné adresy by mali mať 90 znakov a môžu obsahovať len znaky A-Z alebo 9.",
         "notEnoughFunds": "Nedostatok prostriedkov",
-        "notEnoughFundsExplanation": "Nemáte dostatok IOTA na dokončenie tejto transakcie.",
+        "notEnoughFundsExplanation": "Nemáte dostatok LP na dokončenie tejto transakcie.",
         "recipientAddress": "Adresa príjemcu",
         "amount": "Čiastka",
         "max": "MAX",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Vaša správa obsahuje neplatné znaky.",
         "send": "Odoslať",
         "invalidAmount": "Zadaná neplatná čiastka",
-        "invalidAmountExplanation": "Zadajte, prosím, platnú transakčnú čiastku. Nižšie nájdete nápomocné informácie o IOTA jednotkách.",
+        "invalidAmountExplanation": "Zadajte, prosím, platnú transakčnú čiastku. Nižšie nájdete nápomocné informácie o LP jednotkách.",
         "maximumSelected": "Vybraná MAXIMÁLNA čiastka",
-        "iotaUnits": "Informácie o IOTA jednotkách",
+        "iotaUnits": "Informácie o LP jednotkách",
         "sendMax": "POSLAŤ VŠETKO",
         "totalTime": "Celkový čas",
         "addressPasteDetected": "Zistené kopírovanie adresy",
@@ -395,7 +395,7 @@
         "advanced": "Pokročilý",
         "standard": "Štandardný",
         "advancedModeExplanation": "Pokročilý režim zobrazí podrobnejšie technické informácie.",
-        "modesExplanation": "Pokročilý režim povolte iba ako skúsený uživateľ IOTA. Inak to môže byť pre Vás matúce.",
+        "modesExplanation": "Pokročilý režim povolte iba ako skúsený uživateľ LP. Inak to môže byť pre Vás matúce.",
         "modeUpdated": "Režim zmenený",
         "modeUpdatedExplanation": "Zmenili ste na {{mode}} rezimu"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Najnovší konverzný kurz pre {{currency}} bol úspešne načítaný.",
         "undo": "Zrušiť",
         "redo": "Znova",
-        "aboutTrinity": "O Trinity",
+        "aboutTrinity": "O LPWallet",
         "lockScreenTimeout": "Zámok obrazovky po (minúty)",
         "nodeChangeSuccess": "Node bol úspešne zmenený",
         "nodeChangeSuccessNoRemotePow": "Node bol zmenený na {{node}}. Tento Node nepodporuje vzdialený Proof of Work.",
@@ -458,7 +458,7 @@
     "walletSetup": {
         "okay": "Ok. Prejdime k nastaveniu Vašej peňaženky!",
         "doYouNeedASeed": "Potrebujete vytvoriť nový Seed?",
-        "seedExplanation": "IOTA Seed je hlavným prístupovým kľúčom k vašim prostriedkom. Je dlhý 81 znakov a používa iba písmená A-Z alebo číslo 9.",
+        "seedExplanation": "LP Seed je hlavným prístupovým kľúčom k vašim prostriedkom. Je dlhý 81 znakov a používa iba písmená A-Z alebo číslo 9.",
         "noIHaveOne": "Nie, už mám Seed",
         "yesINeedASeed": "Áno, potrebujem Seed",
         "explanation": "<0><0>Môžete ho použiť pre prístup k vašim prostriedkom z</0><1> akejkoľvek peňaženky</1><2>, na</2><3> akomkoľvek zariadení.</3></0>",
@@ -466,8 +466,8 @@
         "keepSafe": "Prosím, uchovávajte svoj Seed v bezpečí."
     },
     "welcome": {
-        "thankYou": "Ďakujeme, že ste si stiahli Trinity",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Ďakujeme, že ste si stiahli LPWallet",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0> Zapíšte si svoj Seed a kontrolný súčet a </0><1>dôkladne skontrolujte</1><2> ich správnosť.</2>",
@@ -489,7 +489,7 @@
         "retrying": "Pokúša sa znova",
         "yesterday": "Včera",
         "promotingAnotherBundle": "Podpora ďalšieho balíčku",
-        "pleaseWait": "Prosím počkajte, Trinity podporuje ďalší balíček.",
+        "pleaseWait": "Prosím počkajte, LPWallet podporuje ďalší balíček.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Vyhľadávanie podľa bundle hashov alebo obsahu správy",
         "searchHelpValue": "Nájsť transakcie podľa presnej iota hodnoty",
@@ -593,11 +593,11 @@
         "million": "Milión",
         "thousand": "Tisíc",
         "one": "Jedna",
-        "unitInfoExplanation": "IOTA sa obvykle nakupuje v násobkoch jedného miliónu (MIOTA), ale môže byť tiež posielaná ako jedna IOTA."
+        "unitInfoExplanation": "LP sa obvykle nakupuje v násobkoch jedného miliónu (MLP), ale môže byť tiež posielaná ako jedna LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Prečo nemôžem použiť celý zostatok môjho účtu?",
-        "spentAddressExplanation": "Máte prostriedky na jednej alebo niekoľkých použitých adresách. Opätovné použitie adries v IOTA je nebezpečné, preto vám táto peňaženka neumožní odoslať z rovnakej adresy viac ako jedenkrát.",
+        "spentAddressExplanation": "Máte prostriedky na jednej alebo niekoľkých použitých adresách. Opätovné použitie adries v LP je nebezpečné, preto vám táto peňaženka neumožní odoslať z rovnakej adresy viac ako jedenkrát.",
         "discordInformation": "Pokiaľ chcete zistiť vaše možnosti, prejdite do #help v aplikácii Discord."
     },
     "deleteAccount": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Exportovať SeedVault",
         "seedVaultExplanation": "SeedVault je spôsob, ako bezpečne uložiť Váš Seed. Seed je uložený v zašifrovanom súbore a nemôže byť zobrazený bez príslušného hesla.",
-        "seedVaultWarning": "Uistite sa, že si zálohujete súbor na viacerých miestach (napríklad pevný disk, cloud, USB). Ak stratíte tento súbor a nebudete mať uložený Váš seed iným spôsobom, stratíte Vaše IOTA.",
+        "seedVaultWarning": "Uistite sa, že si zálohujete súbor na viacerých miestach (napríklad pevný disk, cloud, USB). Ak stratíte tento súbor a nebudete mať uložený Váš seed iným spôsobom, stratíte Vaše LP.",
         "exportFail": "Export SeedVault zlyhal",
         "exportFailExplanation": "Počas exportovania Vášho SeedVault nastal problém. Prosím, uistite sa, že máte povolenie na zápis súborov a dostatok miesta.",
         "exportSuccess": "SeedVault je exportovaný",
@@ -696,7 +696,7 @@
         "seedFileError": "Otvorenie SeedVault zlyhalo",
         "seedFileErrorExplanation": "Počas otvárania SeedVault nastal problém. Ak Ste zvolili naozaj správny súbor, je možné, že je poškodený.",
         "invalidSeedFileError": "Neplatný súbor SeedVault",
-        "invalidSeedFileErrorExplanation": "Tento formát súboru nie je podporovaný. Podporované sú iba súbory SeedVault (.kdbx) vytvorené prostredníctvom aplikácie Trinity alebo správcu hesiel.",
+        "invalidSeedFileErrorExplanation": "Tento formát súboru nie je podporovaný. Podporované sú iba súbory SeedVault (.kdbx) vytvorené prostredníctvom aplikácie LPWallet alebo správcu hesiel.",
         "seedVaultKeyExplanation": "Najprv potrebujeme zabezpečiť Váš SeedVault. Vyberte si prosím heslo k zašifrovaniu súboru. Toto heslo použijete, pokiaľ budete potrebovať obnoviť Váš Seed zo zálohy SeedVault.",
         "retypeKey": "Zadajte heslo znova",
         "key": "Kľúč"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Želáte si pokračovať aj napriek tomuto riziku?"
     },
     "pow": {
-        "feeless": "Pre odoslanie bezplatnej transakcie v IOTA je potrebné vykonať malý dôkaz práce (proof of work).",
+        "feeless": "Pre odoslanie bezplatnej transakcie v LP je potrebné vykonať malý dôkaz práce (proof of work).",
         "localOrRemote": "Proof of work môže byť dokončený lokálne vo vašom zariadení alebo prevedený do Nodu.",
         "local": "Lokálny",
         "remote": "Vzdialený",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automatické vyplnenie úspešné",
         "autofillExplanation": "Údaje o transakcii boli automaticky doplnené z odkazu.",
-        "deepLinkingOverview": "Hlboké odkazy sú kliknuteľné odkazy (iota: // ...), ktoré automaticky vyplňujú údaje o transakcii v Trinity.",
-        "deepLinkingWarning": "Dávajte pozor na phishingové podvody. Uistite sa, že odkaz, ktorý otvoríte, prejde na oficiálnu aplikáciu Trinity.",
+        "deepLinkingOverview": "Hlboké odkazy sú kliknuteľné odkazy (iota: // ...), ktoré automaticky vyplňujú údaje o transakcii v LPWallet.",
+        "deepLinkingWarning": "Dávajte pozor na phishingové podvody. Uistite sa, že odkaz, ktorý otvoríte, prejde na oficiálnu aplikáciu LPWallet.",
         "deepLinkingUpdated": "Nastavenie hlbokých odkazov",
         "deepLinkingEnabled": "Aktivovali ste hlboké odkazy.",
         "deepLinkingDisabled": "Zakázali ste hlboké odkazy.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Chyba pri získavaní aktualizačných dát",
         "errorRetrievingUpdateDataExplanation": "Nepodarilo sa načítať aktualizáciu. Skontrolujte internetové pripojenie a skúste to znova.",
         "noUpdatesAvailable": "Nie sú dostupné žiadne aktualizácie",
-        "noUpdatesAvailableExplanation": "Používate aktuálnu verziu Trinity!",
+        "noUpdatesAvailableExplanation": "Používate aktuálnu verziu LPWallet!",
         "newVersionAvailable": "K dispozícií je nová verzia",
-        "newVersionAvailableExplanation": "K dispozícií je nová verzia Trinity. Chcete teraz aktualizovať?",
+        "newVersionAvailableExplanation": "K dispozícií je nová verzia LPWallet. Chcete teraz aktualizovať?",
         "installUpdate": "Nainštalujte aktualizáciu a reštartujte",
-        "installUpdateExplanation": "Stahovanie bolo dokončené, Trinity reštartuje a nainštaluje aktualizáciu.",
+        "installUpdateExplanation": "Stahovanie bolo dokončené, LPWallet reštartuje a nainštaluje aktualizáciu.",
         "downloadingUpdate": "Sťahuje sa aktualizácia...",
         "downloadProgress": "Stiahnuté {{transferred}} z {{total}}"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Chyba uvoľnenie finančných prostriedkov",
         "sweepErrorExplanation": "Došlo ku chybe pri odblokovaní vašich finančných prostriedkov. Skúste to znova.",
         "warningTitle": "Varovanie: Boli zistené blokované prostriedky",
-        "explanation": "Peňaženka Trinity Desktop 0.3.4 obsahovala chybu, ktorá by mohla dočasne zablokovať finančné prostriedky na účte. Tento problém ovplyvňuje malý počet užívateľov, ktorí uskutočnili transakcie s verziou 0.3.4.",
-        "explanationAccounts": "Na vašich účtoch boli zistené blokované prostriedky: {{accounts}}. Trinity teraz automaticky obnoví vaše prostriedky a prenesie ich na novú adresu.",
+        "explanation": "Peňaženka LPWallet Desktop 0.3.4 obsahovala chybu, ktorá by mohla dočasne zablokovať finančné prostriedky na účte. Tento problém ovplyvňuje malý počet užívateľov, ktorí uskutočnili transakcie s verziou 0.3.4.",
+        "explanationAccounts": "Na vašich účtoch boli zistené blokované prostriedky: {{accounts}}. LPWallet teraz automaticky obnoví vaše prostriedky a prenesie ich na novú adresu.",
         "proceed": "Prejsť na obnovenie",
         "sweepConfirmation": "Chystáte sa preniesť {{amount}} na {{address}}. Účet: {{accountName}}, index adresy: {{index}}",
         "sweepConfirmationTitle": "Potvrdenie prevodu"
     },
     "migration": {
         "dataMigration": "Migrácia dát",
-        "dataMigrationExplanation": "V záujme lepšieho výkonu a niektorých obmedzení, Trinity momentálne používa novú databázu pre ukladanie nastavení účtu a dát. Počkajte, kým Trinity automaticky prenesie Vaše dáta.",
+        "dataMigrationExplanation": "V záujme lepšieho výkonu a niektorých obmedzení, LPWallet momentálne používa novú databázu pre ukladanie nastavení účtu a dát. Počkajte, kým LPWallet automaticky prenesie Vaše dáta.",
         "problemMigratingYourData": "Objavil sa problém s migráciu Vaších dát, skúste to prosím znova",
-        "seedMigrationExplanation": "Ako súčasť pokračujúcej snahy spoločnosti Trinity o zlepšenie bezpečnosti peňaženky, bude váš seed zmigrovaný na rozšírenú metodológiu úložiska. Počkajte, kým Trinity automaticky zmigruje úložisko seedu."
+        "seedMigrationExplanation": "Ako súčasť pokračujúcej snahy spoločnosti LPWallet o zlepšenie bezpečnosti peňaženky, bude váš seed zmigrovaný na rozšírenú metodológiu úložiska. Počkajte, kým LPWallet automaticky zmigruje úložisko seedu."
     },
     "ledger": {
         "ready": "Zariadenie Ledger je pripojené a pripravené k práci",
@@ -860,8 +860,8 @@
         "connectionExplanation": "K vykonaniu tejto funkcie musí byť pripojené zariadenie Ledger.",
         "transactionTitle": "Prekontrolujte a potvrďte transakciu vo Vašom zariadení Ledger",
         "transactionExplanation": "Potvrďte odchádzajúcu transakciu pomocou zariadenia Ledger.",
-        "applicationTitle": "Spustite aplikáciu IOTA na Vašom zariadení Ledger",
-        "applicationExplanation": "Aby ste mohli pokračovať v používaní Trinity, otvorte v zariadení Ledger aplikáciu IOTA.",
+        "applicationTitle": "Spustite aplikáciu LP na Vašom zariadení Ledger",
+        "applicationExplanation": "Aby ste mohli pokračovať v používaní LPWallet, otvorte v zariadení Ledger aplikáciu LP.",
         "cannotSendZeroValueTitle": "Transakcie s nulovou hodnotou nie je možné odoslať",
         "cannotSendZeroValueExplanation": "Transakcie s nulovou hodnotou nie je možné pomocou zariadenia Ledger odoslať.",
         "ledgerDisconnectedTitle": "Ledger je odpojený",
@@ -873,17 +873,17 @@
         "checkAddress": "Skontrolujte adresu príjemcu",
         "checkAddressExplanation": "Skontrolujte, či adresa odpovedá adrese zobrazenej na Vašom zariadení Ledger.",
         "applicationNotInitialised": "Informačné upozornenie nebolo prijaté",
-        "applicationNotInitialisedExplanation": "Znovu otvorte aplikáciu IOTA na Vašom zariadení Ledger, prijmite informačné upozornenie a skúste to znova.",
+        "applicationNotInitialisedExplanation": "Znovu otvorte aplikáciu LP na Vašom zariadení Ledger, prijmite informačné upozornenie a skúste to znova.",
         "checkLedger": "Skontrolujte váš Ledger",
         "acceptWarningExplanation": "V prípade, že sa na vašom Ledger zariadení objaví informačné upozornenie, je nutné ho zobraziť a akceptovať prostredníctvom stlačenia oboch tlačidiel.",
         "udevError": "Nepodarilo sa komunikovať so zariadením Ledger",
-        "udevErrorExplanation": "Trinity nemohla komunikovať so zariadením Ledger. Ak chcete tento problém vyriešiť, prejdite na nižšie uvedenú URL adresu.",
+        "udevErrorExplanation": "LPWallet nemohla komunikovať so zariadením Ledger. Ak chcete tento problém vyriešiť, prejdite na nižšie uvedenú URL adresu.",
         "writtenDownInfoTitle": "Zapamätajte si číslo vášho indexu",
         "writtenDownInfoExplanation": "Číslo vášho indexu je dôležité pri prípadnej potrebe obnovenia vášho účtu v budúcnosti. V prípade straty tohto čísla, prídete o vašu IOTU. Prosím zapamätajte si ho."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

@@ -9,7 +9,7 @@
         "noTransactions": "ಇತ್ತೀಚಿನ ಪೂರ್ವಚರಿತ್ರೆಯಾವುದು ಇಲ್ಲ",
         "refresh": "ಪುನಶ್ಚೇತನಗೊಳಿಸು",
         "balanceError": "ಬಾಕಿ ಮೊತ್ತ ಸಾಲುತಿಲ್ಲ",
-        "balanceErrorMessage": "ಈ ವರ್ಗಾವಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸಾಕಷ್ಟು IOTA ಇಲ್ಲ.",
+        "balanceErrorMessage": "ಈ ವರ್ಗಾವಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸಾಕಷ್ಟು LP ಇಲ್ಲ.",
         "totalBalance": "ಒಟ್ಟು ಖಾತೆಯ ಮೊತ್ತ",
         "transferError": "ವರ್ಗಾವಣೆಯಲ್ಲಿ ದೋಷ",
         "transferErrorMessage": "ನಿಮ್ಮ ವರ್ಗಾವಣೆಯನ್ನು ಕಳುಹಿಸುವಾಗ ಯಾವುದೋ ತಪ್ಪು ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
@@ -22,7 +22,7 @@
         "invalidResponse": "ನೋಡ್ ನಲ್ಲಿ ದೋಷ",
         "invalidResponseExplanation": "ನೋಡ್ ದೋಷವನ್ನು ಹಿಂತಿರುಗಿಸಿದೆ. ನೋಡ್ ಬದಲಿಸಲು ಪ್ರಯತ್ನಿಸಿ.",
         "invalidResponseFetchingAccount": "ನಿಮ್ಮ ಖಾತೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯುವಾಗ ನೋಡ್ ದೋಷವನ್ನು ಹಿಂತಿರುಗಿಸಿದೆ. ನೋಡ್ ಬದಲಿಸಲು ಪ್ರಯತ್ನಿಸಿ.",
-        "invalidResponseFetchingAccountDesktop": "The node returned an error while fetching your account information. If your problem persists, try changing node or disabling your system proxy in Trinity Settings.",
+        "invalidResponseFetchingAccountDesktop": "The node returned an error while fetching your account information. If your problem persists, try changing node or disabling your system proxy in LPWallet Settings.",
         "nodeOutOfSync": "ನೋಡ್ ಒಡವಾಗುನಂಟುವಿನಿಂದ ಹೊರಗಿದೆ",
         "nodeOutOfSyncExplanation": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಆಯ್ಕೆ ಮಾಡಿದ ನೋಡ್ ಒಡವಾಗುನಂಟುವಿನಿಂದ ಹೊರಗಿದೆ. ನೋಡ್ ಅನ್ನು ಬದಲಿಸಿ ಅಥವಾ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
         "experimentalNode": "Node version not supported",
@@ -129,15 +129,15 @@
         "nodeAutoChangedExplanation": "ಆಯ್ದ ನೋಡ್ ಆಫ್ಲೈನ್ ಇರುವುದರಿಂದ ಹೊಸ ನೋಡ್ ಗೆ {{- nodeAddress}} ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ.",
         "touchSensor": "Touch the fingerprint sensor",
         "fingerprintOnSend": "ವರ್ಗಾವಣೆ ದೃಢೀಕರಿಸಲು ಬೆರಳಚ್ಚು ಓದುಗ ಸ್ಪರ್ಶಿಸಿ",
-        "masterKey": "ನಿಮ್ಮ IOTA ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವು ನಿಮ್ಮ ನಿಧಿಯ ಪ್ರಮುಖ ಕೀಲಿಯಾಗಿರುತ್ತದೆ.",
-        "seedThief": "ಬೇರೊಬ್ಬರು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ ಹೊಂದಿದ್ದರೆ ಅವರು ನಿಮ್ಮ IOTA ವನ್ನು ಕದಿಯಬಹುದು.",
+        "masterKey": "ನಿಮ್ಮ LP ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವು ನಿಮ್ಮ ನಿಧಿಯ ಪ್ರಮುಖ ಕೀಲಿಯಾಗಿರುತ್ತದೆ.",
+        "seedThief": "ಬೇರೊಬ್ಬರು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ ಹೊಂದಿದ್ದರೆ ಅವರು ನಿಮ್ಮ LP ವನ್ನು ಕದಿಯಬಹುದು.",
         "googlePlayServicesNotAvailable": "Google Play ಸೇವೆಗಳು ಲಭ್ಯವಿಲ್ಲ",
         "couldNotVerifyDeviceIntegrity": "ಸಾಧನ ಸಮಗ್ರತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ ಏಕೆಂದರೆ Google Play ಸೇವೆಗಳು ಲಭ್ಯವಿಲ್ಲ.",
         "clear": "ತೆರವುಗೊಳಿಸಿ",
         "noNetworkConnection": "ನೆಟ್ವರ್ಕ್ ಸಂಪರ್ಕವಿಲ್ಲ",
         "noNetworkConnectionExplanation": "ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವು ಆಫ್ಲೈನ್ನಲ್ಲಿ ಗೋಚರಿಸುತ್ತದೆ.",
         "spentAddressExplanation": "ಎಚ್ಚರಿಕೆ: ಖರ್ಚು ಮಾಡಿದ ವಿಳಾಸಗಳಲ್ಲಿ ಹಣ",
-        "discordInformation": "ಅದೇ ವಿಳಾಸದಿಂದ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ವ್ಯವಹರಿಸುವುದು ಅಪಾಯಕಾರಿ. ದಯವಿಟ್ಟು ನೀವು ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಲು IOTA ಡಿಸ್ಕೋರ್ಡ್ನಲ್ಲಿ #help ಚಾನಲ್ಗೆ ಹೋಗಿ.",
+        "discordInformation": "ಅದೇ ವಿಳಾಸದಿಂದ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ವ್ಯವಹರಿಸುವುದು ಅಪಾಯಕಾರಿ. ದಯವಿಟ್ಟು ನೀವು ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಲು LP ಡಿಸ್ಕೋರ್ಡ್ನಲ್ಲಿ #help ಚಾನಲ್ಗೆ ಹೋಗಿ.",
         "androidInsecureClipboardWarning": "ಆಂಡ್ರಾಯ್ಡ್ ಸುರಕ್ಷಿತ ಕ್ಲಿಪ್ಬೋರ್ಡ್ ಅನ್ನು ಒದಗಿಸುವುದಿಲ್ಲ.",
         "androidCopyPasteWarning": "Never copy/paste a seed on an Android device.",
         "willNotCopyPasteSeed": "ನನ್ನ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ನಾನು ನಕಲಿಸುವುದಿಲ್ಲ / ಅಂಟಿಸುವುದಿಲ್ಲ",
@@ -269,7 +269,7 @@
         "setNode": "ನೋಡ್ ಹೊಂದಿಸಿ",
         "whyBiometricDisabled": "ಬಯೋಮೆಟ್ರಿಕ್ ದೃಢೀಕರಣವನ್ನು ಏಕೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ?",
         "whyBiometricDisabledExplanationPart1": "Biometric authentication is disabled on first app load for your security.",
-        "whyBiometricDisabledExplanationPart2": "When using Trinity you will be logged out for inactivity. You can then log back in with biometric authentication."
+        "whyBiometricDisabledExplanationPart2": "When using LPWallet you will be logged out for inactivity. You can then log back in with biometric authentication."
     },
     "loading": {
         "loadingFirstTime": "ಮೊದಲ ಬಾರಿಗೆ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.",
-        "iotaLogo": "IOTA ಚಿಹ್ನೆ",
+        "iotaLogo": "LP ಚಿಹ್ನೆ",
         "print": "Print",
         "paperConvenience": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ ಕಾಗದದ ನಕಲನ್ನು ಮುದ್ರಿಸುವುದು ಅದನ್ನು ಶೇಖರಿಸಿಡಲು ಅನುಕೂಲಕರ ಮಾರ್ಗವಾಗಿದೆ.",
         "publicInsecure": "ಆದರೆ ಸಾರ್ವಜನಿಕ ವೈಫೈ ಅಥವಾ ಸಾರ್ವಜನಿಕ ಪ್ರಿಂಟರ್ನಲ್ಲಿ ಮುದ್ರಣ ಮಾಡುವುದು ಅಸುರಕ್ಷಿತವಾಗಿದೆ.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Generate address",
         "generateAnAddressTitle": "Generate an address",
         "generateAnAddressExplanation": "Please generate an address before using this function.",
-        "generateAddressInformation": "Generate a new deposit address every time you wish to receive IOTA"
+        "generateAddressInformation": "Generate a new deposit address every time you wish to receive LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಬ್ಯಾಕ್ ಅಪ್ ಮಾಡಿಕೊಳ್ಳಿ",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ದೃಢೀಕರಿಸಿ",
-        "trinityWillNeverAskToReenter": "Trinity will never ask you to re-enter this seed unless you reset your wallet or delete the app.",
+        "trinityWillNeverAskToReenter": "LPWallet will never ask you to re-enter this seed unless you reset your wallet or delete the app.",
         "enterYourSeed": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ನಮೂದಿಸಿ",
         "incorrectSeed": "ತಪ್ಪಾದ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ",
         "incorrectSeedExplanation": "ನೀವು ನಮೂದಿಸಿದ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವು ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Please check that you have entered the address correctly.",
         "invalidAddressExplanationGeneric": "ಮಾನ್ಯವಾದ ವಿಳಾಸಗಳು 90 ಅಕ್ಷರಗಳಾಗಿರಬೇಕು ಮತ್ತು A-Z ಅಥವಾ 9 ಅನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬೇಕು.",
         "notEnoughFunds": "ಸಾಕಷ್ಟಿಲ್ಲದ ಹಣ",
-        "notEnoughFundsExplanation": "ಈ ವರ್ಗಾವಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸಾಕಷ್ಟು IOTA ಇಲ್ಲ.",
+        "notEnoughFundsExplanation": "ಈ ವರ್ಗಾವಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸಾಕಷ್ಟು LP ಇಲ್ಲ.",
         "recipientAddress": "ಸ್ವೀಕರಿಸುವವರ ವಿಳಾಸ",
         "amount": "ಮೊತ್ತ",
         "max": "ಗರಿಷ್ಠ",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "ನಿಮ್ಮ ಸಂದೇಶವು ಅಮಾನ್ಯ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.",
         "send": "ಕಳುಹಿಸಿ",
         "invalidAmount": "ತಪ್ಪಾದ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಲಾಗಿದೆ",
-        "invalidAmountExplanation": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ವ್ಯವಹಾರದ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ. ಈ ಪುಟದ ಕೆಳಭಾಗದಲ್ಲಿ IOTA ಪ್ರಮಾಣ\nವಿವರಣೆಯನ್ನು ವೀಕ್ಷಿಸುವುದರಿಂದ ಸಹಾಯಕವಾಗಬಹುದು.",
+        "invalidAmountExplanation": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ವ್ಯವಹಾರದ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ. ಈ ಪುಟದ ಕೆಳಭಾಗದಲ್ಲಿ LP ಪ್ರಮಾಣ\nವಿವರಣೆಯನ್ನು ವೀಕ್ಷಿಸುವುದರಿಂದ ಸಹಾಯಕವಾಗಬಹುದು.",
         "maximumSelected": "ಗರಿಷ್ಠ ಮೊತ್ತವನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
-        "iotaUnits": "IOTA ಪ್ರಮಾಣಗಳು ವಿವರಿಸಿದೆ",
+        "iotaUnits": "LP ಪ್ರಮಾಣಗಳು ವಿವರಿಸಿದೆ",
         "sendMax": "ಗರಿಷ್ಠವನ್ನು ಕಳುಹಿಸಿ",
         "totalTime": "ಒಟ್ಟು ಸಮಯ",
         "addressPasteDetected": "ವಿಳಾಸ ಅಂಟಿಯನ್ನು ಕಂಡುಹಿಡಿದಿದೆ",
@@ -395,7 +395,7 @@
         "advanced": "ಮುಂದುವರೆದ",
         "standard": "ಪ್ರಮಾಣಿತ",
         "advancedModeExplanation": "ಮುಂದುವರೆದ ಮೋಡ್ ಹೆಚ್ಚು ವಿವರವಾದ ತಾಂತ್ರಿಕ ಮಾಹಿತಿಯನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.",
-        "modesExplanation": "IOTA ಅನ್ನು ಬಳಸಿ ನಿಮಗೆ ಅನುಭವವಿದ್ದರೆ ಮಾತ್ರ ಮುಂದುವರೆದ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ. ಇಲ್ಲದಿದ್ದರೆ ಅದರಿಂದ ಗೊಂದಲಕ್ಕೊಳಗಾಗಬಹುದು.",
+        "modesExplanation": "LP ಅನ್ನು ಬಳಸಿ ನಿಮಗೆ ಅನುಭವವಿದ್ದರೆ ಮಾತ್ರ ಮುಂದುವರೆದ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ. ಇಲ್ಲದಿದ್ದರೆ ಅದರಿಂದ ಗೊಂದಲಕ್ಕೊಳಗಾಗಬಹುದು.",
         "modeUpdated": "Mode updated",
         "modeUpdatedExplanation": "You have changed to {{mode}} mode"
     },
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "ಸರಿ. ನಿಮ್ಮ ವಾಲೆಟ್ ಅನ್ನು ಹೊಂದಿಸೋಣ!",
         "doYouNeedASeed": "ನೀವು ಹೊಸ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ರಚಿಸಬೇಕೇ?",
-        "seedExplanation": "ನಿಮ್ಮ IOTA ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವು ನಿಮ್ಮ ನಿಧಿಯ ಪ್ರಮುಖ ಕೀಲಿಯಾಗಿರುತ್ತದೆ. A-Z ಅಕ್ಷರಗಳು ಅಥವಾ 9 ನೆಯ ಅಕ್ಷರಗಳನ್ನು ಮಾತ್ರ ಬಳಸಿಕೊಂಡು 81 ಅಕ್ಷರಗಳಷ್ಟು ಉದ್ದವಿದೆ.",
+        "seedExplanation": "ನಿಮ್ಮ LP ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವು ನಿಮ್ಮ ನಿಧಿಯ ಪ್ರಮುಖ ಕೀಲಿಯಾಗಿರುತ್ತದೆ. A-Z ಅಕ್ಷರಗಳು ಅಥವಾ 9 ನೆಯ ಅಕ್ಷರಗಳನ್ನು ಮಾತ್ರ ಬಳಸಿಕೊಂಡು 81 ಅಕ್ಷರಗಳಷ್ಟು ಉದ್ದವಿದೆ.",
         "noIHaveOne": "ಬೇಡ, ನನ್ನ ಬಳಿ ಒಂದಿದೆ",
         "yesINeedASeed": "ಹೌದು, ನನಗೆ ಒಂದು ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ ಬೇಕು",
         "explanation": "<0><0>ನಿಮ್ಮ ಹಣವನ್ನು</0><1>ಯಾವುದೇ ವ್ಯಾಲೆಟ್</1><2>,</2><3>ಯಾವುದೇ ಸಾಧನದಿಂದ ಪ್ರವೇಶಿಸಲು ನೀವು ಇದನ್ನು ಬಳಸಬಹುದು.</3></0>",
-        "loseSeed": "ಆದರೆ ನೀವು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಕಳೆದುಕೊಂಡರೆ, ನಿಮ್ಮ IOTA ವನ್ನೂ ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
+        "loseSeed": "ಆದರೆ ನೀವು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಕಳೆದುಕೊಂಡರೆ, ನಿಮ್ಮ LP ವನ್ನೂ ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
         "keepSafe": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸಿಕೊಳ್ಳಿ."
     },
     "welcome": {
         "thankYou": "ಟ್ರಿನಿಟಿ ಡೌನ್ಲೋಡ್ ಮಾಡಿದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತ ಮತ್ತು ಖಾತೆ ಪರಿಶೀಲನೆ ಸಂಕೇತವನ್ನು ಬರೆದಿಟ್ಟುಕೊಳ್ಳಿ ಹಾಗು</0><1> ಮೂರು ಬಾರಿ ಪರಿಶೀಲಿಸಿ</1><2>ಅವರು ಸರಿಯಾಗಿವೆ ಎಂದು.</2>",
@@ -489,7 +489,7 @@
         "retrying": "ಮರುಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ",
         "yesterday": "ನೆನ್ನೆ ದಿನ",
         "promotingAnotherBundle": "Promoting another bundle",
-        "pleaseWait": "Please wait, Trinity is promoting another bundle.",
+        "pleaseWait": "Please wait, LPWallet is promoting another bundle.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Search by bundle hash or message content",
         "searchHelpValue": "Find transactions by exact iota value",
@@ -593,12 +593,12 @@
         "million": "ಹತ್ತುಲಕ್ಷ",
         "thousand": "ಸಾವಿರ",
         "one": "ಒಂದು",
-        "unitInfoExplanation": "IOTAs are typically acquired in multiples of one million, but can be transferred as a single IOTA."
+        "unitInfoExplanation": "LPs are typically acquired in multiples of one million, but can be transferred as a single LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "ನನ್ನ ಸಂಪೂರ್ಣ ಖಾತೆಯ ಮೊತ್ತವನ್ನು ನಾನು ಏಕೆ ಕಳೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ?",
-        "spentAddressExplanation": "ನೀವು ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಖರ್ಚಾದ ವಿಳಾಸಗಳಲ್ಲಿ ಹಣವನ್ನು ಹೊಂದಿರುತ್ತೀರಿ. IOTA ಯಲ್ಲಿ ವಿಳಾಸ ಮರುಬಳಕೆಯು ಅಪಾಯಕಾರಿಯಾಗಿದೆ, ಆದ್ದರಿಂದ ಈ ವ್ಯಾಲೆಟ್ ನೀವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಒಂದೇ ವಿಳಾಸದಿಂದ ಕಳುಹಿಸಲು ಅನುಮತಿಸುವುದಿಲ್ಲ.",
-        "discordInformation": "ದಯವಿಟ್ಟು ನೀವು ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಲು IOTA ಡಿಸ್ಕೋರ್ಡ್ನಲ್ಲಿ #help ಚಾನಲ್ಗೆ ಹೋಗಿ."
+        "spentAddressExplanation": "ನೀವು ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಖರ್ಚಾದ ವಿಳಾಸಗಳಲ್ಲಿ ಹಣವನ್ನು ಹೊಂದಿರುತ್ತೀರಿ. LP ಯಲ್ಲಿ ವಿಳಾಸ ಮರುಬಳಕೆಯು ಅಪಾಯಕಾರಿಯಾಗಿದೆ, ಆದ್ದರಿಂದ ಈ ವ್ಯಾಲೆಟ್ ನೀವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಒಂದೇ ವಿಳಾಸದಿಂದ ಕಳುಹಿಸಲು ಅನುಮತಿಸುವುದಿಲ್ಲ.",
+        "discordInformation": "ದಯವಿಟ್ಟು ನೀವು ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಲು LP ಡಿಸ್ಕೋರ್ಡ್ನಲ್ಲಿ #help ಚಾನಲ್ಗೆ ಹೋಗಿ."
     },
     "deleteAccount": {
         "areYouSure": "Are you sure you want to delete your account?",
@@ -632,7 +632,7 @@
         "didSaveSeed": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ನೀವು ಬ್ಯಾಕ್ ಅಪ್ ಮಾಡಿದ್ದೀರಾ?",
         "iHaveBackedUp": "I have safely backed up my seed",
         "reenterSeed": "At the next step you need to re-enter your seed.",
-        "reenterSeedWarning": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ನೀವು ಬ್ಯಾಕಪ್ ಮಾಡಿಲ್ಲವಾದರೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನ ವಿಫಲವಾದಲ್ಲಿ, ನಿಮ್ಮ ಎಲ್ಲಾ IOTA ಅನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
+        "reenterSeedWarning": "ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ನೀವು ಬ್ಯಾಕಪ್ ಮಾಡಿಲ್ಲವಾದರೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನ ವಿಫಲವಾದಲ್ಲಿ, ನಿಮ್ಮ ಎಲ್ಲಾ LP ಅನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
         "pleaseConfirm": "ದಯವಿಟ್ಟು ನೀವು ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "ಸೀಡ್ವಾಲ್ಟ್ ರಫ್ತು ಮಾಡಿ",
         "seedVaultExplanation": "A SeedVault is an encrypted file for backing up your seed. The seed is encrypted with a SeedVault Key and cannot be accessed without that key.",
-        "seedVaultWarning": "ನೀವು ಬಹು ಸ್ಥಳಗಳಲ್ಲಿ ಫೈಲ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ (ಉದಾ. ಹಾರ್ಡ್ ಡ್ರೈವ್, ಕ್ಲೌಡ್, ಯುಎಸ್ಬಿ). ನೀವು ಈ ಫೈಲ್ ಅನ್ನು ಕಳೆದುಕೊಂಡರೆ ಮತ್ತು ಬೇರೆಲ್ಲಿಯಾದರೂ ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಸಂಗ್ರಹಿಸದಿದ್ದರೆ, ನಿಮ್ಮ IOTA ವನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
+        "seedVaultWarning": "ನೀವು ಬಹು ಸ್ಥಳಗಳಲ್ಲಿ ಫೈಲ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ (ಉದಾ. ಹಾರ್ಡ್ ಡ್ರೈವ್, ಕ್ಲೌಡ್, ಯುಎಸ್ಬಿ). ನೀವು ಈ ಫೈಲ್ ಅನ್ನು ಕಳೆದುಕೊಂಡರೆ ಮತ್ತು ಬೇರೆಲ್ಲಿಯಾದರೂ ನಿಮ್ಮ ರಹಸ್ಯ ಪ್ರವೇಶ ಸಂಕೇತವನ್ನು ಸಂಗ್ರಹಿಸದಿದ್ದರೆ, ನಿಮ್ಮ LP ವನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.",
         "exportFail": "ಸೀಡ್ವಾಲ್ಟ್ ರಫ್ತು ವಿಫಲವಾಗಿದೆ",
         "exportFailExplanation": "ಸೀಡ್ವಾಲ್ಟ್ ರಫ್ತು ಮಾಡುವಲ್ಲಿ ಸಮಸ್ಯೆ ಇದೆ. ನಿಮಗೆ ಸೂಕ್ತವಾದ ಅನುಮತಿಗಳು ಮತ್ತು ಸಾಕಷ್ಟು ಉಚಿತ ಸ್ಥಳಾವಕಾಶವಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
         "exportSuccess": "ಸೀಡ್ವಾಲ್ಟ್ ಅನ್ನು ರಫ್ತು ಮಾಡಲಾಗಿದೆ",
@@ -696,7 +696,7 @@
         "seedFileError": "ಸೀಡ್ವಾಲ್ಟ್ ತೆರೆಯಲು ವಿಫಲವಾಗಿದೆ",
         "seedFileErrorExplanation": "ಸೀಡ್ವಾಲ್ಟ್ ಅನ್ನು ತೆರೆಯುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ನೀವು ಸರಿಯಾದ ಫೈಲ್ ಅನ್ನು ಆರಿಸಿದರೆ ಅದು ದೋಷಪೂರಿತವಾಗಬಹುದು.",
         "invalidSeedFileError": "Invalid SeedVault file",
-        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via Trinity or a password manager are supported.",
+        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via LPWallet or a password manager are supported.",
         "seedVaultKeyExplanation": "First we need to secure your SeedVault. Please choose a key to encrypt the file. You will use this key if you need to restore your seed from the SeedVault back up.",
         "retypeKey": "Retype key",
         "key": "ಕೀಲಿ"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "ಈ ಅಪಾಯದ ಹೊರತಾಗಿಯೂ ನೀವು ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?"
     },
     "pow": {
-        "feeless": "IOTA ನಲ್ಲಿ ಶುಲ್ಕವಿಲ್ಲದ ವ್ಯವಹಾರಗಳನ್ನು ಕಳುಹಿಸಲು ಸ್ವಲ್ಪ ಕೆಲಸದ ಪುರಾವೆ ಪೂರ್ಣಗೊಳಿಸಲು ಅಗತ್ಯ.",
+        "feeless": "LP ನಲ್ಲಿ ಶುಲ್ಕವಿಲ್ಲದ ವ್ಯವಹಾರಗಳನ್ನು ಕಳುಹಿಸಲು ಸ್ವಲ್ಪ ಕೆಲಸದ ಪುರಾವೆ ಪೂರ್ಣಗೊಳಿಸಲು ಅಗತ್ಯ.",
         "localOrRemote": "ಕೆಲಸದ ಪುರಾವೆ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ಪೂರ್ಣಗಳಿಸಬಹುದು, ಅಥವಾ ಒಂದು ನೋಡ್ಗೆ ಆಫ್ಲೋಡ್ ಮಾಡಬಹುದು.",
         "local": "ಸ್ಥಳೀಯ",
         "remote": "ದೂರದ",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "ಸ್ವಯಂತುಂಬುವಿಕೆ ಯಶಸ್ಸು",
         "autofillExplanation": "ವ್ಯವಹಾರ ಮಾಹಿತಿಯನ್ನು ಲಿಂಕ್ನಿಂದ ಸ್ವಯಂ ತುಂಬಿಸಲಾಗಿದೆ.",
-        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in Trinity.",
-        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official Trinity app.",
+        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in LPWallet.",
+        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official LPWallet app.",
         "deepLinkingUpdated": "Deep linking settings",
         "deepLinkingEnabled": "You have enabled deep linking.",
         "deepLinkingDisabled": "You have disabled deep linking.",
@@ -826,17 +826,17 @@
         "sweepError": "Error unlocking funds",
         "sweepErrorExplanation": "Something went wrong while unlocking your funds. Trying again.",
         "warningTitle": "Warning: Locked funds detected",
-        "explanation": "Trinity Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
-        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. Trinity will now automatically recover your funds, by moving them to a new address.",
+        "explanation": "LPWallet Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
+        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. LPWallet will now automatically recover your funds, by moving them to a new address.",
         "proceed": "Proceed to Recovery",
         "sweepConfirmation": "You are about to sweep {{amount}} to the address {{address}}. Account: {{accountName}}, address index: {{index}}",
         "sweepConfirmationTitle": "Sweep confirmation"
     },
     "migration": {
         "dataMigration": "Data migration",
-        "dataMigrationExplanation": "Due to performance and storage limitations, Trinity is using a new database for storing settings and account data. Please wait while Trinity automatically migrates your existing data.",
+        "dataMigrationExplanation": "Due to performance and storage limitations, LPWallet is using a new database for storing settings and account data. Please wait while LPWallet automatically migrates your existing data.",
         "problemMigratingYourData": "There was a problem migrating your data. Please try again",
-        "seedMigrationExplanation": "As part of Trinity's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while Trinity automatically migrates seed storage."
+        "seedMigrationExplanation": "As part of LPWallet's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while LPWallet automatically migrates seed storage."
     },
     "ledger": {
         "ready": "Ledger device connected and ready",
@@ -860,8 +860,8 @@
         "connectionExplanation": "A Ledger device must be connected to perform this function.",
         "transactionTitle": "Scroll through and approve the transaction on your Ledger",
         "transactionExplanation": "Use your Ledger device to approve the outgoing transaction.",
-        "applicationTitle": "Open Ledger IOTA app",
-        "applicationExplanation": "Go to your Ledger and open the IOTA app to continue using Trinity.",
+        "applicationTitle": "Open Ledger LP app",
+        "applicationExplanation": "Go to your Ledger and open the LP app to continue using LPWallet.",
         "cannotSendZeroValueTitle": "Cannot send zero value transfer",
         "cannotSendZeroValueExplanation": "Cannot send zero value transfers with a Ledger device.",
         "ledgerDisconnectedTitle": "Ledger device disconnected",
@@ -873,17 +873,17 @@
         "checkAddress": "Check the receive address",
         "checkAddressExplanation": "Check that the address matches the one displayed on your Ledger device.",
         "applicationNotInitialised": "Warning unconfirmed",
-        "applicationNotInitialisedExplanation": "Reopen the IOTA app on your Ledger device, accept the informational warning and try again.",
+        "applicationNotInitialisedExplanation": "Reopen the LP app on your Ledger device, accept the informational warning and try again.",
         "checkLedger": "Check your Ledger device",
         "acceptWarningExplanation": "If there is an informational warning on your Ledger device, you must scroll through and accept it by pressing both buttons.",
         "udevError": "Could not communicate with Ledger device",
-        "udevErrorExplanation": "Trinity could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
+        "udevErrorExplanation": "LPWallet could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
         "writtenDownInfoTitle": "Remember your index number",
-        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your IOTA. Please remember it."
+        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your LP. Please remember it."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

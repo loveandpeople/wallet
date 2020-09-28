@@ -9,7 +9,7 @@
         "noTransactions": "GEEN RECENTE GESCHIEDENIS",
         "refresh": "Ververs",
         "balanceError": "Onvoldoende saldo",
-        "balanceErrorMessage": "U heeft niet genoeg IOTA om deze transactie te voltooien.",
+        "balanceErrorMessage": "U heeft niet genoeg LP om deze transactie te voltooien.",
         "totalBalance": "Totaalsaldo",
         "transferError": "Transactiefout",
         "transferErrorMessage": "Er is iets misgegaan tijdens het verzenden van uw transactie. Probeer het opnieuw.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Node fout",
         "invalidResponseExplanation": "De node stuurde een fout terug. Probeer van node te veranderen.",
         "invalidResponseFetchingAccount": "De node stuurde een fout terug tijdens het opvragen van uw account informatie. Probeer van node te veranderen.",
-        "invalidResponseFetchingAccountDesktop": "De node geeft een foutmelding bij het ophalen van je gegevens. Als het probleem zich blijft voordoen kan je de node aanpassen of je systeem proxy uitschakelen in je Trinity instellingen.",
+        "invalidResponseFetchingAccountDesktop": "De node geeft een foutmelding bij het ophalen van je gegevens. Als het probleem zich blijft voordoen kan je de node aanpassen of je systeem proxy uitschakelen in je LPWallet instellingen.",
         "nodeOutOfSync": "Node gedesynchroniseerd",
         "nodeOutOfSyncExplanation": "Uw huidige node is gedesynchroniseerd. Verander uw node of probeer opnieuw.",
         "experimentalNode": "Node versie wordt niet ondersteund",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "U kunt niet versturen naar een adres wat als input wordt gebruikt in de transactie.",
         "pleaseWait": "Een ogenblik geduld",
         "pleaseWaitEllipses": "Een ogenblik geduld...",
-        "pleaseWaitExplanation": "Trinity voert een andere functie uit. Wacht even en probeer het opnieuw.",
+        "pleaseWaitExplanation": "LPWallet voert een andere functie uit. Wacht even en probeer het opnieuw.",
         "pleaseWaitTransferExplanation": "Uw saldo wordt momenteel gebruikt in andere transacties. Wacht op een bevestiging hiervan, voordat u het opnieuw probeert.",
         "pleaseWaitIncomingTransferExplanation": "U heeft binnenkomende transacties. Wacht tot ze bevestigd zijn voordat u het opnieuw probeert.",
         "snapshotTransitionInProgress": "Snapshot transitie bezig",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Gewisseld naar node {{- nodeAddress}} omdat de geselecteerde node offline is.",
         "touchSensor": "Raak de vingerafdruk sensor aan",
         "fingerprintOnSend": "Raak vingerafdruklezer aan om transactie te autoriseren",
-        "masterKey": "Uw IOTA seed is de meester sleutel naar al uw geld.",
-        "seedThief": "Als iemand anders uw seed heeft, kan diegene uw IOTA stelen.",
+        "masterKey": "Uw LP seed is de meester sleutel naar al uw geld.",
+        "seedThief": "Als iemand anders uw seed heeft, kan diegene uw LP stelen.",
         "googlePlayServicesNotAvailable": "Google Play Services niet beschikbaar",
         "couldNotVerifyDeviceIntegrity": "Kon apparaat integriteit niet verifiëren omdat Google Play Services onbeschikbaar zijn.",
         "clear": "Wis",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Ga naar account hulpmiddelen en voer een Snapshot transitie uit.",
         "openAccountTools": "Open account hulpmiddelen",
-        "usingTrinityWalletWithKeePass": "Trinity Wallet gebruiken met Keepass2Android",
+        "usingTrinityWalletWithKeePass": "LPWallet Wallet gebruiken met Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Er was een netwerk fout tijdens het versturen van uw transactie.",
         "broadcastError": "Kon transactie niet verzenden",
         "addressesAlreadySpentFrom": "Eén of meerdere adressen hebben al uitgaande transacties.",
@@ -269,7 +269,7 @@
         "setNode": "Kies Node",
         "whyBiometricDisabled": "Waarom is biometrische autenticatie uitgeschakeld?",
         "whyBiometricDisabledExplanationPart1": "Biometrische authenticatie is voor uw eigen veiligheid uitgeschakeld bij het opstarten voor de eerste keer.",
-        "whyBiometricDisabledExplanationPart2": "Wanneer je Trinity gebruikt, zal je automatisch worden uitgelogd wegens inactiviteit. Je kunt vervolgens opnieuw inloggen middels biometrische verificatie."
+        "whyBiometricDisabledExplanationPart2": "Wanneer je LPWallet gebruikt, zal je automatisch worden uitgelogd wegens inactiviteit. Je kunt vervolgens opnieuw inloggen middels biometrische verificatie."
     },
     "loading": {
         "loadingFirstTime": "Seed voor de eerste keer laden.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Deel uw seed met niemand.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "print": "Afdrukken",
         "paperConvenience": "Een papieren kopie van uw seed printen is een handige manier om het op te slaan.",
         "publicInsecure": "Maar printen op publieke wifi of een publieke printer is onveilig.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Genereer nieuw adres",
         "generateAnAddressTitle": "Genereer een adres",
         "generateAnAddressExplanation": "Genereer een adres voordat u deze functie gebruikt.",
-        "generateAddressInformation": "Genereer telkens een nieuw deposito adres wanneer u IOTA wilt ontvangen"
+        "generateAddressInformation": "Genereer telkens een nieuw deposito adres wanneer u LP wilt ontvangen"
     },
     "saveYourSeed": {
         "saveYourSeed": "Back uw seed up",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Bevestig uw seed",
-        "trinityWillNeverAskToReenter": "Trinity zal u nooit vragen om uw seed opnieuw in te voeren, tenzij u uw wallet reset of de app herinstalleert.",
+        "trinityWillNeverAskToReenter": "LPWallet zal u nooit vragen om uw seed opnieuw in te voeren, tenzij u uw wallet reset of de app herinstalleert.",
         "enterYourSeed": "Voer uw seed in",
         "incorrectSeed": "Onjuiste seed",
         "incorrectSeedExplanation": "De ingevoerde seed is onjuist. Probeer het nog eens.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Controleer of u het adres correct hebt ingevuld.",
         "invalidAddressExplanationGeneric": "Geldige adressen zijn 90 tekens lang en bevatten alleen A-Z of 9.",
         "notEnoughFunds": "Onvoldoende saldo",
-        "notEnoughFundsExplanation": "U heeft onvoldoende IOTA om deze transactie te voltooien.",
+        "notEnoughFundsExplanation": "U heeft onvoldoende LP om deze transactie te voltooien.",
         "recipientAddress": "Adres van de ontvanger",
         "amount": "Aantal",
         "max": "MAX",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Uw bericht bevat ongeldige tekens.",
         "send": "Verstuur",
         "invalidAmount": "Onjuist aantal ingevoerd",
-        "invalidAmountExplanation": "Voer een geldig transactiebedrag in. Het kan handig zijn om de uitleg van IOTA-eenheden onderaan de pagina te bekijken.",
+        "invalidAmountExplanation": "Voer een geldig transactiebedrag in. Het kan handig zijn om de uitleg van LP-eenheden onderaan de pagina te bekijken.",
         "maximumSelected": "MAXIMUM aantal geselecteerd",
-        "iotaUnits": "Uitleg IOTA eenheden",
+        "iotaUnits": "Uitleg LP eenheden",
         "sendMax": "MAX VERZENDEN",
         "totalTime": "Totale tijd",
         "addressPasteDetected": "Adres plakken gedetecteerd",
@@ -395,7 +395,7 @@
         "advanced": "Geavanceerd",
         "standard": "Standaard",
         "advancedModeExplanation": "Geavanceerde modus toont meer gedetailleerde technische informatie.",
-        "modesExplanation": "Schakel geavanceerde modus alleen in als u bekend bent met IOTA. Het kan anders verwarrend zijn.",
+        "modesExplanation": "Schakel geavanceerde modus alleen in als u bekend bent met LP. Het kan anders verwarrend zijn.",
         "modeUpdated": "Modus bijgewerkt",
         "modeUpdatedExplanation": "Je bent veranderd in {{mode}} modus"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Succesvol de laatste wisselkoers opgehaald voor {{currency}}.",
         "undo": "Herstel",
         "redo": "Opnieuw",
-        "aboutTrinity": "Over Trinity",
+        "aboutTrinity": "Over LPWallet",
         "lockScreenTimeout": "Vergrendelscherm Time-out (Minuten)",
         "nodeChangeSuccess": "Succesvol van node veranderd",
         "nodeChangeSuccessNoRemotePow": "De node was gewijzigd naar {{node}}. Deze node ondersteunt geen extern Bewijs van Inspanning.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Oke. Laten we uw portemonnee instellen!",
         "doYouNeedASeed": "Wilt u een nieuwe seed maken?",
-        "seedExplanation": "Uw IOTA seed is de hoofdsleutel tot uw munten. Het is 81 karakters lang, en gebruikt alleen de letters A-Z of het nummer 9.",
+        "seedExplanation": "Uw LP seed is de hoofdsleutel tot uw munten. Het is 81 karakters lang, en gebruikt alleen de letters A-Z of het nummer 9.",
         "noIHaveOne": "Nee, ik heb er een",
         "yesINeedASeed": "Ja, ik heb een seed nodig",
         "explanation": "<0><0>U kunt het gebruiken om uw munten vanuit </0><1>iedere portemonnee te benaderen</1><2>, op</2><3> ieder apparaat</3></0>",
-        "loseSeed": "Maar als u uw sleutel verliest, verliest u ook uw IOTA.",
+        "loseSeed": "Maar als u uw sleutel verliest, verliest u ook uw LP.",
         "keepSafe": "Houd uw seed veilig."
     },
     "welcome": {
-        "thankYou": "Bedankt voor het downloaden van Trinity",
-        "demoThankYou": "Bedankt voor het downloaden van de Trinity demo"
+        "thankYou": "Bedankt voor het downloaden van LPWallet",
+        "demoThankYou": "Bedankt voor het downloaden van de LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Schrijf uw seed en controlesom nauwkeurig op en</0> <1>controleer nogmaals</1> <2>of ze overeenkomen.</2>",
@@ -489,7 +489,7 @@
         "retrying": "Opnieuw proberen...",
         "yesterday": "Gisteren",
         "promotingAnotherBundle": "Andere bundel aan het promoten",
-        "pleaseWait": "Even geduld, Trinity promoot een andere bundel.",
+        "pleaseWait": "Even geduld, LPWallet promoot een andere bundel.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Zoeken op bundle hash of bericht inhoud",
         "searchHelpValue": "Zoek transacties op exacte iota waarde",
@@ -593,11 +593,11 @@
         "million": "Miljoen",
         "thousand": "Duizend",
         "one": "Één",
-        "unitInfoExplanation": "IOTAs worden meestal verworven in meervoud van een miljoen, maar kunnen ook worden overgedragen als één enkele IOTA."
+        "unitInfoExplanation": "LPs worden meestal verworven in meervoud van een miljoen, maar kunnen ook worden overgedragen als één enkele LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Waarom kan ik mijn volledige saldo niet uitgeven?",
-        "spentAddressExplanation": "U heeft nog saldo op één of meerdere reeds uitgegeven adressen. Het hergebruiken van adressen in IOTA is gevaarlijk, daarom staat deze portemonnee het niet toe om het reeds gebruikte adres te hergebruiken.",
+        "spentAddressExplanation": "U heeft nog saldo op één of meerdere reeds uitgegeven adressen. Het hergebruiken van adressen in LP is gevaarlijk, daarom staat deze portemonnee het niet toe om het reeds gebruikte adres te hergebruiken.",
         "discordInformation": "Indien u hulp nodig heeft verzoeken wij u naar het #help kanaal te gaan op Discord."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Heeft u uw seed opgeslagen?",
         "iHaveBackedUp": "Ik heb een veilige backup gemaakt van mijn seed",
         "reenterSeed": "Bij de volgende stap wordt u gevraagd om uw seed opnieuw in te voeren.",
-        "reenterSeedWarning": "Als u geen back-up heeft van uw seed en uw apparaat werkt niet meer, bent u al uw IOTA kwijt.",
+        "reenterSeedWarning": "Als u geen back-up heeft van uw seed en uw apparaat werkt niet meer, bent u al uw LP kwijt.",
         "pleaseConfirm": "Bevestig dat u uw seed veilig hebt opgeslagen."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Seedkluis exporteren",
         "seedVaultExplanation": "Een SeedVault is een versleuteld bestand voor het veilig opslaan van uw seed. Uw seed is vergrendeld achter een SeedVault Key (Sleutel) en zonder deze Key kunt u geen toegang tot uw seed verkrijgen.",
-        "seedVaultWarning": "Zorg ervoor dat u het bestand op meerdere locaties backupt (bijvoorbeeld: harde schijf, cloud, USB). Raakt u dit bestand kwijt en heeft u uw seed niet ergens opgeslagen, bent u uw IOTA kwijt.",
+        "seedVaultWarning": "Zorg ervoor dat u het bestand op meerdere locaties backupt (bijvoorbeeld: harde schijf, cloud, USB). Raakt u dit bestand kwijt en heeft u uw seed niet ergens opgeslagen, bent u uw LP kwijt.",
         "exportFail": "Exporteren van Seedkluis mislukt",
         "exportFailExplanation": "Er was een probleem met het exporteren van de Seedkluis. Zorg ervoor dat u de juiste bevoegdheden en genoeg vrije ruimte hebt.",
         "exportSuccess": "Seedkluis geëxporteerd",
@@ -696,7 +696,7 @@
         "seedFileError": "Kan Seedkluis niet openen",
         "seedFileErrorExplanation": "Er was een probleem tijdens het openen van de Seedkluis. Als u het juiste bestand hebt gekozen, kan het zijn dat dit corrupt is.",
         "invalidSeedFileError": "Ongeldig SeedVault bestand",
-        "invalidSeedFileErrorExplanation": "Dit bestandsformaat wordt niet ondersteund. Alleen SeedVault bestanden (.kdbx) gemaakt via Trinity of een password manager worden ondersteund.",
+        "invalidSeedFileErrorExplanation": "Dit bestandsformaat wordt niet ondersteund. Alleen SeedVault bestanden (.kdbx) gemaakt via LPWallet of een password manager worden ondersteund.",
         "seedVaultKeyExplanation": "Eerst moeten we je SeedVault beveiligen. Kies een sleutel om het bestand te versleutelen. Je zal deze sleutel gebruiken als je je seed van de SeedVault moet herstellen.",
         "retypeKey": "Herhaal sleutel",
         "key": "Sleutel"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Wilt u doorgaan ondanks het risico?"
     },
     "pow": {
-        "feeless": "Een bewijs van inspanning (Proof of Work) is nodig om kostenloze transacties in IOTA te verzenden.",
+        "feeless": "Een bewijs van inspanning (Proof of Work) is nodig om kostenloze transacties in LP te verzenden.",
         "localOrRemote": "Bewijs van inspanning kan lokaal gedaan worden op uw apparaat, of overgedragen worden aan een node.",
         "local": "Lokaal",
         "remote": "Extern",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automatisch vullen succesvol",
         "autofillExplanation": "De transactie gegevens worden automatisch ingevuld vanuit de link.",
-        "deepLinkingOverview": "Deep links zijn klikbare links (iota://...) die automatisch transactiegegevens in Trinity invullen.",
-        "deepLinkingWarning": "Wees bewust van phishing scams. Controleer of de link die u opent naar de officiële Trinity app gaat.",
+        "deepLinkingOverview": "Deep links zijn klikbare links (iota://...) die automatisch transactiegegevens in LPWallet invullen.",
+        "deepLinkingWarning": "Wees bewust van phishing scams. Controleer of de link die u opent naar de officiële LPWallet app gaat.",
         "deepLinkingUpdated": "Deeplink instellingen",
         "deepLinkingEnabled": "Je hebt deeplinken aangezet.",
         "deepLinkingDisabled": "Je hebt deeplinken uitgezet.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Fout bij het ophalen van de update data",
         "errorRetrievingUpdateDataExplanation": "Update kon niet worden opgehaald. Controleer uw internetverbinding en probeer het opnieuw.",
         "noUpdatesAvailable": "Geen updates beschikbaar",
-        "noUpdatesAvailableExplanation": "Je hebt de nieuwste versie van Trinity!",
+        "noUpdatesAvailableExplanation": "Je hebt de nieuwste versie van LPWallet!",
         "newVersionAvailable": "Nieuwe versie beschikbaar",
-        "newVersionAvailableExplanation": "Er is een nieuwe versie van Trinity beschikbaar. Wil je nu updaten?",
+        "newVersionAvailableExplanation": "Er is een nieuwe versie van LPWallet beschikbaar. Wil je nu updaten?",
         "installUpdate": "Update installeren en opnieuw starten",
-        "installUpdateExplanation": "Download compleet. Trinity zal nu herstarten om de update te installeren.",
+        "installUpdateExplanation": "Download compleet. LPWallet zal nu herstarten om de update te installeren.",
         "downloadingUpdate": "Update aan het downloaden",
         "downloadProgress": "{{transferred}} van {{total}} gedownload"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Probleem met saldo ontgrendelen",
         "sweepErrorExplanation": "Er ging iets mis bij het ontgrendelen van uw saldo. Opnieuw proberen...",
         "warningTitle": "Waarschuwing: Vergrendeld saldo gedetecteerd",
-        "explanation": "Trinity Desktop versie 0.3.4 bevatte een bug die tijdelijk saldo's kon vergrendelen. Dit geldt voor een klein aantal gebruikers die transacties met 0.3.4 uitgevoerd hebben.",
-        "explanationAccounts": "Vergrendeld saldo gedetecteerd op accounts: {{accounts}}. Trinity zal nu automatisch uw saldo herstellen, door het naar een nieuw adres te verplaatsen.",
+        "explanation": "LPWallet Desktop versie 0.3.4 bevatte een bug die tijdelijk saldo's kon vergrendelen. Dit geldt voor een klein aantal gebruikers die transacties met 0.3.4 uitgevoerd hebben.",
+        "explanationAccounts": "Vergrendeld saldo gedetecteerd op accounts: {{accounts}}. LPWallet zal nu automatisch uw saldo herstellen, door het naar een nieuw adres te verplaatsen.",
         "proceed": "Verder gaan met herstel",
         "sweepConfirmation": "U staat op het punt {{amount}} naar adres {{address}} te verplaatsen. Account: {{accountName}}, adres index {{index}}",
         "sweepConfirmationTitle": "Verplaatsing bevestigen"
     },
     "migration": {
         "dataMigration": "Datamigratie",
-        "dataMigrationExplanation": "Vanwege prestatiebeperkingen en opslagbeperkingen gebruikt Trinity een nieuwe database voor het opslaan van instellingen en accountgegevens. Wacht even terwijl Trinity automatisch uw bestaande gegevens migreert.",
+        "dataMigrationExplanation": "Vanwege prestatiebeperkingen en opslagbeperkingen gebruikt LPWallet een nieuwe database voor het opslaan van instellingen en accountgegevens. Wacht even terwijl LPWallet automatisch uw bestaande gegevens migreert.",
         "problemMigratingYourData": "Er is een probleem opgetreden bij het migreren van uw gegevens. Probeer het opnieuw",
-        "seedMigrationExplanation": "Als onderdeel van de voortdurende inspanningen van Trinity om de wallet beveiliging te verbeteren, zal uw seed worden gemigreerd naar een verbeterde opslagmethode. Wacht even terwijl Trinity automatisch uw seed opslag migreert."
+        "seedMigrationExplanation": "Als onderdeel van de voortdurende inspanningen van LPWallet om de wallet beveiliging te verbeteren, zal uw seed worden gemigreerd naar een verbeterde opslagmethode. Wacht even terwijl LPWallet automatisch uw seed opslag migreert."
     },
     "ledger": {
         "ready": "Ledger verbonden en klaar voor gebruik",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Een Ledger apparaat moet verbonden zijn om deze functie uit te voeren.",
         "transactionTitle": "Scroll door en keur de transactie goed op uw Ledger",
         "transactionExplanation": "Gebruik uw Ledger apparaat om de uitgaande transactie goed te keuren.",
-        "applicationTitle": "Open Ledger IOTA app",
-        "applicationExplanation": "Ga naar uw Ledger en open de IOTA app om door te gaan met het gebruik van Trinity.",
+        "applicationTitle": "Open Ledger LP app",
+        "applicationExplanation": "Ga naar uw Ledger en open de LP app om door te gaan met het gebruik van LPWallet.",
         "cannotSendZeroValueTitle": "Kan nulwaarde overdracht niet verzenden",
         "cannotSendZeroValueExplanation": "Kan geen nulwaarde overdrachten verzenden met een Ledger apparaat.",
         "ledgerDisconnectedTitle": "Ledger apparaat losgekoppeld",
@@ -873,17 +873,17 @@
         "checkAddress": "Controleer het ontvangstadres",
         "checkAddressExplanation": "Controleer of het adres overeenkomt met het adres dat wordt weergegeven op uw Ledger apparaat.",
         "applicationNotInitialised": "Waarschuwing niet bevestigd",
-        "applicationNotInitialisedExplanation": "Heropen de IOTA app op uw Ledger apparaat, accepteer de informatieve waarschuwing en probeer het opnieuw.",
+        "applicationNotInitialisedExplanation": "Heropen de LP app op uw Ledger apparaat, accepteer de informatieve waarschuwing en probeer het opnieuw.",
         "checkLedger": "Controleer uw Ledger apparaat",
         "acceptWarningExplanation": "Als er een informatieve waarschuwing is op uw Ledger apparaat, moet u door scrollen en het accepteren door op beide knoppen te drukken.",
         "udevError": "Kan niet communiceren met Ledger apparaat",
-        "udevErrorExplanation": "Trinity kon niet communiceren met uw Ledger-apparaat. Bezoek de onderstaande URL om dit probleem op te lossen.",
+        "udevErrorExplanation": "LPWallet kon niet communiceren met uw Ledger-apparaat. Bezoek de onderstaande URL om dit probleem op te lossen.",
         "writtenDownInfoTitle": "Onthoud uw index nummer",
-        "writtenDownInfoExplanation": "Je hebt je index nummer nodig om je account in de toekomst te herstellen. Als je je index nummer verliest, verlies je IOTA. Onthoudt dit goed."
+        "writtenDownInfoExplanation": "Je hebt je index nummer nodig om je account in de toekomst te herstellen. Als je je index nummer verliest, verlies je LP. Onthoudt dit goed."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

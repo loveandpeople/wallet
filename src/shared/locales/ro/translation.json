@@ -9,7 +9,7 @@
         "noTransactions": "NICI O ISTORIE RECENTĂ",
         "refresh": "Actualizează",
         "balanceError": "Balanță insuficientă",
-        "balanceErrorMessage": "Nu aveţi suficient IOTA pentru a finaliza acest transfer.",
+        "balanceErrorMessage": "Nu aveţi suficient LP pentru a finaliza acest transfer.",
         "totalBalance": "Sold total",
         "transferError": "Eroare de transfer",
         "transferErrorMessage": "Ceva a mers prost în timpul transferului. Vă rugăm să încercaţi din nou.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Eroare Nod",
         "invalidResponseExplanation": "Nodul a returnat o eroare. Încercați să schimbați nodul.",
         "invalidResponseFetchingAccount": "Nodul a returnat un răspuns nevalid în timp ce prelua informaţiile contului dumneavoastră. Încercaţi să schimbaţi nodul.",
-        "invalidResponseFetchingAccountDesktop": "Nodul a returnat un răspuns nevalid în timp ce prelua informaţiile contului dumneavoastră. Dacă problema dumneavoastră persistă, încercați să schimbați nodul sau să dezactivați reprezentantul sistemului dumneavoastră din setările Trinity.",
+        "invalidResponseFetchingAccountDesktop": "Nodul a returnat un răspuns nevalid în timp ce prelua informaţiile contului dumneavoastră. Dacă problema dumneavoastră persistă, încercați să schimbați nodul sau să dezactivați reprezentantul sistemului dumneavoastră din setările LPWallet.",
         "nodeOutOfSync": "Nodul nu este sincronizat",
         "nodeOutOfSyncExplanation": "Nodul selectat nu este sincronizat. Vă rugăm să schimbaţi nodul sau încercaţi din nou.",
         "experimentalNode": "Versiunea nodului nu este acceptată",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Nu poti trimite la o adresa care este folosita ca input in tranzactie.",
         "pleaseWait": "Vă rugăm așteptați",
         "pleaseWaitEllipses": "Vă rugăm așteptați...",
-        "pleaseWaitExplanation": "Trinity indeplinește alta functie. Vă rugăm sa asteptați si sa incercați din nou.",
+        "pleaseWaitExplanation": "LPWallet indeplinește alta functie. Vă rugăm sa asteptați si sa incercați din nou.",
         "pleaseWaitTransferExplanation": "Balanța actuala este implicat in alte transferuri. Vă rugăm sa asteptați pentru o confirmare inainte de a incerca din nou.",
         "pleaseWaitIncomingTransferExplanation": "Aveți tranzacții în curs de sosire. Vă rugăm să așteptați să fie confirmate înainte să încercați din nou.",
         "snapshotTransitionInProgress": "Tranziție snapshot în desfășurare",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Tranziție către un nod nou {{- nodeAddress}} deoarece nodul selectat este off-line.",
         "touchSensor": "Atinge senzorul de amprentă",
         "fingerprintOnSend": "Atingeți cititorul de amprentă pentru a autoriza transferul",
-        "masterKey": "Parola dumneavoastră IOTA este cheia către fonduri.",
-        "seedThief": "Dacă altcineva are parola va poate fura IOTA.",
+        "masterKey": "Parola dumneavoastră LP este cheia către fonduri.",
+        "seedThief": "Dacă altcineva are parola va poate fura LP.",
         "googlePlayServicesNotAvailable": "Serviciul Google Play nu este disponibil",
         "couldNotVerifyDeviceIntegrity": "Nu se poate verifica integritatea dispozitivului deoarece Serviciile Google Play nu sunt disponibile.",
         "clear": "Elimină",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "Dacă ești sigur că ai seed-ul corect, mergi la Setări Avansate și efectuează o tranziție Snapshot.",
         "headToAccountTools": "Mergeți la Account Tools şi faceți o tranziție Snapshot.",
         "openAccountTools": "Deschide Instrumentele Contului",
-        "usingTrinityWalletWithKeePass": "Folosind Portofelul Trinity cu Keepass2Android",
+        "usingTrinityWalletWithKeePass": "Folosind Portofelul LPWallet cu Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "A apărut o eroare de rețea, în timp ce tranzacția se transmitea.",
         "broadcastError": "Tranzacția nu a putut fi transmisă",
         "addressesAlreadySpentFrom": "De pe una sau mai multe adrese, deja s-au facut tranzacții.",
@@ -269,7 +269,7 @@
         "setNode": "Selectaţi Nodul",
         "whyBiometricDisabled": "De ce este autentificarea biometrică dezactivată?",
         "whyBiometricDisabledExplanationPart1": "Autentificarea biometrică este dezactivată la prima încărcare a aplicației pentru securitatea dumneavoastră.",
-        "whyBiometricDisabledExplanationPart2": "Când folosiți Trinity veți fi delogat pentru inactivitate. Puteți să vă autentificați din nou cu autentificarea biometrică."
+        "whyBiometricDisabledExplanationPart2": "Când folosiți LPWallet veți fi delogat pentru inactivitate. Puteți să vă autentificați din nou cu autentificarea biometrică."
     },
     "loading": {
         "loadingFirstTime": "Încărcarea seed-ului pentru prima dată.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Nu împărtășiți seed-ul dumneavoastră cu nimeni.",
-        "iotaLogo": "Logo-ul IOTA",
+        "iotaLogo": "Logo-ul LP",
         "print": "Tipăriți",
         "paperConvenience": "Tipărirea pe hârtie a unei copii a seed-ului este o metodă convenabilă pentru a depozita seed-ul.",
         "publicInsecure": "Dar tipărirea pe un wifi public sau o imprimanta publică nu este sigură.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Generează o adresă",
         "generateAnAddressTitle": "Generează o adresă",
         "generateAnAddressExplanation": "Generează o adresă înainte de a folosi această funcție.",
-        "generateAddressInformation": "Generează o nouă adresă de depozitare, de fiecare dată cand vrei sa primești IOTA"
+        "generateAddressInformation": "Generează o nouă adresă de depozitare, de fiecare dată cand vrei sa primești LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Fă o copie de rezerva seed-ului",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Confirmă cheia",
-        "trinityWillNeverAskToReenter": "Trinity nu o să-ți ceară niciodată să reintroduci seed-ul, decât dacă iți resetezi portofelul sau ștergi aplicația.",
+        "trinityWillNeverAskToReenter": "LPWallet nu o să-ți ceară niciodată să reintroduci seed-ul, decât dacă iți resetezi portofelul sau ștergi aplicația.",
         "enterYourSeed": "Introduceți cheia",
         "incorrectSeed": "Cheie incorectă",
         "incorrectSeedExplanation": "Cheia introdusă este incorectă. Va rugăm, încercați din nou.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Verifică daca ai introdus adresa corect.",
         "invalidAddressExplanationGeneric": "Adresele valide au 90 de caractere și conțin numai A-Z și 9.",
         "notEnoughFunds": "Fonduri insuficiente",
-        "notEnoughFundsExplanation": "Nu aveţi suficient IOTA pentru a finaliza acest transfer.",
+        "notEnoughFundsExplanation": "Nu aveţi suficient LP pentru a finaliza acest transfer.",
         "recipientAddress": "Adresa destinatarului",
         "amount": "Sumă",
         "max": "MAX",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Mesajul tău conține caractere invalide.",
         "send": "Trimite",
         "invalidAmount": "Suma introdusă incorectă",
-        "invalidAmountExplanation": "Te rog să introduci o sumă de tranzacție validă. Ar putea fi folositor să vezi explicația unității IOTA la baza acestei pagini.",
+        "invalidAmountExplanation": "Te rog să introduci o sumă de tranzacție validă. Ar putea fi folositor să vezi explicația unității LP la baza acestei pagini.",
         "maximumSelected": "Suma MAXIMĂ selectată",
-        "iotaUnits": "Unitățile IOTA explicate",
+        "iotaUnits": "Unitățile LP explicate",
         "sendMax": "TRIMITE MAX",
         "totalTime": "Timp total",
         "addressPasteDetected": "Lipirea adresei detectată",
@@ -395,7 +395,7 @@
         "advanced": "Avansate",
         "standard": "Standard",
         "advancedModeExplanation": "Modul avansat va arăta informații tehnice mai detaliate.",
-        "modesExplanation": "Activează modul avansat doar dacă ești experimentat în a folosi IOTA. S-ar putea să fie confuz, dacă nu.",
+        "modesExplanation": "Activează modul avansat doar dacă ești experimentat în a folosi LP. S-ar putea să fie confuz, dacă nu.",
         "modeUpdated": "Mod actualizat",
         "modeUpdatedExplanation": "Ai schimbat pe modul {{mode}}"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Rata de conversie pentru {{currency}} a fost actualizată cu succes.",
         "undo": "Anulează",
         "redo": "Refă",
-        "aboutTrinity": "Despre Trinity",
+        "aboutTrinity": "Despre LPWallet",
         "lockScreenTimeout": "Durata ecranului de blocare (Minute)",
         "nodeChangeSuccess": "Nodul a fost schimbat cu succes",
         "nodeChangeSuccessNoRemotePow": "Nodul a fost schimbat cu {{node}}. Nodul acesta nu suportă dovadă de lucru de la distanță.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "OK. Să configurăm portofelul!",
         "doYouNeedASeed": "Ai nevoie de un nou seed?",
-        "seedExplanation": "Seed-ul tău IOTA este cheia principală a fondurilor tale. Are 81 de caractere, folosind doar litere A-Z și numărul 9.",
+        "seedExplanation": "Seed-ul tău LP este cheia principală a fondurilor tale. Are 81 de caractere, folosind doar litere A-Z și numărul 9.",
         "noIHaveOne": "Nu, am deja unul",
         "yesINeedASeed": "Da, am nevoie de un seed",
         "explanation": "<0><0>Îl poți folosi să-ți accesezi fondurile din</0><1> orice portofel</1><2>, pe</2><3> orice dispozitiv.</3></0>",
-        "loseSeed": "Dar dacă iți pierzi seed-ul, îți pierzi și IOTA-ul.",
-        "keepSafe": "Te rog păstrează-ți IOTA-ul în siguranță."
+        "loseSeed": "Dar dacă iți pierzi seed-ul, îți pierzi și LP-ul.",
+        "keepSafe": "Te rog păstrează-ți LP-ul în siguranță."
     },
     "welcome": {
-        "thankYou": "Thank you for downloading the IOTA wallet",
-        "demoThankYou": "Mulțumim că ai descărcat demo-ul Trinity"
+        "thankYou": "Thank you for downloading the LP wallet",
+        "demoThankYou": "Mulțumim că ai descărcat demo-ul LPWallet"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Notează-ți seed-ul și suma de control și</0><1>asigură-te</1><2> că sunt corecte.</2>",
@@ -489,11 +489,11 @@
         "retrying": "Reîncerc",
         "yesterday": "Ieri",
         "promotingAnotherBundle": "Promovare alt pachet",
-        "pleaseWait": "Te rog așteaptă, Trinity promovează alt pachet.",
+        "pleaseWait": "Te rog așteaptă, LPWallet promovează alt pachet.",
         "typeHelp": "Scrie !help pentru sfaturi",
         "searchHelpText": "Caută în funcție de pachetele hash sau conținutul mesajelor",
-        "searchHelpValue": "Găsește tranzacții în valoare exactă de IOTA",
-        "searchHelpUnits": "Găsește tranzacții după valoarea și numărul de IOTA",
+        "searchHelpValue": "Găsește tranzacții în valoare exactă de LP",
+        "searchHelpUnits": "Găsește tranzacții după valoarea și numărul de LP",
         "searchHelpMore": "Găsește tranzacții cu valoarea mai mare decât X",
         "searchHelpLess": "Găsește tranzacții cu valoarea mai mică decât X",
         "transactions": "Tranzacţii",
@@ -593,11 +593,11 @@
         "million": "Milion",
         "thousand": "Mie",
         "one": "Un",
-        "unitInfoExplanation": "IOTA-urile sunt deobicei achiziționate in multipli de un milion, dar pot fi transferați ca o singură IOTA."
+        "unitInfoExplanation": "LP-urile sunt deobicei achiziționate in multipli de un milion, dar pot fi transferați ca o singură LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "De ce nu pot cheltui toată balanța?",
-        "spentAddressExplanation": "Dispui de fonduri pe una sau mai multe adrese folosite. Refolosirea adreselor este periculoasă în IOTA, așa că acest portofel nu îți permite să trimiți de pe aceeași adresă de mai multe ori.",
+        "spentAddressExplanation": "Dispui de fonduri pe una sau mai multe adrese folosite. Refolosirea adreselor este periculoasă în LP, așa că acest portofel nu îți permite să trimiți de pe aceeași adresă de mai multe ori.",
         "discordInformation": "Te rog folosește canalul #help de pe Discord pentru a afla ce poți face."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Ți-ai făcut copie de siguranță seed-ului?",
         "iHaveBackedUp": "Am facut copie de siguranță seed-ului",
         "reenterSeed": "La pasul următor va trebui să-ți reintroduci seed-ul.",
-        "reenterSeedWarning": "Dacă nu ai făcut o copie de siguranță seed-ului și dispozitivul se strică, o să pierzi IOTA-ul.",
+        "reenterSeedWarning": "Dacă nu ai făcut o copie de siguranță seed-ului și dispozitivul se strică, o să pierzi LP-ul.",
         "pleaseConfirm": "Te rugăm să confirmi că ți-ai stocat seed-ul în siguranță."
     },
     "walletResetConfirmation": {
@@ -696,7 +696,7 @@
         "seedFileError": "Deschiderea SeedVault-ului a eșuat",
         "seedFileErrorExplanation": "A fost o problemă cu deschiderea SeedVault-ului. Dacă ai selectat fișierul corect atunci s-ar putea să fie corupt.",
         "invalidSeedFileError": "Fișier SeedVault invalid",
-        "invalidSeedFileErrorExplanation": "Acest format de fișier nu este suportat. Doar fișierele SeedVault (.kdbx) create cu Trinity sau un manager de parole sunt suportate.",
+        "invalidSeedFileErrorExplanation": "Acest format de fișier nu este suportat. Doar fișierele SeedVault (.kdbx) create cu LPWallet sau un manager de parole sunt suportate.",
         "seedVaultKeyExplanation": "Prima oară trebuie să-ți asigurăm SeedVault-ul. Te rugăm alege o cheie pentru a cripta fișierul. Vei folosi această cheie pentru a-ți recupera seed-ul din copia de siguranță a SeedVault-ului.",
         "retypeKey": "Rescrieți cheia",
         "key": "Cheie"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Dorești să continui chiar dacă ai acest risc?"
     },
     "pow": {
-        "feeless": "Este necesar să efectuezi puțină dovadă de lucru pentru a trimite tranzacții fără cost în IOTA.",
+        "feeless": "Este necesar să efectuezi puțină dovadă de lucru pentru a trimite tranzacții fără cost în LP.",
         "localOrRemote": "Dovada de lucru poate fi facută local pe dispozitivul tău sau atribuită unui nod.",
         "local": "Local",
         "remote": "La distanţă",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Autofill success",
         "autofillExplanation": "Transaction data autofilled from link.",
-        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in Trinity.",
-        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official Trinity app.",
+        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in LPWallet.",
+        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official LPWallet app.",
         "deepLinkingUpdated": "Deep linking settings",
         "deepLinkingEnabled": "You have enabled deep linking.",
         "deepLinkingDisabled": "You have disabled deep linking.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Error retrieving update data",
         "errorRetrievingUpdateDataExplanation": "Could not retrieve update. Please check your internet connection and try again.",
         "noUpdatesAvailable": "Nu există actualizări disponibile",
-        "noUpdatesAvailableExplanation": "You have the latest version of Trinity!",
+        "noUpdatesAvailableExplanation": "You have the latest version of LPWallet!",
         "newVersionAvailable": "O nouă versiune este disponibilă",
-        "newVersionAvailableExplanation": "A new Trinity version is available. Do you want to update now?",
+        "newVersionAvailableExplanation": "A new LPWallet version is available. Do you want to update now?",
         "installUpdate": "Instalați actualizarea și restartați",
-        "installUpdateExplanation": "Download complete, Trinity will now restart to install the update.",
+        "installUpdateExplanation": "Download complete, LPWallet will now restart to install the update.",
         "downloadingUpdate": "Descărcare actualizare",
         "downloadProgress": "{{transferred}} of {{total}} downloaded"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Error unlocking funds",
         "sweepErrorExplanation": "Something went wrong while unlocking your funds. Trying again.",
         "warningTitle": "Warning: Locked funds detected",
-        "explanation": "Trinity Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
-        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. Trinity will now automatically recover your funds, by moving them to a new address.",
+        "explanation": "LPWallet Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
+        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. LPWallet will now automatically recover your funds, by moving them to a new address.",
         "proceed": "Proceed to Recovery",
         "sweepConfirmation": "You are about to sweep {{amount}} to the address {{address}}. Account: {{accountName}}, address index: {{index}}",
         "sweepConfirmationTitle": "Sweep confirmation"
     },
     "migration": {
         "dataMigration": "Data migration",
-        "dataMigrationExplanation": "Due to performance and storage limitations, Trinity is using a new database for storing settings and account data. Please wait while Trinity automatically migrates your existing data.",
+        "dataMigrationExplanation": "Due to performance and storage limitations, LPWallet is using a new database for storing settings and account data. Please wait while LPWallet automatically migrates your existing data.",
         "problemMigratingYourData": "There was a problem migrating your data. Please try again",
-        "seedMigrationExplanation": "As part of Trinity's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while Trinity automatically migrates seed storage."
+        "seedMigrationExplanation": "As part of LPWallet's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while LPWallet automatically migrates seed storage."
     },
     "ledger": {
         "ready": "Ledger device connected and ready",
@@ -860,8 +860,8 @@
         "connectionExplanation": "A Ledger device must be connected to perform this function.",
         "transactionTitle": "Scroll through and approve the transaction on your Ledger",
         "transactionExplanation": "Use your Ledger device to approve the outgoing transaction.",
-        "applicationTitle": "Open Ledger IOTA app",
-        "applicationExplanation": "Go to your Ledger and open the IOTA app to continue using Trinity.",
+        "applicationTitle": "Open Ledger LP app",
+        "applicationExplanation": "Go to your Ledger and open the LP app to continue using LPWallet.",
         "cannotSendZeroValueTitle": "Cannot send zero value transfer",
         "cannotSendZeroValueExplanation": "Cannot send zero value transfers with a Ledger device.",
         "ledgerDisconnectedTitle": "Ledger device disconnected",
@@ -873,17 +873,17 @@
         "checkAddress": "Check the receive address",
         "checkAddressExplanation": "Check that the address matches the one displayed on your Ledger device.",
         "applicationNotInitialised": "Warning unconfirmed",
-        "applicationNotInitialisedExplanation": "Reopen the IOTA app on your Ledger device, accept the informational warning and try again.",
+        "applicationNotInitialisedExplanation": "Reopen the LP app on your Ledger device, accept the informational warning and try again.",
         "checkLedger": "Check your Ledger device",
         "acceptWarningExplanation": "If there is an informational warning on your Ledger device, you must scroll through and accept it by pressing both buttons.",
         "udevError": "Could not communicate with Ledger device",
-        "udevErrorExplanation": "Trinity could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
+        "udevErrorExplanation": "LPWallet could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
         "writtenDownInfoTitle": "Remember your index number",
-        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your IOTA. Please remember it."
+        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your LP. Please remember it."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

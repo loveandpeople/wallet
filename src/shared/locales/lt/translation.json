@@ -9,7 +9,7 @@
         "noTransactions": "ISTORIJOS NĖRA",
         "refresh": "Atnaujinti",
         "balanceError": "Nepakankamas likutis",
-        "balanceErrorMessage": "Nepakankamas IOTA likutis šiam pavedimui atlikti.",
+        "balanceErrorMessage": "Nepakankamas LP likutis šiam pavedimui atlikti.",
         "totalBalance": "Bendras balansas",
         "transferError": "Pavedimo klaida",
         "transferErrorMessage": "Įvyko klaida apdorojant jūsų pavedimą. Bandykite dar kartą.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Serverio klaida",
         "invalidResponseExplanation": "Įvyko serverio klaida. Bandykite pakeisti serverį.",
         "invalidResponseFetchingAccount": "Užkraunant jūsų paskyros duomenis įvyko serverio klaida. Bandykite pakeisti serverį.",
-        "invalidResponseFetchingAccountDesktop": "Užkraunant jūsų paskyros informaciją įvyko serverio klaida. Jei problema neišsispręs, bandykite pakeisti serverį arba atjunkite savo sistemos tarpinį serverį Trinity nustatymuose.",
+        "invalidResponseFetchingAccountDesktop": "Užkraunant jūsų paskyros informaciją įvyko serverio klaida. Jei problema neišsispręs, bandykite pakeisti serverį arba atjunkite savo sistemos tarpinį serverį LPWallet nustatymuose.",
         "nodeOutOfSync": "Serveris nesinchronizuotas",
         "nodeOutOfSyncExplanation": "Jūsų pasirinktas serveris nesinchronizuotas. Pakeiskite serverį arba bandykite dar kartą.",
         "experimentalNode": "Serverio versija nepalaikoma",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Negalima atlikti pavedimo į adresą, iš kurio siunčiamos lėšos.",
         "pleaseWait": "Prašome palaukti",
         "pleaseWaitEllipses": "Prašome palaukti...",
-        "pleaseWaitExplanation": "Trinity atlieka kitą veiksmą. Prašome palaukti ir bandyti dar kartą.",
+        "pleaseWaitExplanation": "LPWallet atlieka kitą veiksmą. Prašome palaukti ir bandyti dar kartą.",
         "pleaseWaitTransferExplanation": "Jūsų balansas yra kitų pavedimų apdorojimo procese. Palaukite, kol vienas iš tų pavedimų bus atliktas ir bandykite dar kartą.",
         "pleaseWaitIncomingTransferExplanation": "Jūs turite ateinančių pavedimų. Palaukite kol jie bus patvirtinti ir bandykite dar kartą.",
         "snapshotTransitionInProgress": "Vyksta tinklo duomenų perkėlimas",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Pakeista į naują serverį {{- nodeAddress}}, nes pasirinktas serveris nepasiekiamas.",
         "touchSensor": "Palieskite piršto antspaudo jutiklį",
         "fingerprintOnSend": "Palieskite piršto antspaudo skaitytuvą, norėdami patvirtinti pavedimą",
-        "masterKey": "Jūsų IOTA užraktas yra pagrindinis raktas į jūsų lėšas.",
-        "seedThief": "Jeigu kas nors sužinos jūsų užraktą, jie galės pavogti jūsų IOTA.",
+        "masterKey": "Jūsų LP užraktas yra pagrindinis raktas į jūsų lėšas.",
+        "seedThief": "Jeigu kas nors sužinos jūsų užraktą, jie galės pavogti jūsų LP.",
         "googlePlayServicesNotAvailable": "Google Play paslaugos nepasiekiamos",
         "couldNotVerifyDeviceIntegrity": "Įrenginio vientisumo patvirtinti nepavyksta, nes Google Play paslaugos nepasiekiamos.",
         "clear": "Išvalyti",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Eikite į paskyros įrankių skiltį ir atlikite tinklo duomenų perkėlimą.",
         "openAccountTools": "Atidaryti paskyros įrankius",
-        "usingTrinityWalletWithKeePass": "Trinity naudojimas su Keepass2Android",
+        "usingTrinityWalletWithKeePass": "LPWallet naudojimas su Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Įvyko tinklo klaida transliuojant jūsų pavedimą.",
         "broadcastError": "Pavedimo ištransliuoti nepavyko",
         "addressesAlreadySpentFrom": "Vienas ar daugiau adresų jau buvo panaudoti.",
@@ -269,7 +269,7 @@
         "setNode": "Nustatyti serverį",
         "whyBiometricDisabled": "Kodėl biometrinis autentifikavimas išjungtas?",
         "whyBiometricDisabledExplanationPart1": "Dėl jūsų saugumo, biometrinis autentifikavimas yra atjungtas, pirmą kartą užkraunant programėlę.",
-        "whyBiometricDisabledExplanationPart2": "Jūs būsite atjungti iš Trinity, jei būsite neaktyvūs. Galėsite prisijungti iš naujo, pasinaudodami biometriniu autentifikavimu."
+        "whyBiometricDisabledExplanationPart2": "Jūs būsite atjungti iš LPWallet, jei būsite neaktyvūs. Galėsite prisijungti iš naujo, pasinaudodami biometriniu autentifikavimu."
     },
     "loading": {
         "loadingFirstTime": "Užraktas užkraunamas pirmą kartą.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Su niekuo nesidalinkite savo užraktu.",
-        "iotaLogo": "IOTA logotipas",
+        "iotaLogo": "LP logotipas",
         "print": "Spausdinti",
         "paperConvenience": "Vienas iš patogių užrakto laikymo būdų yra laikyti jį atspausdintame lape.",
         "publicInsecure": "Bet spausdinimas naudojant viešą wifi arba viešą spausdintuvą yra nesaugus.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Sukurti adresą",
         "generateAnAddressTitle": "Sukurti adresą",
         "generateAnAddressExplanation": "Prašome sukurti adresą, norėdami panaudoti šią funkciją.",
-        "generateAddressInformation": "Kiekvieną kartą sukurkite naują adresą gaudami IOTA"
+        "generateAddressInformation": "Kiekvieną kartą sukurkite naują adresą gaudami LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Išsisaugoti užraktą",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Patvirtinkite savo užraktą",
-        "trinityWillNeverAskToReenter": "Trinity niekada jūsų neprašys pakartotinai įvesti savo užraktą, išskyrus, jeigu nustatysite piniginę iš naujo arba ištrinsite programėlę.",
+        "trinityWillNeverAskToReenter": "LPWallet niekada jūsų neprašys pakartotinai įvesti savo užraktą, išskyrus, jeigu nustatysite piniginę iš naujo arba ištrinsite programėlę.",
         "enterYourSeed": "Įveskite savo užraktą",
         "incorrectSeed": "Neteisingas užraktas",
         "incorrectSeedExplanation": "Įvestas užraktas neteisingas. Bandykite dar kartą.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Patikrinkite ar teisingai įvedėte adresą.",
         "invalidAddressExplanationGeneric": "Adresai turi būti sudaryti iš 90 simbolių, galimos raidės A-Z arba skaičius 9.",
         "notEnoughFunds": "Nepakanka lėšų",
-        "notEnoughFundsExplanation": "Pavedimo atlikti negalima, nes nepakankamas jūsų IOTA likutis.",
+        "notEnoughFundsExplanation": "Pavedimo atlikti negalima, nes nepakankamas jūsų LP likutis.",
         "recipientAddress": "Gavėjo adresas",
         "amount": "Suma",
         "max": "MAKS.",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Žinutėje yra neleistinų simbolių.",
         "send": "Siųsti",
         "invalidAmount": "Įvesta neleistina suma",
-        "invalidAmountExplanation": "Įveskite leidžiamą pavedimo sumą. Galite pasinaudoti IOTA vienetų paaiškinimu šio puslapio apačioje.",
+        "invalidAmountExplanation": "Įveskite leidžiamą pavedimo sumą. Galite pasinaudoti LP vienetų paaiškinimu šio puslapio apačioje.",
         "maximumSelected": "Įvesta MAKSIMALI suma",
-        "iotaUnits": "IOTA vienetų paaiškinimas",
+        "iotaUnits": "LP vienetų paaiškinimas",
         "sendMax": "SIŲSTI MAKS.",
         "totalTime": "Bendras laikas",
         "addressPasteDetected": "Aptiktas adreso įklijavimas",
@@ -395,7 +395,7 @@
         "advanced": "Išplėstinis",
         "standard": "Standartinis",
         "advancedModeExplanation": "Išplėstinis režimas rodys išsamesnę techninę informaciją.",
-        "modesExplanation": "Išplėstinį režimą naudokite tik jeigu esate patyręs IOTA naudotojas. Kitu atveju jums gali kilti daug neaiškumų.",
+        "modesExplanation": "Išplėstinį režimą naudokite tik jeigu esate patyręs LP naudotojas. Kitu atveju jums gali kilti daug neaiškumų.",
         "modeUpdated": "Režimas atnaujintas",
         "modeUpdatedExplanation": "Jūs pakeitėte režimą į {{mode}}"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Keitimo kursas sėkmingai užkrautas {{currency}} valiutai.",
         "undo": "Atšaukti",
         "redo": "Atstatyti",
-        "aboutTrinity": "Apie Trinity",
+        "aboutTrinity": "Apie LPWallet",
         "lockScreenTimeout": "Ekrano užrakinimas (minutės)",
         "nodeChangeSuccess": "Serveris sėkmingai pakeistas",
         "nodeChangeSuccessNoRemotePow": "Serveris pakeistas į {{node}}, Šis serveris nepalaiko nuotolinio skaičiavimo.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Puiku. Atlikime piniginės nustatymus!",
         "doYouNeedASeed": "Ar jums reikia sukurti naują užraktą?",
-        "seedExplanation": "IOTA užraktas yra pagrindinis raktas į jūsų lėšas. Jis sudarytas iš 81 simbolio, raidžių A-Z ir skaičiaus 9.",
+        "seedExplanation": "LP užraktas yra pagrindinis raktas į jūsų lėšas. Jis sudarytas iš 81 simbolio, raidžių A-Z ir skaičiaus 9.",
         "noIHaveOne": "Ne, jau turiu",
         "yesINeedASeed": "Taip, man reikia užrakto",
         "explanation": "<0><0>Jį galima panaudoti norint gauti prieigą prie savo lėšų iš </0><1>bet kokios piniginės</1><2> ir </2><3>bet kokio įrenginio.</3></0>",
-        "loseSeed": "Bet jei prarasite savo užraktą, prarasite ir savo IOTA.",
+        "loseSeed": "Bet jei prarasite savo užraktą, prarasite ir savo LP.",
         "keepSafe": "Laikykite užraktą saugiai."
     },
     "welcome": {
-        "thankYou": "Dėkojame, kad naudojatės Trinity",
-        "demoThankYou": "Dėkojame, kad naudojatės Trinity demo"
+        "thankYou": "Dėkojame, kad naudojatės LPWallet",
+        "demoThankYou": "Dėkojame, kad naudojatės LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Nusirašykite savo užraktą ir kontrolinę sumą, </0><1>tris kartus patikrinkite</1><2> ar kodai sutampa</2>",
@@ -489,7 +489,7 @@
         "retrying": "Kraunama",
         "yesterday": "Vakar",
         "promotingAnotherBundle": "Iškeliamas kitas paketas",
-        "pleaseWait": "Prašome palaukti, Trinity iškelia kitą paketą.",
+        "pleaseWait": "Prašome palaukti, LPWallet iškelia kitą paketą.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Ieškoti pagal paketo šifrą arba žinutės turinį",
         "searchHelpValue": "Rasti pavedimus pagal tikslią iota vertę",
@@ -593,11 +593,11 @@
         "million": "Milijonai",
         "thousand": "Tūkstančiai",
         "one": "Vienetai",
-        "unitInfoExplanation": "IOTA paprastai skaičiuojama milijonais, bet pavedimą galima atlikti ir su vienu IOTA vienetu."
+        "unitInfoExplanation": "LP paprastai skaičiuojama milijonais, bet pavedimą galima atlikti ir su vienu LP vienetu."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Kodėl negaliu išleisti viso savo balanso?",
-        "spentAddressExplanation": "Jūs laikote lėšas viename ar daugiau adresų, kurie buvo panaudoti. Adresų pakartotinis naudojimas yra pavojingas IOTA sistemoje, todėl piniginė neleidžia daryti pavedimų iš to pačio adreso daugiau nei kartą.",
+        "spentAddressExplanation": "Jūs laikote lėšas viename ar daugiau adresų, kurie buvo panaudoti. Adresų pakartotinis naudojimas yra pavojingas LP sistemoje, todėl piniginė neleidžia daryti pavedimų iš to pačio adreso daugiau nei kartą.",
         "discordInformation": "Apsilankykite mūsų #help kanale, Discord programėleje, norėdami sužinoti ką toliau daryti."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Ar išsisaugojote savo užraktą?",
         "iHaveBackedUp": "Aš išsisaugojau savo užraktą",
         "reenterSeed": "Kitame žingsnyje turėsite pakartotinai įvesti savo užraktą.",
-        "reenterSeedWarning": "Jei neišsisaugojote savo užrakto ir jūsų įrenginys suges, prarasite savo IOTA.",
+        "reenterSeedWarning": "Jei neišsisaugojote savo užrakto ir jūsų įrenginys suges, prarasite savo LP.",
         "pleaseConfirm": "Patvirtinkite, kad jūsų užraktas saugiai išsaugotas."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Iškelti SeedVault",
         "seedVaultExplanation": "SeedVault yra užšifruotas failas skirtas išsisaugoti savo užraktą. Užraktas yra užšifruojamas SeedVault raktu ir negali būti atskleistas be to rakto.",
-        "seedVaultWarning": "Įsitikinkite, kad išsisaugojote failą keliose vietose (kietajame diske, \"debesyje\", USB). Jei prarasite šį failą, o savo užrakto nebūsite išsisaugoję kitoje vietoje, jūs prarasite savo IOTA.",
+        "seedVaultWarning": "Įsitikinkite, kad išsisaugojote failą keliose vietose (kietajame diske, \"debesyje\", USB). Jei prarasite šį failą, o savo užrakto nebūsite išsisaugoję kitoje vietoje, jūs prarasite savo LP.",
         "exportFail": "SeedVault iškėlimo klaida",
         "exportFailExplanation": "Įvyko klaida iškeliant SeedVault. Įsitikinkite, kad turite tinkamus leidimus ir pakankamai laisvos vietos.",
         "exportSuccess": "SeedVault iškeltas",
@@ -696,7 +696,7 @@
         "seedFileError": "Atidaryti SeedVault nepavyko",
         "seedFileErrorExplanation": "Įvyko klaida atidarant SeedVault. Jeigu pasirinkote teisingą failą, gali būti, kad jis yra pažeistas.",
         "invalidSeedFileError": "Neatpažintas SeedVault failas",
-        "invalidSeedFileErrorExplanation": "Šis failas nepalaikomas. Palaikomi tik SeedVault failai (.kdbx) sukurti per Trinity arba slaptažodžių tvarkyklę.",
+        "invalidSeedFileErrorExplanation": "Šis failas nepalaikomas. Palaikomi tik SeedVault failai (.kdbx) sukurti per LPWallet arba slaptažodžių tvarkyklę.",
         "seedVaultKeyExplanation": "Pirmiausia, jums reikia apsaugoti SeedVault. Sukurkite slaptažodį norėdami užšifruoti failą. Šio slaptažodžio jums prireiks, norint atkurti užraktą iš SeedVault failo.",
         "retypeKey": "Pakartokite slaptažodį",
         "key": "Slaptažodis"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Ar norite tęsti nepaisant šios rizikos?"
     },
     "pow": {
-        "feeless": "Norint atlikti nemokamus IOTA pavedimus, reikalingas skaičiavimų įrodymas (Proof of Work).",
+        "feeless": "Norint atlikti nemokamus LP pavedimus, reikalingas skaičiavimų įrodymas (Proof of Work).",
         "localOrRemote": "Skaičiavimai gali būti atlikti lokaliai, jūsų įrenginyje, arba perkelti į serverį.",
         "local": "Lokalus",
         "remote": "Nuotolinis",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automatinis įkėlimas sėkmingas",
         "autofillExplanation": "Pavedimo duomenys automatiškai įkelti iš nuorodos.",
-        "deepLinkingOverview": "Gilieji saitai yra nuorodos (iota://...), kurios automatiškai užpildo pavedimo duomenis Trinity piniginėje.",
-        "deepLinkingWarning": "Saugokitės apgaulingų nuorodų. Įsitikinkite, kad nuoroda nukreipia jus į oficialią Trinity programėlę.",
+        "deepLinkingOverview": "Gilieji saitai yra nuorodos (iota://...), kurios automatiškai užpildo pavedimo duomenis LPWallet piniginėje.",
+        "deepLinkingWarning": "Saugokitės apgaulingų nuorodų. Įsitikinkite, kad nuoroda nukreipia jus į oficialią LPWallet programėlę.",
         "deepLinkingUpdated": "Giliųjų saitų nustatymai",
         "deepLinkingEnabled": "Jūs įjungėte giliuosius saitus.",
         "deepLinkingDisabled": "Jūs išjungėte giliuosius saitus.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Klaida siunčiant atnaujinimus",
         "errorRetrievingUpdateDataExplanation": "Nepavyko atsiųsti atnaujinimų. Patikrinkite savo interneto ryšį ir bandykite dar kartą.",
         "noUpdatesAvailable": "Atnaujinimų nėra",
-        "noUpdatesAvailableExplanation": "Jūs turite naujausią Trinity versiją!",
+        "noUpdatesAvailableExplanation": "Jūs turite naujausią LPWallet versiją!",
         "newVersionAvailable": "Galima nauja versija",
-        "newVersionAvailableExplanation": "Galima nauja Trinity versija. Ar norite atlikti atnaujinimus?",
+        "newVersionAvailableExplanation": "Galima nauja LPWallet versija. Ar norite atlikti atnaujinimus?",
         "installUpdate": "Atnaujinimų įdiegimas ir paleidimas iš naujo",
-        "installUpdateExplanation": "Atsisiuntimas baigtas, Trinity persikraus ir įdiegs atnaujinimus.",
+        "installUpdateExplanation": "Atsisiuntimas baigtas, LPWallet persikraus ir įdiegs atnaujinimus.",
         "downloadingUpdate": "Siunčiami atnaujinimai",
         "downloadProgress": "{{transferred}} iš {{total}} atsiųsta"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Klaida atrakinant lėšas",
         "sweepErrorExplanation": "Įvyko klaida atrakinant jūsų lėšas. Bandoma dar kart.",
         "warningTitle": "Įspėjimas: aptiktos užrakintos lėšos",
-        "explanation": "Trinity Dekstop 0.3.4 versija turėjo programavimo klaidą, kuri laikinai užrakina lėšas. Ši klaida palietė mažą vartotojų ratą, kurie atliko pavedimus su 0.3.4 versija.",
-        "explanationAccounts": "Užrakintos lėšos aptiktos šiose paskyrose: {{accounts}}. Trinity automatiškai sugrąžins jūsų lėšas, perkeliant jas į naują adresą.",
+        "explanation": "LPWallet Dekstop 0.3.4 versija turėjo programavimo klaidą, kuri laikinai užrakina lėšas. Ši klaida palietė mažą vartotojų ratą, kurie atliko pavedimus su 0.3.4 versija.",
+        "explanationAccounts": "Užrakintos lėšos aptiktos šiose paskyrose: {{accounts}}. LPWallet automatiškai sugrąžins jūsų lėšas, perkeliant jas į naują adresą.",
         "proceed": "Pradėti grąžinimo procesą",
         "sweepConfirmation": "Jūs ketinate perkelti {{amount}} į adresą {{address}}. Paskyra: {{accountName}}, adreso indeksas: {{index}}",
         "sweepConfirmationTitle": "Perkėlimo patvirtinimas"
     },
     "migration": {
         "dataMigration": "Duomenų perkėlimas",
-        "dataMigrationExplanation": "Dėl efektyvumo ir atminties ribotumo, Trinity naudoja naują duomenų bazę, kurioje laikomi jūsų nustatymų ir paskyrų duomenys. Prašome palaukti, kol Trinity automatiškai perkels jūsų duomenis.",
+        "dataMigrationExplanation": "Dėl efektyvumo ir atminties ribotumo, LPWallet naudoja naują duomenų bazę, kurioje laikomi jūsų nustatymų ir paskyrų duomenys. Prašome palaukti, kol LPWallet automatiškai perkels jūsų duomenis.",
         "problemMigratingYourData": "Įvyko klaida perkeliant jūsų duomenis. Bandykite dar kartą",
-        "seedMigrationExplanation": "Trinity siekdami pagerinti piniginės saugumą, jūsų užraktą perkels į sustiprintą raktų saugyklą. Prašome palaukti, kol Trinity automatiškai perkels užraktą."
+        "seedMigrationExplanation": "LPWallet siekdami pagerinti piniginės saugumą, jūsų užraktą perkels į sustiprintą raktų saugyklą. Prašome palaukti, kol LPWallet automatiškai perkels užraktą."
     },
     "ledger": {
         "ready": "Ledger įrenginys prijungtas",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Ledger įrenginys turi būti prijungtas norint atlikti šią funkciją.",
         "transactionTitle": "Peržiūrėkite ir patvirtinkite pavedimą savo Ledger įrenginyje",
         "transactionExplanation": "Savo Ledger įrenginyje patvirtinkite išeinantį pavedimą.",
-        "applicationTitle": "Atidarykite Ledger IOTA programėlę",
-        "applicationExplanation": "Savo Ledger įrenginyje atidarykite IOTA programėlę norėdami tęsti.",
+        "applicationTitle": "Atidarykite Ledger LP programėlę",
+        "applicationExplanation": "Savo Ledger įrenginyje atidarykite LP programėlę norėdami tęsti.",
         "cannotSendZeroValueTitle": "Nulinės vertės pavedimų atlikti negalima",
         "cannotSendZeroValueExplanation": "Su Ledger įrenginiu nulinės vertės pavedimų atlikti negalima.",
         "ledgerDisconnectedTitle": "Ledger įrenginys atjungtas",
@@ -873,17 +873,17 @@
         "checkAddress": "Patikrinkite priėmimo adresą",
         "checkAddressExplanation": "Patikrinkite ar adresas sutampa su rodomu adresu Ledger įrenginyje.",
         "applicationNotInitialised": "Pranešimas nepatvirtintas",
-        "applicationNotInitialisedExplanation": "Iš naujo atidarykite IOTA programėlę Ledger įrenginyje, patvirtinkite informacinį pranešimą ir bandykite dar kartą.",
+        "applicationNotInitialisedExplanation": "Iš naujo atidarykite LP programėlę Ledger įrenginyje, patvirtinkite informacinį pranešimą ir bandykite dar kartą.",
         "checkLedger": "Patikrinkite savo Ledger įrenginį",
         "acceptWarningExplanation": "Jeigu jūsų Ledger įrenginyje atsirado informacinis pranešimas, privalote jį perskaityti ir sutikti spausdami abu mygtukus.",
         "udevError": "Nepavyksta susisiekti su Ledger įrenginiu",
-        "udevErrorExplanation": "Trinity nepavyksta susisiekti su jūsų Ledger įrenginiu. Apsilankykite URL adresu esančiu žemiau, norėdami išspręsti šią problemą.",
+        "udevErrorExplanation": "LPWallet nepavyksta susisiekti su jūsų Ledger įrenginiu. Apsilankykite URL adresu esančiu žemiau, norėdami išspręsti šią problemą.",
         "writtenDownInfoTitle": "Įsidėmėkite savo indekso numerį",
-        "writtenDownInfoExplanation": "Jums reiks indekso numerio norint susigrąžinti savo paskyrą ateityje. Jei pamesite savo indekso numerį, prarasite savo IOTA. Prašome jį įsidėmėti."
+        "writtenDownInfoExplanation": "Jums reiks indekso numerio norint susigrąžinti savo paskyrą ateityje. Jei pamesite savo indekso numerį, prarasite savo LP. Prašome jį įsidėmėti."
     },
     "help": {
-        "docsSite": "Trinity Docs tinklalapis",
+        "docsSite": "LPWallet Docs tinklalapis",
         "commonIssues": "Dažnos Piniginės problemos",
-        "buyingIOTA": "Problemos perkant IOTA"
+        "buyingIOTA": "Problemos perkant LP"
     }
 }

@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Et voi lähettää osoitteeseen, jota käytetään syöttävänä osoitteena.",
         "pleaseWait": "Ole hyvä ja odota",
         "pleaseWaitEllipses": "Ole hyvä ja odota...",
-        "pleaseWaitExplanation": "Trinity suorittaa jo toista toimintoa. Odota hetki ja yritä uudelleen.",
+        "pleaseWaitExplanation": "LPWallet suorittaa jo toista toimintoa. Odota hetki ja yritä uudelleen.",
         "pleaseWaitTransferExplanation": "Saldoasi käytetään jo olemassa olevissa siirroissa. Odota, että ne on vahvistettu ennen kuin yrität uudelleen.",
         "pleaseWaitIncomingTransferExplanation": "Sinulla on saapuvia siirtoja, jotka ovat vielä kesken. Odota että ne valmistuvat ennen kuin yrität uudelleen.",
         "snapshotTransitionInProgress": "Snapshot-siirtymä käynnissä",
@@ -130,7 +130,7 @@
         "touchSensor": "Kosketa sormenjälkitunnistinta",
         "fingerprintOnSend": "Jos hyväksyt siirron kosketa sormenjälkilukijaa",
         "masterKey": "Seed-luku on varojesi pääavain ja näinollen erityisin tärkeä.",
-        "seedThief": "Jos seed-lukusi päätyy muiden haltuun, IOTA: si voidaan varastaa.",
+        "seedThief": "Jos seed-lukusi päätyy muiden haltuun, LP: si voidaan varastaa.",
         "googlePlayServicesNotAvailable": "Google Play Services ei ole käytettävissä",
         "couldNotVerifyDeviceIntegrity": "Laitteen tietoturvaa ei voida varmistaa koska Google palveluihin ei saada yhteyttä.",
         "clear": "Tyhjennä",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Mene tilityökaluihin ja suorita Snapshot-siirtymä.",
         "openAccountTools": "Avaa tilityökalut",
-        "usingTrinityWalletWithKeePass": "Trinity lompakon käyttö Keepas2Android sovelluksen kanssa",
+        "usingTrinityWalletWithKeePass": "LPWallet lompakon käyttö Keepas2Android sovelluksen kanssa",
         "signedTrytesBroadcastErrorExplanation": "Verkkovirhe tapahtuman päivityksessä.",
         "broadcastError": "Siirtoa ei voitu edistää",
         "addressesAlreadySpentFrom": "Yhdestä tai tai useammasta osoitteesta on jo käytetty varoja.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Älä koskaa jaa seed-lukua kenenkään ulkopuolisen kanssa.",
-        "iotaLogo": "IOTA-logo",
+        "iotaLogo": "LP-logo",
         "print": "Tulosta",
         "paperConvenience": "Seed-luvun tulostaminen paperille on hyvä tapa tallentaa se laitteen ulkopuolelle.",
         "publicInsecure": "Tulostaminen julkisessa verkossa tai julkisella tulostimella ei kuitenkaan ole turvallista.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Luo osoite",
         "generateAnAddressTitle": "Luo osoite",
         "generateAnAddressExplanation": "Ole hyvä ja luo osoite ennen tätä toimintoa.",
-        "generateAddressInformation": "Halutessasi vastaanottaa IOTA tokeneita luo aina uusi talletusosoite"
+        "generateAddressInformation": "Halutessasi vastaanottaa LP tokeneita luo aina uusi talletusosoite"
     },
     "saveYourSeed": {
         "saveYourSeed": "Tallenna seed-luku",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Ole hyvä ja vahvista seed-lukusi",
-        "trinityWillNeverAskToReenter": "Trinity ei koskaan pyydä sinua syöttämään uudelleen tätä seed-lukua ellet resetoi lompakkoasi tai poista sovellusta.",
+        "trinityWillNeverAskToReenter": "LPWallet ei koskaan pyydä sinua syöttämään uudelleen tätä seed-lukua ellet resetoi lompakkoasi tai poista sovellusta.",
         "enterYourSeed": "Anna seed-lukusi",
         "incorrectSeed": "Virheellinen seed-luku",
         "incorrectSeedExplanation": "Antamasi seed-luku on virheellinen. Yritä uudelleen.",
@@ -375,7 +375,7 @@
         "invalidAmount": "Syötetty arvo on virheellinen",
         "invalidAmountExplanation": "Anna summa oikein. Voit saada apua sivun alareunan selvityksestä.",
         "maximumSelected": "MAKSIMI-määrä valittu",
-        "iotaUnits": "IOTA-yksiköt selitettynä",
+        "iotaUnits": "LP-yksiköt selitettynä",
         "sendMax": "LÄHETÄ MAX",
         "totalTime": "Kokonaisaika",
         "addressPasteDetected": "Osoitteen liittäminen havaittu",
@@ -395,7 +395,7 @@
         "advanced": "Advanced",
         "standard": "Tavallinen käyttäjä",
         "advancedModeExplanation": "Advanced-tilassa näet teknistä informatiota yksityiskohtaisemmin.",
-        "modesExplanation": "Käytä Advanced-tilaa vain jos olet kokenut IOTA käyttäjä. Voit muuten kokea tilan monimutkaiseksi.",
+        "modesExplanation": "Käytä Advanced-tilaa vain jos olet kokenut LP käyttäjä. Voit muuten kokea tilan monimutkaiseksi.",
         "modeUpdated": "Tila päivitetty",
         "modeUpdatedExplanation": "Olet vaihtanut {{tilan}} tilaksi"
     },
@@ -466,8 +466,8 @@
         "keepSafe": "Muista aina pitää seed-lukusi turvassa."
     },
     "welcome": {
-        "thankYou": "Kiitos, että olet ladannut Trinity-lompakon",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Kiitos, että olet ladannut LPWallet-lompakon",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Kirjoita muistiin seed-lukusi ja tarkistussumma ja</0> <1>varmista kolmesti,</1> <2>että ne ovat oikein.</2>",
@@ -489,7 +489,7 @@
         "retrying": "Yritetään uudelleen",
         "yesterday": "Eilen",
         "promotingAnotherBundle": "Edistetään toista kokoelmaa",
-        "pleaseWait": "Ole hyvä ja odota, Trinity edistää toista kokoelmaa.",
+        "pleaseWait": "Ole hyvä ja odota, LPWallet edistää toista kokoelmaa.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Etsi kokoelman tiiviste-luvulla tai viestin sisällöllä",
         "searchHelpValue": "Etsi tapahtumia tarkalla iota-arvolla",
@@ -593,7 +593,7 @@
         "million": "Miljoonaa",
         "thousand": "Tuhatta",
         "one": "Yksi",
-        "unitInfoExplanation": "IOTA:t hankitaan tyypillisesti miljoonan kerrannaisina, mutta ne voidaan siirtää yksittäisinä IOTA:na."
+        "unitInfoExplanation": "LP:t hankitaan tyypillisesti miljoonan kerrannaisina, mutta ne voidaan siirtää yksittäisinä LP:na."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Miksi en voi käyttää koko tilin saldoa?",
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Vie SeedVault-tiedosto",
         "seedVaultExplanation": "SeedVault on salattu tiedosto Seed-lukusi varmuuskopiointia varten. Seed-luku salataan SeedVault-avaimella, eikä siihen ole pääsyä ilman kyseistä avainta.",
-        "seedVaultWarning": "Varmista että tallennat tiedoston useaan eri paikkaan (kovalevy, pilvi, USB-tikku). Jos hävitä tiedoston, etkä ole tallentanut tiedostoa muualle, menetät pääsyn IOTA-varoihisi.",
+        "seedVaultWarning": "Varmista että tallennat tiedoston useaan eri paikkaan (kovalevy, pilvi, USB-tikku). Jos hävitä tiedoston, etkä ole tallentanut tiedostoa muualle, menetät pääsyn LP-varoihisi.",
         "exportFail": "SeedVault-tiedoston vienti epäonnistui",
         "exportFailExplanation": "SeedVault-tiedoston viennissä ilmeni ongelmia. Varmista että sinulla on riittävät oikeudet ja tarpeeksi tilaa levyllä.",
         "exportSuccess": "SeedVault-tiedoston vienti onnistui",
@@ -767,7 +767,7 @@
         "autofill": "Tiedot haettu onnistuneesti",
         "autofillExplanation": "Siirron tilitiedot noudettu automaattisesti linkin kautta.",
         "deepLinkingOverview": "Deep linkit ovat klikattavia linkkejä (iota://...), jotka täyttävät automaattisesti siirron tiedot Trinityssä.",
-        "deepLinkingWarning": "Varo phishing-huijauksia. Varmista, että avattava linkki siirtyy viralliseen Trinity-sovellukseen.",
+        "deepLinkingWarning": "Varo phishing-huijauksia. Varmista, että avattava linkki siirtyy viralliseen LPWallet-sovellukseen.",
         "deepLinkingUpdated": "Deep link asetukset",
         "deepLinkingEnabled": "Olet ottanut deep linkit käyttöön.",
         "deepLinkingDisabled": "Olet poistanut deep linkit käytöstä.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Virhe haettaessa päivityksiä",
         "errorRetrievingUpdateDataExplanation": "Päivitystarkastus epäonnistui. Tarkista Internet-yhteytesi ja yritä uudelleen.",
         "noUpdatesAvailable": "Ei uusia päivityksiä",
-        "noUpdatesAvailableExplanation": "Sinulla on uusin Trinity-versio!",
+        "noUpdatesAvailableExplanation": "Sinulla on uusin LPWallet-versio!",
         "newVersionAvailable": "Uusi versio saatavilla",
-        "newVersionAvailableExplanation": "Uusi Trinity-versio on saatavilla. Haluatko päivittää nyt?",
+        "newVersionAvailableExplanation": "Uusi LPWallet-versio on saatavilla. Haluatko päivittää nyt?",
         "installUpdate": "Päivitä ja käynnistä uudelleen",
-        "installUpdateExplanation": "Lataus suoritettu. Trinity käynistyy nyt uudelleen asentaakseen päivityksen.",
+        "installUpdateExplanation": "Lataus suoritettu. LPWallet käynistyy nyt uudelleen asentaakseen päivityksen.",
         "downloadingUpdate": "Ladataan päivitystä",
         "downloadProgress": "{{transferred}} / {{total}} ladattu"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Virhe varojen avaamisessa",
         "sweepErrorExplanation": "Jotain meni vikaan varojen avaamisessa. Yritetään uudelleen.",
         "warningTitle": "Varoitus: Lukittuja varoja havaittu",
-        "explanation": "Trinity työpöytäversio 0.3.4 sisälsi vian mikä saattoi väliaikaisesti lukita varat. Tämä vaikuttaa pieneen määrään käyttäjiä jotka suorittivat siirtoja 0.3.4 versiolla.",
-        "explanationAccounts": "Lukittuja varoja on havaittu seuraavilla tileillä: {{accounts}}. Trinity palauttaa nyt varat automaattisesti siirtämällä ne uuteen osoitteeseen.",
+        "explanation": "LPWallet työpöytäversio 0.3.4 sisälsi vian mikä saattoi väliaikaisesti lukita varat. Tämä vaikuttaa pieneen määrään käyttäjiä jotka suorittivat siirtoja 0.3.4 versiolla.",
+        "explanationAccounts": "Lukittuja varoja on havaittu seuraavilla tileillä: {{accounts}}. LPWallet palauttaa nyt varat automaattisesti siirtämällä ne uuteen osoitteeseen.",
         "proceed": "Etene palautukseen",
         "sweepConfirmation": "Olet siirtämässä {{amount}} osoitteeseen {{address}}. Tili: {{accountName}}, osoite indeksi: {{index}}",
         "sweepConfirmationTitle": "Pyyhkäisyvahvistus"
     },
     "migration": {
         "dataMigration": "Tiedonsiirto",
-        "dataMigrationExplanation": "Suorituskyky- ja tallennusrajoitusten vuoksi, Trinity käyttää uutta tietokantaa asetusten ja tilitietojen tallentamiseen. Odota sen aikaa, että Trinity siirtää automaattisesti olemassa olevat tietosi.",
+        "dataMigrationExplanation": "Suorituskyky- ja tallennusrajoitusten vuoksi, LPWallet käyttää uutta tietokantaa asetusten ja tilitietojen tallentamiseen. Odota sen aikaa, että LPWallet siirtää automaattisesti olemassa olevat tietosi.",
         "problemMigratingYourData": "Tietojen siirtämisessä tapahtui virhe. Yritä uudelleen",
-        "seedMigrationExplanation": "Osana Trinityn jatkuvaa pyrkimystä parantaa lompakon turvallisuutta, Seed-lukusi siirretään parannettuun tallennusmenetelmään. Odota sen aikaa, että Trinity siirtää automaattisesti Seed-lukuvaraston."
+        "seedMigrationExplanation": "Osana Trinityn jatkuvaa pyrkimystä parantaa lompakon turvallisuutta, Seed-lukusi siirretään parannettuun tallennusmenetelmään. Odota sen aikaa, että LPWallet siirtää automaattisesti Seed-lukuvaraston."
     },
     "ledger": {
         "ready": "Ledger-laite yhdistetty ja valmis",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Ledger-laite on oltava yhdistettynä suorittaaksesi tämän toiminnon.",
         "transactionTitle": "Selaa ja hyväksy siirto Ledgerissä",
         "transactionExplanation": "Käytä Ledger-laitettasi lähtevien siirtojen hyväksymiseen.",
-        "applicationTitle": "Avoin Ledger IOTA sovellus",
-        "applicationExplanation": "Siirry Ledgeriin ja avaa IOTA-sovellus jatkaaksesi Trinityn käyttöä.",
+        "applicationTitle": "Avoin Ledger LP sovellus",
+        "applicationExplanation": "Siirry Ledgeriin ja avaa LP-sovellus jatkaaksesi Trinityn käyttöä.",
         "cannotSendZeroValueTitle": "Ei voida lähettää nolla-arvoista siirtoa",
         "cannotSendZeroValueExplanation": "Ei voida lähettää nolla-arvoista siirtoa tilikirja laitteella.",
         "ledgerDisconnectedTitle": "Yhteys Ledger-laitteeseen katkaistu",
@@ -873,17 +873,17 @@
         "checkAddress": "Tarkista vastaanottajan osoite",
         "checkAddressExplanation": "Tarkista, että osoite vastaa Ledger-laitteessa näkyvää osoitetta.",
         "applicationNotInitialised": "Varoitusta ei ole vahvistettu",
-        "applicationNotInitialisedExplanation": "Avaa IOTA-sovellus uudelleen Ledger-laitteessa, hyväksy informatiivinen varoitus ja yritä uudelleen.",
+        "applicationNotInitialisedExplanation": "Avaa LP-sovellus uudelleen Ledger-laitteessa, hyväksy informatiivinen varoitus ja yritä uudelleen.",
         "checkLedger": "Tarkista Ledger-laitteesi",
         "acceptWarningExplanation": "Jos Ledger-laitteellasi on varoitus, sinun täytyy selata se loppuun ja hyväksyä se painamalla molempia näppäimiä.",
         "udevError": "Ledger-laitteen yhdistäminen epäonnistui",
-        "udevErrorExplanation": "Trinity ei voinut yhdistää Ledger-laitteeseen. Vieraile alla olevalla verkkosivulla ratkaistaksesi ongelman.",
+        "udevErrorExplanation": "LPWallet ei voinut yhdistää Ledger-laitteeseen. Vieraile alla olevalla verkkosivulla ratkaistaksesi ongelman.",
         "writtenDownInfoTitle": "Muista indeksinumerosi",
         "writtenDownInfoExplanation": "Tarvitset indeksinumerosi palauttaaksesi tilisi tulevaisuudessa. Jos menetät indeksinumerosi, menetät varasi. Pidä se tallessa."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

@@ -9,7 +9,7 @@
         "noTransactions": "LÄHIAJALUGU PUUDUB",
         "refresh": "Värskenda",
         "balanceError": "Pole piisavalt vahendeid",
-        "balanceErrorMessage": "Teil ei ole selle ülekande tegemiseks piisavalt IOTAsid.",
+        "balanceErrorMessage": "Teil ei ole selle ülekande tegemiseks piisavalt LPsid.",
         "totalBalance": "Kontojääk kokku",
         "transferError": "Ülekande viga",
         "transferErrorMessage": "Midagi läks ülekande tegemisel valesti. Palun proovige uuesti.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Sõlme viga",
         "invalidResponseExplanation": "Sõlm tagastas tõrke. Proovige muuta sõlme.",
         "invalidResponseFetchingAccount": "Sõlm andis teie konto informatsiooni toomisel sobimatu vastuse. Proovige muud sõlme.",
-        "invalidResponseFetchingAccountDesktop": "The node returned an error while fetching your account information. If your problem persists, try changing node or disabling your system proxy in Trinity Settings.",
+        "invalidResponseFetchingAccountDesktop": "The node returned an error while fetching your account information. If your problem persists, try changing node or disabling your system proxy in LPWallet Settings.",
         "nodeOutOfSync": "Sõlm on sünkroonist väljas",
         "nodeOutOfSyncExplanation": "Teie valitud sõlm on sünkroonist väljas. Muutke sõlme või proovige uuesti.",
         "experimentalNode": "Node version not supported",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Sa ei saa saata aadressile, millelt on juba saadetud.",
         "pleaseWait": "Palun oodake",
         "pleaseWaitEllipses": "Palun oodake...",
-        "pleaseWaitExplanation": "Trinity täidab teist funktsiooni. Palun oodake ja proovige uuesti.",
+        "pleaseWaitExplanation": "LPWallet täidab teist funktsiooni. Palun oodake ja proovige uuesti.",
         "pleaseWaitTransferExplanation": "Teie vabad vahendid on hetkel kasutuses teistes tehingutes. Palun oodake kuni üks kinnitatakse enne uuesti proovimist.",
         "pleaseWaitIncomingTransferExplanation": "Teil on sissetulevaid ülekandeid. Palun oodake enne uuesti proovimist kinnitust.",
         "snapshotTransitionInProgress": "Hetkvõtte üleminek pooleli",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Muudetud uuele sõlmele {{- nodeAddress}} kuna valitud sõlm on ühenduseta.",
         "touchSensor": "Puuduta sõrmejälje lugejat",
         "fingerprintOnSend": "Ülekande lubamiseks puudutage sõrmejäljelugejat",
-        "masterKey": "Teie IOTA seeme on võti teie vahenditele.",
-        "seedThief": "Kui kellelgi on teie seeme siis saab ta varastada teie IOTA.",
+        "masterKey": "Teie LP seeme on võti teie vahenditele.",
+        "seedThief": "Kui kellelgi on teie seeme siis saab ta varastada teie LP.",
         "googlePlayServicesNotAvailable": "Google Play teenused pole saadaval",
         "couldNotVerifyDeviceIntegrity": "Seadme õigsust ei saanud kontrollida, sest Google Play teenused pole saadaval.",
         "clear": "Puhasta",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Suunduge Konto tööriistadesse ning sooritage hetkvõtte üleminek.",
         "openAccountTools": "Avage Konto tööriistad",
-        "usingTrinityWalletWithKeePass": "Trinity Walleti kasutamine Keepass2Androidiga",
+        "usingTrinityWalletWithKeePass": "LPWallet Walleti kasutamine Keepass2Androidiga",
         "signedTrytesBroadcastErrorExplanation": "Teie tehingu edastamisel tekkis viga.",
         "broadcastError": "Tehingu edastamine ebaõnnestus",
         "addressesAlreadySpentFrom": "Ühelt või mitmelt teie aadressilt on juba kulutatud.",
@@ -269,7 +269,7 @@
         "setNode": "Vali sõlm",
         "whyBiometricDisabled": "Miks on biomeetriline autentimine keelatud?",
         "whyBiometricDisabledExplanationPart1": "Biometric authentication is disabled on first app load for your security.",
-        "whyBiometricDisabledExplanationPart2": "When using Trinity you will be logged out for inactivity. You can then log back in with biometric authentication."
+        "whyBiometricDisabledExplanationPart2": "When using LPWallet you will be logged out for inactivity. You can then log back in with biometric authentication."
     },
     "loading": {
         "loadingFirstTime": "Laadin esimest korda seemet.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Ärge jagage oma seemet kunagi.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "print": "Prindi",
         "paperConvenience": "Teie seemne paberkoopia printimine on sovib viis selle varundamiseks.",
         "publicInsecure": "Kuid printimine avalikku WiFit või avalikku printerit kasutades on ohtlik.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Loo aadress",
         "generateAnAddressTitle": "Loo aadress",
         "generateAnAddressExplanation": "Please generate an address before using this function.",
-        "generateAddressInformation": "Generate a new deposit address every time you wish to receive IOTA"
+        "generateAddressInformation": "Generate a new deposit address every time you wish to receive LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Varunda oma seeme",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Palun kinnitage oma seeme",
-        "trinityWillNeverAskToReenter": "Trinity will never ask you to re-enter this seed unless you reset your wallet or delete the app.",
+        "trinityWillNeverAskToReenter": "LPWallet will never ask you to re-enter this seed unless you reset your wallet or delete the app.",
         "enterYourSeed": "Sisestage oma seeme",
         "incorrectSeed": "Vale seeme",
         "incorrectSeedExplanation": "Sisestatud seeme on vale. Palun proovige uuesti.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Please check that you have entered the address correctly.",
         "invalidAddressExplanationGeneric": "Kehtivad aadressid peaksid koosnema 90 tähemärgist ja sisaldama ainult A-Z või 9.",
         "notEnoughFunds": "Ebapiisavad vahendid",
-        "notEnoughFundsExplanation": "Teil ei ole selle ülekande tegemiseks piisavalt IOTAsid.",
+        "notEnoughFundsExplanation": "Teil ei ole selle ülekande tegemiseks piisavalt LPsid.",
         "recipientAddress": "Saaja aadress",
         "amount": "Summa",
         "max": "MAKS.",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Teie sõnum sisaldab sobimatuid tähemärke.",
         "send": "Saada",
         "invalidAmount": "Sisestatud vale summa",
-        "invalidAmountExplanation": "Palun sisestage kehtiv ülekande summa. IOTA ühikusüsteemi selgitus käesoleva lehe all võib teile abiks tulla.",
+        "invalidAmountExplanation": "Palun sisestage kehtiv ülekande summa. LP ühikusüsteemi selgitus käesoleva lehe all võib teile abiks tulla.",
         "maximumSelected": "valitud MAKSIMAALNE summa",
-        "iotaUnits": "IOTA ühikute selgitus",
+        "iotaUnits": "LP ühikute selgitus",
         "sendMax": "SAADA MAKS.",
         "totalTime": "Aeg kokku",
         "addressPasteDetected": "Aadressi lisamine tuvastatud",
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Uusimate {{currency}} konversioonimäärade leidmine õnnestus.",
         "undo": "Tühista",
         "redo": "Korda",
-        "aboutTrinity": "Teave Trinity kohta",
+        "aboutTrinity": "Teave LPWallet kohta",
         "lockScreenTimeout": "Lukustusekraani aegumine (minutid)",
         "nodeChangeSuccess": "Sõlm edukalt muudetud",
         "nodeChangeSuccessNoRemotePow": "Sõlm muudeti {{node}}. See sõlm ei toeta kaugtöö tõendit.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Okei. Seadistame teie rahakoti ära!",
         "doYouNeedASeed": "Kas te peate looma uue seemne?",
-        "seedExplanation": "Teie IOTA seeme on teie rahaliste vahendite peamine võti. See on 81 tähemärki pikk, kasutades ainult tähti A-Z või numbrit 9.",
+        "seedExplanation": "Teie LP seeme on teie rahaliste vahendite peamine võti. See on 81 tähemärki pikk, kasutades ainult tähti A-Z või numbrit 9.",
         "noIHaveOne": "Ei, mul on seeme",
         "yesINeedASeed": "Jah, mul on vaja seemet",
         "explanation": "<0> <0> Saate seda kasutada, et pääseda juurde oma vahenditele</0><1> igast rahakotist </ 1> <2> </ 2> <3> igas seadmel. </ 3> </ 0 >",
-        "loseSeed": "Kuid kui te kaotate oma seemne, siis kaotate ka oma IOTA.",
+        "loseSeed": "Kuid kui te kaotate oma seemne, siis kaotate ka oma LP.",
         "keepSafe": "Palun hoidke oma seemne turvalisust."
     },
     "welcome": {
-        "thankYou": "Täname teid Trinity allalaadimise eest",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Täname teid LPWallet allalaadimise eest",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0> Kirjutage oma seeme ja kontrollsumma üles ning </0><1>veenduge</1><2>, et need on õiged.</2>",
@@ -489,7 +489,7 @@
         "retrying": "Uuesti proovimine",
         "yesterday": "Eile",
         "promotingAnotherBundle": "Edendan teist kimpu",
-        "pleaseWait": "Please wait, Trinity is promoting another bundle.",
+        "pleaseWait": "Please wait, LPWallet is promoting another bundle.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Search by bundle hash or message content",
         "searchHelpValue": "Find transactions by exact iota value",
@@ -593,11 +593,11 @@
         "million": "Miljon",
         "thousand": "Tuhat",
         "one": "Üks",
-        "unitInfoExplanation": "IOTAs are typically acquired in multiples of one million, but can be transferred as a single IOTA."
+        "unitInfoExplanation": "LPs are typically acquired in multiples of one million, but can be transferred as a single LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Miks ma ei saa oma täielikku kontojääki kulutada?",
-        "spentAddressExplanation": "Teil on vahendeid ühel või mitmel kasutatud aadressil. IOTA-s on korduvkasutuse aadress ohtlik, nii et see rahakott ei võimalda saata sama aadressiga rohkem kui üks kord.",
+        "spentAddressExplanation": "Teil on vahendeid ühel või mitmel kasutatud aadressil. LP-s on korduvkasutuse aadress ohtlik, nii et see rahakott ei võimalda saata sama aadressiga rohkem kui üks kord.",
         "discordInformation": "Palun suunduge #help kanalile Discordis, et teada saada, mida saakiste teha."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Kas te varundasite oma seemne?",
         "iHaveBackedUp": "I have safely backed up my seed",
         "reenterSeed": "At the next step you need to re-enter your seed.",
-        "reenterSeedWarning": "Kui te ei ole varundanud oma seemet ja teie seade ebaõnnestub, kaotate kogu oma IOTA.",
+        "reenterSeedWarning": "Kui te ei ole varundanud oma seemet ja teie seade ebaõnnestub, kaotate kogu oma LP.",
         "pleaseConfirm": "Palun kinnitage, et olete oma seemne turvaliselt varundanud."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Ekspordi seemnehoidla",
         "seedVaultExplanation": "A SeedVault is an encrypted file for backing up your seed. The seed is encrypted with a SeedVault Key and cannot be accessed without that key.",
-        "seedVaultWarning": "Veenduge, et olete varundanud faili eri kohtades (nt kõvakettale, pilve, USB). Kui te kaotada selle faili ja pole salvestanud oma seemet mujale, siis kaotate oma IOTA.",
+        "seedVaultWarning": "Veenduge, et olete varundanud faili eri kohtades (nt kõvakettale, pilve, USB). Kui te kaotada selle faili ja pole salvestanud oma seemet mujale, siis kaotate oma LP.",
         "exportFail": "Seemnehoidla eksportimine nurjus",
         "exportFailExplanation": "Seemnehoidla eksportimisega tekkis probleem. Palun veenduge, et teil on vastavad õigused ja piisavalt vaba ruumi.",
         "exportSuccess": "Seemnehoidla eksporditud",
@@ -696,7 +696,7 @@
         "seedFileError": "Seemnehoidla avamine nurjus",
         "seedFileErrorExplanation": "Seemnehoidla avamisega oli probleem. Kui valisite õige faili, siis võib see olla rikutud.",
         "invalidSeedFileError": "Invalid SeedVault file",
-        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via Trinity or a password manager are supported.",
+        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via LPWallet or a password manager are supported.",
         "seedVaultKeyExplanation": "First we need to secure your SeedVault. Please choose a key to encrypt the file. You will use this key if you need to restore your seed from the SeedVault back up.",
         "retypeKey": "Retype key",
         "key": "Võti"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Kas soovite sellest riskist hoolimata jätkata?"
     },
     "pow": {
-        "feeless": "IOTA tasudeta tehingute jaoks on vaja teha natuke tööd.",
+        "feeless": "LP tasudeta tehingute jaoks on vaja teha natuke tööd.",
         "localOrRemote": "Töötõendit saab valmistada kohalikult sinu seadmes või anda ülesanne mõnele sõlmele.",
         "local": "Kohalik",
         "remote": "Kaug",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Automaatne täitmine õnnestus",
         "autofillExplanation": "Tehingu andmed automaatselt lingist täidetud.",
-        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in Trinity.",
-        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official Trinity app.",
+        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in LPWallet.",
+        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official LPWallet app.",
         "deepLinkingUpdated": "Deep linking settings",
         "deepLinkingEnabled": "You have enabled deep linking.",
         "deepLinkingDisabled": "You have disabled deep linking.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Uuendamisandmete allalaadimise viga",
         "errorRetrievingUpdateDataExplanation": "Could not retrieve update. Please check your internet connection and try again.",
         "noUpdatesAvailable": "Ühtegi uuendust pole saadaval",
-        "noUpdatesAvailableExplanation": "Teil on uusim Trinity versioon!",
+        "noUpdatesAvailableExplanation": "Teil on uusim LPWallet versioon!",
         "newVersionAvailable": "Uus versioon saadaval",
-        "newVersionAvailableExplanation": "A new Trinity version is available. Do you want to update now?",
+        "newVersionAvailableExplanation": "A new LPWallet version is available. Do you want to update now?",
         "installUpdate": "Installi värskendus ja taaskäivita",
-        "installUpdateExplanation": "Allalaadimine lõpetatud, Trinity taaskäivitub värskenduse installimiseks.",
+        "installUpdateExplanation": "Allalaadimine lõpetatud, LPWallet taaskäivitub värskenduse installimiseks.",
         "downloadingUpdate": "Uuenduse allalaadimine",
         "downloadProgress": "{{transferred}} of {{total}} downloaded"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Error unlocking funds",
         "sweepErrorExplanation": "Something went wrong while unlocking your funds. Trying again.",
         "warningTitle": "Warning: Locked funds detected",
-        "explanation": "Trinity Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
-        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. Trinity will now automatically recover your funds, by moving them to a new address.",
+        "explanation": "LPWallet Desktop version 0.3.4 contained a bug that can temporarily lock funds. This affects a small number of users that performed transactions with 0.3.4.",
+        "explanationAccounts": "Locked funds have been detected on your accounts: {{accounts}}. LPWallet will now automatically recover your funds, by moving them to a new address.",
         "proceed": "Proceed to Recovery",
         "sweepConfirmation": "You are about to sweep {{amount}} to the address {{address}}. Account: {{accountName}}, address index: {{index}}",
         "sweepConfirmationTitle": "Sweep confirmation"
     },
     "migration": {
         "dataMigration": "Data migration",
-        "dataMigrationExplanation": "Due to performance and storage limitations, Trinity is using a new database for storing settings and account data. Please wait while Trinity automatically migrates your existing data.",
+        "dataMigrationExplanation": "Due to performance and storage limitations, LPWallet is using a new database for storing settings and account data. Please wait while LPWallet automatically migrates your existing data.",
         "problemMigratingYourData": "There was a problem migrating your data. Please try again",
-        "seedMigrationExplanation": "As part of Trinity's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while Trinity automatically migrates seed storage."
+        "seedMigrationExplanation": "As part of LPWallet's continued effort to improve wallet security, your seed will be migrated to an enhanced storage methodology. Please wait while LPWallet automatically migrates seed storage."
     },
     "ledger": {
         "ready": "Ledger device connected and ready",
@@ -860,8 +860,8 @@
         "connectionExplanation": "A Ledger device must be connected to perform this function.",
         "transactionTitle": "Scroll through and approve the transaction on your Ledger",
         "transactionExplanation": "Use your Ledger device to approve the outgoing transaction.",
-        "applicationTitle": "Open Ledger IOTA app",
-        "applicationExplanation": "Go to your Ledger and open the IOTA app to continue using Trinity.",
+        "applicationTitle": "Open Ledger LP app",
+        "applicationExplanation": "Go to your Ledger and open the LP app to continue using LPWallet.",
         "cannotSendZeroValueTitle": "Cannot send zero value transfer",
         "cannotSendZeroValueExplanation": "Cannot send zero value transfers with a Ledger device.",
         "ledgerDisconnectedTitle": "Ledger device disconnected",
@@ -873,17 +873,17 @@
         "checkAddress": "Check the receive address",
         "checkAddressExplanation": "Check that the address matches the one displayed on your Ledger device.",
         "applicationNotInitialised": "Hoiatus kinnitamata",
-        "applicationNotInitialisedExplanation": "Reopen the IOTA app on your Ledger device, accept the informational warning and try again.",
+        "applicationNotInitialisedExplanation": "Reopen the LP app on your Ledger device, accept the informational warning and try again.",
         "checkLedger": "Check your Ledger device",
         "acceptWarningExplanation": "If there is an informational warning on your Ledger device, you must scroll through and accept it by pressing both buttons.",
         "udevError": "Could not communicate with Ledger device",
-        "udevErrorExplanation": "Trinity could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
+        "udevErrorExplanation": "LPWallet could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
         "writtenDownInfoTitle": "Remember your index number",
-        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your IOTA. Please remember it."
+        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your LP. Please remember it."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

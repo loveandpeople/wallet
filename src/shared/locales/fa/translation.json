@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "شما نمی‌توانید به آدرسی که به عنوان ورودی در یک تراکنش استفاده شده است ارسال کنید.",
         "pleaseWait": "لطفا منتظر بمانید",
         "pleaseWaitEllipses": "لطفا منتظر بمانید...",
-        "pleaseWaitExplanation": "Trinity یک تابع دیگر را اجرا می کند. لطفا صبر کنید و دوباره تلاش کنید.",
+        "pleaseWaitExplanation": "LPWallet یک تابع دیگر را اجرا می کند. لطفا صبر کنید و دوباره تلاش کنید.",
         "pleaseWaitTransferExplanation": "موجودی شما در حال حاضر در سایر انتقال ها استفاده می شود. لطفا قبل از تلاش مجدد، صبر کنید تا انتقال ها تایید شود.",
         "pleaseWaitIncomingTransferExplanation": "شما انتقال های دریافتی دارید لطفا قبل از تلاش دوباره آنها را برای تایید صبر کنید.",
         "snapshotTransitionInProgress": "انتقال عکس فوری در حال انجام است",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "اگر از سید وارد شده اطمینان دارید، به تنظیمات پیشرفته رفته و چک کردن فایل های روی دستگاه را انجام دهید.",
         "headToAccountTools": "به تنظیمات حساب بروید و یک انتقال اسنپ شات ایجاد کنید.",
         "openAccountTools": "باز کردن تنظیمات حساب",
-        "usingTrinityWalletWithKeePass": "استفاده از کیف پول Trinity با Keepass2Android",
+        "usingTrinityWalletWithKeePass": "استفاده از کیف پول LPWallet با Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "خطایی در شبکه هنگام پخش تراکنش شما وجود داشت.",
         "broadcastError": "عدم موفقیت در انتشار انتقال",
         "addressesAlreadySpentFrom": "از یک یا چند آدرس پیش از این خرج شده است.",
@@ -269,7 +269,7 @@
         "setNode": "تنظیم Node",
         "whyBiometricDisabled": "چرا احراز هویت بیومتریک غیرفعال است؟",
         "whyBiometricDisabledExplanationPart1": "به دلایل امنیتی احراز هویت بیومتریک در اولین اجرای برنامه غیرفعال شده است.",
-        "whyBiometricDisabledExplanationPart2": "به هنگام استفاده از Trinity به دلیل عدم فعالیت خارج خواهید شد. شما سپس می‌توانید با احراز هویت بیومتریک دوباره وارد شوید."
+        "whyBiometricDisabledExplanationPart2": "به هنگام استفاده از LPWallet به دلیل عدم فعالیت خارج خواهید شد. شما سپس می‌توانید با احراز هویت بیومتریک دوباره وارد شوید."
     },
     "loading": {
         "loadingFirstTime": "بارگذاری سید برای اولین بار.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "تولید آدرس",
         "generateAnAddressTitle": "تولید یک آدرس",
         "generateAnAddressExplanation": "لطفا پیش از استفاده از این عمل یک آدرس تولید کنید.",
-        "generateAddressInformation": "هربار که می خواهید IOTA دریافت کنید یک آدرس دریافت جدید بسازید"
+        "generateAddressInformation": "هربار که می خواهید LP دریافت کنید یک آدرس دریافت جدید بسازید"
     },
     "saveYourSeed": {
         "saveYourSeed": "از سید خود پشتیبان بگیرید",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "لطفا سید خود را تایید کنید",
-        "trinityWillNeverAskToReenter": "Trinity هرگز از شما نمی‌خواهد که سید خود را دوباره وارد کنید مگر اینکه شما کیف پول را بازنشانی یا برنامه را حذف کنید.",
+        "trinityWillNeverAskToReenter": "LPWallet هرگز از شما نمی‌خواهد که سید خود را دوباره وارد کنید مگر اینکه شما کیف پول را بازنشانی یا برنامه را حذف کنید.",
         "enterYourSeed": "سید خود را وارد کنید",
         "incorrectSeed": "سید نادرست",
         "incorrectSeedExplanation": "سید وارد شده نادرست است. لطفا دوباره تلاش کنید.",
@@ -395,7 +395,7 @@
         "advanced": "پیشرفته",
         "standard": "استاندارد",
         "advancedModeExplanation": "حالت پیشرفته اطلاعات فنی را با جزئیات بیشتری نمایش خواهد داد.",
-        "modesExplanation": "فقط در صورتی حالت پیشرفته را فعال کنید که تجربه کافی در استفاده از IOTA را دارید. در غیر این صورت ممکن است برایتان گمراه‌کننده باشد.",
+        "modesExplanation": "فقط در صورتی حالت پیشرفته را فعال کنید که تجربه کافی در استفاده از LP را دارید. در غیر این صورت ممکن است برایتان گمراه‌کننده باشد.",
         "modeUpdated": "حالت به روز شد",
         "modeUpdatedExplanation": "شما برنامه را به حالت {{mode}} تغییر دادید"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "آخرین نرخ تبدیل برای {{currency}} موفقیت آمیز بود.",
         "undo": "برگردان",
         "redo": "انجام دوباره",
-        "aboutTrinity": "درباره Trinity",
+        "aboutTrinity": "درباره LPWallet",
         "lockScreenTimeout": "زمان قفل کردن صفحه (دقیقه)",
         "nodeChangeSuccess": "Node با موفقیت تغییر کرده است",
         "nodeChangeSuccessNoRemotePow": "Node به {{node}} تغییر یافت. این Node از اثبات کار از راه دور پشتیبانی نمی کند.",
@@ -466,7 +466,7 @@
         "keepSafe": "لطفا سید خود را جای امن نگهداری کنید."
     },
     "welcome": {
-        "thankYou": "با تشکر از شما برای دانلود Trinity",
+        "thankYou": "با تشکر از شما برای دانلود LPWallet",
         "demoThankYou": "با تشکر از شما برای دانلود ترینیتی نسخه تست"
     },
     "writeSeedDown": {
@@ -489,7 +489,7 @@
         "retrying": "درحال تلاش دوباره",
         "yesterday": "دیروز",
         "promotingAnotherBundle": "در حال ارتقای یک بسته تراکنش دیگر",
-        "pleaseWait": "لطفا صبر کنید، Trinity در حال ارتقای یک بسته تراکنش دیگر است.",
+        "pleaseWait": "لطفا صبر کنید، LPWallet در حال ارتقای یک بسته تراکنش دیگر است.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "جستجو بر اساس هش نرم افزار یا موضوع پیام",
         "searchHelpValue": "پیدا کردن تراکنش ها بامیزان دقیق iota",
@@ -593,7 +593,7 @@
         "million": "میلیون",
         "thousand": "هزار",
         "one": "یک",
-        "unitInfoExplanation": "IOTAها معمولا به صورت ضریبی از میلیون اندوخته می‌شوند ولی یک تک IOTA هم قابل انتقال هست."
+        "unitInfoExplanation": "LPها معمولا به صورت ضریبی از میلیون اندوخته می‌شوند ولی یک تک LP هم قابل انتقال هست."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "چرا من نمی توانم موجودی کامل خود را انتقال بدهم؟",
@@ -780,9 +780,9 @@
         "noUpdatesAvailable": "بروزرسانی موجود نيست",
         "noUpdatesAvailableExplanation": "شما آخرین نسخه ترینیتی را دارید!",
         "newVersionAvailable": "نسخه جدید موجود است",
-        "newVersionAvailableExplanation": "یک نسخه‌ی جدید از Trinity در دسترس است. آیا می‌خواهید الان به‌روز‌رسانی کنید؟",
+        "newVersionAvailableExplanation": "یک نسخه‌ی جدید از LPWallet در دسترس است. آیا می‌خواهید الان به‌روز‌رسانی کنید؟",
         "installUpdate": "نصب به‌روزرسانی و راه‌اندازی مجدد",
-        "installUpdateExplanation": "دانلود کامل شد، Trinity الان برای نصب به‌روز‌رسانی مجددا راه‌اندازی خواهد شد.",
+        "installUpdateExplanation": "دانلود کامل شد، LPWallet الان برای نصب به‌روز‌رسانی مجددا راه‌اندازی خواهد شد.",
         "downloadingUpdate": "درحال دانلود به‌روزرسانی",
         "downloadProgress": "{{transferred}} از {{total}} دانلود شده"
     },
@@ -826,8 +826,8 @@
         "sweepError": "خطا در گشودن قفل وجوه",
         "sweepErrorExplanation": "هنگام گشودن قفل وجوه مشکلی پیش آمد. در حال تلاش مجدد.",
         "warningTitle": "هشدار: وجود قفل شده شناسایی شدند",
-        "explanation": "نسخه 0.3.4 دسکتاپ Trinity اشکال نرم‌افزاری داشت که ممکن بود وجوه را به صورت موقت قفل کند. این موضوع تعداد اندکی از کابرانی که با نسخه 0.3.4 تراکنش‌هایی انجام داده بودند را تحت تاثیر قرار می‌دهد.",
-        "explanationAccounts": "وجوه قفل شده در حساب‌های شما شناسایی شد: {{accounts}}. هم‌اکنون Trinity به صورت خودکار شروع به بازیابی وجوه از طریق انتقال آن‌ها به یک آدرس جدید خواهد کرد.",
+        "explanation": "نسخه 0.3.4 دسکتاپ LPWallet اشکال نرم‌افزاری داشت که ممکن بود وجوه را به صورت موقت قفل کند. این موضوع تعداد اندکی از کابرانی که با نسخه 0.3.4 تراکنش‌هایی انجام داده بودند را تحت تاثیر قرار می‌دهد.",
+        "explanationAccounts": "وجوه قفل شده در حساب‌های شما شناسایی شد: {{accounts}}. هم‌اکنون LPWallet به صورت خودکار شروع به بازیابی وجوه از طریق انتقال آن‌ها به یک آدرس جدید خواهد کرد.",
         "proceed": "اقدام به بازیابی",
         "sweepConfirmation": "شما در حال جارو (sweep) کردن {{amount}} به آدرس {{address}} هستید. حساب: {{accountName}}، اندیس آدرس: {{index}}",
         "sweepConfirmationTitle": "تایید جارو کردن (sweep)"
@@ -860,8 +860,8 @@
         "connectionExplanation": "برای انجام این عمل باید یک دستگاه لدجر متصل شده باشد.",
         "transactionTitle": "پیمایش کرده و تراکنش را در لدجر خود قبول کنید",
         "transactionExplanation": "برای قبول تراکنش خروجی از لدجر خود استفاده کنید.",
-        "applicationTitle": "برنامه IOTA در لدجر را باز کنید",
-        "applicationExplanation": "برای ادامه‌ی استفاده از Trinity به لدجر خود بروید و برنامه IOTA را باز کنید.",
+        "applicationTitle": "برنامه LP در لدجر را باز کنید",
+        "applicationExplanation": "برای ادامه‌ی استفاده از LPWallet به لدجر خود بروید و برنامه LP را باز کنید.",
         "cannotSendZeroValueTitle": "نمی‌توان انتقال با مقدار صفر ارسال کرد",
         "cannotSendZeroValueExplanation": "نمی‌توان با یک دستگاه لدجر انتقال با مقدار صفر ارسال کرد.",
         "ledgerDisconnectedTitle": "جدا شدن دستگاه لدجر",
@@ -873,13 +873,13 @@
         "checkAddress": "آدرس دریافت را بررسی کنید",
         "checkAddressExplanation": "بررسی کنید که آدرس با آنچه در دستگاه لدجر شما نشان داده می‌شود همخوانی دارد.",
         "applicationNotInitialised": "هشدار تایید نشده",
-        "applicationNotInitialisedExplanation": "برنامه IOTA را در دستگاه لدجر خود مجددا باز کرده، هشدارهای اطلاعاتی را قبول و مجددا تلاش کنید.",
+        "applicationNotInitialisedExplanation": "برنامه LP را در دستگاه لدجر خود مجددا باز کرده، هشدارهای اطلاعاتی را قبول و مجددا تلاش کنید.",
         "checkLedger": "دستگاه لجر خود را بررسی کنید",
         "acceptWarningExplanation": "اگر روی دستگاه لجر شما اخطاری وجود دارد، شما باید به پایین رفته و با فشردن هر دو دکمه آن را قبول کنید.",
         "udevError": "ناتوانی در ارتباط با دستگاه لجر",
         "udevErrorExplanation": "ترینیتی نمی تواند با دستگاه لجر شما ارتباط برقرار کند. لطفاً لینک زیر را برای حل این مشکل مشاهده کنید.",
         "writtenDownInfoTitle": "شماره ی شاخص خود را به خاطر بسپارید",
-        "writtenDownInfoExplanation": "شما در آینده به شماره شاخص خود برای بازیابی حساب نیاز دارید. اگر شماره شاخص خود را گم کنید، IOTA ی خود را از دست می دهید. لطفاً آن را به خاطر بسپارید."
+        "writtenDownInfoExplanation": "شما در آینده به شماره شاخص خود برای بازیابی حساب نیاز دارید. اگر شماره شاخص خود را گم کنید، LP ی خود را از دست می دهید. لطفاً آن را به خاطر بسپارید."
     },
     "help": {
         "docsSite": "سایت اسناد ترینیتی",

@@ -9,7 +9,7 @@
         "noTransactions": "TIDAK ADA RIWAYAT TERKINI",
         "refresh": "Perbarui",
         "balanceError": "Saldo tidak mencukupi",
-        "balanceErrorMessage": "Anda tidak memiliki IOTA yang mencukupi untuk menyelesaikan transfer ini.",
+        "balanceErrorMessage": "Anda tidak memiliki LP yang mencukupi untuk menyelesaikan transfer ini.",
         "totalBalance": "Jumlah Saldo",
         "transferError": "Kesalahan pengiriman",
         "transferErrorMessage": "Terjadi kesalahan saat pengiriman. Silakan coba lagi.",
@@ -22,7 +22,7 @@
         "invalidResponse": "Kesalahan pada Node",
         "invalidResponseExplanation": "Node mengembalikan kesalahan. Coba ganti node.",
         "invalidResponseFetchingAccount": "Node mengembalikan kesalahan ketika menarik informasi akun anda. Silahkan coba node yang lain.",
-        "invalidResponseFetchingAccountDesktop": "\nNode mengembalikan kesalahan saat mengambil informasi akun Anda. Jika masalah Anda tetap ada, cobalah mengubah simpul atau menonaktifkan proxy sistem Anda di Pengaturan Trinity.",
+        "invalidResponseFetchingAccountDesktop": "\nNode mengembalikan kesalahan saat mengambil informasi akun Anda. Jika masalah Anda tetap ada, cobalah mengubah simpul atau menonaktifkan proxy sistem Anda di Pengaturan LPWallet.",
         "nodeOutOfSync": "Node tidak sinkron",
         "nodeOutOfSyncExplanation": "Node yang anda pilih tidak sinkron. Silakan ganti Node atau coba lagi.",
         "experimentalNode": "Versi Node tidak didukung\n",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Anda tidak dapat mengirim ke alamat yang digunakan sebagai asal transaksi.",
         "pleaseWait": "Silahkan tunggu",
         "pleaseWaitEllipses": "Silahkan tunggu...",
-        "pleaseWaitExplanation": "Trinity sedang melakukan fungsi lain. Silahkan tunggu dan coba lagi.",
+        "pleaseWaitExplanation": "LPWallet sedang melakukan fungsi lain. Silahkan tunggu dan coba lagi.",
         "pleaseWaitTransferExplanation": "Saldo yang tersedia saat ini sedang digunakan untuk transfer. Silahkan tunggu sampai salah satu telah dikonfirmasi sebelum mencoba lagi.",
         "pleaseWaitIncomingTransferExplanation": "Anda memiliki transfer masuk. Harap tunggu untuk dikonfirmasi sebelum mencoba lagi.",
         "snapshotTransitionInProgress": "Dalam proses transisi Snapshot",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Beralih ke node baru {{- nodeAddress}} karena node yang dipilih offline.",
         "touchSensor": "Sentuh sensor sidik jari",
         "fingerprintOnSend": "Sentuh pemindai sidik jari untuk mensyahkan transfer",
-        "masterKey": "IOTA Seed anda adalah kunci utama ke dana anda.",
-        "seedThief": "Jika orang lain mempunyai Seed Anda, mereka bisa mencuri IOTA Anda.",
+        "masterKey": "LP Seed anda adalah kunci utama ke dana anda.",
+        "seedThief": "Jika orang lain mempunyai Seed Anda, mereka bisa mencuri LP Anda.",
         "googlePlayServicesNotAvailable": "Google Play Services tidak tersedia",
         "couldNotVerifyDeviceIntegrity": "Tidak bisa memverifikasi perangkat karena Google Play Services tidak tersedia.",
         "clear": "Hapus",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Menuju ke Akun Perkakas dan lakukan Transisi Snapshot.",
         "openAccountTools": "Buka Akun Perkakas",
-        "usingTrinityWalletWithKeePass": "Gunakan Dompet Trinity dengan Keepass2Android",
+        "usingTrinityWalletWithKeePass": "Gunakan Dompet LPWallet dengan Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Ada kesalahan jaringan ketika menyiarkan transaksi Anda.",
         "broadcastError": "Tidak bisa menyiarkan transaksi",
         "addressesAlreadySpentFrom": "Satu atau lebih alamat sudah digunakan.",
@@ -269,7 +269,7 @@
         "setNode": "Set Node",
         "whyBiometricDisabled": "Kenapa otentikasi sidik jari dimatikan?",
         "whyBiometricDisabledExplanationPart1": "Otentikasi biometrik dinonaktifkan pada pemuatan aplikasi pertama untuk keamanan Anda.",
-        "whyBiometricDisabledExplanationPart2": "Saat menggunakan Trinity Anda akan keluar karena tidak aktif. Anda kemudian dapat masuk kembali dengan otentikasi biometrik."
+        "whyBiometricDisabledExplanationPart2": "Saat menggunakan LPWallet Anda akan keluar karena tidak aktif. Anda kemudian dapat masuk kembali dengan otentikasi biometrik."
     },
     "loading": {
         "loadingFirstTime": "Menyiapkan Seed untuk pertama kalinya.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Jangan pernah memberitahukan Seed Anda dengan siapa pun.",
-        "iotaLogo": "Logo IOTA",
+        "iotaLogo": "Logo LP",
         "print": "Cetak",
         "paperConvenience": "Mencetak Seed ke kertas adalah cara yang mudah untuk menyimpan.",
         "publicInsecure": "Tetapi mencetak dengan Wifi atau printer publik tidak aman.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Buat Alamat",
         "generateAnAddressTitle": "Buat sebuah Alamat",
         "generateAnAddressExplanation": "Silahkan buat Alamat sebelum menggunakan fungsi ini.",
-        "generateAddressInformation": "Buat sebuah Alamat deposit baru setiap kali anda menerima IOTA"
+        "generateAddressInformation": "Buat sebuah Alamat deposit baru setiap kali anda menerima LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Simpang Seed anda",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Silakan konfirmasi Seed Anda",
-        "trinityWillNeverAskToReenter": "Trinity tidak pernah meminta memasukkan Seed kembali kecuali Anda reset dompet atau hapus app.",
+        "trinityWillNeverAskToReenter": "LPWallet tidak pernah meminta memasukkan Seed kembali kecuali Anda reset dompet atau hapus app.",
         "enterYourSeed": "Masukan Seed Anda",
         "incorrectSeed": "Seed salah",
         "incorrectSeedExplanation": "Seed yang Anda masukkan salah. Silahkan coba lagi.",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "Cek bahwa anda telah memasukan Alamat dengan benar.",
         "invalidAddressExplanationGeneric": "Alamat yang valid harus 90 karakter dan mengandung hanya A-Z atau 9.",
         "notEnoughFunds": "Dana tidak mencukupi",
-        "notEnoughFundsExplanation": "Anda tidak memiliki IOTA yang mencukupi untuk menyelesaikan transfer ini.",
+        "notEnoughFundsExplanation": "Anda tidak memiliki LP yang mencukupi untuk menyelesaikan transfer ini.",
         "recipientAddress": "Alamat Penerima",
         "amount": "Nominal",
         "max": "Maks",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Pesan anda mengandung karakter yang tidak valid.",
         "send": "Kirim",
         "invalidAmount": "Jumlah nilai salah",
-        "invalidAmountExplanation": "Silahkan masukan angka transaksi yang valid. Ini akan membantu melihat rincian unit IOTA dihalaman ini yang bawah.",
+        "invalidAmountExplanation": "Silahkan masukan angka transaksi yang valid. Ini akan membantu melihat rincian unit LP dihalaman ini yang bawah.",
         "maximumSelected": "Jumlah MAKSIMUM dipilih",
-        "iotaUnits": "IOTA unit dijelaskan",
+        "iotaUnits": "LP unit dijelaskan",
         "sendMax": "KIRIM MAKS",
         "totalTime": "Waktu total",
         "addressPasteDetected": "Terdeteksi alamat hasil salinan",
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Telah berhasil mengunduh tarif konversi terbaru untuk {{currency}}.",
         "undo": "Batalkan",
         "redo": "Ulangi",
-        "aboutTrinity": "Tentang Trinity",
+        "aboutTrinity": "Tentang LPWallet",
         "lockScreenTimeout": "Waktu habis kunci layar (Menit)",
         "nodeChangeSuccess": "Berhasil berubah Node",
         "nodeChangeSuccessNoRemotePow": "Node diganti ke {{node}}. Node ini tidak mendukung Proof of Work jarak jauh.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Oke. Mari menyiapkan dompet Anda!",
         "doYouNeedASeed": "Apakah Anda butuh Seed baru?",
-        "seedExplanation": "Seed IOTA adalah kunci utama ke dana Anda. Terdiri dari 81 karakter dengan campuran A-Z atau angka 9.",
+        "seedExplanation": "Seed LP adalah kunci utama ke dana Anda. Terdiri dari 81 karakter dengan campuran A-Z atau angka 9.",
         "noIHaveOne": "Tidak, saya sudah punya",
         "yesINeedASeed": "Ya, Saya butuh Seed baru",
         "explanation": "<0><0>Anda dapat menggunakan Seed untuk mengakses dana Anda dari</0> <1>dompet manapun</1> <2>, di</2> <3>perangkat apapun.</3></0>",
-        "loseSeed": "Tetapi jika anda kehilangan Seed, Anda juga akan kehilangan IOTA.",
+        "loseSeed": "Tetapi jika anda kehilangan Seed, Anda juga akan kehilangan LP.",
         "keepSafe": "Harap disimpan Seed anda dengan baik."
     },
     "welcome": {
-        "thankYou": "Terima kasih telah mengunduh Trinity",
-        "demoThankYou": "Thank you for downloading the Trinity demo"
+        "thankYou": "Terima kasih telah mengunduh LPWallet",
+        "demoThankYou": "Thank you for downloading the LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0> Tulis Seed, Checksum dan </0><1>cek ketiga kalinya</1><2> jika itu benar.</2>",
@@ -489,11 +489,11 @@
         "retrying": "Mencoba lagi",
         "yesterday": "Kemarin",
         "promotingAnotherBundle": "Promosi Bundle lain",
-        "pleaseWait": "Silahkan tunggu, Trinity sedang promosi Bundle lain.",
+        "pleaseWait": "Silahkan tunggu, LPWallet sedang promosi Bundle lain.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Cari dari Hash Bundle atau isi pesan",
-        "searchHelpValue": "Cari transaksi dengan nilai IOTA",
-        "searchHelpUnits": "Cari transaksi dari nilai dan unit IOTA",
+        "searchHelpValue": "Cari transaksi dengan nilai LP",
+        "searchHelpUnits": "Cari transaksi dari nilai dan unit LP",
         "searchHelpMore": "Cari transaksi dengan nilai lebih dari X",
         "searchHelpLess": "Cari transaksi dengan kurang dari X",
         "transactions": "Transactions",
@@ -593,11 +593,11 @@
         "million": "Juta",
         "thousand": "Ribu",
         "one": "Salah satu",
-        "unitInfoExplanation": "IOTA biasanya di ambil dengan ukuran 1 juta, tapi anda bisa mengirim 1 IOTA."
+        "unitInfoExplanation": "LP biasanya di ambil dengan ukuran 1 juta, tapi anda bisa mengirim 1 LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Mengapa saya tidak bisa menghabiskan saldo saya?",
-        "spentAddressExplanation": "Anda memiliki dana pada satu atau lebih alamat yang telah digunakan. Menggunakan alamat kembali sangat berbahaya di IOTA, karena itu dompet ini tidak membolehkan menggunakan alamat yang sama lebih dari satu kali.",
+        "spentAddressExplanation": "Anda memiliki dana pada satu atau lebih alamat yang telah digunakan. Menggunakan alamat kembali sangat berbahaya di LP, karena itu dompet ini tidak membolehkan menggunakan alamat yang sama lebih dari satu kali.",
         "discordInformation": "Silahkan menuju ke #help pada Discord untuk mengetahui apa yang dapat Anda lakukan."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Apa Anda telah menyimpan Seed?",
         "iHaveBackedUp": "Saya telah menyimpan Seed saya",
         "reenterSeed": "Dilangkah selanjutnya anda harus memasukan kembali Seed Anda.",
-        "reenterSeedWarning": "Jika anda belum menyimpan Seed dan perangkat rusak, Anda akan kehilangan IOTA.",
+        "reenterSeedWarning": "Jika anda belum menyimpan Seed dan perangkat rusak, Anda akan kehilangan LP.",
         "pleaseConfirm": "Silahkan konfirmasi bahwa Seed sudah Anda simpan dengan aman."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Ekspor SeedVault",
         "seedVaultExplanation": "SeedVault adalah file terenkripsi untuk menyimpan Seed Anda. Seed dienkripsi dengan kunci SeedVault dan tidak bisa diakses tanpa kunci.",
-        "seedVaultWarning": "Pastikan anda buat cadangan di beberapa lokasi (seperti: Hard disk, Cloud, USB). Jika anda kehilangan file dan tidak mempunyai cadangan. Anda akan kehilangan IOTA.",
+        "seedVaultWarning": "Pastikan anda buat cadangan di beberapa lokasi (seperti: Hard disk, Cloud, USB). Jika anda kehilangan file dan tidak mempunyai cadangan. Anda akan kehilangan LP.",
         "exportFail": "Gagal ekspor SeedVault",
         "exportFailExplanation": "Terjadi kesalahan mengekspor SeedVault. Pastikan anda mempunyai izin yang valid dan cukup ruang.",
         "exportSuccess": "Telah mengekspor SeedVault",
@@ -696,7 +696,7 @@
         "seedFileError": "Gagal membuka SeedVault",
         "seedFileErrorExplanation": "Gagal membuka SeedVault. Jika ini benar, file ini mungkin rusak.",
         "invalidSeedFileError": "File SeedVault tidak valid",
-        "invalidSeedFileErrorExplanation": "Format file ini tidak didukung. Hanya file SeedVault (.kdbx) dibuat dari Trinity atau Password Manajer yang didukung.",
+        "invalidSeedFileErrorExplanation": "Format file ini tidak didukung. Hanya file SeedVault (.kdbx) dibuat dari LPWallet atau Password Manajer yang didukung.",
         "seedVaultKeyExplanation": "Untuk menyimpan SeedVault Anda dengan aman. Silakan pilih kunci untuk menenkripsi file. Anda dapat menggunakan kunci ini untuk mengembalikan Seed Anda dari SeedVault.",
         "retypeKey": "Ketik kunci kembali",
         "key": "Kunci"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Tetap ingin lanjut?"
     },
     "pow": {
-        "feeless": "Dibutuhkan sedikit Proof of Work untuk mengirim transaksi tanpa biaya di IOTA.",
+        "feeless": "Dibutuhkan sedikit Proof of Work untuk mengirim transaksi tanpa biaya di LP.",
         "localOrRemote": "Proof of Work dapat diselesaikan secara lokal pada perangkat Anda, atau dikirim ke sebuah node.",
         "local": "Lokal",
         "remote": "Jarak jauh",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Isi otomatis sukses",
         "autofillExplanation": "Data transaksi isi otomatis dari link.",
-        "deepLinkingOverview": "Deep Link adalah url (iota://...) yang otomatis mengisi data transaksi di Trinity.",
-        "deepLinkingWarning": "Waspada oleh alamat palsu. Pastikan link yang anda tekan membuka aplikasi Trinity.",
+        "deepLinkingOverview": "Deep Link adalah url (iota://...) yang otomatis mengisi data transaksi di LPWallet.",
+        "deepLinkingWarning": "Waspada oleh alamat palsu. Pastikan link yang anda tekan membuka aplikasi LPWallet.",
         "deepLinkingUpdated": "Aturan Deep Linking",
         "deepLinkingEnabled": "Anda telah mengaktifkan Deep Linking.",
         "deepLinkingDisabled": "Anda telah menonaktifkan Deep Linking.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Gagal dalam mengunduh data pembaruan",
         "errorRetrievingUpdateDataExplanation": "Tidak bisa menerima tambahan terbaru. Cek koneksi internet Anda atau coba lagi.",
         "noUpdatesAvailable": "Tidak ada pembaruan tersedia",
-        "noUpdatesAvailableExplanation": "Anda mempunyai versi Trinity terbaru!",
+        "noUpdatesAvailableExplanation": "Anda mempunyai versi LPWallet terbaru!",
         "newVersionAvailable": "Versi baru tersedia",
-        "newVersionAvailableExplanation": "Versi Trinity terbaru tersedia. Anda ingin perbarui sekarang?",
+        "newVersionAvailableExplanation": "Versi LPWallet terbaru tersedia. Anda ingin perbarui sekarang?",
         "installUpdate": "Instal pembaruan dan ulang kembali",
-        "installUpdateExplanation": "Unduh selesai, Trinity akan mengulang kembali untuk menginstal pembaruan.",
+        "installUpdateExplanation": "Unduh selesai, LPWallet akan mengulang kembali untuk menginstal pembaruan.",
         "downloadingUpdate": "Mengunduh pembaruan",
         "downloadProgress": "telah unduh {{transferred}} dari {{total}}"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Kesalahan dalam membuka dana",
         "sweepErrorExplanation": "Terjadi masalah saat membuka dana anda. Coba lagi.",
         "warningTitle": "Waspada: Terdeteksi dana yang terkunci",
-        "explanation": "Trinity Desktop versi 0.3.4 mengandung error yang dapat mengunci dana sementara. Ini terjadi ke segilintir pengguna yang mengirim dana dengan 0.3.4.",
-        "explanationAccounts": "Dana yang terkunci terdeteksi di akun: {{accounts}}. Trinity akan mencoba mengembalikan dana anda dengan mengirim ke alamat baru.",
+        "explanation": "LPWallet Desktop versi 0.3.4 mengandung error yang dapat mengunci dana sementara. Ini terjadi ke segilintir pengguna yang mengirim dana dengan 0.3.4.",
+        "explanationAccounts": "Dana yang terkunci terdeteksi di akun: {{accounts}}. LPWallet akan mencoba mengembalikan dana anda dengan mengirim ke alamat baru.",
         "proceed": "Lanjut ke Pemulihan",
         "sweepConfirmation": "Anda akan Sweep {{amount}} ke alamat {{address}}. Akun: {{accountName}}, alamat Index: {{index}}",
         "sweepConfirmationTitle": "Konfirmasi Sweep"
     },
     "migration": {
         "dataMigration": "Migrasi Data",
-        "dataMigrationExplanation": "Berhubung dengan performan dan limitasi penyimpanan, Trinity akan menggunakan database baru untuk menyimpan aturan dan data akun. Silahkan tunggu sampai Trinity selesai migrasi data anda.",
+        "dataMigrationExplanation": "Berhubung dengan performan dan limitasi penyimpanan, LPWallet akan menggunakan database baru untuk menyimpan aturan dan data akun. Silahkan tunggu sampai LPWallet selesai migrasi data anda.",
         "problemMigratingYourData": "Ada masalah migrasikan data anda. Silakan coba lagi",
-        "seedMigrationExplanation": "Sehubung dengan usaha Trinity untuk membuat dompet anda lebih aman, Seed anda akan dimigrasi ke metodologi penyimpanan yang lebih canggih. Silahkan tunggu sampai Trinity selesai migrasi Seed."
+        "seedMigrationExplanation": "Sehubung dengan usaha LPWallet untuk membuat dompet anda lebih aman, Seed anda akan dimigrasi ke metodologi penyimpanan yang lebih canggih. Silahkan tunggu sampai LPWallet selesai migrasi Seed."
     },
     "ledger": {
         "ready": "Perangkat Ledger tersambung dan siap",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Perangkat Ledger harus tersambung untuk melakukan ini.",
         "transactionTitle": "Gulung halaman dan setuju transaksi di Ledger Anda",
         "transactionExplanation": "Gunakan perangkat Ledger untuk menyetujui transaksi keluar.",
-        "applicationTitle": "Buka IOTA Ledger App",
-        "applicationExplanation": "Buka Ledger anda dan buka IOTA app untuk menggunakan Trinity.",
+        "applicationTitle": "Buka LP Ledger App",
+        "applicationExplanation": "Buka Ledger anda dan buka LP app untuk menggunakan LPWallet.",
         "cannotSendZeroValueTitle": "Tidak bisa mengirim value kosong",
         "cannotSendZeroValueExplanation": "Tidak bisa mengirim value kosong dengan perangkat Ledger.",
         "ledgerDisconnectedTitle": "Perangkat Ledger dicabut",
@@ -873,17 +873,17 @@
         "checkAddress": "Cek Alamat penerima",
         "checkAddressExplanation": "Cek alamat sama dengan yang tersedia di perangkat Ledger Anda.",
         "applicationNotInitialised": "Peringatan tidak dikonfirmasi",
-        "applicationNotInitialisedExplanation": "Buka kembali aplikasi IOTA di perangkat Ledger, setuju dengan peringatan dan coba lagi.",
+        "applicationNotInitialisedExplanation": "Buka kembali aplikasi LP di perangkat Ledger, setuju dengan peringatan dan coba lagi.",
         "checkLedger": "Cek perangkat Ledger",
         "acceptWarningExplanation": "Jika ada peringatan di perangkat Ledger, Anda harus menggulung halaman dan setuju dengan menekan 2 tombol disana.",
         "udevError": "Tidak dapat berkomunikasi dengan perangkat Ledger",
-        "udevErrorExplanation": "Trinity tidak dapat berkomunikasi denga perangkat Ledger. Cek URL dibawah untuk solusi.",
+        "udevErrorExplanation": "LPWallet tidak dapat berkomunikasi denga perangkat Ledger. Cek URL dibawah untuk solusi.",
         "writtenDownInfoTitle": "Ingat nomer Index anda",
-        "writtenDownInfoExplanation": "Anda butuh nomer Index untuk mengembalikan akun di kedepannya. Jika hilang, Anda akan kehilangan IOTA. Jadi, harus ingat."
+        "writtenDownInfoExplanation": "Anda butuh nomer Index untuk mengembalikan akun di kedepannya. Jika hilang, Anda akan kehilangan LP. Jadi, harus ingat."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

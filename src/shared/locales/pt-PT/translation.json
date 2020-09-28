@@ -22,7 +22,7 @@
         "invalidResponse": "Erro de nó",
         "invalidResponseExplanation": "O nó retornou um erro. Tente alterar o nó.",
         "invalidResponseFetchingAccount": "O nó retornou um erro durante o envio. Verifique as notificações para mais informação.",
-        "invalidResponseFetchingAccountDesktop": "O nó retornou um erro ao buscar as informações da sua conta. Se o problema persistir, tente alterar o nó ou desabilitar o proxy do sistema em Configurações de Trinity.",
+        "invalidResponseFetchingAccountDesktop": "O nó retornou um erro ao buscar as informações da sua conta. Se o problema persistir, tente alterar o nó ou desabilitar o proxy do sistema em Configurações de LPWallet.",
         "nodeOutOfSync": "Nó fora de sincronização",
         "nodeOutOfSyncExplanation": "O nó selecionado está sem sincronização. Por favor, altere o nó ou tente novamente.",
         "experimentalNode": "Versão do nó não suportada",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Você não pode enviar para um endereço que está a ser usado como uma entrada na transação.",
         "pleaseWait": "Por favor, aguarde",
         "pleaseWaitEllipses": "Por favor, aguarde...",
-        "pleaseWaitExplanation": "Trinity está a executar outra função. Por favor, aguarde e tente novamente.",
+        "pleaseWaitExplanation": "LPWallet está a executar outra função. Por favor, aguarde e tente novamente.",
         "pleaseWaitTransferExplanation": "O seu saldo disponível está a ser usado noutras transferências. Por favor, aguarde uma para confirmar antes de tentar novamente.",
         "pleaseWaitIncomingTransferExplanation": "Você tem transferências recebidas. Por favor, aguarde a confirmação antes de tentar novamente.",
         "snapshotTransitionInProgress": "Transição de Snapshot em progresso",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Alternado para um novo nó {{- nodeAddress}} uma vez que o nó selecionado está offline.",
         "touchSensor": "Toque no sensor de impressão digital",
         "fingerprintOnSend": "Toque no leitor de impressão digital para autorizar a transferência",
-        "masterKey": "A sua semente da IOTA é a chave mestra para os seus fundos.",
-        "seedThief": "Se alguém tiver a sua semente, poderão roubar as sua IOTAs.",
+        "masterKey": "A sua semente da LP é a chave mestra para os seus fundos.",
+        "seedThief": "Se alguém tiver a sua semente, poderão roubar as sua LPs.",
         "googlePlayServicesNotAvailable": "Os Serviços do Google Play não estão disponíveis.",
         "couldNotVerifyDeviceIntegrity": "Não foi possível verificar a integridade do dispositivo porque o Google Play Services não está disponível.",
         "clear": "Apagar",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Head to Account Tools and perform a Snapshot Transition.",
         "openAccountTools": "Abrir Ferramentas de Conta",
-        "usingTrinityWalletWithKeePass": "A usar Carteira Trinity com Keepass2Android",
+        "usingTrinityWalletWithKeePass": "A usar Carteira LPWallet com Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Houve um erro de rede ao transmitir a sua transação.",
         "broadcastError": "Não foi foi possível transmitir a transação",
         "addressesAlreadySpentFrom": "Um ou mais endereços já foram gastos.",
@@ -269,7 +269,7 @@
         "setNode": "Definir nó",
         "whyBiometricDisabled": "Por que razão está a autenticação biométrica desativada?",
         "whyBiometricDisabledExplanationPart1": "A autenticação biométrica está desativada na primeira execução do aplicação para sua segurança.",
-        "whyBiometricDisabledExplanationPart2": "Ao usar a Trinity, você será desconectado por inatividade. Você pode iniciar a sessão novamente com autenticação biométrica."
+        "whyBiometricDisabledExplanationPart2": "Ao usar a LPWallet, você será desconectado por inatividade. Você pode iniciar a sessão novamente com autenticação biométrica."
     },
     "loading": {
         "loadingFirstTime": "A carregar a Seed pela primeira vez.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Nunca partilhe a sua Seed com ninguém.",
-        "iotaLogo": "Logótipo IOTA",
+        "iotaLogo": "Logótipo LP",
         "print": "Imprimir",
         "paperConvenience": "Imprimir uma cópia da sua seed é uma forma conveniente de armazená-la.",
         "publicInsecure": "Mas imprimir em wifi público ou numa impressora pública é inseguro.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Gerar endereço",
         "generateAnAddressTitle": "Gerar novo endereço",
         "generateAnAddressExplanation": "Por favor, crie um endereço antes de usar esta função.",
-        "generateAddressInformation": "Gerar um novo endereço de depósito sempre que você desejar receber IOTA"
+        "generateAddressInformation": "Gerar um novo endereço de depósito sempre que você desejar receber LP"
     },
     "saveYourSeed": {
         "saveYourSeed": "Faça o backup da sua seed",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Por favor, confirma a sua seed",
-        "trinityWillNeverAskToReenter": "Trinity nunca lhe pedirá para re-inserir esta seed a menos que você redefina a sua carteira ou apague a aplicação.",
+        "trinityWillNeverAskToReenter": "LPWallet nunca lhe pedirá para re-inserir esta seed a menos que você redefina a sua carteira ou apague a aplicação.",
         "enterYourSeed": "Introduza a sua seed",
         "incorrectSeed": "Seed incorreta",
         "incorrectSeedExplanation": "A Seed que introduziu está incorreta. Por favor, tente novamente.",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "A sua mensagem contém caracteres inválidos.",
         "send": "Enviar",
         "invalidAmount": "Valor inserido está incorreto",
-        "invalidAmountExplanation": "Por favor, insira um valor de transação válido. Pode ser útil ver a explicação de unidade IOTA no final desta página.",
+        "invalidAmountExplanation": "Por favor, insira um valor de transação válido. Pode ser útil ver a explicação de unidade LP no final desta página.",
         "maximumSelected": "Selecionado o montante MÁXIMO",
-        "iotaUnits": "Unidades IOTA explicadas",
+        "iotaUnits": "Unidades LP explicadas",
         "sendMax": "ENVIAR MAX",
         "totalTime": "Tempo total",
         "addressPasteDetected": "Pasta de endereço detectada",
@@ -395,7 +395,7 @@
         "advanced": "Avançado",
         "standard": "Padrão",
         "advancedModeExplanation": "Modo avançado irá exibir informações técnicas mais detalhadas.",
-        "modesExplanation": "Apenas habilite o modo avançado se já tem experiência com IOTA. De outro modo, poderá achar confuso.",
+        "modesExplanation": "Apenas habilite o modo avançado se já tem experiência com LP. De outro modo, poderá achar confuso.",
         "modeUpdated": "Modo atualizado",
         "modeUpdatedExplanation": "Você mudou para o modo {{mode}}"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "As taxas de câmbio foram obtidas com sucesso para {{currency}}.",
         "undo": "Voltar Atrás",
         "redo": "Refazer",
-        "aboutTrinity": "Sobre a Trinity",
+        "aboutTrinity": "Sobre a LPWallet",
         "lockScreenTimeout": "Tempo para o bloqueio do ecrã (minutos)",
         "nodeChangeSuccess": "Nó alterado com sucesso",
         "nodeChangeSuccessNoRemotePow": "O nó foi alterado para {{node}}. Este nó não suporta Proof of Work remoto.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "Ok. Vamos configurar a sua carteira!",
         "doYouNeedASeed": "Precisa de criar uma nova seed?",
-        "seedExplanation": "A sua seed IOTA é a chave mestra para seus fundos. Tem 81 caracteres, usando apenas letras A-Z ou o número 9.",
+        "seedExplanation": "A sua seed LP é a chave mestra para seus fundos. Tem 81 caracteres, usando apenas letras A-Z ou o número 9.",
         "noIHaveOne": "Não, eu tenho um",
         "yesINeedASeed": "Sim, eu preciso de uma seed",
         "explanation": "<0><0>Você pode usá-lo para aceder aos seus fundos de</0><1> qualquer carteira</1><2>, em</2><3> qualquer dispositivo.</3></0>",
-        "loseSeed": "Mas se perder a sua Seed, também perderá os seus IOTA.",
+        "loseSeed": "Mas se perder a sua Seed, também perderá os seus LP.",
         "keepSafe": "Por favor, mantenha a sua Seed protegida e segura."
     },
     "welcome": {
-        "thankYou": "Obrigado por descarregar a carteira IOTA",
-        "demoThankYou": "Obrigado por baixar a demonstração de Trinity"
+        "thankYou": "Obrigado por descarregar a carteira LP",
+        "demoThankYou": "Obrigado por baixar a demonstração de LPWallet"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0>Anote a sua seed e os dígitos de verificação e </0><1>certifique-se</1><2> que estão corretos.</2>",
@@ -489,7 +489,7 @@
         "retrying": "A tentar novamente",
         "yesterday": "Ontem",
         "promotingAnotherBundle": "Promover outro pacote",
-        "pleaseWait": "Por favor aguarde, a Trinity está a promover outro pacote.",
+        "pleaseWait": "Por favor aguarde, a LPWallet está a promover outro pacote.",
         "typeHelp": "Type !help for tips",
         "searchHelpText": "Pesquisar por bundle hash ou conteúdo da mensagem",
         "searchHelpValue": "Encontrar transações por valor exato de iota",
@@ -593,11 +593,11 @@
         "million": "Milhões",
         "thousand": "Mil",
         "one": "Um",
-        "unitInfoExplanation": "As IOTAs são tipicamente adquiridos em múltiplos de um milhão, mas pode ser transferido uma única IOTA."
+        "unitInfoExplanation": "As LPs são tipicamente adquiridos em múltiplos de um milhão, mas pode ser transferido uma única LP."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Por que não posso gastar o meu saldo completo?",
-        "spentAddressExplanation": "Você tem fundos num ou mais endereços gastos. A reutilização de endereços é perigosa na IOTA, então esta carteira não permite que você envie do mesmo endereço mais que uma vez.",
+        "spentAddressExplanation": "Você tem fundos num ou mais endereços gastos. A reutilização de endereços é perigosa na LP, então esta carteira não permite que você envie do mesmo endereço mais que uma vez.",
         "discordInformation": "Por favor, vá até o canal de #help no Discord para descobrir o que poderá fazer."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Você fez o backup da sua semente?",
         "iHaveBackedUp": "I have safely backed up my seed",
         "reenterSeed": "At the next step you need to re-enter your seed.",
-        "reenterSeedWarning": "Se você não fez backup de sua semente e seu dispositivo falhar, você perderá toda a sua IOTA.",
+        "reenterSeedWarning": "Se você não fez backup de sua semente e seu dispositivo falhar, você perderá toda a sua LP.",
         "pleaseConfirm": "Please confirm you have securely stored your seed."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Exportar SeedVault",
         "seedVaultExplanation": "A SeedVault is an encrypted file for backing up your seed. The seed is encrypted with a SeedVault Key and cannot be accessed without that key.",
-        "seedVaultWarning": "Make sure you back up the file in multiple locations (e.g. hard drive, cloud, USB). If you lose this file and have not stored your seed elsewhere, you will lose your IOTA.",
+        "seedVaultWarning": "Make sure you back up the file in multiple locations (e.g. hard drive, cloud, USB). If you lose this file and have not stored your seed elsewhere, you will lose your LP.",
         "exportFail": "Exportação de SeedVault falhou",
         "exportFailExplanation": "There was an problem exporting the SeedVault. Please ensure you have the appropriate permissions and enough free space.",
         "exportSuccess": "SeedVault exported",
@@ -696,7 +696,7 @@
         "seedFileError": "Failed to open SeedVault",
         "seedFileErrorExplanation": "There was a problem opening the SeedVault. If you selected the correct file then it may be corrupted.",
         "invalidSeedFileError": "Invalid SeedVault file",
-        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via Trinity or a password manager are supported.",
+        "invalidSeedFileErrorExplanation": "This file format is not supported. Only SeedVault files (.kdbx) created via LPWallet or a password manager are supported.",
         "seedVaultKeyExplanation": "First we need to secure your SeedVault. Please choose a key to encrypt the file. You will use this key if you need to restore your seed from the SeedVault back up.",
         "retypeKey": "Redigitar a chave",
         "key": "Chave"
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Deseja continuar apesar deste risco?"
     },
     "pow": {
-        "feeless": "É necessário completar uma pequena prova de trabalho para enviar transações na IOTA.",
+        "feeless": "É necessário completar uma pequena prova de trabalho para enviar transações na LP.",
         "localOrRemote": "Proof of work can either be completed locally on your device, or offloaded to a node.",
         "local": "Local",
         "remote": "Remoto",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Autopreenchimento bem sucedido",
         "autofillExplanation": "Transaction data autofilled from link.",
-        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in Trinity.",
-        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official Trinity app.",
+        "deepLinkingOverview": "Deep links are clickable links (iota://...) that automatically fill transaction data in LPWallet.",
+        "deepLinkingWarning": "Be aware of phishing scams. Make sure the link you open navigates to the official LPWallet app.",
         "deepLinkingUpdated": "Configurações de link profundo",
         "deepLinkingEnabled": "Você ativou o link profundo.",
         "deepLinkingDisabled": "Você desativou a ligação profunda.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Error retrieving update data",
         "errorRetrievingUpdateDataExplanation": "Could not retrieve update. Please check your internet connection and try again.",
         "noUpdatesAvailable": "No updates available",
-        "noUpdatesAvailableExplanation": "You have the latest version of Trinity!",
+        "noUpdatesAvailableExplanation": "You have the latest version of LPWallet!",
         "newVersionAvailable": "New version available",
-        "newVersionAvailableExplanation": "A new Trinity version is available. Do you want to update now?",
+        "newVersionAvailableExplanation": "A new LPWallet version is available. Do you want to update now?",
         "installUpdate": "Install update and restart",
-        "installUpdateExplanation": "Download complete, Trinity will now restart to install the update.",
+        "installUpdateExplanation": "Download complete, LPWallet will now restart to install the update.",
         "downloadingUpdate": "Downloading update",
         "downloadProgress": "{{transferred}} of {{total}} downloaded"
     },
@@ -826,17 +826,17 @@
         "sweepError": "Erro ao desbloquear fundos",
         "sweepErrorExplanation": "Algo deu errado ao desbloquear seus fundos. Tentando novamente.",
         "warningTitle": "Aviso: Fundos bloqueados detectados",
-        "explanation": "Trinity Desktop versão 0.3.4 continha um bug que pode bloquear temporariamente os fundos. Isto afeta um pequeno número de usuários que efectuaram transações com 0.3.4.",
-        "explanationAccounts": "Os fundos bloqueados foram detectados em suas contas: {{accounts}}. A Trinity agora recuperará automaticamente seus fundos, movendo-os para um novo endereço.",
+        "explanation": "LPWallet Desktop versão 0.3.4 continha um bug que pode bloquear temporariamente os fundos. Isto afeta um pequeno número de usuários que efectuaram transações com 0.3.4.",
+        "explanationAccounts": "Os fundos bloqueados foram detectados em suas contas: {{accounts}}. A LPWallet agora recuperará automaticamente seus fundos, movendo-os para um novo endereço.",
         "proceed": "Prosseguir para a recuperação",
         "sweepConfirmation": "You are about to sweep {{amount}} to the address {{address}}. Account: {{accountName}}, address index: {{index}}",
         "sweepConfirmationTitle": "Sweep confirmation"
     },
     "migration": {
         "dataMigration": "Migração de dados",
-        "dataMigrationExplanation": "Devido a limitações de desempenho e armazenamento, a Trinity está usando um novo banco de dados para armazenar configurações e dados de conta. Por favor, aguarde enquanto a Trinity migra automaticamente seus dados existentes.",
+        "dataMigrationExplanation": "Devido a limitações de desempenho e armazenamento, a LPWallet está usando um novo banco de dados para armazenar configurações e dados de conta. Por favor, aguarde enquanto a LPWallet migra automaticamente seus dados existentes.",
         "problemMigratingYourData": "Ocorreu um problema ao migrar seus dados. Por favor, tente novamente",
-        "seedMigrationExplanation": "Como parte do esforço continuado da Trinity para melhorar a segurança da carteira, sua semente será migrada para uma metodologia de armazenamento reforçada. Por favor, aguarde enquanto a Trinity migra automaticamente o armazenamento de sementes."
+        "seedMigrationExplanation": "Como parte do esforço continuado da LPWallet para melhorar a segurança da carteira, sua semente será migrada para uma metodologia de armazenamento reforçada. Por favor, aguarde enquanto a LPWallet migra automaticamente o armazenamento de sementes."
     },
     "ledger": {
         "ready": "Ledger device connected and ready",
@@ -860,8 +860,8 @@
         "connectionExplanation": "A Ledger device must be connected to perform this function.",
         "transactionTitle": "Scroll through and approve the transaction on your Ledger",
         "transactionExplanation": "Use seu dispositivo Ledger para aprovar a transação de saída.",
-        "applicationTitle": "Abrir app Ledger IOTA",
-        "applicationExplanation": "Go to your Ledger and open the IOTA app to continue using Trinity.",
+        "applicationTitle": "Abrir app Ledger LP",
+        "applicationExplanation": "Go to your Ledger and open the LP app to continue using LPWallet.",
         "cannotSendZeroValueTitle": "Não é possível enviar a transferência de valor zero",
         "cannotSendZeroValueExplanation": "Cannot send zero value transfers with a Ledger device.",
         "ledgerDisconnectedTitle": "Ledger device disconnected",
@@ -873,17 +873,17 @@
         "checkAddress": "Verifique o endereço de recebimento",
         "checkAddressExplanation": "Verifique se o endereço corresponde ao exibido no seu dispositivo Ledger.",
         "applicationNotInitialised": "Aviso não confirmado",
-        "applicationNotInitialisedExplanation": "Rebra o app IOTA no seu dispositivo Ledger, aceite o aviso informacional e tente novamente.",
+        "applicationNotInitialisedExplanation": "Rebra o app LP no seu dispositivo Ledger, aceite o aviso informacional e tente novamente.",
         "checkLedger": "Check your Ledger device",
         "acceptWarningExplanation": "If there is an informational warning on your Ledger device, you must scroll through and accept it by pressing both buttons.",
         "udevError": "Could not communicate with Ledger device",
-        "udevErrorExplanation": "Trinity could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
+        "udevErrorExplanation": "LPWallet could not communicate with your Ledger device. Please visit the URL below to resolve this issue.",
         "writtenDownInfoTitle": "Remember your index number",
-        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your IOTA. Please remember it."
+        "writtenDownInfoExplanation": "You need your index number to restore your account in future. If you lose your index number, you will lose your LP. Please remember it."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }

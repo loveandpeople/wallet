@@ -9,7 +9,7 @@
         "noTransactions": "最近の履歴なし",
         "refresh": "更新",
         "balanceError": "残高不足",
-        "balanceErrorMessage": "送金を完了するための十分なIOTAが有りません。",
+        "balanceErrorMessage": "送金を完了するための十分なLPが有りません。",
         "totalBalance": "総残高",
         "transferError": "送金エラー",
         "transferErrorMessage": "送金中に不具合が発生しました。もう一度やり直してください。",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "選択したノードがオフラインであるため、新しいノード {{- nodeAddress}} に切り替えました。",
         "touchSensor": "指紋センサーに触れてください",
         "fingerprintOnSend": "指紋認証リーダーをタッチして送金を許可してください。",
-        "masterKey": "IOTAのシードはあなたの資金のマスターキーです。",
-        "seedThief": "もし他の人があなたのシードを持つと、あなたのIOTAは盗まれてしまいます。",
+        "masterKey": "LPのシードはあなたの資金のマスターキーです。",
+        "seedThief": "もし他の人があなたのシードを持つと、あなたのLPは盗まれてしまいます。",
         "googlePlayServicesNotAvailable": "Google Playサービスが利用できません。",
         "couldNotVerifyDeviceIntegrity": "Google Playサービスが利用できないため、デバイスの整合性を確認できませんでした。",
         "clear": "消去",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "シードは他の人に絶対に教えてはいけません。",
-        "iotaLogo": "IOTAロゴ",
+        "iotaLogo": "LPロゴ",
         "print": "印刷する",
         "paperConvenience": "シードのコピーを紙に印刷して保存することは便利な方法です。",
         "publicInsecure": "しかし、公共のWi-Fiや公共のプリンタでの印刷は安全ではないので行わないでください。",
@@ -325,7 +325,7 @@
         "generateAnAddress": "アドレスを生成",
         "generateAnAddressTitle": "アドレスを生成",
         "generateAnAddressExplanation": "この機能を使用する前にアドレスを生成してください。",
-        "generateAddressInformation": "IOTAを受取るたびに新しい受取用アドレスを生成してください"
+        "generateAddressInformation": "LPを受取るたびに新しい受取用アドレスを生成してください"
     },
     "saveYourSeed": {
         "saveYourSeed": "シードをバックアップしてください。",
@@ -364,7 +364,7 @@
         "invalidAddressExplanation4": "アドレスが正しく入力されていることを確認してください。",
         "invalidAddressExplanationGeneric": "有効なアドレスは90文字で、A〜Zまたは9のみを含む必要があります。",
         "notEnoughFunds": "残高不足",
-        "notEnoughFundsExplanation": "送金を完了するための十分なIOTAが有りません。",
+        "notEnoughFundsExplanation": "送金を完了するための十分なLPが有りません。",
         "recipientAddress": "受取人のアドレス",
         "amount": "金額",
         "max": "最大額",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "メッセージに無効な文字が含まれています。",
         "send": "送金",
         "invalidAmount": "不適切な金額が入力されました。",
-        "invalidAmountExplanation": "有効な取引金額を入力してください。ページ下にIOTAの単位の説明があります。",
+        "invalidAmountExplanation": "有効な取引金額を入力してください。ページ下にLPの単位の説明があります。",
         "maximumSelected": "最大額を選択中",
-        "iotaUnits": "IOTAの単位の説明",
+        "iotaUnits": "LPの単位の説明",
         "sendMax": "全額送金",
         "totalTime": "合計時間",
         "addressPasteDetected": "アドレスのペーストを検出",
@@ -395,7 +395,7 @@
         "advanced": "上級",
         "standard": "標準",
         "advancedModeExplanation": "上級モードでは、より詳細な技術的情報が表示されます。",
-        "modesExplanation": "経験豊富なIOTAユーザーのみ上級モードを有効にしましょう。そうでないと混乱してしまいますよ。",
+        "modesExplanation": "経験豊富なLPユーザーのみ上級モードを有効にしましょう。そうでないと混乱してしまいますよ。",
         "modeUpdated": "モード更新",
         "modeUpdatedExplanation": "モード{{mode}}に変更しました"
     },
@@ -458,7 +458,7 @@
     "walletSetup": {
         "okay": "それではウォレットの設定を行いましょう。",
         "doYouNeedASeed": "新しいシードの作成は必要でしょうか？",
-        "seedExplanation": "IOTAのシードはあなたの資金のマスターキーです。シードは81文字で、アルファベットの大文字（A〜Z）と数字の\"9\"のみ使用できます。",
+        "seedExplanation": "LPのシードはあなたの資金のマスターキーです。シードは81文字で、アルファベットの大文字（A〜Z）と数字の\"9\"のみ使用できます。",
         "noIHaveOne": "既存のシードを入力",
         "yesINeedASeed": "新しいシードを作成",
         "explanation": "<0><0>同じシードを使えばどのウォレットからでも</0><1>どの端末からでも</1><2>同じ資金に</2><3>アクセスすることができます。</3></0>",
@@ -492,8 +492,8 @@
         "pleaseWait": "少々お待ちください。Trinityは他のバンドルを促進しています。",
         "typeHelp": "ヒントは !help と入力してください",
         "searchHelpText": "バンドルハッシュまたはメッセージコンテンツで検索",
-        "searchHelpValue": "正確なIOTAの値で取引を検索",
-        "searchHelpUnits": "IOTAの値と単位で取引を検索",
+        "searchHelpValue": "正確なLPの値で取引を検索",
+        "searchHelpUnits": "LPの値と単位で取引を検索",
         "searchHelpMore": "Xより大きな値を持つ取引を検索",
         "searchHelpLess": "Xより小さな値を持つ取引を検索",
         "transactions": "トランザクション",
@@ -593,11 +593,11 @@
         "million": "百万",
         "thousand": "千",
         "one": "一",
-        "unitInfoExplanation": "IOTAは通常100万（1Mi）の倍数で取得されますが、1i単位でも取引できます。"
+        "unitInfoExplanation": "LPは通常100万（1Mi）の倍数で取得されますが、1i単位でも取引できます。"
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "どうして全ての残高を使えないのか？",
-        "spentAddressExplanation": "１つまたはそれ以上の使用済みアドレスに資金があります。アドレスの再利用はIOTAでは非常に危険です。よって、このウォレットでは同じアドレスから複数回送金することはできません。",
+        "spentAddressExplanation": "１つまたはそれ以上の使用済みアドレスに資金があります。アドレスの再利用はLPでは非常に危険です。よって、このウォレットでは同じアドレスから複数回送金することはできません。",
         "discordInformation": "どうしたらいいのかはDiscordの#Japaneseチャンネルか#helpチャンネルにお尋ねください。"
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "シードのバックアップはされましたか？",
         "iHaveBackedUp": "私はシードを安全にバックアップしました",
         "reenterSeed": "次のステップで、シードを再入力する必要があります。",
-        "reenterSeedWarning": "もし、シードをバックアップせずにデバイスが故障した場合、そのシードにあるIOTAはすべて失われます。",
+        "reenterSeedWarning": "もし、シードをバックアップせずにデバイスが故障した場合、そのシードにあるLPはすべて失われます。",
         "pleaseConfirm": "シードが安全に保管されていることを確認してください。"
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "シード金庫へ書き出す",
         "seedVaultExplanation": "シード金庫は、シードをバックアップするための暗号化されたファイルです。シードはシード金庫鍵で暗号化されており、このシード金庫鍵なしではアクセスできません。",
-        "seedVaultWarning": "シード金庫を複数の場所（ハードドライブ、クラウド、USBなど）にバックアップしてください。シード金庫を紛失し、かつ他の場所にシードを保存していないと、IOTAが失われます。",
+        "seedVaultWarning": "シード金庫を複数の場所（ハードドライブ、クラウド、USBなど）にバックアップしてください。シード金庫を紛失し、かつ他の場所にシードを保存していないと、LPが失われます。",
         "exportFail": "シード金庫の書き出しに失敗しました",
         "exportFailExplanation": "シード金庫を書き出す際に問題が発生しました。 適切な権限と十分な空き容量があることを確認してください。",
         "exportSuccess": "シード金庫を書き出しました",
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "それでも続行しますか？"
     },
     "pow": {
-        "feeless": "IOTAの取引手数料無しの送金を行うには小規模のプルーフ・オブ・ワークを行う必要があります。",
+        "feeless": "LPの取引手数料無しの送金を行うには小規模のプルーフ・オブ・ワークを行う必要があります。",
         "localOrRemote": "プルーフ・オブ・ワークはデバイス上でローカルに行うか、ノードにお任せしてリモートで行うことができます。",
         "local": "ローカル",
         "remote": "リモート",
@@ -860,8 +860,8 @@
         "connectionExplanation": "この機能を使うには、Ledgerデバイスを接続する必要があります。",
         "transactionTitle": "Ledgerでスクロールして、取引を承認してください",
         "transactionExplanation": "Ledgerデバイスで、送金する取引を承認してください。",
-        "applicationTitle": "LedgerのIOTAアプリを開いてください",
-        "applicationExplanation": "Trinityウォレットを使い続けるには、LedgerでIOTAアプリを開いてください。",
+        "applicationTitle": "LedgerのLPアプリを開いてください",
+        "applicationExplanation": "Trinityウォレットを使い続けるには、LedgerでLPアプリを開いてください。",
         "cannotSendZeroValueTitle": "0値の取引は送金できません",
         "cannotSendZeroValueExplanation": "Ledger端末では0値の取引は送金できません。",
         "ledgerDisconnectedTitle": "Ledger端末が切断されました。",
@@ -873,17 +873,17 @@
         "checkAddress": "受取用のアドレスを確認してください",
         "checkAddressExplanation": "アプリのアドレスがLedger端末に表示されているアドレスと一致することを確認してください。",
         "applicationNotInitialised": "未確定に関する警告",
-        "applicationNotInitialisedExplanation": "LedgerでIOTAアプリを再度開いて、警告情報に同意してから、もう一度やり直してください。",
+        "applicationNotInitialisedExplanation": "LedgerでLPアプリを再度開いて、警告情報に同意してから、もう一度やり直してください。",
         "checkLedger": "Ledger端末を確認してください。",
         "acceptWarningExplanation": "Ledger端末に警告が出る場合は、スクロールして2つのボタンを押して同意する必要があります。",
         "udevError": "レッジャー端末と通信できませんでした",
-        "udevErrorExplanation": "Trinity はお使いのLedger端末と通信できませんでした。この問題を解決するには下記のURLにアクセスしてください。",
+        "udevErrorExplanation": "LPWallet はお使いのLedger端末と通信できませんでした。この問題を解決するには下記のURLにアクセスしてください。",
         "writtenDownInfoTitle": "インデックス番号を保存してください。",
-        "writtenDownInfoExplanation": "将来アカウントを復元する時に、インデックス番号が必要になります。インデックス番号を紛失すると、IOTAを失うことになります。決して紛失しないでください。"
+        "writtenDownInfoExplanation": "将来アカウントを復元する時に、インデックス番号が必要になります。インデックス番号を紛失すると、LPを失うことになります。決して紛失しないでください。"
     },
     "help": {
         "docsSite": "Trinityのドキュメントサイト",
         "commonIssues": "ウォレットの一般的な問題",
-        "buyingIOTA": "IOTAの購入に関する問題"
+        "buyingIOTA": "LPの購入に関する問題"
     }
 }

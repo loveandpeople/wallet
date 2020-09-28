@@ -22,7 +22,7 @@
         "invalidResponse": "Greška na node-u",
         "invalidResponseExplanation": "Došlo je do greške prilikom komunikacije s node-om. Pokušajte promijeniti node.",
         "invalidResponseFetchingAccount": "Greška prilikom dohvata podataka o Vašem računu. Pokušajte promijeniti node.",
-        "invalidResponseFetchingAccountDesktop": "Greška prilikom dohvata podataka o Vašem računu. U slučaju ponavljanja problema pokušajte promijeniti node ili onemogućite korištenje sistemskog proxy-a u Trinity postavkama.",
+        "invalidResponseFetchingAccountDesktop": "Greška prilikom dohvata podataka o Vašem računu. U slučaju ponavljanja problema pokušajte promijeniti node ili onemogućite korištenje sistemskog proxy-a u LPWallet postavkama.",
         "nodeOutOfSync": "Vaš node nije sinkroniziran",
         "nodeOutOfSyncExplanation": "Vaš odabrani node nije sinkroniziran. Molimo Vas promijenite node i pokušajte ponovno.",
         "experimentalNode": "Nepodržana verzija node-a",
@@ -110,7 +110,7 @@
         "cannotSendToOwnExplanation": "Ne možete poslati na adresu koja se koristi kao ulazna adresa u transakciji.",
         "pleaseWait": "Molimo pričekajte",
         "pleaseWaitEllipses": "Molimo pričekajte...",
-        "pleaseWaitExplanation": "Trinity trenutno izvršava neku drugu funkciju. Molimo pričekajte i pokušajte ponovno.",
+        "pleaseWaitExplanation": "LPWallet trenutno izvršava neku drugu funkciju. Molimo pričekajte i pokušajte ponovno.",
         "pleaseWaitTransferExplanation": "Vaš trenutni saldo se koristi u drugim transakcijama. Molimo pričekajte potvrdu prethodnih transakcija i pokušajte ponovno.",
         "pleaseWaitIncomingTransferExplanation": "Imate dolazne transakcije u tijeku. Molimo pričekajte potvrdu dolaznih transakcija i pokušajte ponovno.",
         "snapshotTransitionInProgress": "Snapshot tranzicija u tijeku",
@@ -129,8 +129,8 @@
         "nodeAutoChangedExplanation": "Promijenjeno na novi node {{- nodeAddress}} pošto je trenutno odabrani offline.",
         "touchSensor": "Dodirnite čitač otiska prstiju",
         "fingerprintOnSend": "Dodirnite čitač otiska prstiju kako bi odobrili transakciju",
-        "masterKey": "Vaš IOTA seed je master ključ za vaša sredstva.",
-        "seedThief": "Ako netko drugi ima vaš seed, on može ukrasti vaše IOTA tokene.",
+        "masterKey": "Vaš LP seed je master ključ za vaša sredstva.",
+        "seedThief": "Ako netko drugi ima vaš seed, on može ukrasti vaše LP tokene.",
         "googlePlayServicesNotAvailable": "Google Play usluga nije dostupna",
         "couldNotVerifyDeviceIntegrity": "Nije bilo moguće izvršiti provjeru integriteta uređaja pošto Google Play usluga nije dostupna.",
         "clear": "Ukloni",
@@ -148,7 +148,7 @@
         "headToAdvancedSettingsForTransition": "If you are sure you have the right seed, head to Advanced Settings and perform a Snapshot Transition.",
         "headToAccountTools": "Otvorite Alate Računa i izvršite Snapshot tranziciju.",
         "openAccountTools": "Otvorite Alate Računa",
-        "usingTrinityWalletWithKeePass": "Korištenje Trinity novčanika s Keepass2Android",
+        "usingTrinityWalletWithKeePass": "Korištenje LPWallet novčanika s Keepass2Android",
         "signedTrytesBroadcastErrorExplanation": "Došlo je do greške u vezi prilikom emitiranja vaše transakcije.",
         "broadcastError": "Nije bilo moguće emitirati transakciju",
         "addressesAlreadySpentFrom": "Jedna ili više adresa je već upotrijebljeno.",
@@ -269,7 +269,7 @@
         "setNode": "Postavi node",
         "whyBiometricDisabled": "Zašto je biometrijska autorizacija onemogućena?",
         "whyBiometricDisabledExplanationPart1": "Biometrijska autorizacija je onemogućena prilikom prvog pokretanja aplikacije radi vaše sigurnosti.",
-        "whyBiometricDisabledExplanationPart2": "Prilikom korištenja, Trinity će vas automatski odjaviti uslijed neaktivnosti. Nakon toga se slobodno možete ponovno prijaviti koristeći biometrijsku autorizaciju."
+        "whyBiometricDisabledExplanationPart2": "Prilikom korištenja, LPWallet će vas automatski odjaviti uslijed neaktivnosti. Nakon toga se slobodno možete ponovno prijaviti koristeći biometrijsku autorizaciju."
     },
     "loading": {
         "loadingFirstTime": "Prvotno učitavanje seed-a.",
@@ -297,7 +297,7 @@
     },
     "paperWallet": {
         "neverShare": "Nikada nemojte podijeliti svoj seed s bilo kime.",
-        "iotaLogo": "IOTA logo",
+        "iotaLogo": "LP logo",
         "print": "Ispis",
         "paperConvenience": "Ispis vašeg seed-a na papir je pogodan način za njegovo spremanje.",
         "publicInsecure": "No ispis putem javno dostupnog wifi-a ili javno dostupnog pisača je nesigurno.",
@@ -325,7 +325,7 @@
         "generateAnAddress": "Generiraj adresu",
         "generateAnAddressTitle": "Generiraj adresu",
         "generateAnAddressExplanation": "Molimo generirajte adresu prije upotrebe ove funkcije.",
-        "generateAddressInformation": "Generiraj novu adresu za depozit kod svakog primanja IOTA-e"
+        "generateAddressInformation": "Generiraj novu adresu za depozit kod svakog primanja LP-e"
     },
     "saveYourSeed": {
         "saveYourSeed": "Napravite sigurnosnu kopiju vašeg seed-a",
@@ -347,7 +347,7 @@
     },
     "seedReentry": {
         "pleaseConfirmYourSeed": "Molimo potvrdite svoj seed",
-        "trinityWillNeverAskToReenter": "Trinity nikad neće tražiti da ponovno unesete ovaj seed osim u slučaju resetiranja novčanika ili brisanja aplikacije.",
+        "trinityWillNeverAskToReenter": "LPWallet nikad neće tražiti da ponovno unesete ovaj seed osim u slučaju resetiranja novčanika ili brisanja aplikacije.",
         "enterYourSeed": "Unesite vaš seed",
         "incorrectSeed": "Neispravan seed",
         "incorrectSeedExplanation": "Seed koji ste unijeli je neispravan. Molimo pokušajte ponovno.",
@@ -373,9 +373,9 @@
         "invalidMessageExplanation": "Vaša poruka sadrži nedopuštene znkove.",
         "send": "Pošalji",
         "invalidAmount": "Unešen neispravan iznos",
-        "invalidAmountExplanation": "Molimo unesite valjani iznos transakcije. Od pomoći bi vam moglo biti objašnjenje IOTA jedinica koje se nalazi pri dnu ove stranice.",
+        "invalidAmountExplanation": "Molimo unesite valjani iznos transakcije. Od pomoći bi vam moglo biti objašnjenje LP jedinica koje se nalazi pri dnu ove stranice.",
         "maximumSelected": "Odabran MAKSIMALNI iznos",
-        "iotaUnits": "Objašnjenje IOTA jedinica",
+        "iotaUnits": "Objašnjenje LP jedinica",
         "sendMax": "POŠALJI MAX",
         "totalTime": "Ukupno vrijeme",
         "addressPasteDetected": "Detektirana kopija adrese u međuspremniku",
@@ -395,7 +395,7 @@
         "advanced": "Napredni",
         "standard": "Standardni",
         "advancedModeExplanation": "Napredni način rada prikazat će više detaljnih tehničkih informacija.",
-        "modesExplanation": "Omogućavanje naprednog načina rada preporučuje se isključivo korisnicima iskusnim s IOTA protokolom.",
+        "modesExplanation": "Omogućavanje naprednog načina rada preporučuje se isključivo korisnicima iskusnim s LP protokolom.",
         "modeUpdated": "Način rada ažuriran",
         "modeUpdatedExplanation": "Promijenili ste način rada u {{mode}}"
     },
@@ -443,7 +443,7 @@
         "fetchedConversionRatesExplanation": "Uspješno dohvaćen najsvježiji tečaj konverzije za {{currency}}.",
         "undo": "Poništi",
         "redo": "Ponovi",
-        "aboutTrinity": "O Trinity",
+        "aboutTrinity": "O LPWallet",
         "lockScreenTimeout": "Vremenski period neaktivnosti prije zaključavanja zaslona (u minutama)",
         "nodeChangeSuccess": "Uspješno promijenjen node",
         "nodeChangeSuccessNoRemotePow": "Node je promijenjen u {{node}}. Ovaj node ne podržava udaljeni PoW.",
@@ -458,16 +458,16 @@
     "walletSetup": {
         "okay": "U redu. Idemo postaviti vaš novčanik!",
         "doYouNeedASeed": "Trebate li kreirati novi seed?",
-        "seedExplanation": "Vaš IOTA seed je master ključ za vaša sredstva. Sastoji se od 81 znaka, te sadrži samo velika slova A-Z ili broj 9.",
+        "seedExplanation": "Vaš LP seed je master ključ za vaša sredstva. Sastoji se od 81 znaka, te sadrži samo velika slova A-Z ili broj 9.",
         "noIHaveOne": "Ne, već imam seed",
         "yesINeedASeed": "Da, trebam novi seed",
         "explanation": "<0><0>Možete ga koristiti za pristup svojim sredstvima pomoću</0><1> bilo kojeg novčanika</1><2>, na</2><3> bilo kojem uređaju.</3></0>",
-        "loseSeed": "No, ukoliko izgubite svoj seed, također gubite i svoje IOTA-e.",
+        "loseSeed": "No, ukoliko izgubite svoj seed, također gubite i svoje LP-e.",
         "keepSafe": "Molimo vas, čuvajte svoj seed na sigurnom mjestu."
     },
     "welcome": {
-        "thankYou": "Hvala što ste preuzeli Trinity",
-        "demoThankYou": "Hvala što ste preuzeli Trinity demo"
+        "thankYou": "Hvala što ste preuzeli LPWallet",
+        "demoThankYou": "Hvala što ste preuzeli LPWallet demo"
     },
     "writeSeedDown": {
         "writeDownYourSeed": "<0> Zapišite svoj seed i kontrolni zbroj, te </0><1>provjerite barem 3 puta</1><2> da li su točni.</2>",
@@ -593,11 +593,11 @@
         "million": "Milijun",
         "thousand": "Tisuću",
         "one": "Jedna",
-        "unitInfoExplanation": "IOTA se obično kupuje u jedinicama od 1Mi (jedne Miota-e odnosno jedan milijun iota-e), no može se slati koristeći najmanju jedinicu od 1i (jedne iota-e)."
+        "unitInfoExplanation": "LP se obično kupuje u jedinicama od 1Mi (jedne Miota-e odnosno jedan milijun iota-e), no može se slati koristeći najmanju jedinicu od 1i (jedne iota-e)."
     },
     "usedAddressModal": {
         "cantSpendFullBalanceQuestion": "Zašto ne mogu potrošiti cijeli iznos?",
-        "spentAddressExplanation": "Imate sredstva na jednoj ili više prethodno upotrijebljenih adresa. Ponovna upotreba već upotrijebljenih adresa je opasna kod IOTA-e, stoga ovaj novčanik ne podržava slanje s iste adrese više od jednom.",
+        "spentAddressExplanation": "Imate sredstva na jednoj ili više prethodno upotrijebljenih adresa. Ponovna upotreba već upotrijebljenih adresa je opasna kod LP-e, stoga ovaj novčanik ne podržava slanje s iste adrese više od jednom.",
         "discordInformation": "Više informacija o tome i pomoć potražite na #help kanalu službenog Discorda."
     },
     "deleteAccount": {
@@ -632,7 +632,7 @@
         "didSaveSeed": "Da li ste napravili sigurnosnu kopiju vašeg seed-a?",
         "iHaveBackedUp": "Napravio sam sigurnosnu kopiju svojeg seed-a",
         "reenterSeed": "U sljedećem koraku morat ćete ponovno unijeti svoj seed.",
-        "reenterSeedWarning": "Ako niste napravili sigurnosnu kopiju svog seed-a, a vaš uređaj se pokvari, izgubit ćete sve svoje IOTA-e.",
+        "reenterSeedWarning": "Ako niste napravili sigurnosnu kopiju svog seed-a, a vaš uređaj se pokvari, izgubit ćete sve svoje LP-e.",
         "pleaseConfirm": "Molimo potvrdite da ste spremili svoj seed na sigurno."
     },
     "walletResetConfirmation": {
@@ -675,7 +675,7 @@
     "seedVault": {
         "exportSeedVault": "Izvezi SeedVault",
         "seedVaultExplanation": "SeedVault je kodirana datoteka namijenjena spremanju vašeg seed-a na siguran način. Seed je kodiran i zaštićen lozinkom, te mu se ne može pristupiti bez te lozinke.",
-        "seedVaultWarning": "Pobrinite se da napravite sigurnosne kopije datoteke, te ih pohranite na više mjesta (npr. hard disk, oblak, USB). Ako izgubite ovu datoteku, a niste pohranili svoj seed na nekom drugom mjestu, izgubit ćete svoje IOTA-e.",
+        "seedVaultWarning": "Pobrinite se da napravite sigurnosne kopije datoteke, te ih pohranite na više mjesta (npr. hard disk, oblak, USB). Ako izgubite ovu datoteku, a niste pohranili svoj seed na nekom drugom mjestu, izgubit ćete svoje LP-e.",
         "exportFail": "Izvoz SeedVault-a neuspješan",
         "exportFailExplanation": "Došlo je do greške prilikom izvoza SeedVault-a. Molimo provjerite da li imate sva potrebna ovlaštenja i dovoljno slobodnog prostora na disku.",
         "exportSuccess": "SeedVault izvezen",
@@ -696,13 +696,13 @@
         "seedFileError": "Neuspješno otvaranje SeedVault-a",
         "seedFileErrorExplanation": "Došlo je do greške prilikom otvaranja SeedVault-a. Ako ste odabrali ispravnu datoteku moguće je da je oštećena.",
         "invalidSeedFileError": "Neispravna SeedVault datoteka",
-        "invalidSeedFileErrorExplanation": "Datoteka ovog formata nije podržana. Samo SeedVault datoteke (.kdbx) kreirane putem Trinity novčanika ili programa za upravljanje lozinkama su podržane.",
+        "invalidSeedFileErrorExplanation": "Datoteka ovog formata nije podržana. Samo SeedVault datoteke (.kdbx) kreirane putem LPWallet novčanika ili programa za upravljanje lozinkama su podržane.",
         "seedVaultKeyExplanation": "Prvo trebamo osigurati vaš SeedVault. Molimo odaberite lozinku za enkripciju vaše SeedVault datoteke. Ova lozinka bit će potrebna za ponovni pristup sigurnosnoj kopiji vašeg seed-a koja se nalazi u SeedVault-u.",
         "retypeKey": "Ponovno unesite lozinku",
         "key": "Ključ"
     },
     "stateExport": {
-        "stateExportExplanation": "Izvoz datoteke s vašim stanjem će spremiti txt dokument na vaš uređaj s podatcima o vašem računu (transakcije, adrese), verzijom Trinity novčanika, te imenima datoteka za pohranu.",
+        "stateExportExplanation": "Izvoz datoteke s vašim stanjem će spremiti txt dokument na vaš uređaj s podatcima o vašem računu (transakcije, adrese), verzijom LPWallet novčanika, te imenima datoteka za pohranu.",
         "exportSuccess": "Stanje izvezeno",
         "exportSuccessExplanation": "Datoteka s vašim stanjem je uspješno izvezena."
     },
@@ -720,7 +720,7 @@
         "continueDepsiteRisk": "Želite li nastaviti unatoč tom riziku?"
     },
     "pow": {
-        "feeless": "Potrebno je izvršiti kratak PoW (Proof of Work) kako bi poslali transakcije bez naknade u IOTA-i.",
+        "feeless": "Potrebno je izvršiti kratak PoW (Proof of Work) kako bi poslali transakcije bez naknade u LP-i.",
         "localOrRemote": "PoW može biti izvršen lokalno na vašem uređaju ili proslijeđen udaljenom node-u.",
         "local": "Lokalni",
         "remote": "Udaljeni",
@@ -766,8 +766,8 @@
     "deepLink": {
         "autofill": "Uspješno automatsko popunjavanje",
         "autofillExplanation": "Podaci transakcije uspješno automatski popunjeni iz linka.",
-        "deepLinkingOverview": "Deep links su klikabilni linkovi tipa (iota://...) koji automatski popunjavaju transakcijske podatke u vašem Trinity novčaniku.",
-        "deepLinkingWarning": "Budite svjesni pokušaja phishinga (mrežne krađa identiteta). Pobrinite se da vas link koji otvarate vodi prema službenoj Trinity aplikaciji.",
+        "deepLinkingOverview": "Deep links su klikabilni linkovi tipa (iota://...) koji automatski popunjavaju transakcijske podatke u vašem LPWallet novčaniku.",
+        "deepLinkingWarning": "Budite svjesni pokušaja phishinga (mrežne krađa identiteta). Pobrinite se da vas link koji otvarate vodi prema službenoj LPWallet aplikaciji.",
         "deepLinkingUpdated": "Deep linking postavke",
         "deepLinkingEnabled": "Omogućili ste deep linking.",
         "deepLinkingDisabled": "Onemogućili ste deep linking.",
@@ -778,11 +778,11 @@
         "errorRetrievingUpdateData": "Greška prilikom dohvata podataka o ažuriranju",
         "errorRetrievingUpdateDataExplanation": "Ažuriranje trenutno nije moguće. Molimo provjerite vašu internet vezu i pokušajte ponovno.",
         "noUpdatesAvailable": "Nema dostupnih ažuriranja",
-        "noUpdatesAvailableExplanation": "Trenutno koristite najnoviju verziju Trinity novčanika!",
+        "noUpdatesAvailableExplanation": "Trenutno koristite najnoviju verziju LPWallet novčanika!",
         "newVersionAvailable": "Dostupna je nova verzija",
-        "newVersionAvailableExplanation": "Dostupna je nova verzija Trinity novčanika. Želite li ažurirati aplikaciju?",
+        "newVersionAvailableExplanation": "Dostupna je nova verzija LPWallet novčanika. Želite li ažurirati aplikaciju?",
         "installUpdate": "Instaliraj novu verziju i ponovno pokreni aplikaciju",
-        "installUpdateExplanation": "Preuzimanje završeno. Aplikacija Trinity će sada biti ponovno pokrenuta kako bi se izvršilo ažuriranje.",
+        "installUpdateExplanation": "Preuzimanje završeno. Aplikacija LPWallet će sada biti ponovno pokrenuta kako bi se izvršilo ažuriranje.",
         "downloadingUpdate": "Preuzimanje ažuriranja u tijeku",
         "downloadProgress": "Preuzeto {{transferred}} od {{total}}"
     },
@@ -807,7 +807,7 @@
     },
     "proxy": {
         "proxy": "Korištenje proxy postavka sustava",
-        "proxyExplanation": "Detektiraj i koristi mrežne proxy postavke sustava. Zatvori te ponovno pokreni Trinity nakon promjene ove postavke."
+        "proxyExplanation": "Detektiraj i koristi mrežne proxy postavke sustava. Zatvori te ponovno pokreni LPWallet nakon promjene ove postavke."
     },
     "notifications": {
         "notifications": "Obavijesti",
@@ -826,17 +826,17 @@
         "sweepError": "Greška prilikom otključavanja sredstava",
         "sweepErrorExplanation": "Došlo je do greške prilikom otključavanja vaših sredstava. Pokušajte ponovno.",
         "warningTitle": "Upozorenje: Detektirana su zaključana sredstva na vašem računu",
-        "explanation": "Trinity Desktop verzija 0.3.4 sadržala je bug koji privremeno može zaključati vaša sredstva. Ovo utječe na mali broj korisnika koji su izvršili transakcije koristeći verziju 0.3.4.",
-        "explanationAccounts": "Zaključana sredstva uočena su na vašim računima: {{accounts}}. Trinity će automatski otključati vaša sredstva tako da ih premjesti na novu adresu.",
+        "explanation": "LPWallet Desktop verzija 0.3.4 sadržala je bug koji privremeno može zaključati vaša sredstva. Ovo utječe na mali broj korisnika koji su izvršili transakcije koristeći verziju 0.3.4.",
+        "explanationAccounts": "Zaključana sredstva uočena su na vašim računima: {{accounts}}. LPWallet će automatski otključati vaša sredstva tako da ih premjesti na novu adresu.",
         "proceed": "Nastavi s otključavanjem sredstava",
         "sweepConfirmation": "Premjestit ćete {{amount}} na adresu {{address}}. Račun: {{accountName}}, indeks adrese: {{index}}",
         "sweepConfirmationTitle": "Potvrda otključavanja"
     },
     "migration": {
         "dataMigration": "Migracija podataka",
-        "dataMigrationExplanation": "S ciljem poboljšanja performansi, Trinity je unaprijeđen, te koristi novu bazu podataka za spremanje vaših postavka i računa. Molimo pričekajte dok Trinity automatski migrira vaše postojeće podatke.",
+        "dataMigrationExplanation": "S ciljem poboljšanja performansi, LPWallet je unaprijeđen, te koristi novu bazu podataka za spremanje vaših postavka i računa. Molimo pričekajte dok LPWallet automatski migrira vaše postojeće podatke.",
         "problemMigratingYourData": "Došlo je do greške prilikom migracije vaših podataka. Molimo pokušajte ponovno",
-        "seedMigrationExplanation": "Kao dio kontinuiranog nastojanja s ciljem poboljšanja sigurnosti Trinity novčanika, vaš seed će biti migriran kako bi koristio poboljšanu i sigurniju metodu pohrane. Molimo pričekajte dok Trinity automatski migrira vaš seed."
+        "seedMigrationExplanation": "Kao dio kontinuiranog nastojanja s ciljem poboljšanja sigurnosti LPWallet novčanika, vaš seed će biti migriran kako bi koristio poboljšanu i sigurniju metodu pohrane. Molimo pričekajte dok LPWallet automatski migrira vaš seed."
     },
     "ledger": {
         "ready": "Ledger uređaj povezan i spreman",
@@ -860,8 +860,8 @@
         "connectionExplanation": "Ledger uređaj mora biti povezan da bi se izvršila ova funkcija.",
         "transactionTitle": "Pregledajte i odobrite transakciju na vašem Ledger uređaju",
         "transactionExplanation": "Upotrijebite vaš Ledger uređaj kako bi odobrili odlaznu transakciju.",
-        "applicationTitle": "Otvorite Ledger IOTA aplikaciju",
-        "applicationExplanation": "Otvorite IOTA aplikaciju na vašem Ledger uređaju da bi nastavili koristiti Trinity.",
+        "applicationTitle": "Otvorite Ledger LP aplikaciju",
+        "applicationExplanation": "Otvorite LP aplikaciju na vašem Ledger uređaju da bi nastavili koristiti LPWallet.",
         "cannotSendZeroValueTitle": "Nije moguće poslati transakciju s nula vrijednosti",
         "cannotSendZeroValueExplanation": "Nije moguće poslati transakcije s nula vrijednosti putem Ledger uređaja.",
         "ledgerDisconnectedTitle": "Izgubljena veza s Ledger uređajem",
@@ -873,17 +873,17 @@
         "checkAddress": "Provjerite adresu primatelja",
         "checkAddressExplanation": "Provjerite da li adresa odgovara onoj prikazanoj na vašem Ledger uređaju.",
         "applicationNotInitialised": "Upozorenje nije prihvaćeno",
-        "applicationNotInitialisedExplanation": "Ponovno otvorite IOTA aplikaciju na vašem Ledger uređaju, prihvatite informativno upozorenje i pokušajte ponovno.",
+        "applicationNotInitialisedExplanation": "Ponovno otvorite LP aplikaciju na vašem Ledger uređaju, prihvatite informativno upozorenje i pokušajte ponovno.",
         "checkLedger": "Provjerite svoj Ledger uređaj",
         "acceptWarningExplanation": "Ako postoji informativno upozorenje na vašem Ledger uređaju, morate ga pregledati i prihvatiti pritiskom na oba gumba.",
         "udevError": "Nije bilo moguće uspostaviti komunikaciju s Ledger uređajem",
-        "udevErrorExplanation": "Trinity nije mogao uspostaviti komunikaciju s vašim Ledger uređajem. Molimo posjetite URL naveden ispod kako bi riješili ovaj problem.",
+        "udevErrorExplanation": "LPWallet nije mogao uspostaviti komunikaciju s vašim Ledger uređajem. Molimo posjetite URL naveden ispod kako bi riješili ovaj problem.",
         "writtenDownInfoTitle": "Zapamtite svoj indeksni broj",
-        "writtenDownInfoExplanation": "Da biste ubuduće mogli vratiti Vaš račun, potreban vam je indeksni broj. Ako izgubite indeksni broj, izgubit ćete pristup svojim IOTA tokenima. Pobrinite se da zapamtite svoj indeksni broj."
+        "writtenDownInfoExplanation": "Da biste ubuduće mogli vratiti Vaš račun, potreban vam je indeksni broj. Ako izgubite indeksni broj, izgubit ćete pristup svojim LP tokenima. Pobrinite se da zapamtite svoj indeksni broj."
     },
     "help": {
-        "docsSite": "Trinity Docs Site",
+        "docsSite": "LPWallet Docs Site",
         "commonIssues": "Common Wallet Issues",
-        "buyingIOTA": "Problems Buying IOTA"
+        "buyingIOTA": "Problems Buying LP"
     }
 }
