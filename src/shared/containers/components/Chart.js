@@ -92,8 +92,8 @@ export default function withChartData(ChartComponent) {
             const { history, marketData, settings, theme, t } = this.props;
 
             const currencyData = get(marketData.chartData, settings.chartCurrency.toLowerCase());
-            const rawData = get(currencyData, settings.chartTimeframe) || [];
-
+            let rawData = get(currencyData, settings.chartTimeframe) || [];
+            rawData = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]
             rawData.sort((a, b) => a[0] - b[0]);
 
             const dataSet = rawData.map(([time, price], index) => {

@@ -18,7 +18,7 @@ const mapStorageToState = () => {
 
     const { settings, onboardingComplete, errorLog, accountInfoDuringSetup } = Wallet.latestDataAsPlainObject;
     const nodes = Node.getDataAsArray();
-
+    settings.quorum.enabled = false;
     return {
         accounts: {
             accountInfoDuringSetup,

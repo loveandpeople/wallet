@@ -43,8 +43,8 @@ export const NODELIST_ENDPOINTS = [
 
 export const MARKETDATA_ENDPOINTS = [
     'https://nodes.iota.works/api/market',
-    'https://iota-node-api.now.sh/api/market',
-    'https://iota.dance/api/market',
+    // 'https://iota-node-api.now.sh/api/market',
+    // 'https://iota.dance/api/market',
 ];
 
 export const VERSIONS_URL =

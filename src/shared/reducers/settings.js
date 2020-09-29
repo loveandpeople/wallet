@@ -116,7 +116,7 @@ export const initialState = {
         /**
          * Determines if quorum is enabled
          */
-        enabled: true,
+        enabled: false,
     },
     /**
      * Determines if (primary) node should be auto-switched

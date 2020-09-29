@@ -31,7 +31,7 @@ import { renderSettingsRows } from 'ui/components/SettingsContent';
 const defaultState = {
     autoNodeList: true,
     nodeAutoSwitch: true,
-    quorumEnabled: true,
+    quorumEnabled: false,
     quorumSize: QUORUM_SIZE.toString(),
     powNodeAutoSwitch: true,
 };

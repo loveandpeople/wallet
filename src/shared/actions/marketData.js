@@ -31,7 +31,19 @@ export const getMarketData = async (dispatch) => {
                 ),
             ]);
             const marketData = await response.json();
-
+            marketData.market = {
+                "usd":0,
+                "usd_market_cap":0,
+                "usd_24h_vol":0,
+                "usd_24h_change":0
+            }
+            marketData.currencies = {
+                "usd":0,
+                "eur":0,
+                "gdp":0,
+                "btc":0,
+                "eth":0
+            }
             // Set price data
             if (typeof marketData.currencies === 'object') {
                 const currencyData = { usd: 0, eur: 0, btc: 0, eth: 0 };
