@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text,Image } from 'react-native';
 import timer from 'react-native-timer';
 import { getAnimation } from 'shared-modules/animations';
 import navigator from 'libs/navigation';
@@ -279,12 +279,13 @@ class Loading extends Component {
                         delay={0}
                         style={styles.loadingAnimationContainer}
                     >
-                        <LottieView
+                        <Image source={require('./icon.png')} style={styles.animationNewSeed}/>
+                        {/* <LottieView
                             source={getAnimation('loading', themeName)}
                             style={styles.animationNewSeed}
                             loop
                             autoPlay
-                        />
+                        /> */}
                     </AnimatedComponent>
                 </View>
                 <AnimatedComponent
